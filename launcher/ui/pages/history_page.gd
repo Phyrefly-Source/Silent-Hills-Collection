@@ -1,4 +1,6 @@
 extends Control
+## SHELVED (5 Nov 2026): not wired into main.gd. Too many dates and ties are
+## open to interpretation; revisit once data/history.json is settled.
 ## History: the series in order, and the threads that run through it.
 ## Left: the timeline (in-world order, or release order). Right: the chosen
 ## entry with its connections, or a thread with every entry it touches.

@@ -10,7 +10,7 @@ const PAGES := {
 	"music": "res://ui/pages/music_page.gd",
 	"concept": "res://ui/pages/concept_page.gd",
 	"films": "res://ui/pages/movies_page.gd",
-	"history": "res://ui/pages/history_page.gd",
+	# "history": "res://ui/pages/history_page.gd",   # shelved 5 Nov 2026: too much of the timeline is open to interpretation
 }
 
 var backdrop: Control
@@ -146,8 +146,8 @@ func _top_bar() -> Control:
 	bar.add_child(Style.spacer(0, 18))
 	var find := Style.icon_button("search", "Search and commands (Ctrl+K)", open_palette, "", "Nav", 16)
 	bar.add_child(find)
-	for key in ["news", "games", "history", "films", "comics", "music", "concept"]:
-		var b := Style.button({"news": "NEWS", "games": "GAMES", "history": "HISTORY", "films": "FILMS", "comics": "COMICS", "music": "SOUNDTRACKS", "concept": "CONCEPT ART"}[key], "Nav", func(): show_page(key))
+	for key in ["news", "games", "films", "comics", "music", "concept"]:
+		var b := Style.button({"news": "NEWS", "games": "GAMES", "films": "FILMS", "comics": "COMICS", "music": "SOUNDTRACKS", "concept": "CONCEPT ART"}[key], "Nav", func(): show_page(key))
 		b.toggle_mode = true
 		b.set_meta("sfx", "none")   # show_page plays the section sound
 		_nav[key] = b
@@ -480,11 +480,10 @@ func _unhandled_key_input(e: InputEvent) -> void:
 		match e.keycode:
 			KEY_1: show_page("news")
 			KEY_2: show_page("games")
-			KEY_3: show_page("history")
-			KEY_4: show_page("films")
-			KEY_5: show_page("comics")
-			KEY_6: show_page("music")
-			KEY_7: show_page("concept")
+			KEY_3: show_page("films")
+			KEY_4: show_page("comics")
+			KEY_5: show_page("music")
+			KEY_6: show_page("concept")
 			KEY_COMMA: open_settings()
 			KEY_K: open_palette()
 
