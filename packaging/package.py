@@ -99,6 +99,9 @@ def appimage():
     shutil.copy(lin / "silent-hills.png", appdir / "silent-hills.png")
     shutil.copy(lin / "AppRun", appdir / "AppRun")
     (appdir / "AppRun").chmod(0o755)
+    # Files copied from a Windows mount can arrive as 0700; an AppImage is read by other users.
+    for p in appdir.rglob("*"):
+        p.chmod(0o755 if (p.is_dir() or os.access(p, os.X_OK)) else 0o644)
 
     tool = ROOT / "stage" / "appimagetool"
     if not tool.exists():
