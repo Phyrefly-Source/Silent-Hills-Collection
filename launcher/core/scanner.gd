@@ -121,7 +121,7 @@ func roots() -> Array:
 		for media in ["/run/media", "/media", "/mnt"]:
 			if DirAccess.dir_exists_absolute(media):
 				for d in DirAccess.get_directories_at(media):
-					var m := media.path_join(d)
+					var m: String = media.path_join(d)
 					add.call(m, 2)
 					for sub in ["Games", "Emulation", "Emulation/roms", "SteamLibrary/steamapps/common"]:
 						add.call(m.path_join(sub), 3)

@@ -73,7 +73,7 @@ func play(id: String) -> String:
 			var via := ""
 			for w in ["umu-run", "wine"]:
 				var o := []
-				if OS.execute("sh", ["-c", "command -v " + w], o) == 0 and o.size() > 0 and str(o[0]).strip_edges() != "":
+				if OS.execute("sh", ["-c", "command -v " + str(w)], o) == 0 and o.size() > 0 and str(o[0]).strip_edges() != "":
 					via = str(o[0]).strip_edges()
 					break
 			if via == "":

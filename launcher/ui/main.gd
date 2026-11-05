@@ -74,7 +74,7 @@ func _ready() -> void:
 
 	add_child(_top_bar())
 	# Update banner: hidden until a newer release exists on GitHub.
-	var banner: Control = preload("res://ui/widgets/update_banner.gd").new(App.svc("updater"))
+	var banner: Control = preload("res://ui/widgets/update_banner.gd").new(App.svc("updater") as Updater)
 	banner.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
 	banner.offset_left = 44
 	banner.offset_right = -36
