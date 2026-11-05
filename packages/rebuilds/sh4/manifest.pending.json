@@ -1,0 +1,8 @@
+{
+  "name": "Silent Hill 4 Enhanced",
+  "version": "0.0.0 (fill in from the build)",
+  "kind": "enhanced",
+  "description": "SH4 Enhanced: ThirteenAG's widescreen fix folded in, first-person camera, the launcher's button prompts and the menu/input fixes, as one dsound.dll beside SILENT HILL 4.exe. Settings live in SH4Enhanced.cfg.",
+  "files": "files",
+  "installed_when": ["dsound.dll"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Silent Hill 3 Enhanced",
+  "version": "0.0.0 (fill in from the build)",
+  "kind": "enhanced",
+  "description": "SH3EE: resolution and window modes, render scale, fixes and the launcher's button prompts, as one d3d8.dll beside sh3.exe. Settings live in SH3EE.ini.",
+  "files": "files",
+  "installed_when": ["d3d8.dll"]
+}
