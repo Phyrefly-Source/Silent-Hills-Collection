@@ -259,6 +259,7 @@ func svc(name: String) -> Object:
 		"news": "res://core/news.gd",
 		"accounts": "res://core/accounts.gd",
 		"updater": "res://core/updater.gd",
+		"ffmpeg": "res://core/ffmpeg.gd",
 	}
 	var s = load(paths[name]).new()
 	if s is Node:

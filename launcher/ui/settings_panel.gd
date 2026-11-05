@@ -94,8 +94,26 @@ func _ready() -> void:
 
 	_section(v, "Tools")
 	var ff: String = App.svc("music").ffmpeg_path()
-	v.add_child(_note("FFmpeg lets the jukebox play music that needs converting first (Origins' ATRAC3 tracks, FLAC). Put ffmpeg.exe in the launcher's tools folder or choose it here. " + ("Found: " + ff if ff != "" else "Not found.")))
+	var fnote := _note("FFmpeg lets the jukebox play music that needs converting first (Origins' ATRAC3 tracks, FLAC). The launcher fetches it from FFmpeg's own release builds. " + ("Found: " + ff if ff != "" else "Not found."))
+	v.add_child(fnote)
 	var frow := Style.hbox(8)
+	var fsvc = App.svc("ffmpeg")
+	var fbtn := Style.button("Update FFmpeg" if ff != "" else "Download FFmpeg", "Ghost")
+	fbtn.pressed.connect(func():
+		fbtn.disabled = true
+		fnote.text = "Looking up the newest FFmpeg build…"
+		fsvc.fetch(true))
+	fsvc.progress.connect(func(done: int, total: int):
+		if total > 0:
+			fnote.text = "Downloading FFmpeg… %d%% (%d MB)" % [done * 100 / total, total / 1048576])
+	fsvc.finished.connect(func(p: String):
+		fbtn.disabled = false
+		fbtn.text = "Update FFmpeg"
+		fnote.text = "FFmpeg ready: " + p + "  (" + fsvc.installed_version() + ")")
+	fsvc.failed.connect(func(m: String):
+		fbtn.disabled = false
+		fnote.text = m)
+	frow.add_child(fbtn)
 	frow.add_child(Style.button("Choose ffmpeg.exe…", "Ghost", func():
 		main.choose_path("Choose ffmpeg.exe", "file", PackedStringArray(["*.exe ; Programs"]), func(p):
 			if p != "":
