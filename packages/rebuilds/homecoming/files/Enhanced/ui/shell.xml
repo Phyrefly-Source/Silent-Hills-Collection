@@ -1,0 +1,38 @@
+<ScreenList FirstScreen="SplashScreen" BackgroundScreen="BackgroundScreen" ForegroundScreen="ForegroundScreen">
+	<!--Text Colors-->
+	<TextColor Name="PureWhite" Red="255" Green="255" Blue="255" Alpha="255"/>
+	<TextColor Name="White" Red="255" Green="240" Blue="201" Alpha="255"/>
+	<TextColor Name="MenuWhite" Red="255" Green="240" Blue="201" Alpha="255"/>
+	<TextColor Name="Red" Red="255" Green="0" Blue="0" Alpha="255"/>
+	<TextColor Name="Green" Red="0" green="255" Blue="0" Alpha="255"/>
+	<TextColor Name="Brown" Red="186" Green="147" Blue="103" Alpha="255"/>
+	<TextColor Name="OptionsRed" Red="255" Green="20" Blue="0" Alpha="255"/>
+	<TextColor Name="WeaponsRed" Red="255" Green="20" Blue="0" Alpha="255"/>
+	<TextColor Name="InventoryYellow" Red="255" Green="164" Blue="0" Alpha="255"/>
+	<TextColor Name="SubtitleSpeaker" Red="208" Green="144" Blue="53" Alpha="255"/>
+	<!--Screens-->
+	<ScreenFileName>front_end_splash</ScreenFileName>
+	<ScreenFileName>front_end_start</ScreenFileName>
+	<ScreenFileName>front_end_credits</ScreenFileName>
+	<ScreenFileName>front_end_foreground</ScreenFileName>
+	<ScreenFileName>front_end_background</ScreenFileName>
+	<ScreenFileName>front_end_save</ScreenFileName>
+	<ScreenFileName>front_end_options</ScreenFileName>
+	<ScreenFileName>front_end_options_video</ScreenFileName>
+	<ScreenFileName>front_end_brightness</ScreenFileName>
+	<ScreenFileName>front_end_options_display</ScreenFileName>
+	<ScreenFileName>front_end_options_game</ScreenFileName>
+	<ScreenFileName>front_end_options_controls</ScreenFileName>
+	<ScreenFileName>front_end_difficulty</ScreenFileName>
+	<ScreenFileName>front_end_costumes</ScreenFileName>
+	<ScreenFileName>front_end_options_mandkcontrols</ScreenFileName>
+	<ScreenFileName>front_end_options_joystickcontrols</ScreenFileName>
+	<!-- Homecoming Enhanced pages -->
+	<ScreenFileName>front_end_enh_display</ScreenFileName>
+	<ScreenFileName>front_end_enh_graphics</ScreenFileName>
+	<ScreenFileName>front_end_enh_effects</ScreenFileName>
+	<ScreenFileName>front_end_enh_audio</ScreenFileName>
+	<ScreenFileName>front_end_enh_gameplay</ScreenFileName>
+	<ScreenFileName>front_end_enh_camera</ScreenFileName>
+	<ScreenFileName>front_end_enh_accessibility</ScreenFileName>
+</ScreenList>

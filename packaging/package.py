@@ -51,6 +51,10 @@ def stage(platform: str) -> Path:
     copy_tree(BUILD / platform, s)
     copy_tree(DIST / "common", s)
     copy_tree(DIST / platform, s)
+    # Pre-baked packages: Enhanced patches (rebuilds/<game>) and mods (mods/<game>/<mod>),
+    # toggled on and off from each game's Mods tab.
+    copy_tree(ROOT / "packages" / "rebuilds", s / "rebuilds")
+    copy_tree(ROOT / "packages" / "mods", s / "mods")
     return s
 
 

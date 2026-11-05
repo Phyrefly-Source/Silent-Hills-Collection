@@ -1,0 +1,42 @@
+[IDS_ENH_TIPS_1_TEXT]Hold LT (Shift) to enter combat stance and face the nearest enemy. Your attacks, dodge and shove only work in stance; outside it the same buttons run, roll and open the map.
+[IDS_ENH_TIPS_2_TEXT]In stance, RB (left mouse) is a quick light attack and RT (right mouse) a slow heavy attack. Hold the heavy attack to charge it. A few light attacks finished with a heavy one make a combo.
+[IDS_ENH_TIPS_3_TEXT]Hold LB (Q) to guard. Blocked hits do a quarter of their damage and cost stamina, and an attacker whose hits you block will falter, giving you an opening.
+[IDS_ENH_TIPS_4_TEXT]Press block just before a hit lands to parry it: you take no damage and the attacker staggers, open to a heavy attack.
+[IDS_ENH_TIPS_5_TEXT]Grabs, knockdowns and attacks from behind can't be blocked. In stance, press B (Space) with a direction to side-step them. Outside stance, B (a tap of Space) rolls, to cover ground or get clear. Both cost stamina.
+[IDS_ENH_TIPS_6_TEXT]Blocking hits, dodging, rolling and running tire Alex out; the bar under the screen shows how much he has left. When it runs out he can't run or dodge and his guard breaks, until he gets his breath back.
+[IDS_ENH_TIPS_7_TEXT]In stance, Y (E) shoves the closest enemy in front of you back a step. It does no damage, but buys you room to escape or set up an attack.
+[IDS_ENH_TIPS_8_TEXT]Light attacks won't stun. Heavy attacks, parries and counters will, and a stunned enemy can be finished with a heavy attack.
+[IDS_ENH_TIPS_9_TEXT]Enemies are drawn to your flashlight; D-pad up (F) turns it off and on. Outside combat stance, RT (hold Space) runs.
+[IDS_ENH_TIPS_10_TEXT]D-pad down (X) drinks a health drink, or uses a first aid kit if you have none. Everything you carry is in the inventory: Back (I).
+[IDS_ENH_TIPS_11_TEXT]Save at the red seals. RB (Tab) outside combat stance opens the map, where the objectives are listed too.
+[IDS_ENH_TIPSCREATURES_1_TEXT]Once a Swarm latches on your health drains; press dodge to shake them off. They often hover in front of you before attacking: a perfect moment to strike.
+[IDS_ENH_TIPSCREATURES_2_TEXT]A Feral hops before a turn when it is about to lunge: dodge aside and counter for an easy stun. Shooting one mid-charge drops it, and quick weapons like the knife work well.
+[IDS_ENH_TIPSCREATURES_3_TEXT]Needlers block frontal attacks, so get to their side first. When one retreats to the ceiling, be ready to dodge. A headshot is the quickest and safest way to stop one.
+[IDS_ENH_TIPSCREATURES_4_TEXT]The Lurker's head is weak to heavy attacks. Be careful around water: you never know what is beneath it.
+[IDS_ENH_TIPSCREATURES_5_TEXT]Schism rears back before charging in to grab you: dodge when you see it. Its attacks can knock you down, so keep your distance.
+[IDS_ENH_TIPSCREATURES_6_TEXT]Soldiers with pipes dodge your attacks. Keep your guard up and time your attacks carefully.
+[IDS_ENH_TIPSCREATURES_7_TEXT]When you are knocked down, tap dodge at the right moment to get back on your feet: watch for the cloud of dust.
+[IDS_ENH_TIPSBOSSES_1_TEXT]Wait for Smog to expand his lungs: exposed, they are his weak point. His smoke chokes you and hurts, so stay out of it.
+[IDS_ENH_TIPSBOSSES_2_TEXT]Siam's female side is weaker, and attacks from behind do much more damage. After a knockdown Siam tries to pummel you, so get up quickly.
+[IDS_ENH_TIPSBOSSES_3_TEXT]Destroy the suspended flesh sacks to bring Sepulcher down. When he attacks from the ground, strike his arms to expose his body: lock on with R3 (middle mouse) and flick the right stick to aim at either arm.
+[IDS_ENH_TIPSBOSSES_4_TEXT]Breaking Scarlet's porcelain armour stuns her; start with her legs or chest. Shatter all of it before you can pry off her back piece.
+[IDS_ENH_TIPSBOSSES_5_TEXT]Approach Amnion from the side to get inside her attacks; hitting her legs eventually brings her down. When she showers acid, get underneath her.
+[IDS_ENH_TIPSBOSSES_6_TEXT]Dodging Asphyxia's grab leaves her tail exposed. Striking the tail brings her to her knees, leaving her head open.
+[M01_Inventory_1]Press <COMMAND_EXT_2> to open your inventory, select the flashlight under Tools and choose Turn on.
+[M01_Inventory_1_PC]Press I to open your inventory, select the flashlight under Tools and choose Turn on.
+[M01_Inventory_2]Press <COMMAND_EXT_2> to open your inventory.
+[M01_Inventory_2_PC]Press I to open your inventory.
+[M01_BasicTip_1]Hold <TARGETING> to enter combat stance and press <COMMAND_RELOAD> to attack.
+[M02_MapDisplay]Press <COMMAND_RELOAD> outside combat stance to see your map. Then press <COMMAND_UI_X> to display the Objectives screen.
+[M01_CombatNote_02]<COLOR,195,188,228>Equipping a weapon: \n\nOpen your inventory ( <COMMAND_EXT_2> ), select a weapon and choose Equip.<CLEARCOLOR>
+[M01_CombatNote_02_PC]<COLOR,195,188,228>Equipping a weapon: \n\nOpen your inventory ( I ), select a weapon and choose Equip.<CLEARCOLOR>
+[M01_CombatManual_02]Equipping a weapon: \n\nOpen your inventory ( <COMMAND_EXT_2> ), select a weapon and choose Equip.
+[M01_CombatManual_02_PC]Equipping a weapon: \n\nOpen your inventory ( I ), select a weapon and choose Equip.
+[M01_CombatNote_06]<COLOR,195,188,228>Fast Attacks, Strong Attacks, Charge Attacks, and Combos: \n\nWhen in combat stance, press <COMMAND_RELOAD> for Fast attacks and <COMMAND_EXT_1> for Strong Attacks. \n\nHold <COMMAND_BLOCK> to block; block just before a hit lands to parry it.<CLEARCOLOR>
+[M01_CombatManual_06]Fast Attacks, Strong Attacks, Charge Attacks, and Combos: \n\nWhen in combat stance, press <COMMAND_RELOAD> for Fast attacks and <COMMAND_EXT_1> for Strong Attacks. \n\nHold <COMMAND_BLOCK> to block; block just before a hit lands to parry it.
+[M01_CombatNote_06_PC]<COLOR,195,188,228>Fast Attacks, Strong Attacks, Charge Attacks, and Combos: \n\nWhen in combat stance, press <ACTION> for Fast attacks and <HEAVY_ATTACK> for Strong Attacks. \n\nHold Q to block; block just before a hit lands to parry it.<CLEARCOLOR>
+[M01_CombatManual_06_PC]Fast Attacks, Strong Attacks, Charge Attacks, and Combos: \n\nWhen in combat stance, press <ACTION> for Fast attacks and <HEAVY_ATTACK> for Strong Attacks. \n\nHold Q to block; block just before a hit lands to parry it.
+[M01_CombatNote_07]<COLOR,195,188,228>Strong attacks can be charged up for added damage by holding down <COMMAND_EXT_1>. \n\nSuccessive Fast attacks followed by a Strong attack can make for uninterrupted strikes known as Combos.<CLEARCOLOR>
+[M01_CombatManual_07]Strong attacks can be charged up for added damage by holding down <COMMAND_EXT_1>. \n\nSuccessive Fast attacks followed by a Strong attack can make for uninterrupted strikes known as Combos.
+[IDS_ENH_LOAD_CONFIRM]Load this saved game? Any unsaved progress will be lost.
+[IDS_ENH_QUICK_NONE]There is no quick save yet. Press F5 during play to make one.

@@ -1,0 +1,1297 @@
+{
+ "version": 1,
+ "ini": "Enhanced/HomecomingEnhanced.ini",
+ "live_reload": true,
+ "groups": [
+  {
+   "title": "Enemies (difficulty)",
+   "note": "How tough enemies are. \"x1.00\" is the original game.",
+   "items": [
+    {
+     "section": "Enemies",
+     "key": "DamageScale",
+     "label": "Damage enemies deal to Alex (x)",
+     "type": "float",
+     "min": 0.25,
+     "max": 3,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Multiplies every enemy hit before blocking takes its share. 1.5 = hits hurt 50% more. Applies at once.",
+     "live": true
+    },
+    {
+     "section": "Enemies",
+     "key": "HealthScale",
+     "label": "Health of regular enemies (x)",
+     "type": "float",
+     "min": 0.25,
+     "max": 4,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Nurses, ferals, needlers, soldiers... Applies to enemies that appear after the change.",
+     "live": true
+    },
+    {
+     "section": "Enemies",
+     "key": "BossHealthScale",
+     "label": "Health of bosses (x)",
+     "type": "float",
+     "min": 0.25,
+     "max": 4,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Smog, Sepulcher, Scarlet, Amnion, Asphyxia... Applies when the boss appears.",
+     "live": true
+    },
+    {
+     "section": "Enemies",
+     "key": "BossHealthFrom",
+     "label": "Treat as a boss from this much health",
+     "type": "float",
+     "min": 50,
+     "max": 1000,
+     "step": 10,
+     "default": 150,
+     "help": "Enemies whose starting health is at least this use the boss health above (and get arm lock points if they have them). Nurses have 90.",
+     "live": true
+    },
+    {
+     "section": "Enemies",
+     "key": "AttackDelayAdd",
+     "label": "Pause between enemy attacks (+seconds)",
+     "type": "float",
+     "min": 0,
+     "max": 3,
+     "step": 0.05,
+     "default": 0.0,
+     "help": "Extra breathing room after each enemy attack. Nurses ship with no pause at all, which is why they chain attacks. Applies at the next level load.",
+     "live": true
+    },
+    {
+     "section": "Enemies",
+     "key": "AttackDelayScale",
+     "label": "Pause between enemy attacks (x)",
+     "type": "float",
+     "min": 0,
+     "max": 4,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Multiplies each enemy's own pause. Has no effect on enemies whose pause is 0 - use the + seconds above for those.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Stamina",
+   "note": "Attack strokes (including misses), blocks, dodges, rolls and running use stamina. Costs and recovery are editable live.",
+   "items": [
+    {
+     "section": "Stamina",
+     "key": "Enabled",
+     "label": "Use stamina",
+     "type": "bool",
+     "default": 1,
+     "help": "Off: stamina costs and exhaustion restrictions are disabled, including attacks.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "Max",
+     "label": "Size of the bar (points)",
+     "type": "float",
+     "min": 50,
+     "max": 200,
+     "step": 5,
+     "default": 100,
+     "help": "All costs below are in these points.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "BlockPerDamage",
+     "label": "Blocking: points per point of damage blocked",
+     "type": "float",
+     "min": 0,
+     "max": 6,
+     "step": 0.25,
+     "default": 2.0,
+     "help": "A nurse slice does 10 damage, so 2 = 20 points per blocked slice. Every successful block spends stamina.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "Dodge",
+     "label": "Side-step dodge (in combat stance): points",
+     "type": "float",
+     "min": 0,
+     "max": 60,
+     "step": 1,
+     "default": 25,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "Roll",
+     "label": "Roll (outside combat stance): points",
+     "type": "float",
+     "min": 0,
+     "max": 60,
+     "step": 1,
+     "default": 20,
+     "help": "Keeps rolls from being spammed while getting around.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "RunPerSecond",
+     "label": "Running: points per second",
+     "type": "float",
+     "min": 0,
+     "max": 30,
+     "step": 0.5,
+     "default": 9,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "RegenPerSecond",
+     "label": "Refill: points per second",
+     "type": "float",
+     "min": 5,
+     "max": 60,
+     "step": 1,
+     "default": 22,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "RegenDelay",
+     "label": "Refill starts after (seconds of rest)",
+     "type": "float",
+     "min": 0,
+     "max": 3,
+     "step": 0.1,
+     "default": 1.0,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "RecoverAt",
+     "label": "Exhausted until the bar is back to (points)",
+     "type": "float",
+     "min": 0,
+     "max": 100,
+     "step": 5,
+     "default": 35,
+     "help": "While exhausted Alex cannot run, dodge or roll; blocks break. Attack inputs are also blocked when attack stamina is enabled. Keep this at or below the maximum bar size.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "GaugeSize",
+     "label": "Bar size on screen",
+     "type": "float",
+     "min": 0.5,
+     "max": 1.5,
+     "step": 0.05,
+     "default": 0.9,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "GaugeWidth",
+     "label": "Bar length along the bottom",
+     "type": "float",
+     "min": 1,
+     "max": 2.5,
+     "step": 0.05,
+     "default": 1.7,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "AttacksEnabled",
+     "label": "Attacks consume stamina",
+     "type": "bool",
+     "default": 1,
+     "min": 0,
+     "max": 1,
+     "step": 1,
+     "help": "Disable to return to free attacks without disabling other stamina costs.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "LightAttack",
+     "label": "Light attack stamina cost",
+     "type": "float",
+     "default": 8,
+     "min": 0,
+     "max": 100,
+     "step": 1,
+     "help": "Charged when an attack animation starts, including misses.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "HeavyAttack",
+     "label": "Heavy attack stamina cost",
+     "type": "float",
+     "default": 16,
+     "min": 0,
+     "max": 100,
+     "step": 1,
+     "help": "Heavy, charged and finishing attack strokes; looping moves can spend on each cycle.",
+     "live": true
+    },
+    {
+     "section": "Stamina",
+     "key": "FirearmShot",
+     "label": "Firearm attack stamina cost",
+     "type": "float",
+     "default": 4,
+     "min": 0,
+     "max": 100,
+     "step": 1,
+     "help": "Charged on firearm firing animation starts.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Blocking",
+   "note": "Hold Block to guard. Timed blocks prevent damage and can shove a recognised non-boss; all blocks spend stamina.",
+   "items": [
+    {
+     "section": "Combat",
+     "key": "Guard",
+     "label": "Blocking",
+     "type": "bool",
+     "default": 1,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "BlockDamage",
+     "label": "Damage that gets through a block (share)",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "default": 0.25,
+     "help": "0.25 = a blocked hit does a quarter of its damage.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "FrontArcCos",
+     "label": "How wide a block covers",
+     "type": "float",
+     "min": -1,
+     "max": 1,
+     "step": 0.05,
+     "default": 0.25,
+     "help": "1 = only hits from straight ahead, 0 = the whole front half, -1 = all around.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "BlockRecoilChance",
+     "label": "Chance a blocked attacker stumbles (first hit)",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "default": 0.35,
+     "help": "Only recognised non-boss enemies can stumble. The second consecutive blocked hit attempts recoil; reaction availability still matters.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "TimedBlockWindow",
+     "label": "Timed block window (seconds)",
+     "type": "float",
+     "default": 0.2,
+     "min": 0,
+     "max": 0.6,
+     "step": 0.01,
+     "help": "One timed defense per Block press. Prevents damage, spends stamina, and attempts a non-boss shove subject to range and cooldown. 0 disables timed defense.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "HeldBlockPose",
+     "label": "Held guard pose time (seconds)",
+     "type": "float",
+     "default": 0.12,
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "help": "Samples the defensive block animation directly at this time; no counter-up swing.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Lock-on and shove",
+   "note": "LT / Shift readies combat stance. R3 / middle mouse toggles an explicit target. D-pad left/right or [ / ] cycles eligible targets in range. Right-stick switching is off by default.",
+   "items": [
+    {
+     "section": "Combat",
+     "key": "LockOn",
+     "label": "Lock-on on its own button (R3 / middle mouse)",
+     "type": "bool",
+     "default": 1,
+     "help": "On: stance alone does not choose an enemy. R3 / middle mouse locks or releases. Off: original automatic stance targeting. Release stance when changing this setting.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "ShoveRange",
+     "label": "Shove reach (game units)",
+     "type": "float",
+     "min": 50,
+     "max": 400,
+     "step": 10,
+     "default": 190,
+     "help": "Y / E in stance pushes the closest enemy within this distance back a step.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "ShoveCooldown",
+     "label": "Time between shoves (seconds)",
+     "type": "float",
+     "min": 0,
+     "max": 5,
+     "step": 0.1,
+     "default": 1.2,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "LockRange",
+     "label": "Maximum lock-on distance (game units)",
+     "type": "float",
+     "default": 700,
+     "min": 100,
+     "max": 3000,
+     "step": 25,
+     "help": "Filters the game's eligible targets; increasing this cannot add enemies excluded by the native targeting search.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "TargetCycleButtons",
+     "label": "D-pad left/right and brackets cycle targets",
+     "type": "bool",
+     "default": 1,
+     "min": 0,
+     "max": 1,
+     "step": 1,
+     "help": "While locked on in stance. Previous/next wraps through eligible targets. Does not acquire a target by itself.",
+     "live": true
+    },
+    {
+     "section": "Combat",
+     "key": "StickTargetSwitch",
+     "label": "Allow right-stick target switching",
+     "type": "bool",
+     "default": 0,
+     "min": 0,
+     "max": 1,
+     "step": 1,
+     "help": "Off keeps stick movement from changing targets. On restores native flick switching, including existing lone-boss bone cycling.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Movement",
+   "note": "Walking, running and rolling.",
+   "items": [
+    {
+     "section": "Movement",
+     "key": "WalkByDefault",
+     "label": "Walk by default",
+     "type": "bool",
+     "default": 1,
+     "help": "Off: the stick runs, as in the original game.",
+     "live": true
+    },
+    {
+     "section": "Movement",
+     "key": "WalkSpeed",
+     "label": "Walking speed (share of a run)",
+     "type": "float",
+     "min": 0.2,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.5,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Movement",
+     "key": "RunWithDodgeButton",
+     "label": "Hold Space / the dodge button to run",
+     "type": "bool",
+     "default": 1,
+     "help": "On the controller with the modern layout, RT runs instead.",
+     "live": true
+    },
+    {
+     "section": "Movement",
+     "key": "RollOutsideStance",
+     "label": "Roll outside combat stance",
+     "type": "bool",
+     "default": 1,
+     "help": "B, or a quick tap of Space, rolls. In combat stance the same button side-steps.",
+     "live": true
+    },
+    {
+     "section": "Movement",
+     "key": "RollTapTime",
+     "label": "Keyboard: longest Space tap that still rolls (seconds)",
+     "type": "float",
+     "min": 0.1,
+     "max": 0.5,
+     "step": 0.01,
+     "default": 0.22,
+     "help": "Holding Space longer than this runs instead of rolling.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Lighting",
+   "note": "Overall darkness and the low fog. Darkness settings apply at once.",
+   "items": [
+    {
+     "section": "Lighting",
+     "key": "Exposure",
+     "label": "Overall brightness of the scene (x)",
+     "type": "float",
+     "min": 0.5,
+     "max": 1.5,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Darkens or brightens the 3D scene evenly; the HUD and menus are not affected. 0.9 = 10% darker.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "ShadowDepth",
+     "label": "Shadow depth",
+     "type": "float",
+     "min": 0.5,
+     "max": 2.5,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Above 1 sinks dark areas deeper while lit areas keep their brightness - the main \"atmosphere\" control. 1 = original.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "Saturation",
+     "label": "Colour saturation (x)",
+     "type": "float",
+     "min": 0,
+     "max": 1.5,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "1 = original, 0 = black and white.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FilterBrightnessAdd",
+     "label": "Level colour filter: brightness (+)",
+     "type": "float",
+     "min": -0.3,
+     "max": 0.3,
+     "step": 0.01,
+     "default": 0.0,
+     "help": "Added to the brightness lift some levels use (the hotel interior lifts +0.05). Applies at the next level load.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FilterContrastScale",
+     "label": "Level colour filter: contrast (x)",
+     "type": "float",
+     "min": 0.5,
+     "max": 1.5,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "Applies at the next level load.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Low fog",
+   "note": "A thin fog hugging the floor indoors (the game's own volumetric fog, which indoor levels define but leave off). It follows the floor Alex is on. Values change at once once it is on.",
+   "items": [
+    {
+     "section": "Lighting",
+     "key": "FogEnable",
+     "label": "Low fog indoors",
+     "type": "bool",
+     "default": 1,
+     "help": "Switching it on or off applies at the next level load.",
+     "live": false
+    },
+    {
+     "section": "Lighting",
+     "key": "FogHigh",
+     "label": "Fog height above the floor (units)",
+     "type": "float",
+     "min": 0,
+     "max": 200,
+     "step": 1,
+     "default": 45,
+     "help": "Alex is about 70 units tall.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogLow",
+     "label": "Fog starts below the floor (units)",
+     "type": "float",
+     "min": -100,
+     "max": 50,
+     "step": 1,
+     "default": -10,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogLowDensity",
+     "label": "Thickness at the floor",
+     "type": "float",
+     "min": 0,
+     "max": 2,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogHighDensity",
+     "label": "Thickness at the top",
+     "type": "float",
+     "min": 0,
+     "max": 2,
+     "step": 0.05,
+     "default": 0.0,
+     "help": "Keep near 0 so the fog fades out upwards.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogNearDensity",
+     "label": "Thickness close to the camera",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.22,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogNear",
+     "label": "Close range starts at (units)",
+     "type": "float",
+     "min": 0,
+     "max": 500,
+     "step": 5,
+     "default": 50,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogNearRange",
+     "label": "Close range length (units)",
+     "type": "float",
+     "min": 50,
+     "max": 2000,
+     "step": 10,
+     "default": 400,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogFarDensity",
+     "label": "Thickness in the distance",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.05,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogFar",
+     "label": "Distance range starts at (units)",
+     "type": "float",
+     "min": 200,
+     "max": 5000,
+     "step": 50,
+     "default": 1500,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogFarRange",
+     "label": "Distance range length (units)",
+     "type": "float",
+     "min": 100,
+     "max": 5000,
+     "step": 50,
+     "default": 1000,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogPower",
+     "label": "Edge softness",
+     "type": "float",
+     "min": 0.5,
+     "max": 4,
+     "step": 0.1,
+     "default": 1.5,
+     "help": "Higher = denser core with softer edges.",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogFollowTime",
+     "label": "Follows stairs / floor changes over (seconds)",
+     "type": "float",
+     "min": 0,
+     "max": 3,
+     "step": 0.1,
+     "default": 0.6,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogR",
+     "label": "Fog colour: red",
+     "type": "int",
+     "min": 0,
+     "max": 255,
+     "step": 1,
+     "default": 120,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogG",
+     "label": "Fog colour: green",
+     "type": "int",
+     "min": 0,
+     "max": 255,
+     "step": 1,
+     "default": 120,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Lighting",
+     "key": "FogB",
+     "label": "Fog colour: blue",
+     "type": "int",
+     "min": 0,
+     "max": 255,
+     "step": 1,
+     "default": 125,
+     "help": "",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Camera",
+   "note": "The over-the-shoulder camera (game units: Alex is about 70 tall).",
+   "items": [
+    {
+     "section": "Camera",
+     "key": "Enabled",
+     "label": "Over-the-shoulder camera",
+     "type": "bool",
+     "default": 1,
+     "help": "Off: the original follow camera.",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "Distance",
+     "label": "Distance behind Alex",
+     "type": "float",
+     "min": 30,
+     "max": 150,
+     "step": 1,
+     "default": 85,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "OffsetX",
+     "label": "Sideways offset (shoulder)",
+     "type": "float",
+     "min": 0,
+     "max": 60,
+     "step": 0.5,
+     "default": 28,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "OffsetY",
+     "label": "Height",
+     "type": "float",
+     "min": 20,
+     "max": 100,
+     "step": 0.5,
+     "default": 58,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "OffsetZ",
+     "label": "Forward / back offset",
+     "type": "float",
+     "min": -80,
+     "max": 40,
+     "step": 0.5,
+     "default": -10,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "FOV",
+     "label": "Field of view (degrees)",
+     "type": "float",
+     "min": 30,
+     "max": 90,
+     "step": 1,
+     "default": 42,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "YawRate",
+     "label": "Turn speed (left / right)",
+     "type": "float",
+     "min": 2,
+     "max": 20,
+     "step": 0.1,
+     "default": 10.5,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "PitchRate",
+     "label": "Turn speed (up / down)",
+     "type": "float",
+     "min": 0.5,
+     "max": 6,
+     "step": 0.1,
+     "default": 2.3,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "PitchMin",
+     "label": "Lowest look angle (degrees)",
+     "type": "float",
+     "min": -80,
+     "max": 0,
+     "step": 1,
+     "default": -40,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "PitchMax",
+     "label": "Highest look angle (degrees)",
+     "type": "float",
+     "min": 0,
+     "max": 80,
+     "step": 1,
+     "default": 35,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "DistanceSmoothing",
+     "label": "Zoom smoothing (seconds)",
+     "type": "float",
+     "min": 0,
+     "max": 2,
+     "step": 0.05,
+     "default": 0.35,
+     "help": "How gently the camera moves back out after a wall pushed it in.",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "ShoulderSwapTime",
+     "label": "Shoulder swap time (seconds)",
+     "type": "float",
+     "min": 0.05,
+     "max": 1,
+     "step": 0.05,
+     "default": 0.3,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "WallClearance",
+     "label": "Pull the shoulder in near walls",
+     "type": "bool",
+     "default": 1,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "WallClearanceRadius",
+     "label": "Wall check size (units)",
+     "type": "float",
+     "min": 0.5,
+     "max": 10,
+     "step": 0.5,
+     "default": 3.0,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "WallClearanceMinSide",
+     "label": "Shoulder pull-in limit (share)",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "default": 0.35,
+     "help": "How far the shoulder offset may shrink next to a wall: 0 = all the way to the centre.",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "CollisionFollowsShoulder",
+     "label": "Keep the view on the shoulder near walls",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "default": 1.0,
+     "help": "0 = original (the view slides behind Alex's head), 1 = stays on the shoulder.",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "FOVSmoothTime",
+     "label": "Field of view smoothing (seconds)",
+     "type": "float",
+     "min": 0,
+     "max": 3,
+     "step": 0.1,
+     "default": 1.0,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "OverrideModes",
+     "label": "Use these values in every situation",
+     "type": "bool",
+     "default": 1,
+     "help": "Off: interiors, running etc. keep the original framing.",
+     "live": true
+    },
+    {
+     "section": "Shots",
+     "key": "Enabled",
+     "label": "Classic camera angles",
+     "type": "bool",
+     "default": 1,
+     "help": "Fixed, Silent Hill style camera angles in the rooms and hallways that have them (Enhanced\\cameras). Everywhere else the over-the-shoulder camera stays.",
+     "live": true
+    },
+    {
+     "section": "Shots",
+     "key": "PanYaw",
+     "label": "Fixed angles: look around sideways (degrees)",
+     "type": "float",
+     "min": 0,
+     "max": 20,
+     "step": 0.5,
+     "default": 6,
+     "help": "How far the right stick or mouse turns a fixed angle; it springs back when let go.",
+     "live": true
+    },
+    {
+     "section": "Shots",
+     "key": "PanPitch",
+     "label": "Fixed angles: look up and down (degrees)",
+     "type": "float",
+     "min": 0,
+     "max": 20,
+     "step": 0.5,
+     "default": 4,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Shots",
+     "key": "ShotRelativeInput",
+     "label": "Fixed angles: stick follows the camera",
+     "type": "bool",
+     "default": 1,
+     "help": "Up on the stick walks away from the fixed camera. After a cut Alex keeps his direction until the stick is let go or swung.",
+     "live": true
+    },
+    {
+     "section": "Shots",
+     "key": "HoldReleaseDeg",
+     "label": "Fixed angles: keep direction after a cut until the stick swings by (degrees)",
+     "type": "float",
+     "min": 10,
+     "max": 120,
+     "step": 5,
+     "default": 50,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Shots",
+     "key": "AimBlend",
+     "label": "Fixed angles: blend to the aim camera (seconds)",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "default": 0.25,
+     "help": "Aiming a gun leaves the fixed angle for the aim camera, and comes back on release.",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "CombatCamera",
+     "label": "Combat camera swing-in",
+     "type": "choice",
+     "options": [
+      "Off",
+      "Subtle",
+      "Normal",
+      "Strong"
+     ],
+     "default": 2,
+     "help": "The camera leans in briefly when hits, blocks and parries land.",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "PunchHit",
+     "label": "Swing-in when your hit lands (share)",
+     "type": "float",
+     "min": 0,
+     "max": 0.3,
+     "step": 0.01,
+     "default": 0.07,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "Camera",
+     "key": "PunchBlock",
+     "label": "Swing-in on a block (share)",
+     "type": "float",
+     "min": 0,
+     "max": 0.3,
+     "step": 0.01,
+     "default": 0.05,
+     "help": "",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Gun aiming camera (restart required)",
+   "note": "Separate Precision camera used for gun aiming. These controls rebuild its waypoint paths at game start. Exploration camera settings are independent.",
+   "items": [
+    {
+     "section": "Camera",
+     "key": "AimEnabled",
+     "label": "Enhanced gun aiming camera",
+     "type": "bool",
+     "default": 1,
+     "min": 0,
+     "max": 1,
+     "step": 1,
+     "help": "Off restores the stock aiming resource on the next game start.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimPullback",
+     "label": "Pull aiming camera back (game units)",
+     "type": "float",
+     "default": 15,
+     "min": 0,
+     "max": 60,
+     "step": 1,
+     "help": "Added distance behind all three stock aim positions. 0 leaves stock depth.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimFOV",
+     "label": "Aiming field of view (degrees)",
+     "type": "float",
+     "default": 40,
+     "min": 25,
+     "max": 70,
+     "step": 1,
+     "help": "Stock is 35. Higher shows more of the surroundings.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimSideOffset",
+     "label": "Aim side offset adjustment",
+     "type": "float",
+     "default": 0,
+     "min": -30,
+     "max": 30,
+     "step": 1,
+     "help": "Added to the stock side offset of 13.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimHeightOffset",
+     "label": "Aim height adjustment",
+     "type": "float",
+     "default": 0,
+     "min": -20,
+     "max": 30,
+     "step": 1,
+     "help": "Added to each stock aiming height.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimPlayerRotationTime",
+     "label": "Player rotation time while aiming (seconds)",
+     "type": "float",
+     "default": 1,
+     "min": 0.05,
+     "max": 2,
+     "step": 0.05,
+     "help": "Native aiming rotation response; smaller values turn faster.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimYawSmoothing",
+     "label": "Aim yaw smoothing (seconds)",
+     "type": "float",
+     "default": 0,
+     "min": 0,
+     "max": 0.5,
+     "step": 0.01,
+     "help": "0 preserves the original immediate response.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimCollisionSmoothing",
+     "label": "Aim collision smoothing (seconds)",
+     "type": "float",
+     "default": 0,
+     "min": 0,
+     "max": 0.5,
+     "step": 0.01,
+     "help": "0 preserves the stock collision response.",
+     "live": false
+    },
+    {
+     "section": "Camera",
+     "key": "AimBlendTime",
+     "label": "Transition into/out of aim (seconds)",
+     "type": "float",
+     "default": 0.25,
+     "min": 0,
+     "max": 1,
+     "step": 0.05,
+     "help": "Native Precision camera blend duration.",
+     "live": false
+    }
+   ]
+  },
+  {
+   "title": "Camera shake",
+   "note": "Shakes when hits land.",
+   "items": [
+    {
+     "section": "HitShake",
+     "key": "Level",
+     "label": "Shake strength",
+     "type": "choice",
+     "options": [
+      "Off",
+      "Low",
+      "Normal",
+      "Strong"
+     ],
+     "default": 2,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "HitShake",
+     "key": "Magnitude",
+     "label": "Your hits: shake size",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.12,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "HitShake",
+     "key": "DamageScale",
+     "label": "Your hits: extra shake per point of damage",
+     "type": "float",
+     "min": 0,
+     "max": 0.02,
+     "step": 0.0005,
+     "default": 0.0,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "HitShake",
+     "key": "Duration",
+     "label": "Your hits: shake length (seconds)",
+     "type": "float",
+     "min": 0.02,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.15,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "HitShake",
+     "key": "TakenMagnitude",
+     "label": "Alex hit: shake size",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.17,
+     "help": "",
+     "live": true
+    },
+    {
+     "section": "HitShake",
+     "key": "TakenBlockedMagnitude",
+     "label": "Alex blocks a hit: shake size",
+     "type": "float",
+     "min": 0,
+     "max": 1,
+     "step": 0.01,
+     "default": 0.08,
+     "help": "",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Controls",
+   "note": "Layouts (also in Options > Gameplay).",
+   "items": [
+    {
+     "section": "Controls",
+     "key": "ModernPad",
+     "label": "Modern controller layout",
+     "type": "bool",
+     "default": 1,
+     "help": "Attacks on RB / RT in combat stance; B rolls outside it and side-steps in it; D-pad up flashlight, D-pad down quick heal.",
+     "live": true
+    },
+    {
+     "section": "Controls",
+     "key": "InventoryOnBack",
+     "label": "One inventory on Back / I",
+     "type": "bool",
+     "default": 1,
+     "help": "Off: the original weapon and item wheels.",
+     "live": true
+    }
+   ]
+  },
+  {
+   "title": "Developer",
+   "note": "Logging and test keys. Take effect at the next start.",
+   "items": [
+    {
+     "section": "Combat",
+     "key": "Research",
+     "label": "Combat research log",
+     "type": "bool",
+     "default": 0,
+     "help": "",
+     "live": false
+    },
+    {
+     "section": "Combat",
+     "key": "DevKeys",
+     "label": "Developer keys (F6 heal, F7 teleport, F9 camera punch, F11 sequence list)",
+     "type": "bool",
+     "default": 0,
+     "help": "",
+     "live": false
+    }
+   ]
+  }
+ ]
+}

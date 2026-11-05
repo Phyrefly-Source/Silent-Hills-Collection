@@ -1,0 +1,307 @@
+<Screen Name="SaveGameScreen" TriggerOnGainFocus="EnterSaveGameScreen">
+	
+	<HeavyTexture Name="PauseScreenBackground" X="0" Y="0" FileName="shv_cs_whitesquare" WidthScale="40" HeightScale="24" Red="0" Green="0" Blue="0" Alpha="0.65"/>
+	<HeavyTexture Name="PauseScreenBackground_TopLeft" X="0" Y="0" Z="0" FileName="shv_veilmenufullscreentl" Alpha="0.65"/>	
+	<HeavyTexture Name="PauseScreenBackground_TopRight" X="1024" Y="" Z="0" FileName="shv_veilmenufullscreentr" Alpha="0.65"/>	
+	<HeavyTexture Name="PauseScreenBackground_BottomLeft" X="0" Y="512" Z="0" FileName="shv_veilmenufullscreenbl" Alpha="0.65"/>	
+	<HeavyTexture Name="PauseScreenBackground_BottomRight" X="1024" Y="512" Z="0" FileName="shv_veilmenufullscreenbr" Alpha="0.65"/>	
+	
+	<NonLocalizedText Name="EnhTitle0" X="99" Y="70" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center"/>
+  <NonLocalizedText Name="EnhTitle1" X="102" Y="70" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.2"/>
+  <NonLocalizedText Name="EnhTitle2" X="105" Y="70" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.15"/>
+  <NonLocalizedText Name="EnhTitle3" X="110" Y="70" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.1"/>	
+		
+	<ScreenItem Name="EnhQuickSlot">
+		<NonLocalizedText Name="QuickSlotText" X="300" Y="210" FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" WidthScale="0.7" HeightScale="0.7" Alpha="0.5"/>
+		<NonLocalizedText Name="QuickSlotDateAndTime" X="300" Y="241" FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" WidthScale="0.63" HeightScale="0.63" Alpha="0.5"/>
+	</ScreenItem>
+	<ScreenItem Name="SaveSlotList">
+		<Text Name="FirstSlotText" X="300" Y="285" WidthScale="0.70" HeightScale="0.70" FontName="shv_fontcento01" ColorName="MenuWhite" Justification="Center" VerticalJustification="Center" Alpha="0.5"/>			
+		<Text Name="SecondSlotText" X="300" Y="360" WidthScale="0.70" HeightScale="0.70" FontName="shv_fontcento01" ColorName="MenuWhite" Justification="Center" VerticalJustification="Center" Alpha="0.5"/>			
+		<Text Name="ThirdSlotText" X="300" Y="435" WidthScale="0.70" HeightScale="0.70" FontName="shv_fontcento01" ColorName="MenuWhite" Justification="Center" VerticalJustification="Center" Alpha="0.5"/>				
+		<Text Name="FourthSlotText" X="300" Y="510" WidthScale="0.70" HeightScale="0.70" FontName="shv_fontcento01" ColorName="MenuWhite" Justification="Center" VerticalJustification="Center" Alpha="0.5"/>			
+		<Text Name="FifthSlotText" X="300" Y="585" WidthScale="0.70" HeightScale="0.70" FontName="shv_fontcento01" ColorName="MenuWhite" Justification="Center" VerticalJustification="Center" Alpha="0.5"/>			
+	</ScreenItem>
+	
+	<ScreenItem Name="DateAndTimeList">
+		<NonLocalizedText Name="FirstSlotDateAndTime" X="300" Y="316" WidthScale="0.63" HeightScale="0.63"  FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" Alpha="0.5"/>
+		<NonLocalizedText Name="SecondSlotDateAndTime" X="300" Y="391" WidthScale="0.63" HeightScale="0.63"  FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" Alpha="0.5"/>
+		<NonLocalizedText Name="ThirdSlotDateAndTime" X="300" Y="466" WidthScale="0.63" HeightScale="0.63"  FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" Alpha="0.5"/>
+		<NonLocalizedText Name="FourthSlotDateAndTime" X="300" Y="541" WidthScale="0.63" HeightScale="0.63"  FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" Alpha="0.5"/>
+		<NonLocalizedText Name="FifthSlotDateAndTime" X="300" Y="616" WidthScale="0.63" HeightScale="0.63"  FontName="shv_fontcento01" ColorName="MenuWhite" HorizontalJustification="Center" VerticalJustification="Center" Alpha="0.5"/>
+	</ScreenItem>
+						
+	<Controller Name="EnterSaveGameScreen">
+		<ScriptTrigger ScriptFunctionName="EnhancedScript" ScriptMessage="Update:Save"/>
+	    <ScriptTrigger ScriptFunctionName="SaveGameScript" ScriptMessage="SaveLoadEnterOSUI"/>
+	    <OnOffSwitch TargetScreenItem="SaveSlotList" TurnOn="false"/>
+	    <AdditionalTriggerItem>EnableCursor</AdditionalTriggerItem>
+	    <AdditionalTriggerItem>Foreground_EnableTwoButtons</AdditionalTriggerItem>
+        <TextSwitcher TargetScreenItem="Foreground_FirstButton_Text" NewText="IDS_SHELL_SELECT"/>
+        <IconChanger TargetScreenItem="Foreground_FirstButton_Icon" Command="COMMAND_UI_SELECT"/>
+        <TextSwitcher TargetScreenItem="Foreground_SecondButton_Text" NewText="IDS_SHELL_BACK"/>
+        <IconChanger TargetScreenItem="Foreground_SecondButton_Icon" Command="COMMAND_UI_BACK"/>
+	</Controller>
+	
+	<Controller Name="LeaveSaveGameScreen">
+		<ScreenChanger NewScreen="HUD"/>	
+		<GameResumeFreezeTrigger/>
+    <ScriptTrigger ScriptFunctionName="SaveGameScript" ScriptMessage="SaveLoadExitOSUI"/>
+		<ScriptTrigger ScriptFunctionName="SaveGameScript" ScriptMessage="LeaveSaveGameScreen"/>
+		<AdditionalTriggerItem>DisableCursor</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Foreground_DisableTwoButtons</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="ActivateSaveSlotList">
+		<OnOffSwitch TargetScreenItem="SaveSlotList" TurnOn="true"/>		
+	</Controller>
+
+	<ScriptTrigger Name="SaveFirstSlot" ScriptFunctionName="EnhancedScript" ScriptMessage="Slot:Save:First">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>	
+	</ScriptTrigger>
+	<ScriptTrigger Name="SaveSecondSlot" ScriptFunctionName="EnhancedScript" ScriptMessage="Slot:Save:Second">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>	
+	</ScriptTrigger>
+	<ScriptTrigger Name="SaveThirdSlot" ScriptFunctionName="EnhancedScript" ScriptMessage="Slot:Save:Third">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>	
+	</ScriptTrigger>
+	<ScriptTrigger Name="SaveFourthSlot" ScriptFunctionName="EnhancedScript" ScriptMessage="Slot:Save:Fourth">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>	
+	</ScriptTrigger>
+	<ScriptTrigger Name="SaveFifthSlot" ScriptFunctionName="EnhancedScript" ScriptMessage="Slot:Save:Fifth">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>	
+	</ScriptTrigger>
+		
+	<Controller Name="FirstSlotOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="FirstSlotText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="FirstSlotText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="FirstSlotText"/>	
+		<AlphaChanger TargetScreenItem="FirstSlotDateAndTime" Alpha="1"/>		
+	</Controller>
+	<Controller Name="FirstSlotOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+		<AlphaChanger TargetScreenItem="FirstSlotDateAndTime" Alpha="0.5"/>
+	</Controller>
+	
+	<Controller Name="SecondSlotOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="SecondSlotText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="SecondSlotText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="SecondSlotText"/>	
+		<AlphaChanger TargetScreenItem="SecondSlotDateAndTime" Alpha="1"/>
+	</Controller>
+	<Controller Name="SecondSlotOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+		<AlphaChanger TargetScreenItem="SecondSlotDateAndTime" Alpha="0.5"/>
+	</Controller>
+	
+	<Controller Name="ThirdSlotOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="ThirdSlotText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="ThirdSlotText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="ThirdSlotText"/>	
+		<AlphaChanger TargetScreenItem="ThirdSlotDateAndTime" Alpha="1"/>		
+	</Controller>
+	<Controller Name="ThirdSlotOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+		<AlphaChanger TargetScreenItem="ThirdSlotDateAndTime" Alpha="0.5"/>
+	</Controller>
+	
+	<Controller Name="FourthSlotOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="FourthSlotText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="FourthSlotText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="FourthSlotText"/>	
+		<AlphaChanger TargetScreenItem="FourthSlotDateAndTime" Alpha="1"/>
+	</Controller>
+	<Controller Name="FourthSlotOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>		
+		<AlphaChanger TargetScreenItem="FourthSlotDateAndTime" Alpha="0.5"/>
+	</Controller>
+	
+	<Controller Name="FifthSlotOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="FifthSlotText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="FifthSlotText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="FifthSlotText"/>	
+		<AlphaChanger TargetScreenItem="FifthSlotDateAndTime" Alpha="1"/>
+	</Controller>
+	<Controller Name="FifthSlotOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+		<AlphaChanger TargetScreenItem="FifthSlotDateAndTime" Alpha="0.5"/>
+	</Controller>
+	
+	<CursorHoverController TargetScreenItem="FirstSlotText" EnterTrigger="FirstSlotListenerOn"/>
+	<CursorHoverController TargetScreenItem="SecondSlotText" EnterTrigger="SecondSlotListenerOn"/>
+	<CursorHoverController TargetScreenItem="ThirdSlotText" EnterTrigger="ThirdSlotListenerOn"/>
+	<CursorHoverController TargetScreenItem="FourthSlotText" EnterTrigger="FourthSlotListenerOn"/>
+	<CursorHoverController TargetScreenItem="FifthSlotText" EnterTrigger="FifthSlotListenerOn"/>
+	
+	<InputFocusChanger Name="FirstSlotListenerOn" NewFocus="FirstSlotListener"/>
+	<InputFocusChanger Name="SecondSlotListenerOn" NewFocus="SecondSlotListener"/>
+	<InputFocusChanger Name="ThirdSlotListenerOn" NewFocus="ThirdSlotListener"/>
+	<InputFocusChanger Name="FourthSlotListenerOn" NewFocus="FourthSlotListener"/>
+	<InputFocusChanger Name="FifthSlotListenerOn" NewFocus="FifthSlotListener"/>	
+	
+	<Controller Name="IncrementFirstSlot">
+		<AdditionalTriggerItem>SecondSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementFirstSlot">
+		<AdditionalTriggerItem>QuickSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="IncrementSecondSlot">
+		<AdditionalTriggerItem>ThirdSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementSecondSlot">
+		<AdditionalTriggerItem>FirstSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="IncrementThirdSlot">
+		<AdditionalTriggerItem>FourthSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementThirdSlot">
+		<AdditionalTriggerItem>SecondSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="IncrementFourthSlot">
+		<AdditionalTriggerItem>FifthSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementFourthSlot">
+		<AdditionalTriggerItem>ThirdSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+
+	<Controller Name="IncrementFifthSlot">
+		<AdditionalTriggerItem>QuickSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementFifthSlot">
+		<AdditionalTriggerItem>FourthSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="FirstSlotListener" OnLostInputFocus="FirstSlotOff" OnGainedInputFocus="FirstSlotOn">
+		<InputTrigger TriggerItem="DecrementFirstSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementFirstSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementFirstSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementFirstSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="EnhBack" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SaveFirstSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SaveFirstSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CheckBounds="FirstSlotText"/>
+	</InputListener>
+	
+	<InputListener Name="SecondSlotListener" OnLostInputFocus="SecondSlotOff" OnGainedInputFocus="SecondSlotOn">
+		<InputTrigger TriggerItem="DecrementSecondSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementSecondSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementSecondSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementSecondSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="EnhBack" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SaveSecondSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SaveSecondSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CheckBounds="SecondSlotText"/>
+	</InputListener>
+	
+	<InputListener Name="ThirdSlotListener" OnLostInputFocus="ThirdSlotOff" OnGainedInputFocus="ThirdSlotOn">
+		<InputTrigger TriggerItem="DecrementThirdSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementThirdSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementThirdSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementThirdSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="EnhBack" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SaveThirdSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SaveThirdSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CheckBounds="ThirdSlotText"/>
+	</InputListener>
+	
+	<InputListener Name="FourthSlotListener" OnLostInputFocus="FourthSlotOff" OnGainedInputFocus="FourthSlotOn">
+		<InputTrigger TriggerItem="DecrementFourthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementFourthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementFourthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementFourthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="EnhBack" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SaveFourthSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SaveFourthSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CheckBounds="FourthSlotText"/>
+	</InputListener>
+	
+	<InputListener Name="FifthSlotListener" OnLostInputFocus="FifthSlotOff" OnGainedInputFocus="FifthSlotOn">
+		<InputTrigger TriggerItem="DecrementFifthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementFifthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementFifthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementFifthSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="EnhBack" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SaveFifthSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SaveFifthSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CheckBounds="FifthSlotText"/>
+	</InputListener>
+	
+
+	<!-- Homecoming Enhanced: Back and the load mode (pause menu > Load Game) -->
+	<Controller Name="EnhBack">
+		<ScriptTrigger ScriptFunctionName="EnhancedScript" ScriptMessage="Back:Save:Back"/>
+	</Controller>
+	<Controller Name="LeaveToPause">
+		<ScreenChanger NewScreen="PauseScreen"/>
+		<ScriptTrigger ScriptFunctionName="SaveGameScript" ScriptMessage="SaveLoadExitOSUI"/>
+		<ScriptTrigger ScriptFunctionName="SaveGameScript" ScriptMessage="LeaveSaveGameScreen"/>
+		<AdditionalTriggerItem>Back_Sound</AdditionalTriggerItem>
+		<AdditionalTriggerItem>DisableCursor</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Foreground_DisableTwoButtons</AdditionalTriggerItem>
+	</Controller>
+	<PopupMessageTrigger Name="LoadVerify" TextTag="IDS_ENH_LOAD_CONFIRM" TriggerOnConfirmed="LoadConfirmed" TriggerOnDenied="LoadDenied">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+	</PopupMessageTrigger>
+	<Controller Name="LoadConfirmed">
+		<GameResumeFreezeTrigger/>
+		<AdditionalTriggerItem>DisableCursor</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Foreground_DisableTwoButtons</AdditionalTriggerItem>
+		<ScriptTrigger ScriptFunctionName="EnhancedScript" ScriptMessage="Confirm:Save:Load"/>
+	</Controller>
+	<Controller Name="LoadDenied">
+		<ScriptTrigger ScriptFunctionName="EnhancedScript" ScriptMessage="Deny:Save:Load"/>
+	</Controller>
+
+	<!-- Homecoming Enhanced: the quick-save row -->
+	<Controller Name="QuickSlotOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="QuickSlotText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="QuickSlotText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="QuickSlotText"/>
+		<AlphaChanger TargetScreenItem="QuickSlotDateAndTime" Alpha="1"/>
+	</Controller>
+	<Controller Name="QuickSlotOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+		<AlphaChanger TargetScreenItem="QuickSlotDateAndTime" Alpha="0.5"/>
+	</Controller>
+	<CursorHoverController TargetScreenItem="QuickSlotText" EnterTrigger="QuickSlotListenerOn"/>
+	<InputFocusChanger Name="QuickSlotListenerOn" NewFocus="QuickSlotListener"/>
+	<Controller Name="IncrementQuickSlot">
+		<AdditionalTriggerItem>FirstSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementQuickSlot">
+		<AdditionalTriggerItem>FifthSlotListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<ScriptTrigger Name="SaveQuickSlot" ScriptFunctionName="EnhancedScript" ScriptMessage="Slot:Save:Quick">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+	</ScriptTrigger>
+	<InputListener Name="QuickSlotListener" OnLostInputFocus="QuickSlotOff" OnGainedInputFocus="QuickSlotOn">
+		<InputTrigger TriggerItem="DecrementQuickSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementQuickSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementQuickSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementQuickSlot" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="EnhBack" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SaveQuickSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SaveQuickSlot" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CheckBounds="QuickSlotText"/>
+	</InputListener>
+	<PopupMessageTrigger Name="QuickEmpty" TextTag="IDS_ENH_QUICK_NONE" TriggerOnConfirmed="QuickEmptyDone" TriggerOnDenied="QuickEmptyDone"/>
+	<Controller Name="QuickEmptyDone">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="QuickSlotText"/>
+	</Controller>
+</Screen>

@@ -1,0 +1,302 @@
+<Screen Name="PauseScreen" TriggerOnGainFocus="EnterPauseScreen" FirstFocus="ResumeListener">
+	
+	<GameFreezeTrigger FreezeGame="true" FreezeSound="false" FreezeDialog="false" FreezeMusic="false"/>
+		
+	<ScreenItem Name="PauseScreenContainer">			
+		<HeavyTexture Name="PauseScreenBackground" X="0" Y="0" FileName="shv_cs_whitesquare" WidthScale="40" HeightScale="24" Red="0" Green="0" Blue="0" Alpha="0.65"/>
+		<HeavyTexture Name="PauseScreenBackground_TopLeft" X="0" Y="0" Z="0" FileName="shv_veilmenufullscreentl" Alpha="0.65"/>	
+		<HeavyTexture Name="PauseScreenBackground_TopRight" X="1024" Y="" Z="0" FileName="shv_veilmenufullscreentr" Alpha="0.65"/>	
+		<HeavyTexture Name="PauseScreenBackground_BottomLeft" X="0" Y="512" Z="0" FileName="shv_veilmenufullscreenbl" Alpha="0.65"/>	
+		<HeavyTexture Name="PauseScreenBackground_BottomRight" X="1024" Y="512" Z="0" FileName="shv_veilmenufullscreenbr" Alpha="0.65"/>	
+		
+		<Text Name="PauseScreen_Title" X="99" Y="70" TextTag="IDS_SHELL_PAUSED_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center"/>	
+		<Text Name="PauseScreen_Title" X="102" Y="70" TextTag="IDS_SHELL_PAUSED_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.2"/>	
+		<Text Name="PauseScreen_Title" X="105" Y="70" TextTag="IDS_SHELL_PAUSED_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.15"/>	
+		<Text Name="PauseScreen_Title" X="110" Y="70" TextTag="IDS_SHELL_PAUSED_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.1"/>	
+		
+		<ScreenItem Name="PauseScreen_TextContainer">
+			<Text Name="ResumeText" X="369" Y="270" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_RESUME" Justification="Center" VerticalJustification="Center" Alpha="0.3"/>			
+			<Text Name="LoadText" X="369" Y="330" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_LOAD_GAME" Justification="Center" VerticalJustification="Center" Alpha="0.3"/>
+			<Text Name="JournalText" X="369" Y="390" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_JOURNAL" Justification="Center" VerticalJustification="Center" Alpha="0.3"/>			
+			<Text Name="OptionsText" X="369" Y="450" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_OPTIONS" Justification="Center" VerticalJustification="Center" Alpha="0.3"/>			
+			<NonLocalizedText Name="TipsText" X="369" Y="510" FontName="shv_fontcento01" ColorName="White" Justification="Center" HorizontalJustification="Center" VerticalJustification="Center" Alpha="0.3"/>
+			<Text Name="MenuText" X="369" Y="570" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_MAIN_MENU" Justification="Center" VerticalJustification="Center" Alpha="0.3"/>			
+		</ScreenItem>
+	</ScreenItem>
+
+	<Controller Name="FadeInPauseScreen">
+		<AlphaTimer TargetScreenItem="PauseScreenContainer" Time="0.35" StartAlpha="0" EndAlpha="1" Transition="Linear"/>		
+	</Controller>
+	
+	<Controller Name="EnterPauseScreen">
+		<ScriptTrigger ScriptFunctionName="EnhancedScript" ScriptMessage="Update:Pause"/>
+		<OnOffSwitch TargetScreenItem="PauseScreen_TextContainer" TurnOn="false"/>
+		<Timer Time="0.15" TriggerWhenFinished="PauseScreen_FadeUpTextContainer"/>
+		<AdditionalTriggerItem>EnableCursor</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Foreground_EnableTwoButtons</AdditionalTriggerItem>
+		<TextSwitcher TargetScreenItem="Foreground_FirstButton_Text" NewText="IDS_SHELL_SELECT"/>
+		<IconChanger TargetScreenItem="Foreground_FirstButton_Icon" Command="COMMAND_UI_SELECT"/>		
+		<TextSwitcher TargetScreenItem="Foreground_SecondButton_Text" NewText="IDS_SHELL_BACK"/>
+		<IconChanger TargetScreenItem="Foreground_SecondButton_Icon" Command="COMMAND_UI_BACK"/>	
+	</Controller>
+	<AlphaTimer Name="PauseScreen_FadeUpTextContainer" TargetScreenItem="PauseScreen_TextContainer" StartAlpha="0" EndAlpha="1" Time="0.25" SetVisibleWhenStarted="true"/>
+		
+	<Controller Name="ResumeOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="ResumeText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="ResumeText"/>	
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="ResumeText"/>	
+	</Controller>
+	<Controller Name="ResumeOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>		
+	</Controller>
+
+	<Controller Name="JournalOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="JournalText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="JournalText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="JournalText"/>			
+	</Controller>
+	<Controller Name="JournalOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+	
+	<Controller Name="OptionsOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="OptionsText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="OptionsText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="OptionsText"/>			
+	</Controller>
+	<Controller Name="OptionsOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+	
+	<Controller Name="MenuOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="MenuText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="MenuText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="MenuText"/>
+	</Controller>
+	<Controller Name="MenuOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+	
+	<InputFocusChanger Name="ResumeListenerOn" NewFocus="ResumeListener"/>
+	<InputFocusChanger Name="JournalListenerOn" NewFocus="JournalListener"/>
+	<InputFocusChanger Name="OptionsListenerOn" NewFocus="OptionsListener"/>
+	<InputFocusChanger Name="MenuListenerOn" NewFocus="MenuListener"/>
+
+	<Controller Name="IncrementResume">
+		<AdditionalTriggerItem>LoadListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementResume">
+		<AdditionalTriggerItem>MenuListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="IncrementJournal">
+		<AdditionalTriggerItem>OptionsListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementJournal">
+		<AdditionalTriggerItem>LoadListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="IncrementOptions">
+		<AdditionalTriggerItem>TipsListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementOptions">
+		<AdditionalTriggerItem>JournalListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<Controller Name="IncrementMenu">
+		<AdditionalTriggerItem>ResumeListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementMenu">
+		<AdditionalTriggerItem>TipsListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="ResumeListener" OnLostInputFocus="ResumeOff" OnGainedInputFocus="ResumeOn">
+		<InputTrigger TriggerItem="DecrementResume" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementResume" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementResume" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementResume" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_START"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="ResumeText"/>
+	</InputListener>
+	
+	<InputListener Name="JournalListener" OnLostInputFocus="JournalOff" OnGainedInputFocus="JournalOn">
+		<InputTrigger TriggerItem="DecrementJournal" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementJournal" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementJournal" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementJournal" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="SwitchToJournalScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_START"/>
+		<InputTrigger TriggerItem="SwitchToJournalScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="JournalText"/>
+	</InputListener>
+	
+	<InputListener Name="OptionsListener" OnLostInputFocus="OptionsOff" OnGainedInputFocus="OptionsOn">
+		<InputTrigger TriggerItem="DecrementOptions" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementOptions" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>		
+		<InputTrigger TriggerItem="DecrementOptions" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementOptions" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_START"/>
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="OptionsText"/>
+	</InputListener>
+	
+	<InputListener Name="MenuListener" OnLostInputFocus="MenuOff" OnGainedInputFocus="MenuOn">
+		<InputTrigger TriggerItem="DecrementMenu" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>		
+		<InputTrigger TriggerItem="IncrementMenu" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>		
+		<InputTrigger TriggerItem="DecrementMenu" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>		
+		<InputTrigger TriggerItem="IncrementMenu" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>	
+		<InputTrigger TriggerItem="QuitVerification" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_START"/>
+		<InputTrigger TriggerItem="QuitVerification" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="MenuText"/>
+	</InputListener>
+	
+	<PopupMessageTrigger Name="QuitVerification" TextTag="IDS_SHELL_QUIT_GAME_CONFIRM" TriggerOnConfirmed="QuitConfirmed" TriggerOnDenied="QuitDenied">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>	
+	</PopupMessageTrigger>
+	
+	<Controller Name="QuitConfirmed">
+		<Controller>
+			<AdditionalTriggerItem>PauseScreenOff</AdditionalTriggerItem>
+		</Controller>
+		<ScriptTrigger ScriptFunctionName="QuitGame"/>
+		<MapLaunchTrigger MapToLaunch="shell"/>
+	</Controller>
+
+	<Controller Name="QuitDenied">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="MenuText"/>
+	</Controller>
+	
+	<Controller Name="PauseScreenOff">
+		<AdditionalTriggerItem>Foreground_DisableTwoButtons</AdditionalTriggerItem>	
+		<AdditionalTriggerItem>DisableCursor</AdditionalTriggerItem>
+		
+	</Controller>
+	
+	<Controller Name="SwitchToHUD">
+		<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		<AlphaTimer TargetScreenItem="PauseScreenContainer" Time="0.35" StartAlpha="1" EndAlpha="0" Transition="Linear" TriggerWhenFinished="FinishSwitchToHUD"/>
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<GameFreezeTrigger FreezeGame="false" FreezeSound="false" FreezeDialog="false" FreezeMusic="false"/>
+		<AdditionalTriggerItem>DisableCursor</AdditionalTriggerItem>
+	</Controller>										
+	
+	<Controller Name="FinishSwitchToHUD">
+		<Controller>
+			<AdditionalTriggerItem>PauseScreenOff</AdditionalTriggerItem>
+		</Controller>
+		<ScreenChanger NewScreen="HUD"/>			
+	</Controller>
+
+	<Controller Name="SwitchToJournalScreen">
+		<Controller>
+			<AdditionalTriggerItem>PauseScreenOff</AdditionalTriggerItem>
+			<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		</Controller>		
+		<ScreenChanger NewScreen="JournalScreen"/>
+	</Controller>
+	
+	<Controller Name="SwitchToOptionsScreen">
+		<Controller>
+			<AdditionalTriggerItem>PauseScreenOff</AdditionalTriggerItem>
+			<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		</Controller>
+		<ScreenChanger NewScreen="OptionsScreen"/>
+	</Controller>
+
+	<CursorHoverController Name="ResumeHover" TargetScreenItem="ResumeText" EnterTrigger="ResumeListenerOn"/>
+	<CursorHoverController Name="JournalHover" TargetScreenItem="JournalText" EnterTrigger="JournalListenerOn"/>
+	<CursorHoverController Name="OptionsHover" TargetScreenItem="OptionsText" EnterTrigger="OptionsListenerOn"/>
+	<CursorHoverController Name="MenuHover" TargetScreenItem="MenuText" EnterTrigger="MenuListenerOn"/>
+	<InputFocusChanger Name="TipsListenerOn" NewFocus="TipsListener"/>
+	<Controller Name="IncrementTips">
+		<AdditionalTriggerItem>MenuListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementTips">
+		<AdditionalTriggerItem>OptionsListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<InputListener Name="TipsListener" OnLostInputFocus="TipsOff" OnGainedInputFocus="TipsOn">
+		<InputTrigger TriggerItem="DecrementTips" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementTips" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementTips" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementTips" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="SwitchToTipsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_START"/>
+		<InputTrigger TriggerItem="SwitchToTipsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="TipsText"/>
+	</InputListener>
+	<Controller Name="TipsOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="TipsText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="TipsText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="TipsText"/>
+	</Controller>
+	<Controller Name="TipsOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+	<Controller Name="SwitchToTipsScreen">
+		<Controller>
+			<AdditionalTriggerItem>PauseScreenOff</AdditionalTriggerItem>
+			<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		</Controller>
+		<ScreenChanger NewScreen="EnhTipsScreen"/>
+	</Controller>
+	<CursorHoverController Name="TipsHover" TargetScreenItem="TipsText" EnterTrigger="TipsListenerOn"/>
+	<InputFocusChanger Name="LoadListenerOn" NewFocus="LoadListener"/>
+	<Controller Name="IncrementLoad">
+		<AdditionalTriggerItem>JournalListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="DecrementLoad">
+		<AdditionalTriggerItem>ResumeListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<InputListener Name="LoadListener" OnLostInputFocus="LoadOff" OnGainedInputFocus="LoadOn">
+		<InputTrigger TriggerItem="DecrementLoad" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>
+		<InputTrigger TriggerItem="IncrementLoad" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>
+		<InputTrigger TriggerItem="DecrementLoad" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>
+		<InputTrigger TriggerItem="IncrementLoad" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="RequestLoadScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="SwitchToHUD" TimeBetweenScans="0.550000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_START"/>
+		<InputTrigger TriggerItem="RequestLoadScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="LoadText"/>
+	</InputListener>
+	<Controller Name="LoadOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="LoadText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="LoadText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="LoadText"/>
+	</Controller>
+	<Controller Name="LoadOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+	<Controller Name="RequestLoadScreen">
+		<ScriptTrigger ScriptFunctionName="EnhancedScript" ScriptMessage="Mode:Save:Load"/>
+	</Controller>
+	<Controller Name="SwitchToSaveGameScreen">
+		<Controller>
+			<AdditionalTriggerItem>PauseScreenOff</AdditionalTriggerItem>
+			<AdditionalTriggerItem>Select_Sound</AdditionalTriggerItem>
+		</Controller>
+		<ScreenChanger NewScreen="SaveGameScreen"/>
+	</Controller>
+	<CursorHoverController Name="LoadHover" TargetScreenItem="LoadText" EnterTrigger="LoadListenerOn"/>
+</Screen>

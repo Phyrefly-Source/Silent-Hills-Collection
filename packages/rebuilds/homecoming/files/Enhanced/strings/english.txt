@@ -1,0 +1,320 @@
+[IDS_ENH_INV_TITLE]Inventory
+[IDS_ENH_INV_WEAPONS]Weapons
+[IDS_ENH_INV_RECOVERY]Recovery
+[IDS_ENH_INV_KEY_ITEMS]Key items
+[IDS_ENH_INV_TOOLS]Tools
+[IDS_ENH_INV_EQUIP]Equip
+[IDS_ENH_INV_EQUIPPED]Equipped
+[IDS_ENH_INV_USE]Use
+[IDS_ENH_INV_EXAMINE]Examine
+[IDS_ENH_INV_TURN_ON]Turn on
+[IDS_ENH_INV_TURN_OFF]Turn off
+[IDS_ENH_INV_CANCEL]Cancel
+[IDS_ENH_INV_EMPTY]You have nothing here.
+[IDS_ENH_INV_FULL_HEALTH]You are not hurt.
+[IDS_ENH_INV_CANT_USE]You can't use that here.
+[IDS_ENH_INV_AMMO]Loaded %d / %d   Spare %d
+[IDS_ENH_INV_COUNT]Carrying %d
+[IDS_ENH_INV_FLASHLIGHT]Flashlight
+[IDS_ENH_INV_FLASHLIGHT_DESC]Lights the way. Monsters see it too.
+[IDS_ENH_INV_RADIO]Radio
+[IDS_ENH_INV_RADIO_DESC]Hisses with static near monsters.
+[IDS_ENH_INV_ON]On
+[IDS_ENH_INV_OFF]Off
+[IDS_ENH_PAGE_OPTIONS]OPTIONS
+[IDS_ENH_HUBDISPLAY]Display
+[IDS_ENH_HUBDISPLAY_DESC]Display mode, frame rate and brightness.
+[IDS_ENH_HUBGRAPHICS]Graphics
+[IDS_ENH_HUBGRAPHICS_DESC]Textures, filtering, anti-aliasing, shadows and lighting.
+[IDS_ENH_HUBEFFECTS]Effects
+[IDS_ENH_HUBEFFECTS_DESC]Depth of field, motion blur, bloom, film grain and fog.
+[IDS_ENH_HUBAUDIO]Audio
+[IDS_ENH_HUBAUDIO_DESC]Output, volume levels.
+[IDS_ENH_HUBGAMEPLAY]Gameplay
+[IDS_ENH_HUBGAMEPLAY_DESC]Movement, combat, prompts and tips.
+[IDS_ENH_HUBCAMERA]Camera
+[IDS_ENH_HUBCAMERA_DESC]Camera style, framing and look controls.
+[IDS_ENH_HUBCONTROLS]Controls
+[IDS_ENH_HUBCONTROLS_DESC]Controller and keyboard bindings.
+[IDS_ENH_HUBACCESSIBILITY]Accessibility
+[IDS_ENH_HUBACCESSIBILITY_DESC]Subtitles, camera shake and vibration.
+[IDS_ENH_PAGE_DISPLAY]DISPLAY
+[IDS_ENH_DISPLAY_MODE]Display mode
+[IDS_ENH_DISPLAY_MODE_DESC]Fullscreen, borderless window or window. Applies after a restart.
+[IDS_ENH_LINK_RESOLUTION]Resolution and quality
+[IDS_ENH_LINK_RESOLUTION_DESC]Screen resolution, refresh rate and shader quality.
+[IDS_ENH_FPS_LIMIT]Frame-rate limit
+[IDS_ENH_FPS_LIMIT_DESC]Highest frame rate the game will run at.
+[IDS_ENH_VSYNC]V-Sync
+[IDS_ENH_VSYNC_DESC]Matches frames to the display refresh to stop tearing. Applies after a restart.
+[IDS_ENH_BRIGHTNESS]Brightness
+[IDS_ENH_BRIGHTNESS_DESC]Overall picture brightness.
+[IDS_ENH_PAGE_GRAPHICS]GRAPHICS
+[IDS_ENH_GFX_PRESET]Quality preset
+[IDS_ENH_GFX_PRESET_DESC]Sets the options below at once. Original is the game as shipped.
+[IDS_ENH_TEXTURE_DETAIL]Texture detail
+[IDS_ENH_TEXTURE_DETAIL_DESC]Resolution of surface textures. Lower settings save video memory. Applies after a restart.
+[IDS_ENH_SHADER_QUALITY]Shader quality
+[IDS_ENH_SHADER_QUALITY_DESC]Lighting and material shaders. Low uses the simplified set for slower graphics cards. Applies after a restart.
+[IDS_ENH_ANISOTROPY]Texture filtering
+[IDS_ENH_ANISOTROPY_DESC]Anisotropic filtering keeps floors and walls sharp at a distance.
+[IDS_ENH_ANTI_ALIASING]Anti-aliasing
+[IDS_ENH_ANTI_ALIASING_DESC]Smooths jagged edges. FXAA is a light post-process filter.
+[IDS_ENH_SHARPEN]Sharpening
+[IDS_ENH_SHARPEN_DESC]Contrast-adaptive sharpening (AMD CAS) to restore detail softened by anti-aliasing.
+[IDS_ENH_SHADOWS]Shadows
+[IDS_ENH_SHADOWS_DESC]Shadows cast by characters and objects.
+[IDS_ENH_SHADOW_RES]Shadow quality
+[IDS_ENH_SHADOW_RES_DESC]Resolution of the shadow maps. High is the original game. Applies after a restart.
+[IDS_ENH_MAX_LIGHTS]Dynamic lights
+[IDS_ENH_MAX_LIGHTS_DESC]How many lights can light an object at once. Higher looks richer and costs performance.
+[IDS_ENH_PARTICLE_LIGHTS]Particle lighting
+[IDS_ENH_PARTICLE_LIGHTS_DESC]Lets sparks, flames and other particles light their surroundings.
+[IDS_ENH_PAGE_EFFECTS]EFFECTS
+[IDS_ENH_DOF]Depth of field
+[IDS_ENH_DOF_DESC]Blurs what is out of focus, in play and in cutscenes. Takes effect at the next area load.
+[IDS_ENH_MOTION_BLUR]Motion blur
+[IDS_ENH_MOTION_BLUR_DESC]Blur when the camera moves quickly. Takes effect at the next area load.
+[IDS_ENH_BLOOM]Bloom
+[IDS_ENH_BLOOM_DESC]Glow around bright lights. Takes effect at the next area load.
+[IDS_ENH_HEAT_HAZE]Heat haze
+[IDS_ENH_HEAT_HAZE_DESC]Shimmer around fire and heat. Takes effect at the next area load.
+[IDS_ENH_CHROMATIC]Chromatic aberration
+[IDS_ENH_CHROMATIC_DESC]Colour fringing towards the screen edges, like an old camera lens.
+[IDS_ENH_FILM_GRAIN]Film grain
+[IDS_ENH_FILM_GRAIN_DESC]The grain filter over the picture. Takes effect at the next area load.
+[IDS_ENH_COLOR_FILTER]Colour filter
+[IDS_ENH_COLOR_FILTER_DESC]The colour tint of each area. Takes effect at the next area load.
+[IDS_ENH_FOG]Fog
+[IDS_ENH_FOG_DESC]Distance fog. Takes effect at the next area load.
+[IDS_ENH_FOG_PARTICLES]Fog particles
+[IDS_ENH_FOG_PARTICLES_DESC]Drifting fog particles near the camera. Takes effect at the next area load.
+[IDS_ENH_PAGE_AUDIO]AUDIO
+[IDS_ENH_AUDIO_OUTPUT]Output
+[IDS_ENH_AUDIO_OUTPUT_DESC]Speakers sends the surround mix to your speakers (dialogue centred on stereo). Headphones renders it in 3D around your head.
+[IDS_ENH_VOL_MASTER]Master volume
+[IDS_ENH_VOL_MASTER_DESC]Volume of all game audio.
+[IDS_ENH_VOL_MUSIC]Music
+[IDS_ENH_VOL_MUSIC_DESC]Music volume.
+[IDS_ENH_VOL_DIALOGUE]Dialogue
+[IDS_ENH_VOL_DIALOGUE_DESC]Volume of spoken dialogue.
+[IDS_ENH_VOL_EFFECTS]Sound effects
+[IDS_ENH_VOL_EFFECTS_DESC]Volume of sound effects.
+[IDS_ENH_VOL_RADIO]Radio
+[IDS_ENH_VOL_RADIO_DESC]Volume of the radio static near monsters.
+[IDS_ENH_MUTE_BG]Mute in background
+[IDS_ENH_MUTE_BG_DESC]Silences the game while another window is in front.
+[IDS_ENH_PAGE_GAMEPLAY]GAMEPLAY
+[IDS_ENH_WALK_DEFAULT]Movement
+[IDS_ENH_WALK_DEFAULT_DESC]Walk by default and hold the dodge button to run, or always run as in the original.
+[IDS_ENH_DODGE_LOCK]Roll
+[IDS_ENH_DODGE_LOCK_DESC]Outside combat stance, B (a tap of Space) rolls, as in the original game. In combat stance the same button side-steps. Each costs stamina.
+[IDS_ENH_PAD_LAYOUT]Controller layout
+[IDS_ENH_PAD_LAYOUT_DESC]Modern: attacks on RB / RT in combat stance (LT), B side-steps, Y shoves; outside it RT runs, RB opens the map and B rolls. D-pad up is the flashlight, D-pad down heals, X reloads a firearm. Classic: the original buttons.
+[IDS_ENH_INV_LAYOUT]Inventory
+[IDS_ENH_INV_LAYOUT_DESC]One inventory screen on Back / Select (I on the keyboard), which frees LB / Q for blocking; or the original weapon and item wheels on RB / E and LB / Q.
+[IDS_ENH_GUARD]Blocking
+[IDS_ENH_GUARD_DESC]Hold Block (LB / Q) to guard with a melee weapon. Blocking just as a hit lands is a parry: no damage, and the attacker staggers.
+[IDS_ENH_STAMINA]Stamina
+[IDS_ENH_STAMINA_DESC]Blocking hits, dodging and running use stamina. When it runs out you can't run or dodge and blocks break until it recovers.
+[IDS_ENH_LOCK_ON]Lock-on
+[IDS_ENH_LOCK_ON_DESC]Toggle: R3 (middle mouse) in combat stance locks onto the nearest enemy and the right stick switches targets; the stance alone only readies Alex. With combat stance: the stance always locks on, as in the original.
+[IDS_ENH_STRUGGLE]Shaking off creatures
+[IDS_ENH_STRUGGLE_DESC]Whether shaking off latched creatures needs combat stance.
+[IDS_ENH_PROMPT_STYLE]Button prompts
+[IDS_ENH_PROMPT_STYLE_DESC]Which controller symbols to show. Automatic follows the controller that is connected.
+[IDS_ENH_AUTO_DEVICE]Switch input automatically
+[IDS_ENH_AUTO_DEVICE_DESC]Swap between keyboard/mouse and controller controls (and their prompts) as soon as you use the other one.
+[IDS_ENH_TIPS]Gameplay tips
+[IDS_ENH_TIPS_DESC]Show hints during play. All tips are also under Pause > Tips.
+[IDS_ENH_PAGE_CAMERA]CAMERA
+[IDS_ENH_CAMERA_STYLE]Camera
+[IDS_ENH_CAMERA_STYLE_DESC]Over-the-shoulder camera, or the original follow camera.
+[IDS_ENH_CONTROL_TYPE]Fixed-camera controls
+[IDS_ENH_CONTROL_TYPE_DESC]2D: the stick moves Alex relative to the camera on screen. 3D: up walks him forward the way he faces, down steps back and left / right turn him, so camera cuts never change your direction. In combat stance the stick always follows Alex himself.
+[IDS_ENH_SHOULDER]Shoulder
+[IDS_ENH_SHOULDER_DESC]Which shoulder the camera looks over.
+[IDS_ENH_R3_ACTION]Right stick click
+[IDS_ENH_R3_ACTION_DESC]What clicking the right stick (or the middle mouse button) does.
+[IDS_ENH_CAM_DISTANCE]Camera distance
+[IDS_ENH_CAM_DISTANCE_DESC]How far behind Alex the camera sits.
+[IDS_ENH_FOV]Field of view
+[IDS_ENH_FOV_DESC]Camera field of view in degrees.
+[IDS_ENH_COMBAT_CAM]Combat camera
+[IDS_ENH_COMBAT_CAM_DESC]The camera swings in when your attacks land and when you block.
+[IDS_ENH_WALL_AVOID]Wall avoidance
+[IDS_ENH_WALL_AVOID_DESC]Moves the camera in from the shoulder when a wall is beside Alex.
+[IDS_ENH_INVERT_Y]Invert vertical look
+[IDS_ENH_INVERT_Y_DESC]Pushing up looks down.
+[IDS_ENH_MOUSE_SENS]Mouse sensitivity
+[IDS_ENH_MOUSE_SENS_DESC]How fast the mouse turns the camera.
+[IDS_ENH_PAGE_ACCESSIBILITY]ACCESSIBILITY
+[IDS_ENH_SUBTITLES]Subtitles
+[IDS_ENH_SUBTITLES_DESC]Show subtitles for dialogue.
+[IDS_ENH_SUBTITLE_SIZE]Subtitle size
+[IDS_ENH_SUBTITLE_SIZE_DESC]Size of subtitle text. Applies after a restart.
+[IDS_ENH_SUBTITLE_BG]Subtitle background
+[IDS_ENH_SUBTITLE_BG_DESC]A dark band behind subtitles to make them easier to read. Applies after a restart.
+[IDS_ENH_HIT_SHAKE]Camera shake on hits
+[IDS_ENH_HIT_SHAKE_DESC]A short camera shake when your attacks land.
+[IDS_ENH_VIBRATION]Controller vibration
+[IDS_ENH_VIBRATION_DESC]Rumble on the controller.
+[IDS_ENH_PAGE_TIPS]TIPS
+[IDS_ENH_TIPSTIP1]Combat stance
+[IDS_ENH_TIPSTIP2]Light and heavy attacks
+[IDS_ENH_TIPSTIP3]Blocking
+[IDS_ENH_TIPSTIP4]Parrying
+[IDS_ENH_TIPSTIP5]Dodging and rolling
+[IDS_ENH_TIPSTIP6]Stamina
+[IDS_ENH_TIPSTIP7]Shoving
+[IDS_ENH_TIPSTIP8]Stunned enemies
+[IDS_ENH_TIPSTIP9]Light and noise
+[IDS_ENH_TIPSTIP10]Healing
+[IDS_ENH_TIPSTIP11]Saving and the map
+[IDS_ENH_TIPSMORE]Creatures  >
+[IDS_ENH_PAGE_TIPSCREATURES]CREATURES
+[IDS_ENH_TIPSCREATURESTIP1]Swarm
+[IDS_ENH_TIPSCREATURESTIP2]Feral
+[IDS_ENH_TIPSCREATURESTIP3]Needler
+[IDS_ENH_TIPSCREATURESTIP4]Lurker
+[IDS_ENH_TIPSCREATURESTIP5]Schism
+[IDS_ENH_TIPSCREATURESTIP6]Order soldiers
+[IDS_ENH_TIPSCREATURESTIP7]Getting up
+[IDS_ENH_TIPSCREATURESMORE]Bosses  >
+[IDS_ENH_PAGE_TIPSBOSSES]BOSSES
+[IDS_ENH_TIPSBOSSESTIP1]Smog
+[IDS_ENH_TIPSBOSSESTIP2]Siam
+[IDS_ENH_TIPSBOSSESTIP3]Sepulcher
+[IDS_ENH_TIPSBOSSESTIP4]Scarlet
+[IDS_ENH_TIPSBOSSESTIP5]Amnion
+[IDS_ENH_TIPSBOSSESTIP6]Asphyxia
+[IDS_ENH_TIPSBOSSESMORE]Tips  >
+[IDS_ENH_SAVE_TITLE]SAVE GAME
+[IDS_ENH_LOAD_TITLE]LOAD GAME
+[IDS_ENH_QUICK_SLOT]QUICK SAVE
+[IDS_ENH_QUICK_SAVE_NOW]save here (F5 does this anywhere)
+[IDS_ENH_QUICK_EMPTY]none yet (F5 in the game makes one)
+[IDS_ENH_LOAD_CONFIRM]Load this saved game? Any unsaved progress will be lost.
+[IDS_ENH_QUICK_NONE]There is no quick save yet. Press F5 during play to make one.
+[IDS_ENH_PAGE_PAUSE]PAUSED
+[IDS_ENH_PAUSE_TIPS]Tips
+[IDS_ENH_DISPLAY_MODE_V0]Fullscreen
+[IDS_ENH_DISPLAY_MODE_V1]Borderless
+[IDS_ENH_DISPLAY_MODE_V2]Windowed
+[IDS_ENH_FPS_LIMIT_V0]30
+[IDS_ENH_FPS_LIMIT_V1]60
+[IDS_ENH_FPS_LIMIT_V2]120
+[IDS_ENH_FPS_LIMIT_V3]144
+[IDS_ENH_FPS_LIMIT_V4]165
+[IDS_ENH_FPS_LIMIT_V5]240
+[IDS_ENH_FPS_LIMIT_V6]Unlimited
+[IDS_ENH_VSYNC_V0]Off
+[IDS_ENH_VSYNC_V1]On
+[IDS_ENH_GFX_PRESET_V0]Custom
+[IDS_ENH_GFX_PRESET_V1]Original
+[IDS_ENH_GFX_PRESET_V2]Low
+[IDS_ENH_GFX_PRESET_V3]Medium
+[IDS_ENH_GFX_PRESET_V4]High
+[IDS_ENH_GFX_PRESET_V5]Ultra
+[IDS_ENH_TEXTURE_DETAIL_V0]Low
+[IDS_ENH_TEXTURE_DETAIL_V1]Medium
+[IDS_ENH_TEXTURE_DETAIL_V2]High
+[IDS_ENH_TEXTURE_DETAIL_V3]Ultra
+[IDS_ENH_SHADER_QUALITY_V0]Low
+[IDS_ENH_SHADER_QUALITY_V1]High
+[IDS_ENH_ANISOTROPY_V0]Trilinear
+[IDS_ENH_ANISOTROPY_V1]2x
+[IDS_ENH_ANISOTROPY_V2]4x
+[IDS_ENH_ANISOTROPY_V3]8x
+[IDS_ENH_ANISOTROPY_V4]16x
+[IDS_ENH_ANTI_ALIASING_V0]Off
+[IDS_ENH_ANTI_ALIASING_V1]FXAA
+[IDS_ENH_SHADOWS_V0]Off
+[IDS_ENH_SHADOWS_V1]On
+[IDS_ENH_SHADOW_RES_V0]Low
+[IDS_ENH_SHADOW_RES_V1]High
+[IDS_ENH_SHADOW_RES_V2]Ultra
+[IDS_ENH_MAX_LIGHTS_V0]4
+[IDS_ENH_MAX_LIGHTS_V1]8
+[IDS_ENH_MAX_LIGHTS_V2]12
+[IDS_ENH_MAX_LIGHTS_V3]16
+[IDS_ENH_PARTICLE_LIGHTS_V0]Off
+[IDS_ENH_PARTICLE_LIGHTS_V1]On
+[IDS_ENH_FILM_GRAIN_V0]Off
+[IDS_ENH_FILM_GRAIN_V1]On
+[IDS_ENH_COLOR_FILTER_V0]Off
+[IDS_ENH_COLOR_FILTER_V1]On
+[IDS_ENH_FOG_V0]Off
+[IDS_ENH_FOG_V1]On
+[IDS_ENH_FOG_PARTICLES_V0]Off
+[IDS_ENH_FOG_PARTICLES_V1]On
+[IDS_ENH_DOF_V0]Off
+[IDS_ENH_DOF_V1]On
+[IDS_ENH_MOTION_BLUR_V0]Off
+[IDS_ENH_MOTION_BLUR_V1]On
+[IDS_ENH_BLOOM_V0]Off
+[IDS_ENH_BLOOM_V1]On
+[IDS_ENH_HEAT_HAZE_V0]Off
+[IDS_ENH_HEAT_HAZE_V1]On
+[IDS_ENH_CHROMATIC_V0]Off
+[IDS_ENH_CHROMATIC_V1]Subtle
+[IDS_ENH_CHROMATIC_V2]Medium
+[IDS_ENH_CHROMATIC_V3]Strong
+[IDS_ENH_AUDIO_OUTPUT_V0]Speakers
+[IDS_ENH_AUDIO_OUTPUT_V1]Headphones (3D)
+[IDS_ENH_MUTE_BG_V0]Off
+[IDS_ENH_MUTE_BG_V1]On
+[IDS_ENH_WALK_DEFAULT_V0]Original
+[IDS_ENH_WALK_DEFAULT_V1]Walk, hold to run
+[IDS_ENH_DODGE_LOCK_V0]Off
+[IDS_ENH_DODGE_LOCK_V1]On
+[IDS_ENH_PAD_LAYOUT_V0]Classic
+[IDS_ENH_PAD_LAYOUT_V1]Modern
+[IDS_ENH_STAMINA_V0]Off
+[IDS_ENH_STAMINA_V1]On
+[IDS_ENH_LOCK_ON_V0]Toggle (R3)
+[IDS_ENH_LOCK_ON_V1]With combat stance
+[IDS_ENH_INV_LAYOUT_V0]Original wheels
+[IDS_ENH_INV_LAYOUT_V1]Back / Select
+[IDS_ENH_GUARD_V0]Off
+[IDS_ENH_GUARD_V1]On
+[IDS_ENH_STRUGGLE_V0]Any time
+[IDS_ENH_STRUGGLE_V1]Combat stance only
+[IDS_ENH_PROMPT_STYLE_V0]Automatic
+[IDS_ENH_PROMPT_STYLE_V1]Xbox
+[IDS_ENH_PROMPT_STYLE_V2]PlayStation
+[IDS_ENH_PROMPT_STYLE_V3]Nintendo
+[IDS_ENH_AUTO_DEVICE_V0]Off
+[IDS_ENH_AUTO_DEVICE_V1]On
+[IDS_ENH_TIPS_V0]Off
+[IDS_ENH_TIPS_V1]On
+[IDS_ENH_CAMERA_STYLE_V0]Original
+[IDS_ENH_CAMERA_STYLE_V1]Over the shoulder
+[IDS_ENH_CONTROL_TYPE_V0]2D
+[IDS_ENH_CONTROL_TYPE_V1]3D
+[IDS_ENH_SHOULDER_V0]Right
+[IDS_ENH_SHOULDER_V1]Left
+[IDS_ENH_R3_ACTION_V0]First-person look
+[IDS_ENH_R3_ACTION_V1]Swap shoulder
+[IDS_ENH_COMBAT_CAM_V0]Off
+[IDS_ENH_COMBAT_CAM_V1]Subtle
+[IDS_ENH_COMBAT_CAM_V2]Normal
+[IDS_ENH_COMBAT_CAM_V3]Strong
+[IDS_ENH_WALL_AVOID_V0]Off
+[IDS_ENH_WALL_AVOID_V1]On
+[IDS_ENH_INVERT_Y_V0]Off
+[IDS_ENH_INVERT_Y_V1]On
+[IDS_ENH_SUBTITLES_V0]Off
+[IDS_ENH_SUBTITLES_V1]On
+[IDS_ENH_SUBTITLE_SIZE_V0]Small
+[IDS_ENH_SUBTITLE_SIZE_V1]Normal
+[IDS_ENH_SUBTITLE_SIZE_V2]Large
+[IDS_ENH_SUBTITLE_SIZE_V3]Extra large
+[IDS_ENH_SUBTITLE_BG_V0]Off
+[IDS_ENH_SUBTITLE_BG_V1]On
+[IDS_ENH_HIT_SHAKE_V0]Off
+[IDS_ENH_HIT_SHAKE_V1]Low
+[IDS_ENH_HIT_SHAKE_V2]Normal
+[IDS_ENH_HIT_SHAKE_V3]Strong
+[IDS_ENH_VIBRATION_V0]Off
+[IDS_ENH_VIBRATION_V1]On

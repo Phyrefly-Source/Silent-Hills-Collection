@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Game payloads are shipped byte-for-byte: no line-ending conversion.
+packages/** -text
+dist/** -text

@@ -1,0 +1,6 @@
+{
+  "name": "Classic Mode",
+  "version": "0.0.1-foundation (5 Nov 2026: settings file and shot folder only; no camera code yet)",
+  "author": "Project Silent",
+  "description": "Fixed-camera mode in the spirit of the 2001 game: authored tracking cameras, rails and reveals instead of the over-the-shoulder camera. Toggle with F7 in game or here. This build installs only the settings file and the shot folder - the loader DLL comes with the first camera build."
+}

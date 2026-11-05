@@ -1,0 +1,42 @@
+<ScreenList FirstScreen="HUD" BackgroundScreen="BackgroundScreen" ForegroundScreen="ForegroundScreen">
+	<!--Fonts-->
+	
+	<!--Text Colors-->
+	<TextColor Name="PureWhite" Red="255" Green="255" Blue="255" Alpha="255"/>
+	<TextColor Name="White" Red="255" Green="240" Blue="201" Alpha="255"/>
+	<TextColor Name="MenuWhite" Red="255" Green="240" Blue="201" Alpha="255"/>
+	<TextColor Name="Red" Red="255" Green="0" Blue="0" Alpha="255"/>
+	<TextColor Name="Green" Red="0" green="255" Blue="0" Alpha="255"/>
+	<TextColor Name="Brown" Red="186" Green="147" Blue="103" Alpha="255"/>
+	<TextColor Name="OptionsRed" Red="255" Green="20" Blue="0" Alpha="255"/>
+	<TextColor Name="WeaponsRed" Red="255" Green="20" Blue="0" Alpha="255"/>
+	<TextColor Name="InventoryYellow" Red="255" Green="164" Blue="0" Alpha="255"/>
+	<TextColor Name="SubtitleSpeaker" Red="208" Green="144" Blue="53" Alpha="255"/>
+	<!--Screens-->
+	<ScreenFileName>game_hud</ScreenFileName>	
+	<ScreenFileName>game_pause</ScreenFileName>	
+	<ScreenFileName>game_death</ScreenFileName>	
+	<ScreenFileName>game_foreground</ScreenFileName>	
+	<ScreenFileName>game_background</ScreenFileName>	
+	<ScreenFileName>game_maps</ScreenFileName>
+	<ScreenFileName>game_journal</ScreenFileName>
+	<ScreenFileName>game_save</ScreenFileName>
+	<ScreenFileName>game_options</ScreenFileName>
+	<ScreenFileName>game_options_display</ScreenFileName>
+	<ScreenFileName>game_options_game</ScreenFileName>
+	<ScreenFileName>game_options_controls</ScreenFileName>
+	<ScreenFileName>game_credits</ScreenFileName>
+	<ScreenFileName>game_options_joystickcontrols</ScreenFileName>
+	<ScreenFileName>game_options_mandkcontrols</ScreenFileName>
+	<!-- Homecoming Enhanced pages -->
+	<ScreenFileName>game_enh_display</ScreenFileName>
+	<ScreenFileName>game_enh_graphics</ScreenFileName>
+	<ScreenFileName>game_enh_effects</ScreenFileName>
+	<ScreenFileName>game_enh_audio</ScreenFileName>
+	<ScreenFileName>game_enh_gameplay</ScreenFileName>
+	<ScreenFileName>game_enh_camera</ScreenFileName>
+	<ScreenFileName>game_enh_accessibility</ScreenFileName>
+	<ScreenFileName>game_enh_tips</ScreenFileName>
+	<ScreenFileName>game_enh_tipscreatures</ScreenFileName>
+	<ScreenFileName>game_enh_tipsbosses</ScreenFileName>
+</ScreenList>

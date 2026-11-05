@@ -1,0 +1,274 @@
+<Screen Name="VideoScreen" TriggerOnGainFocus="EnterDisplayScreen" FirstFocus="BrightnessListener">		
+	
+	<Text Name="GameOptions_Title" X="99" Y="70" TextTag="IDS_SHELL_VIDEO_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center"/>	
+	<Text Name="GameOptions_Title" X="102" Y="70" TextTag="IDS_SHELL_VIDEO_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.2"/>	
+	<Text Name="GameOptions_Title" X="105" Y="70" TextTag="IDS_SHELL_VIDEO_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.15"/>	
+	<Text Name="GameOptions_Title" X="110" Y="70" TextTag="IDS_SHELL_VIDEO_TITLE" ColorName="WeaponsRed" FontName="shv_fontcento01" HorizontalJustification="Left" VerticalJustification="Center" Alpha="0.1"/>	
+	
+	<ScreenItem Name="DisplayOptionsScreen_TextContainer">
+		<Text Name="BrightnessText" X="369" Y="215" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_DISPLAY_BRIGHTNESS" HorizontalJustification="Center" VerticalJustification="Bottom" Alpha="0.3"/>			
+		
+		<ScreenItem Name="BrightnessBar_Container" Alpha="0.3">
+			<HeavyTexture Name="BrightnessSliderBar" X="369" Y="231" FileName="shv_optionssliderbarsingle" VerticalJustification="Center" HorizontalJustification="Center" HeightScale="0.75" WidthScale="0.75"/>	
+			<HeavyTexture Name="BrightnessSlider" X="369" Y="231" FileName="shv_optionssliders" VerticalJustification="Center" HorizontalJustification="Center"/>
+		</ScreenItem>
+		
+		<Text Name="ResolutionText" X="369" Y="310" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_RESOLUTION" HorizontalJustification="Center" VerticalJustification="Bottom" Alpha="0.3"/>
+		<NonLocalizedText Name="ResolutionValueText" X="490" Y="310" FontName="shv_fontcento01" ColorName="White" HorizontalJustification="Left" VerticalJustification="Bottom" Alpha="0.3"/>
+		<Text Name="RefreshText" X="369" Y="385" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_REFRESH" HorizontalJustification="Center" VerticalJustification="Bottom" Alpha="0.3"/>
+		<NonLocalizedText Name="RefreshValueText" X="490" Y="385" FontName="shv_fontcento01" ColorName="White" HorizontalJustification="Left" VerticalJustification="Bottom" Alpha="0.3"/>
+		<Text Name="QualityText" X="369" Y="460" FontName="shv_fontcento01" ColorName="White" TextTag="IDS_SHELL_QUALITY" HorizontalJustification="Center" VerticalJustification="Bottom" Alpha="0.3"/>
+		<Text Name="QualityValueText" X="490" Y="460" FontName="shv_fontcento01" ColorName="White" HorizontalJustification="Left" VerticalJustification="Bottom" Alpha="0.3"/>
+		
+		<Text Name="AcceptText" X="640" Y="600" FontName="shv_fontcento01" ColorName="Green" TextTag="IDS_SHELL_ACCEPT" HorizontalJustification="Center" VerticalJustification="Bottom" Alpha="0.3"/>
+	</ScreenItem>
+	
+	<ScreenItem Name="BrightnessContainer" Visible="False">
+		<HeavyTexture Name="BrightnessReference" X="912" Y="215" FileName="shv_gammareferenceimage01" VerticalJustification="Center" HorizontalJustification="Center"/>
+		<WordWrappedText Name="BrightnessDescription" X="912" Y="393" TextTag="IDS_SHELL_BRIGHTNESS_REFERENCE" FontName="shv_fontcento01" ColorName="White" Justification="Center" MaxWidth="540" LineSpacing="0"/>	
+	</ScreenItem>
+	
+	<CursorHoverController Name="BrightnessSliderBarHover" TargetScreenItem="BrightnessSliderBar" EnterTrigger="BrightnessListenerOn"/>
+	<CursorHoverController Name="BrightnessSliderHover" TargetScreenItem="BrightnessSlider"/>
+
+	<CursorHoverController TargetScreenItem="ResolutionText" EnterTrigger="ResolutionListenerOn"/>
+	<CursorHoverController TargetScreenItem="RefreshText" EnterTrigger="RefreshListenerOn"/>
+	<CursorHoverController TargetScreenItem="QualityText" EnterTrigger="QualityListenerOn"/>
+	<CursorHoverController TargetScreenItem="AcceptText" EnterTrigger="AcceptListenerOn"/>
+	
+	<Controller Name="EnterDisplayScreen">
+		<OnOffSwitch TargetScreenItem="DisplayOptionsScreen_TextContainer" TurnOn="false"/>
+		<Timer Time="0.0" TriggerWhenFinished="DisplayOptionsScreen_FadeUpTextContainer"/>
+		<ScriptTrigger ScriptFunctionName="OptionSliderScript" ScriptMessage="UpdateSliderList"/>
+		<AdditionalTriggerItem>EnableCursor</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Foreground_EnableTwoButtons</AdditionalTriggerItem>
+		<TextSwitcher TargetScreenItem="Foreground_FirstButton_Text" NewText="IDS_SHELL_SELECT"/>
+		<IconChanger TargetScreenItem="Foreground_FirstButton_Icon" Command="COMMAND_UI_SELECT"/>		
+		<TextSwitcher TargetScreenItem="Foreground_SecondButton_Text" NewText="IDS_SHELL_BACK"/>
+		<IconChanger TargetScreenItem="Foreground_SecondButton_Icon" Command="COMMAND_UI_BACK"/>
+		<AdditionalTriggerItem>EnterMenu</AdditionalTriggerItem>
+	</Controller>
+	<AlphaTimer Name="DisplayOptionsScreen_FadeUpTextContainer" TargetScreenItem="DisplayOptionsScreen_TextContainer" StartAlpha="0" EndAlpha="1" Time="0.25" SetVisibleWhenStarted="true"/>
+	
+	<Controller Name="LeaveDisplayScreen">
+		<AdditionalTriggerItem>DisableCursor</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Foreground_DisableTwoButtons</AdditionalTriggerItem>
+	</Controller>
+
+	<Controller Name="SwitchToOptionsScreen">
+		<Controller>
+			<AdditionalTriggerItem>LeaveDisplayScreen</AdditionalTriggerItem>
+			<AdditionalTriggerItem>Back_Sound</AdditionalTriggerItem>
+		</Controller>		
+		<ScreenChanger NewScreen="EnhDisplayScreen"/>
+	</Controller>
+
+	<ScriptTrigger Name="EnterMenu" ScriptFunctionName="VideoScript" ScriptMessage="EnterMenu"/>
+	
+	<Controller Name="BrightnessBar_Pulse">
+		<AlphaTimer Name="BrightnessBar_Pulse_Up" TargetScreenItem="BrightnessSlider"  Time="0.3" StartAlpha="0.33" EndAlpha="1" Transition="Linear" TriggerWhenFinished="BrightnessBar_Pulse_Down"/>	
+		<AlphaTimer Name="BrightnessBar_Pulse_Down" TargetScreenItem="BrightnessSlider"  Time="0.3" StartAlpha="1" EndAlpha="0.33" Transition="Linear" TriggerWhenFinished="BrightnessBar_Pulse_Up"/>	
+	</Controller>
+	
+	<Controller Name="BrightnessOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="BrightnessText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="BrightnessText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="BrightnessText"/>	
+		<AlphaTimer TargetScreenItem="BrightnessContainer"  Time="0.25" StartAlpha="0" EndAlpha="1" Transition="Linear" SetVisibleWhenStarted="true"/>	
+		<Untrigger TargetController="BrightnessOff_AlphaTimer"/>
+		<AlphaChanger TargetScreenItem="BrightnessBar_Container"  Alpha="1"/>	
+		<AdditionalTriggerItem>BrightnessBar_Pulse_Down</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="BrightnessOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+		<AlphaTimer  Name="BrightnessOff_AlphaTimer" TargetScreenItem="BrightnessContainer"  Time="0.25" StartAlpha="1" EndAlpha="0" Transition="Linear" SetInvisibleWhenFinished="true"/>	
+		<AlphaChanger TargetScreenItem="BrightnessBar_Container"  Alpha="0.3"/>	
+		<Untrigger TargetController="BrightnessBar_Pulse"/>
+	</Controller>
+
+	<InputFocusChanger Name="BrightnessListenerOn" NewFocus="BrightnessListener"/>
+	
+	<Controller Name="DecrementBrightness">
+		<AdditionalTriggerItem>QualityListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="IncrementBrightness">
+		<AdditionalTriggerItem>ResolutionListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="BrightnessListener" OnLostInputFocus="BrightnessOff" OnGainedInputFocus="BrightnessOn">
+		<InputTrigger TriggerItem="DecrementBrightness" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>		
+		<InputTrigger TriggerItem="IncrementBrightness" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementBrightness" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>		
+		<InputTrigger TriggerItem="IncrementBrightness" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementBrightnessSlider" TimeBetweenScans="0.050000" Command="COMMAND_UI_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementBrightnessSlider" TimeBetweenScans="0.050000" Command="COMMAND_UI_RIGHT"/>	
+		<InputTrigger TriggerItem="DecrementBrightnessSlider" TimeBetweenScans="0.050000" Command="COMMAND_UI_STICK_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementBrightnessSlider" TimeBetweenScans="0.050000" Command="COMMAND_UI_STICK_RIGHT"/>	
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+	</InputListener>
+	
+	<ScriptTrigger Name="IncrementBrightnessSlider" ScriptFunctionName="OptionSliderScript" ScriptMessage="IncrementBrightness"/>
+	
+	<ScriptTrigger Name="DecrementBrightnessSlider" ScriptFunctionName="OptionSliderScript" ScriptMessage="DecrementBrightness"/>
+	
+
+	
+	<Controller Name="ResolutionOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="ResolutionText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="ResolutionText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="ResolutionText"/>	
+	</Controller>
+
+	<Controller Name="ResolutionOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+
+	<InputFocusChanger Name="ResolutionListenerOn" NewFocus="ResolutionListener"/>
+	
+	<Controller Name="DecrementResolution">
+		<AdditionalTriggerItem>BrightnessListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="IncrementResolution">
+		<AdditionalTriggerItem>RefreshListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="ResolutionListener" OnLostInputFocus="ResolutionOff" OnGainedInputFocus="ResolutionOn">
+		<InputTrigger TriggerItem="DecrementResolution" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>		
+		<InputTrigger TriggerItem="IncrementResolution" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementResolution" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>		
+		<InputTrigger TriggerItem="IncrementResolution" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementResolutionValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementResolutionValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_RIGHT"/>	
+		<InputTrigger TriggerItem="DecrementResolutionValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementResolutionValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_RIGHT"/>	
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="IncrementResolutionValue" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="ResolutionText"/>
+	</InputListener>
+
+	<ScriptTrigger Name="IncrementResolutionValue" ScriptFunctionName="VideoScript" ScriptMessage="IncrementResolution"/>
+	<ScriptTrigger Name="DecrementResolutionValue" ScriptFunctionName="VideoScript" ScriptMessage="DecrementResolution"/>
+
+
+
+	<Controller Name="RefreshOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="RefreshText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="RefreshText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="RefreshText"/>	
+	</Controller>
+
+	<Controller Name="RefreshOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+
+	<InputFocusChanger Name="RefreshListenerOn" NewFocus="RefreshListener"/>
+	
+	<Controller Name="DecrementRefresh">
+		<AdditionalTriggerItem>ResolutionListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="IncrementRefresh">
+		<AdditionalTriggerItem>QualityListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="RefreshListener" OnLostInputFocus="RefreshOff" OnGainedInputFocus="RefreshOn">
+		<InputTrigger TriggerItem="DecrementRefresh" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>		
+		<InputTrigger TriggerItem="IncrementRefresh" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementRefresh" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>		
+		<InputTrigger TriggerItem="IncrementRefresh" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementRefreshValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementRefreshValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_RIGHT"/>	
+		<InputTrigger TriggerItem="DecrementRefreshValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementRefreshValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_RIGHT"/>	
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="IncrementRefreshValue" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="RefreshText"/>
+	</InputListener>
+
+	<ScriptTrigger Name="IncrementRefreshValue" ScriptFunctionName="VideoScript" ScriptMessage="IncrementRefresh"/>
+	<ScriptTrigger Name="DecrementRefreshValue" ScriptFunctionName="VideoScript" ScriptMessage="DecrementRefresh"/>
+
+
+	
+	<Controller Name="QualityOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="QualityText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="QualityText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="QualityText"/>	
+	</Controller>
+
+	<Controller Name="QualityOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+
+	<InputFocusChanger Name="QualityListenerOn" NewFocus="QualityListener"/>
+	
+	<Controller Name="DecrementQuality">
+		<AdditionalTriggerItem>RefreshListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="IncrementQuality">
+		<AdditionalTriggerItem>AcceptListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="QualityListener" OnLostInputFocus="QualityOff" OnGainedInputFocus="QualityOn">
+		<InputTrigger TriggerItem="DecrementQuality" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>		
+		<InputTrigger TriggerItem="IncrementQuality" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementQuality" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>		
+		<InputTrigger TriggerItem="IncrementQuality" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementQualityValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementQualityValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_RIGHT"/>	
+		<InputTrigger TriggerItem="DecrementQualityValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_LEFT"/>		
+		<InputTrigger TriggerItem="IncrementQualityValue" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_RIGHT"/>	
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+		<InputTrigger TriggerItem="IncrementQualityValue" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="QualityText"/>
+	</InputListener>
+	
+	<ScriptTrigger Name="IncrementQualityValue" ScriptFunctionName="VideoScript" ScriptMessage="IncrementQuality"/>
+	<ScriptTrigger Name="DecrementQualityValue" ScriptFunctionName="VideoScript" ScriptMessage="DecrementQuality"/>
+
+	
+	
+	<Controller Name="AcceptOn">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="AcceptText"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="AcceptText"/>
+		<ScriptTrigger ScriptFunctionName="BurnInTextScript" ScriptMessage="AcceptText"/>	
+	</Controller>
+
+	<Controller Name="AcceptOff">
+		<ScriptTrigger ScriptFunctionName="SelectionAnimationScript" ScriptMessage="Deactivate"/>
+		<ScriptTrigger ScriptFunctionName="SelectionHighlightScript" ScriptMessage="Deactivate"/>
+	</Controller>
+
+	<InputFocusChanger Name="AcceptListenerOn" NewFocus="AcceptListener"/>
+	
+	<Controller Name="DecrementAccept">
+		<AdditionalTriggerItem>QualityListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	<Controller Name="IncrementAccept">
+		<AdditionalTriggerItem>BrightnessListenerOn</AdditionalTriggerItem>
+		<AdditionalTriggerItem>Vertical_Sound</AdditionalTriggerItem>
+	</Controller>
+	
+	<InputListener Name="AcceptListener" OnLostInputFocus="AcceptOff" OnGainedInputFocus="AcceptOn">
+		<InputTrigger TriggerItem="DecrementAccept" TimeBetweenScans="0.250000" Command="COMMAND_UI_UP"/>		
+		<InputTrigger TriggerItem="IncrementAccept" TimeBetweenScans="0.250000" Command="COMMAND_UI_DOWN"/>	
+		<InputTrigger TriggerItem="DecrementAccept" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_UP"/>		
+		<InputTrigger TriggerItem="IncrementAccept" TimeBetweenScans="0.250000" Command="COMMAND_UI_STICK_DOWN"/>
+		<InputTrigger TriggerItem="AcceptSettings" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_SELECT"/>
+		<InputTrigger TriggerItem="AcceptSettings" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_MOUSE_LEFT_CLICK" CursorBounds="AcceptText"/>
+		<InputTrigger TriggerItem="SwitchToOptionsScreen" TimeBetweenScans="0.250000" IgnoreUntilReleased="true" FlushStream="true" Command="COMMAND_UI_BACK"/>
+	</InputListener>
+	
+	<ScriptTrigger Name="AcceptSettings" ScriptFunctionName="VideoScript" ScriptMessage="AcceptSettings">
+		<AdditionalTriggerItem>SwitchToOptionsScreen</AdditionalTriggerItem>
+	</ScriptTrigger>
+</Screen>
