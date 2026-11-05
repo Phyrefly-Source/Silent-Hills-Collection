@@ -2,7 +2,7 @@ extends Control
 ## Concept Art: official concept art for every game in one place, for easy
 ## access and preservation. Pictures come from Silent Hill Memories
 ## (silenthillmemories.net, credited and linked on every picture) and your own
-## folders; "Keep offline" saves a game's pictures next to the launcher.
+## folders (data/concept-art).
 
 const NetImage := preload("res://ui/widgets/net_image.gd")
 
@@ -18,12 +18,6 @@ var _buttons := {}
 var _pictures: Array = []
 var _open_token := 0
 var _badges := {}          # picture url -> its "kept" badge on the current page
-var _dl_row: HBoxContainer
-var _dl_bar: ProgressBar
-var _dl_text: Label
-var _all_bar: ProgressBar
-var _all_text: Label
-var _all_btn: Button
 
 
 func _ready() -> void:
@@ -54,17 +48,6 @@ func _ready() -> void:
 	var lm := Style.margin(ls, -Style.SPACE_S, 0, 0, 0)
 	lm.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	left.add_child(lm)
-	_all_btn = Style.button("Keep everything offline", "Ghost", func():
-		concept.keep_everything_offline()
-		_update_overall())
-	_all_btn.tooltip_text = "Save the concept art of every game and film, so it stays available without the internet."
-	left.add_child(_all_btn)
-	_all_bar = _bar(260)
-	_all_bar.visible = false
-	left.add_child(_all_bar)
-	_all_text = Style.label("", "Small", true)
-	_all_text.custom_minimum_size.x = 260
-	left.add_child(_all_text)
 
 	var right := Style.vbox(14)
 	right.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -79,13 +62,6 @@ func _ready() -> void:
 	right.add_child(_sub)
 	_actions = Style.hbox(10)
 	right.add_child(_actions)
-	_dl_row = Style.hbox(12)
-	_dl_bar = _bar(320)
-	_dl_row.add_child(_dl_bar)
-	_dl_text = Style.label("", "Small")
-	_dl_row.add_child(_dl_text)
-	_dl_row.visible = false
-	right.add_child(_dl_row)
 	var gs := ScrollContainer.new()
 	gs.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	gs.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -106,14 +82,6 @@ func _ready() -> void:
 				if g is GridContainer:
 					g.columns = c)
 	concept.loaded.connect(_update_button)
-	concept.progress.connect(func(id):
-		_update_button(id)
-		if id == _game:
-			_update_progress()
-		_update_overall())
-	concept.saved.connect(func(id, url):
-		if id == _game and _badges.has(url) and is_instance_valid(_badges[url]):
-			_badges[url].visible = true)
 	concept.changed.connect(func(id):
 		_update_button(id)
 		if id == _game and visible:
@@ -182,80 +150,8 @@ func _update_button(id: String) -> void:
 		return
 	var concept = App.svc("concept")
 	var n: int = concept.count(id)
-	var tail := ""
-	var j: Dictionary = concept.job(id)
-	var kc: Array = concept.kept_count(id)
-	if concept.busy(id):
-		tail = "   ↓ %d/%d" % [j.done, j.total]
-	elif not kc.is_empty() and kc[1] > 0 and kc[0] >= kc[1]:
-		tail = "   ✓"
-	b.text = _game_label(id) + ("   %d" % n if n > 0 else "") + tail
+	b.text = _game_label(id) + ("   %d" % n if n > 0 else "")
 	b.add_theme_color_override("font_color", Style.INK if id == _game else (Style.INK_2 if n != 0 else Style.INK_3))
-
-
-## A thin progress bar in the launcher's style.
-func _bar(width: int) -> ProgressBar:
-	var pb := ProgressBar.new()
-	pb.custom_minimum_size = Vector2(width, 6)
-	pb.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-	pb.show_percentage = false
-	var bg := StyleBoxFlat.new()
-	bg.bg_color = Color(1, 1, 1, 0.08)
-	bg.set_corner_radius_all(3)
-	var fg := StyleBoxFlat.new()
-	fg.bg_color = Style.INK_2
-	fg.set_corner_radius_all(3)
-	pb.add_theme_stylebox_override("background", bg)
-	pb.add_theme_stylebox_override("fill", fg)
-	return pb
-
-
-static func _mb(bytes: int) -> String:
-	return "%.1f MB" % (bytes / 1048576.0) if bytes >= 1048576 else "%d KB" % (bytes / 1024)
-
-
-## The selected game's download: bar, count and size, updated as each picture lands.
-func _update_progress() -> void:
-	var concept = App.svc("concept")
-	var j: Dictionary = concept.job(_game)
-	var kc: Array = concept.kept_count(_game)
-	if j.is_empty() and (kc.is_empty() or kc[0] == 0):
-		_dl_row.visible = false
-		return
-	_dl_row.visible = true
-	if not j.is_empty() and j.running:
-		_dl_bar.max_value = maxi(1, j.total)
-		_dl_bar.value = j.done
-		_dl_text.text = "Saving for offline use: %d of %d  ·  %s%s" % [j.done, j.total, _mb(j.bytes),
-			("  ·  %d failed" % j.failed) if j.failed > 0 else ""]
-	else:
-		_dl_bar.max_value = maxi(1, kc[1] if not kc.is_empty() else 1)
-		_dl_bar.value = kc[0] if not kc.is_empty() else 0
-		var all_kept: bool = not kc.is_empty() and kc[0] >= kc[1]
-		_dl_text.text = ("All %d kept offline" % kc[1]) if all_kept else ("%d of %d kept offline" % [kc[0], kc[1]])
-		if not j.is_empty() and j.failed > 0:
-			_dl_text.text += "  ·  %d couldn't be saved (Keep offline tries again)" % j.failed
-		if not all_kept and not concept.busy(_game) and _actions.get_children().filter(func(c): return c is Button and c.text == "Keep offline").is_empty():
-			var keep := Style.button("Keep offline", "Ghost")
-			keep.pressed.connect(func():
-				keep.queue_free()
-				concept.keep_offline(_game))
-			_actions.add_child(keep)
-
-
-## Everything being saved, under the list on the left.
-func _update_overall() -> void:
-	var o: Dictionary = App.svc("concept").overall()
-	_all_bar.visible = o.running
-	_all_btn.disabled = o.running
-	if o.running:
-		_all_bar.max_value = maxi(1, o.total)
-		_all_bar.value = o.done
-		_all_text.text = "Saving %d of %d pictures  ·  %s" % [o.done, o.total, _mb(o.bytes)]
-	elif o.total > 0:
-		_all_text.text = "Saved %d pictures (%s)%s" % [o.done - o.failed, _mb(o.bytes), ("  ·  %d failed" % o.failed) if o.failed > 0 else ""]
-	else:
-		_all_text.text = ""
 
 
 func add_folder() -> void:
@@ -300,23 +196,15 @@ func open_game(id: String) -> void:
 		elif not list.is_empty():
 			bits.append("from your folders")
 		if kept > 0:
-			bits.append("%d kept offline" % kept)
+			bits.append("%d saved locally" % kept)
 		_sub.text = "  ·  ".join(bits) if not list.is_empty() else ""
 		if not site.is_empty():
 			_actions.add_child(Style.button("Open the gallery", "", func(): OS.shell_open(str(site[0].page))))
-		if kept < site.size() and not concept.busy(id):
-			var keep := Style.button("Keep offline", "Ghost")
-			keep.tooltip_text = "Save these pictures to the launcher's concept-art folder, so they stay available without the internet."
-			keep.pressed.connect(func():
-				keep.queue_free()
-				concept.keep_offline(id))
-			_actions.add_child(keep)
 		_set_pictures(list)
 		if list.is_empty():
 			_grid.add_child(Style.empty_state("image", "No concept art for %s yet" % g.get("title", id),
 				"Silent Hill Memories has none for it, or the site couldn't be reached. Pictures from your own folders (art books, press kits) show here too.",
-				"Add a folder…", add_folder))
-		_update_progress())
+				"Add a folder…", add_folder)))
 
 
 func _set_pictures(list: Array) -> void:

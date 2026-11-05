@@ -780,12 +780,6 @@ func _maybe_screenshot() -> void:
 				elif parts[4].begins_with("concept:"):
 					var cbits := parts[4].split(":")
 					_pages.concept.call("open_game", cbits[1])
-					if cbits.size() > 2 and cbits[2] == "keep":
-						await get_tree().create_timer(1.0).timeout
-						App.svc("concept").keep_offline(cbits[1])
-					if cbits.size() > 2 and cbits[2] == "all":
-						await get_tree().create_timer(1.0).timeout
-						App.svc("concept").keep_everything_offline()
 					if parts.size() > 5:
 						await get_tree().create_timer(2.0).timeout
 						var v: Control = load("res://ui/widgets/image_viewer.gd").new()
