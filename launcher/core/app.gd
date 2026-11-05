@@ -11,7 +11,7 @@ signal settings_changed
 signal toast(text: String, kind: String)
 signal job_progress(job: String, text: String, fraction: float)
 
-const VERSION := "0.1.0"
+var VERSION: String = str(ProjectSettings.get_setting("application/config/version", "0.0.0"))
 const SAVE_DELAY := 0.6
 
 var root_dir := ""        # folder holding the exe (or user:// in the editor)

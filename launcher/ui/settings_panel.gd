@@ -103,7 +103,25 @@ func _ready() -> void:
 	v.add_child(frow)
 
 	_section(v, "About")
-	v.add_child(_note("Silent Hills %s. Built with Godot. Everything the launcher keeps is in its data folder, next to the program." % App.VERSION))
+	v.add_child(_note("Silent Hills %s. Built with Godot. Everything the launcher keeps is in its data folder." % App.VERSION))
+	var urow := Style.hbox(8)
+	var ulabel := _note("Updates come from the GitHub releases page; the launcher looks every few hours.")
+	var ubtn := Style.button("Check for updates", "Ghost")
+	ubtn.pressed.connect(func():
+		ubtn.disabled = true
+		ulabel.text = "Checking…"
+		var u = App.svc("updater")
+		var done := func(available: bool):
+			ubtn.disabled = false
+			ulabel.text = ("Silent Hills %s is available: see the banner at the top." % u.latest.version) if available else "You have the latest build (%s)." % App.VERSION
+		u.checked.connect(done, CONNECT_ONE_SHOT)
+		u.failed.connect(func(m: String):
+			ubtn.disabled = false
+			ulabel.text = m, CONNECT_ONE_SHOT)
+		u.check(true))
+	urow.add_child(ubtn)
+	v.add_child(urow)
+	v.add_child(ulabel)
 	var arow := Style.hbox(8)
 	arow.add_child(Style.button("Open data folder", "Ghost", func(): OS.shell_open(App.data_dir)))
 	arow.add_child(Style.button("Open rebuilds folder", "", func(): OS.shell_open(App.root_dir.path_join("rebuilds"))))

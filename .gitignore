@@ -5,3 +5,5 @@ __pycache__/
 launcher/.godot/
 launcher/keystore/
 dist/**/ffmpeg*
+dist/**/ffmpeg*
+dist/**/rebuilds/*/
