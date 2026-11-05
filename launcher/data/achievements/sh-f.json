@@ -1,0 +1,796 @@
+{
+ "game": "sh-f",
+ "platform": "Steam",
+ "source": "Steam achievements",
+ "credit": "Steam",
+ "link": "https://steamcommunity.com/stats/2947440/achievements",
+ "steam_appid": "2947440",
+ "notes": "Which ones you've unlocked comes from Steam's records on this PC.",
+ "achievements": [
+  {
+   "id": "surrounded-by-fog",
+   "name": "Surrounded by Fog",
+   "description": "The baby bird takes her first steps.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/0d17bb6ecfe5fdf3a36eca6e464c3b4884facd98.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/834599a8b0bab8877aa5bc0a3c2a4ffce724cfe7.jpg",
+   "rarity": 98.03,
+   "unlock": {
+    "type": "steam",
+    "key": "1:1",
+    "steam_id": "0001"
+   }
+  },
+  {
+   "id": "the-foxs-guidance",
+   "name": "The Fox's Guidance",
+   "description": "The fox watches over the chicken coop.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/91d545f29b1787b191169b435f8be3951b025aea.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/9dd61e039db84c31fc4776a7ba747231c633973b.jpg",
+   "rarity": 90.04,
+   "unlock": {
+    "type": "steam",
+    "key": "1:2",
+    "steam_id": "0002"
+   }
+  },
+  {
+   "id": "scarecrows-whispers",
+   "name": "Scarecrows' Whispers",
+   "description": "As you bask in the sun, I sink into the shadows.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/597da826e24c84d9ec1200c6f95b97c305606137.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/1c677c175f1d605c18788d3071457bbcdc48e49e.jpg",
+   "rarity": 80.39,
+   "unlock": {
+    "type": "steam",
+    "key": "1:3",
+    "steam_id": "0003"
+   }
+  },
+  {
+   "id": "cleansed",
+   "name": "Cleansed",
+   "description": "Wash thoroughly before eating.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/f1e995b6d6af3b29492c517311a27841bc0f819a.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/c003ba5084e197613bf765d4131591431ac09737.jpg",
+   "rarity": 74.9,
+   "unlock": {
+    "type": "steam",
+    "key": "1:4",
+    "steam_id": "0004"
+   }
+  },
+  {
+   "id": "on-the-way-to-school",
+   "name": "On the Way to School...",
+   "description": "The little sparrow escapes with its friends, wings flapping nervously...",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/f351f9786d7946c16337437ab748de54b4a0b9e4.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d388a852ee3a70926a5236c967c0c60b0c9834f1.jpg",
+   "rarity": 71.29,
+   "unlock": {
+    "type": "steam",
+    "key": "1:5",
+    "steam_id": "0005"
+   }
+  },
+  {
+   "id": "shell-of-the-past",
+   "name": "Shell of the Past",
+   "description": "What exactly have we learned?",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/dae332543fc2645d891895f365b712eca6571cb5.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/435953f1cb10cf374c94e5fb9330240ea6b82643.jpg",
+   "rarity": 68.39,
+   "unlock": {
+    "type": "steam",
+    "key": "1:6",
+    "steam_id": "0006"
+   }
+  },
+  {
+   "id": "the-farewell-party",
+   "name": "The Farewell Party",
+   "description": "You have no place in my future.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/838358595fce66509a3aed3aaa8a83f8ef544c64.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/a205ce74f96e913ddec28911ac519fcab5edacd9.jpg",
+   "rarity": 64.37,
+   "unlock": {
+    "type": "steam",
+    "key": "1:7",
+    "steam_id": "0007"
+   }
+  },
+  {
+   "id": "a-dangerous-path",
+   "name": "A Dangerous Path",
+   "description": "For whom do I tread such a treacherous path?",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/88966133fe6e99cd392f9e99f1487a29f70d0328.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/a8c3a01b68b8056480d88cf8462a65b4a790f612.jpg",
+   "rarity": 62.71,
+   "unlock": {
+    "type": "steam",
+    "key": "1:8",
+    "steam_id": "0008"
+   }
+  },
+  {
+   "id": "plucked-wings",
+   "name": "Plucked Wings",
+   "description": "Anything for you.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/37514b2391131932a72ed821d07eeac83aef1e75.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/6b7f97272ab72b184aafb02db7581f93593230db.jpg",
+   "rarity": 61.0,
+   "unlock": {
+    "type": "steam",
+    "key": "1:9",
+    "steam_id": "0009"
+   }
+  },
+  {
+   "id": "parting-on-good-terms",
+   "name": "Parting on Good Terms",
+   "description": "Good terms? No. I'm here to burn bridges.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/eebf1bde6bad6b9da42e1573dc266e3eb1f8a1ed.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/649e25382c8c67b22b6d37b9b79f86e8cd914aad.jpg",
+   "rarity": 58.39,
+   "unlock": {
+    "type": "steam",
+    "key": "1:10",
+    "steam_id": "0010"
+   }
+  },
+  {
+   "id": "solar-lunar-eclipse",
+   "name": "Solar & Lunar Eclipse",
+   "description": "Two portals open; doors to a secret world.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/c911b83081b7a60c7c94527f808af1cd91a32734.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/f4cc2aaf089d944ba98db0d51a4884df25e931a0.jpg",
+   "rarity": 57.01,
+   "unlock": {
+    "type": "steam",
+    "key": "1:11",
+    "steam_id": "0011"
+   }
+  },
+  {
+   "id": "the-path-of-self-preservation",
+   "name": "The Path of Self-Preservation",
+   "description": "I refuse.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/2cf117f074f43849158b613711fbba7602d66700.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/4a884ed23698f71049db5a1602dfd75c96770de8.jpg",
+   "rarity": 56.76,
+   "unlock": {
+    "type": "steam",
+    "key": "1:12",
+    "steam_id": "0012"
+   }
+  },
+  {
+   "id": "the-path-of-exultation",
+   "name": "The Path of Exultation",
+   "description": "I accept.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/221ca90db1d7949ab95c5b88e6e3bede541f2857.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/f0d999251dcd29d0a0592191049bf5f012da3b1a.jpg",
+   "rarity": 56.51,
+   "unlock": {
+    "type": "steam",
+    "key": "1:13",
+    "steam_id": "0013"
+   }
+  },
+  {
+   "id": "coming-home-to-roost",
+   "name": "Coming Home to Roost",
+   "description": "Drown in a bottomless pit of self-doubt.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/88816c2e6ed3725635714ffa8ebf0de764827152.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d503d85b33cf7da495a52134980c3ed24d15611a.jpg",
+   "rarity": 56.28,
+   "unlock": {
+    "type": "steam",
+    "key": "1:14",
+    "steam_id": "0014"
+   }
+  },
+  {
+   "id": "foxs-wedding",
+   "name": "Fox's Wedding",
+   "description": "Dolls are happiest when they are loved.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/e13f0b968ea942d376acd116ef686f27cc40cca0.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/8f862c37d9fd61a07344342001094cf8e28d02c4.jpg",
+   "rarity": 18.33,
+   "unlock": {
+    "type": "steam",
+    "key": "1:15",
+    "steam_id": "0015"
+   }
+  },
+  {
+   "id": "the-fox-wets-its-tail",
+   "name": "The Fox Wets Its Tail",
+   "description": "A hell of your own choosing. Nothing else matters, now.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/8ed0a771300bb33c03eac523e068c301b70193ea.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/b5179a27ca7f79f10df2b7a951c9175ec28b26fd.jpg",
+   "rarity": 18.24,
+   "unlock": {
+    "type": "steam",
+    "key": "1:16",
+    "steam_id": "0016"
+   }
+  },
+  {
+   "id": "ebisugaoka-in-silence",
+   "name": "Ebisugaoka in Silence",
+   "description": "We need to talk about our future.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/96a3327e97442d6298bc9b7f6f597c00abea0df2.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/3f96b57be6fd3245a11f743181d6f6ed1fd6ab50.jpg",
+   "rarity": 15.06,
+   "unlock": {
+    "type": "steam",
+    "key": "1:17",
+    "steam_id": "0017"
+   }
+  },
+  {
+   "id": "the-great-space-invasion",
+   "name": "The Great Space Invasion!",
+   "description": "Rise up! The Space Army is coming!",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d5ab35a95760d8db3f09c83a3de184863cc12172.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/1639fdc08e9abec176282a414ebccb7e175873ae.jpg",
+   "rarity": 16.5,
+   "unlock": {
+    "type": "steam",
+    "key": "1:18",
+    "steam_id": "0018"
+   }
+  },
+  {
+   "id": "thankful-to-be-here",
+   "name": "Thankful to Be Here",
+   "description": "Complete the game with action difficulty set to \"Story\" or higher.",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/2500ee4caf3ccd3339ff5717f09bed15a35d35a3.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/bb7ef9e0ff0078f4dd02b13858d10816b7d9c554.jpg",
+   "rarity": 54.92,
+   "unlock": {
+    "type": "steam",
+    "key": "1:19",
+    "steam_id": "0019"
+   }
+  },
+  {
+   "id": "grateful-for-a-worthy-foe",
+   "name": "Grateful for a Worthy Foe",
+   "description": "Complete the game with action difficulty set to \"Hard\" or higher.",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/3bfac801a39a27930a4b565dc5cf2e2e67798ebe.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d1aea117ad20d8a3cd50c4855263aec261cb9543.jpg",
+   "rarity": 27.89,
+   "unlock": {
+    "type": "steam",
+    "key": "1:20",
+    "steam_id": "0020"
+   }
+  },
+  {
+   "id": "clear-skies",
+   "name": "Clear Skies",
+   "description": "Complete the game with action difficulty set to \"Lost in the Fog\".",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/ac6fd3a8f2b6e97a3a91be2c1efcd107ec8c1f88.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/528da998318e31e5fa780ee17ef0997e2728d4a4.jpg",
+   "rarity": 13.33,
+   "unlock": {
+    "type": "steam",
+    "key": "1:21",
+    "steam_id": "0021"
+   }
+  },
+  {
+   "id": "intellectual-pursuits",
+   "name": "Intellectual Pursuits",
+   "description": "Complete the game with puzzle difficulty set to \"Story\".",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/efa80d139b21496d429b87aecea81f6cfdc49208.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/e1154a5a0930979190ee050de180db7f5b9d42bb.jpg",
+   "rarity": 22.42,
+   "unlock": {
+    "type": "steam",
+    "key": "1:22",
+    "steam_id": "0022"
+   }
+  },
+  {
+   "id": "wise-researcher",
+   "name": "Wise Researcher",
+   "description": "Complete the game with puzzle difficulty set to \"Hard\".",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/cb54cb215e3f84e9ce33f990037596e28e93e450.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/57e4893faf6b221914a45f170ad2516a9a7c5f1d.jpg",
+   "rarity": 44.1,
+   "unlock": {
+    "type": "steam",
+    "key": "1:23",
+    "steam_id": "0023"
+   }
+  },
+  {
+   "id": "puzzle-master",
+   "name": "Puzzle Master",
+   "description": "Complete the game with puzzle difficulty set to \"Lost in the Fog\".",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/361fb68c1c848a9fb30e33286ea57ad80a2cbf01.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d87fca1985b72e57594d706c6102bbf61ba608a2.jpg",
+   "rarity": 21.96,
+   "unlock": {
+    "type": "steam",
+    "key": "1:24",
+    "steam_id": "0024"
+   }
+  },
+  {
+   "id": "like-a-fleeing-hare",
+   "name": "Like a Fleeing Hare",
+   "description": "Escaped from the Fog Monster at Ebisugawa without getting hit.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/0953f5b21646aca8987470cde2685170e5fc8b8d.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/7f6c30bf5b75bd0b319e9ee77ab82fcd2e2e4fc2.jpg",
+   "rarity": 51.02,
+   "unlock": {
+    "type": "steam",
+    "key": "1:25",
+    "steam_id": "0025"
+   }
+  },
+  {
+   "id": "untouchable",
+   "name": "Untouchable",
+   "description": "Opened the Shrine Vault at the Shrine Path without getting hit.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/52ee571e479483400bb6ae013ee1cf0e658da451.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/1f106b204c41bf20f37c2615f87d058cf1f224af.jpg",
+   "rarity": 27.19,
+   "unlock": {
+    "type": "steam",
+    "key": "1:26",
+    "steam_id": "0026"
+   }
+  },
+  {
+   "id": "acupuncture-specialist",
+   "name": "Acupuncture Specialist",
+   "description": "Arrived at the Nishida residence without making a single mistake on the scarecrow puzzle.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/a8a3ea446e54c4e651ffe541a1dc2f8b4ee2963e.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/2894d0839440d3209ad8180b13332290081456d4.jpg",
+   "rarity": 24.81,
+   "unlock": {
+    "type": "steam",
+    "key": "1:27",
+    "steam_id": "0027"
+   }
+  },
+  {
+   "id": "a-federal-offense",
+   "name": "A Federal Offense",
+   "description": "Opened the Igarashi residence's mailbox.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/8247c469d9e58ee1b64aece7d4f2161b0ec92b7c.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/479283c2d22ed6689fe6fb96cc244bd250a09f85.jpg",
+   "rarity": 43.33,
+   "unlock": {
+    "type": "steam",
+    "key": "1:28",
+    "steam_id": "0028"
+   }
+  },
+  {
+   "id": "the-sound-of-silence",
+   "name": "The Sound of Silence",
+   "description": "Defeated Sakuko without getting hit by the suzu bell attack.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/4482cf37be3dfa890174b0b3e3e67811482a2f60.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/bbcece44023499353f5eb1e4060cb240bcc3b050.jpg",
+   "rarity": 40.62,
+   "unlock": {
+    "type": "steam",
+    "key": "1:29",
+    "steam_id": "0029"
+   }
+  },
+  {
+   "id": "go-away-youll-ruin-the-shops-reputation",
+   "name": "Go Away! You'll Ruin the Shop's Reputation!",
+   "description": "Defeated the Giant Monster in front of Chizuruya General Store.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/aee903e28fd88e304899eb05e182490ca0254e44.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/cd893af91978bef6d91549e44aa33bbca2221496.jpg",
+   "rarity": 22.94,
+   "unlock": {
+    "type": "steam",
+    "key": "1:30",
+    "steam_id": "0030"
+   }
+  },
+  {
+   "id": "no-one-left-behind",
+   "name": "No One Left Behind",
+   "description": "Stopped a certain number of enemies behind the white rabbit crest door from reanimating.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/8a67463c9800d0ee46a87a4f8ea780ecb7bfa701.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/2e44585ea2acba738a0892af9848cc1fc8cc59c5.jpg",
+   "rarity": 38.67,
+   "unlock": {
+    "type": "steam",
+    "key": "1:31",
+    "steam_id": "0031"
+   }
+  },
+  {
+   "id": "agile-escape",
+   "name": "Agile Escape",
+   "description": "Escaped from the Fog Monster at Sugisato without getting hit.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/aac78d4ee54650ed36cce173ca3af6a2765607aa.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/17833fa418b6263ca81843edee192966fe9e31df.jpg",
+   "rarity": 24.41,
+   "unlock": {
+    "type": "steam",
+    "key": "2:0",
+    "steam_id": "0032"
+   }
+  },
+  {
+   "id": "echoes-of-jealousy",
+   "name": "Echoes of Jealousy",
+   "description": "Defeated Rinko without being hit by her puppets.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/e94a3c9242b0d05594949d226d7a1638a3eb9a94.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/efd3603ff1245a4342adc526cc5f15c8da49e019.jpg",
+   "rarity": 22.56,
+   "unlock": {
+    "type": "steam",
+    "key": "2:1",
+    "steam_id": "0033"
+   }
+  },
+  {
+   "id": "o-divine-tree",
+   "name": "O Divine Tree",
+   "description": "Discovered the Thousand Year Cedar.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/a5462abd9209229cf7cef9e516f50b5b85d145dd.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/3d059e041d6d0b29a4f221e280da858d52923547.jpg",
+   "rarity": 58.28,
+   "unlock": {
+    "type": "steam",
+    "key": "2:2",
+    "steam_id": "0034"
+   }
+  },
+  {
+   "id": "just-shut-up-for-once-dad",
+   "name": "Just Shut Up for Once, Dad!",
+   "description": "Defeated Hinako's father before her mother at the Shimizu residence.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/1e15aa2f7aba2180cb3e727e021b267d65ff6692.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/7df9529bda75472ede6bcebd5235c75644b61e72.jpg",
+   "rarity": 29.54,
+   "unlock": {
+    "type": "steam",
+    "key": "2:3",
+    "steam_id": "0035"
+   }
+  },
+  {
+   "id": "sly-like-the-fox",
+   "name": "Sly Like the Fox",
+   "description": "Obtained all the crests without making a single mistake on the Inari statue puzzle.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/6df26bbb4619fd6a97fef4a1ba9a9f78bcfc165e.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/5f0d9b503fb30b3e608a77088b7e53a5143deee2.jpg",
+   "rarity": 19.82,
+   "unlock": {
+    "type": "steam",
+    "key": "2:4",
+    "steam_id": "0036"
+   }
+  },
+  {
+   "id": "where-are-you-going",
+   "name": "Where Are You Going?",
+   "description": "Caught up with the Fog Monster 3 times.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/16d5994e75c6dbbfd99513a11bbef6612596957a.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/14f67d1d8324093df23c41f0f5f9277e9ff0c651.jpg",
+   "rarity": 33.73,
+   "unlock": {
+    "type": "steam",
+    "key": "2:5",
+    "steam_id": "0037"
+   }
+  },
+  {
+   "id": "the-bird-that-flies-highest",
+   "name": "The Bird that Flies Highest",
+   "description": "Defeated the Shiromuku without dying once.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/7259dcf21db1314d97e7c8e040f05ef0a58efdbd.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/503f9da05be7785c9f3cc9bbf1154c160d8394c7.jpg",
+   "rarity": 29.43,
+   "unlock": {
+    "type": "steam",
+    "key": "2:6",
+    "steam_id": "0038"
+   }
+  },
+  {
+   "id": "fox-tamer",
+   "name": "Fox Tamer",
+   "description": "Defeated all the summoned monsters before putting an end to the Shichibi.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/967c22ec64a04d80a13ebd336981b027a6f7458b.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/9b730ab8df2aaf795683aaf969e7b02c8738e3bb.jpg",
+   "rarity": 17.88,
+   "unlock": {
+    "type": "steam",
+    "key": "2:7",
+    "steam_id": "0039"
+   }
+  },
+  {
+   "id": "puppetmaster",
+   "name": "Puppetmaster",
+   "description": "Defeated the Tsukumogami without getting hit by a single arrow.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/25deb1a360e440cd017bc0e85cf311c47106bf26.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/1244cb36ed3c94c183c0b965b6158623ab719e92.jpg",
+   "rarity": 12.68,
+   "unlock": {
+    "type": "steam",
+    "key": "2:8",
+    "steam_id": "0040"
+   }
+  },
+  {
+   "id": "god-slayer",
+   "name": "God Slayer",
+   "description": "Defeated both the Tsukumogami and the Kyubi within 10 minutes of the fight starting.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/81cc64f5ff3f93c6c3f1d5f2d1b3ccc9bb7d1b6d.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/9d907ff02e6bdcfea841496f2fb73cb67467b830.jpg",
+   "rarity": 14.43,
+   "unlock": {
+    "type": "steam",
+    "key": "2:9",
+    "steam_id": "0041"
+   }
+  },
+  {
+   "id": "winners-dont-do-drugs",
+   "name": "Winners Don't Do Drugs",
+   "description": "Reached the Iwai residence without taking a single capsule and left the capsules on Shu's desk in his workshop.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/baa8d62ef207a11b7bf61b9cf764a7bbfe8ab3c9.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/8f4a13cf82a4865d87c65d04fbad03f7fe695e56.jpg",
+   "rarity": 22.61,
+   "unlock": {
+    "type": "steam",
+    "key": "2:10",
+    "steam_id": "0042"
+   }
+  },
+  {
+   "id": "the-malevolent-blade-never-rusts",
+   "name": "The Malevolent Blade Never Rusts",
+   "description": "Obtained the Sacred Sword after uncovering its legend.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/061a7441af344197f7d669b27c50e2a1a174ad58.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/9d91eff9139e546f76ed52b93b3f4cc16b0d6b4c.jpg",
+   "rarity": 21.79,
+   "unlock": {
+    "type": "steam",
+    "key": "2:11",
+    "steam_id": "0043"
+   }
+  },
+  {
+   "id": "treasured-belonging",
+   "name": "Treasured Belonging",
+   "description": "Obtained the small vial containing the Agura no Hotei-sama.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d8d8d2ba1463287a4d9b62687446b21db9062cb3.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/3361bec4d5a751dd2a9a345ca9509635b0ff66d8.jpg",
+   "rarity": 20.59,
+   "unlock": {
+    "type": "steam",
+    "key": "2:12",
+    "steam_id": "0044"
+   }
+  },
+  {
+   "id": "be-free-of-your-hatred",
+   "name": "Be Free of Your Hatred",
+   "description": "Purified the Sacred Sword.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/ec1a99828f207e8f06fcba95c4d5ae0356f9e5d0.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/8fec423d5d8dacad0f42a4c31cd0e6bc3b0b7ff2.jpg",
+   "rarity": 19.13,
+   "unlock": {
+    "type": "steam",
+    "key": "2:13",
+    "steam_id": "0045"
+   }
+  },
+  {
+   "id": "a-gift-i-cannot-accept",
+   "name": "A Gift I Cannot Accept",
+   "description": "Offered the Brooch to the ancient Jizo statue.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/78774274722175d7d5aba8bb81b75c32d40b6f08.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/f7fa07d3db8cff8de9e88eb59bc8ce6dd205dd23.jpg",
+   "rarity": 15.28,
+   "unlock": {
+    "type": "steam",
+    "key": "2:14",
+    "steam_id": "0046"
+   }
+  },
+  {
+   "id": "close-to-the-sun",
+   "name": "Close to the Sun",
+   "description": "Fully upgraded Health, Sanity, and Stamina.",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d3e6f645b18fb5497f092f1730ba71cefcb78648.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/74ce0729b776090264bd4ed459350b87f0727fcf.jpg",
+   "rarity": 12.27,
+   "unlock": {
+    "type": "steam",
+    "key": "2:15",
+    "steam_id": "0047"
+   }
+  },
+  {
+   "id": "fervent-collector",
+   "name": "Fervent Collector",
+   "description": "Obtained all the items that increase inventory size.",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/fe6731d0b3cb6d662fb7ebd1dafb406ea483ca29.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/0b2eb792cb84c3c6afbca2c0377bbea340b4212f.jpg",
+   "rarity": 21.0,
+   "unlock": {
+    "type": "steam",
+    "key": "2:16",
+    "steam_id": "0048"
+   }
+  },
+  {
+   "id": "omamori-collector",
+   "name": "Omamori Collector",
+   "description": "Obtained all the omamori available from hokora.",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/75d8e382f6a7f92edc1d07c3ec56f39617f7d731.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/4e4b7362c4e891b32324e49e713c8da337738334.jpg",
+   "rarity": 15.88,
+   "unlock": {
+    "type": "steam",
+    "key": "2:17",
+    "steam_id": "0049"
+   }
+  },
+  {
+   "id": "omamori-sage",
+   "name": "Omamori Sage",
+   "description": "Obtained all the hidden omamori.",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/d7e270ca5e7ecb0051b9142eefb2aab8021a69ed.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/4bc6322ecca7a747e2d6c63852f73026cb20b316.jpg",
+   "rarity": 11.71,
+   "unlock": {
+    "type": "steam",
+    "key": "2:18",
+    "steam_id": "0050"
+   }
+  },
+  {
+   "id": "inari-samas-secrets",
+   "name": "Inari-sama's Secrets",
+   "description": "Opened all rooms and boxes marked with Inari-sama's seal.",
+   "hidden": true,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/aeea905f58b2efa2eb3a5828dda68894281db37a.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/b8e992194c3ca50606147a4b568a6c30085706b7.jpg",
+   "rarity": 13.41,
+   "unlock": {
+    "type": "steam",
+    "key": "2:19",
+    "steam_id": "0051"
+   }
+  },
+  {
+   "id": "the-truth-about-the-tsuneki-family",
+   "name": "The Truth about the Tsuneki Family",
+   "description": "Obtained the following documents:  \"Housemaid's Note\"  \"Family Physician's Log\"  \"Strict Mother's Letter\"",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/88873e297767ef7ddc2a8f523e49a3184eee5dc8.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/2dbe78b46e74fb957257e55a9a9d14bf09fc201c.jpg",
+   "rarity": 18.48,
+   "unlock": {
+    "type": "steam",
+    "key": "2:20",
+    "steam_id": "0052"
+   }
+  },
+  {
+   "id": "fate-of-the-apostate",
+   "name": "Fate of the Apostate",
+   "description": "Obtained all the following documents:  \"Diary of Revenge\"",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/6cb37e61ed8a91c7c4b9d9fc75d4c2dc784b5125.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/2f9a5d35a6c92c9563395fd31408d5b22dff27f3.jpg",
+   "rarity": 16.97,
+   "unlock": {
+    "type": "steam",
+    "key": "2:21",
+    "steam_id": "0053"
+   }
+  },
+  {
+   "id": "a-miko-possessed",
+   "name": "A Miko Possessed",
+   "description": "Obtained all the following documents: \"Sakuko's Diary\"",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/7c6d9d81bc09815a20e886f0a49eac7304bff4c3.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/c4d5c65d1b72b8085ebc9dc247c2f6ab558a87df.jpg",
+   "rarity": 13.26,
+   "unlock": {
+    "type": "steam",
+    "key": "2:22",
+    "steam_id": "0054"
+   }
+  },
+  {
+   "id": "fires-of-jealousy",
+   "name": "Fires of Jealousy",
+   "description": "Obtained all the following documents: \"Rinko's Diary\"",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/58cead37c281f47bcf398632cd7197c0eae6f7fe.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/64de062990bdbd70a769ae433366014c52bd05f0.jpg",
+   "rarity": 13.08,
+   "unlock": {
+    "type": "steam",
+    "key": "2:23",
+    "steam_id": "0055"
+   }
+  },
+  {
+   "id": "good-intentions",
+   "name": "Good Intentions...",
+   "description": "Obtained all the following documents: \"Clinical Trial\"",
+   "hidden": false,
+   "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/f358a1ea8e6b900db8d987515b9040e30d147e7f.jpg",
+   "icon_locked": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2947440/82dd1cc23ca6e41f2ea60e38c069286d3ac61840.jpg",
+   "rarity": 13.32,
+   "unlock": {
+    "type": "steam",
+    "key": "2:24",
+    "steam_id": "0056"
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

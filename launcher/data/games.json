@@ -1,0 +1,801 @@
+{
+	"version": 1,
+	"games": [
+		{
+			"id": "sh1",
+			"title": "Silent Hill",
+			"year": 1999,
+			"order": 10,
+			"platforms": [
+				"PlayStation"
+			],
+			"platform": "PlayStation",
+			"tag": "Native PC Decomp",
+			"blurb": "Harry Mason searches a fog-bound resort town for his missing daughter.",
+			"fx": "ash",
+			"accent": "#9a3b22",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC Decomp",
+				"source": "PlayStation disc"
+			},
+			"install": {
+				"folders": [
+					"Silent Hill"
+				],
+				"detect": [
+					"SilentHillPC.exe"
+				],
+				"exe": "SilentHillPC.exe",
+				"process": [
+					"SilentHillPC.exe"
+				]
+			},
+			"dump": {
+				"kinds": [
+					"bin",
+					"cue",
+					"chd"
+				],
+				"serials": [
+					"SLUS-00707",
+					"SLES-01514",
+					"SLPM-86192"
+				],
+				"names": [
+					"silent hill"
+				],
+				"place": "{game}/gamedata"
+			},
+			"saves": [
+				"{game}/gamedata/save"
+			],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill",
+				"local": [
+					"{game}/gamedata/title/*.png"
+				],
+				"shm": "sh1"
+			},
+			"ra": {
+				"game_ids": [
+					11252
+				],
+				"native": false
+			},
+			"achievements": [
+				"ra",
+				"bridge"
+			],
+			"ost_match": "^silent hill$",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "sh2",
+			"title": "Silent Hill 2",
+			"year": 2001,
+			"order": 20,
+			"platforms": [
+				"PlayStation 2",
+				"Xbox",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "Enhanced Edition",
+			"blurb": "A letter from his dead wife draws James Sunderland back to Silent Hill.",
+			"fx": "mist",
+			"accent": "#8c8f86",
+			"route": {
+				"kind": "enhanced",
+				"label": "Silent Hill 2: Enhanced Edition",
+				"installed_when": [
+					"sh2e"
+				]
+			},
+			"install": {
+				"folders": [
+					"Silent Hill 2",
+					"SILENT HILL 2"
+				],
+				"detect": [
+					"sh2pc.exe"
+				],
+				"exe": "sh2pc.exe",
+				"process": [
+					"sh2pc.exe"
+				]
+			},
+			"saves": [
+				"{game}/data/save",
+				"{game}/savedata",
+				"{localappdata}/Konami/Silent Hill 2/sh2e",
+				"{documents}/KONAMI/SILENT HILL 2/savedata"
+			],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill 2",
+				"local": [
+					"{game}/SH2DClogo.JPG"
+				],
+				"shm": "sh2"
+			},
+			"ra": {
+				"game_ids": [
+					1324
+				],
+				"native": false
+			},
+			"achievements": [
+				"ra",
+				"bridge"
+			],
+			"ost_match": "^silent hill 2\\b",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "sh3",
+			"title": "Silent Hill 3",
+			"year": 2003,
+			"order": 30,
+			"platforms": [
+				"PlayStation 2",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "Enhanced Edition",
+			"blurb": "Heather Mason wakes from a nightmare in a shopping mall, and it follows her out.",
+			"fx": "embers",
+			"accent": "#a3241c",
+			"route": {
+				"kind": "enhanced",
+				"label": "SH3 Enhanced",
+				"installed_when": [
+					"SH3EE.ini"
+				]
+			},
+			"install": {
+				"folders": [
+					"Silent Hill 3",
+					"SILENT HILL 3"
+				],
+				"detect": [
+					"sh3.exe"
+				],
+				"exe": "sh3.exe",
+				"process": [
+					"sh3.exe"
+				]
+			},
+			"saves": [
+				"{game}/savedata",
+				"{documents}/KONAMI/SILENT HILL 3/savedata"
+			],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill 3",
+				"local": [],
+				"shm": "sh3"
+			},
+			"ra": {
+				"game_ids": [
+					1335
+				],
+				"native": false
+			},
+			"achievements": [
+				"ra",
+				"list",
+				"bridge"
+			],
+			"ost_match": "^silent hill 3\\b",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "sh4",
+			"title": "Silent Hill 4: The Room",
+			"year": 2004,
+			"order": 40,
+			"platforms": [
+				"PlayStation 2",
+				"Xbox",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "GOG",
+			"blurb": "Henry Townshend is locked inside his own apartment, and a hole has opened in the bathroom wall.",
+			"fx": "static",
+			"accent": "#6f7a6a",
+			"route": {
+				"kind": "enhanced",
+				"label": "Silent Hill 4 Enhanced",
+				"installed_when": []
+			},
+			"install": {
+				"folders": [
+					"Silent Hill 4",
+					"Silent Hill 4 - The Room",
+					"SILENT HILL 4"
+				],
+				"detect": [
+					"SILENT HILL 4.exe"
+				],
+				"exe": "SILENT HILL 4.exe",
+				"process": [
+					"SILENT HILL 4.exe"
+				]
+			},
+			"saves": [
+				"{game}/save",
+				"{documents}/KONAMI/SILENT HILL 4/save"
+			],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill 4: The Room",
+				"local": [],
+				"shm": "sh4"
+			},
+			"ra": {
+				"game_ids": [
+					1336
+				],
+				"native": false
+			},
+			"achievements": [
+				"ra",
+				"bridge"
+			],
+			"ost_match": "^silent hill 4\\b|\\broom\\b",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "origins",
+			"title": "Silent Hill: Origins",
+			"year": 2007,
+			"order": 50,
+			"platforms": [
+				"PSP",
+				"PlayStation 2"
+			],
+			"platform": "PlayStation 2",
+			"tag": "Native PC Decomp",
+			"blurb": "Trucker Travis Grady pulls a girl from a burning house on the road into town.",
+			"fx": "embers",
+			"accent": "#b0532a",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC Decomp",
+				"source": "PSP disc"
+			},
+			"install": {
+				"folders": [
+					"Silent Hill Origins",
+					"Silent Hill Origins/PC"
+				],
+				"detect": [
+					"SilentHillOrigins.exe",
+					"PC/SilentHillOrigins.exe"
+				],
+				"exe": "SilentHillOrigins.exe",
+				"process": [
+					"SilentHillOrigins.exe"
+				]
+			},
+			"dump": {
+				"kinds": [
+					"iso",
+					"cso"
+				],
+				"serials": [
+					"ULUS10285",
+					"ULES00869",
+					"SLUS-21731"
+				],
+				"names": [
+					"silent hill origins",
+					"silent hill - origins",
+					"silent hill 0rigins"
+				],
+				"place": "{game}/../ROM"
+			},
+			"saves": [
+				"{game}/memstick/PSP/SAVEDATA"
+			],
+			"mods": false,
+			"art": {
+				"search": "Silent Hill: Origins",
+				"local": [],
+				"shm": "sh0"
+			},
+			"ra": {
+				"game_ids": [
+					3927
+				],
+				"native": true
+			},
+			"achievements": [
+				"ra",
+				"bridge"
+			],
+			"ost_match": "\\bzer0\\b|\\bzero\\b|\\borigins\\b",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "homecoming",
+			"title": "Silent Hill: Homecoming",
+			"year": 2008,
+			"order": 60,
+			"platforms": [
+				"PlayStation 3",
+				"Xbox 360",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "Steam",
+			"blurb": "Soldier Alex Shepherd comes home to Shepherd's Glen and finds his brother missing.",
+			"fx": "ash",
+			"accent": "#7a4a2a",
+			"route": {
+				"kind": "enhanced",
+				"label": "Homecoming Enhanced",
+				"installed_when": []
+			},
+			"install": {
+				"folders": [
+					"Silent Hill Homecoming"
+				],
+				"detect": [
+					"Bin/SilentHill.exe",
+					"shh_sgm.exe"
+				],
+				"exe": "Bin/SilentHill.exe",
+				"process": [
+					"SilentHill.exe",
+					"shh_sgm.exe"
+				],
+				"steam_appid": "19000",
+				"steam_dir": "Silent Hill Homecoming"
+			},
+			"saves": [
+				"{game}/Engine/savegame"
+			],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill: Homecoming",
+				"steam_appid": "19000",
+				"local": [],
+				"shm": "sh5"
+			},
+			"achievements": [
+				"list",
+				"bridge"
+			],
+			"ost_match": "homecoming",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "shattered-memories",
+			"title": "Silent Hill: Shattered Memories",
+			"year": 2009,
+			"order": 70,
+			"platforms": [
+				"Wii",
+				"PlayStation 2",
+				"PSP"
+			],
+			"platform": "PlayStation 2",
+			"tag": "Native PC Decomp",
+			"blurb": "The first game, reimagined: a frozen town, a psychiatrist's questions, and nowhere to fight.",
+			"fx": "snow",
+			"accent": "#6d8fa8",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC Decomp",
+				"source": "Wii disc"
+			},
+			"install": {
+				"folders": [
+					"Silent Hill Shattered Memories",
+					"Silent Hill Shattered Memories/recomp"
+				],
+				"detect": [
+					"SHSM.exe",
+					"recomp/SHSM.exe"
+				],
+				"exe": "SHSM.exe",
+				"process": [
+					"SHSM.exe"
+				]
+			},
+			"dump": {
+				"kinds": [
+					"rvz",
+					"iso",
+					"wbfs"
+				],
+				"serials": [
+					"R5WEA4",
+					"R5WPA4"
+				],
+				"names": [
+					"shattered memories"
+				],
+				"place": ""
+			},
+			"saves": [],
+			"mods": false,
+			"art": {
+				"search": "Silent Hill: Shattered Memories",
+				"local": [],
+				"shm": "sh_shattered_memories"
+			},
+			"ra": {
+				"game_ids": [
+					19179
+				],
+				"native": false
+			},
+			"achievements": [
+				"ra",
+				"bridge"
+			],
+			"ost_match": "shattered memories",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "downpour",
+			"title": "Silent Hill: Downpour",
+			"year": 2012,
+			"order": 80,
+			"platforms": [
+				"Xbox 360",
+				"PlayStation 3"
+			],
+			"platform": "Xbox 360",
+			"tag": "Native PC Decomp",
+			"blurb": "A prison transport crashes outside Silent Hill, and an inmate walks free into the rain.",
+			"fx": "rain",
+			"accent": "#5d7280",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC rebuild (DownpourRecomp)",
+				"source": "Xbox 360 disc"
+			},
+			"install": {
+				"folders": [
+					"Silent Hill Downpour"
+				],
+				"detect": [
+					"PlayDownpour.exe",
+					"downpour.exe"
+				],
+				"exe": "PlayDownpour.exe",
+				"process": [
+					"downpour.exe",
+					"PlayDownpour.exe"
+				]
+			},
+			"dump": {
+				"kinds": [
+					"iso"
+				],
+				"serials": [
+					"4B4E0823"
+				],
+				"names": [
+					"downpour"
+				],
+				"place": "{game}/ROM"
+			},
+			"saves": [
+				"{game}/user"
+			],
+			"mods": false,
+			"art": {
+				"search": "Silent Hill: Downpour",
+				"local": [],
+				"shm": "sh8"
+			},
+			"achievements": [
+				"rexglue",
+				"list",
+				"bridge"
+			],
+			"ost_match": "downpour",
+			"composer": "Daniel Licht"
+		},
+		{
+			"id": "book-of-memories",
+			"title": "Silent Hill: Book of Memories",
+			"year": 2012,
+			"order": 85,
+			"platforms": [
+				"PlayStation Vita"
+			],
+			"platform": "PlayStation Vita",
+			"tag": "Native PC Decomp",
+			"blurb": "A book that rewrites your life arrives on your birthday. A dungeon crawler for up to four.",
+			"fx": "embers",
+			"accent": "#8a6a3a",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC Decomp",
+				"source": "Vita dump"
+			},
+			"install": {
+				"folders": [
+					"Silent Hill Book of Memories"
+				],
+				"detect": [],
+				"exe": "",
+				"process": []
+			},
+			"dump": {
+				"kinds": [
+					"folder",
+					"vpk"
+				],
+				"serials": [
+					"PCSE00104",
+					"PCSB00144"
+				],
+				"names": [
+					"book of memories"
+				],
+				"place": ""
+			},
+			"saves": [],
+			"mods": false,
+			"art": {
+				"search": "Silent Hill: Book of Memories",
+				"local": [],
+				"shm": "sh_book_of_memories"
+			},
+			"achievements": [
+				"bridge"
+			],
+			"ost_match": "book (of )?memories",
+			"composer": "Daniel Licht"
+		},
+		{
+			"id": "pt",
+			"title": "P.T.",
+			"year": 2014,
+			"order": 87,
+			"platforms": [
+				"PlayStation 4"
+			],
+			"platform": "PlayStation 4",
+			"tag": "Native PC Decomp",
+			"blurb": "A looping hallway, a radio, and something standing at the end of it.",
+			"fx": "flicker",
+			"accent": "#b33a2a",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC port",
+				"source": "PS4 dump"
+			},
+			"install": {
+				"folders": [
+					"P.T",
+					"P.T.",
+					"PT"
+				],
+				"detect": [
+					"pt.exe"
+				],
+				"exe": "pt.exe",
+				"process": [
+					"pt.exe"
+				],
+				"dump_arg": "--game"
+			},
+			"dump": {
+				"kinds": [
+					"folder"
+				],
+				"serials": [
+					"CUSA01127"
+				],
+				"names": [
+					"p.t",
+					"cusa01127"
+				],
+				"place": "{game}"
+			},
+			"saves": [
+				"{appdata}/pt-port/pt"
+			],
+			"mods": true,
+			"art": {
+				"search": "P.T.",
+				"local": [],
+				"shm": "silent_hills"
+			},
+			"achievements": [
+				"bridge"
+			],
+			"ost_match": "^p t\\b|\\bp t$"
+		},
+		{
+			"id": "short-message",
+			"title": "Silent Hill: The Short Message",
+			"year": 2024,
+			"order": 88,
+			"platforms": [
+				"PlayStation 5"
+			],
+			"platform": "PlayStation 5",
+			"tag": "Native PC Port",
+			"blurb": "Anita follows a string of messages into an abandoned apartment block in Germany.",
+			"fx": "petals",
+			"accent": "#c46a86",
+			"route": {
+				"kind": "rebuild",
+				"label": "Native PC port",
+				"source": "PS5 dump"
+			},
+			"install": {
+				"folders": [
+					"Silent Hill The Short Message"
+				],
+				"detect": [
+					"ShortMessage.exe"
+				],
+				"exe": "ShortMessage.exe",
+				"process": [
+					"ShortMessage.exe"
+				]
+			},
+			"dump": {
+				"kinds": [
+					"folder"
+				],
+				"serials": [
+					"PPSA10112",
+					"PPSA10111",
+					"PPSA10113"
+				],
+				"names": [
+					"short message"
+				],
+				"place": ""
+			},
+			"saves": [],
+			"mods": false,
+			"art": {
+				"search": "Silent Hill: The Short Message",
+				"local": [],
+				"shm": "sh_the_short_message"
+			},
+			"achievements": [
+				"bridge"
+			],
+			"ost_match": "short message",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "sh2-remake",
+			"title": "Silent Hill 2",
+			"subtitle": "2024",
+			"year": 2024,
+			"order": 90,
+			"platforms": [
+				"PlayStation 5",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "Steam",
+			"blurb": "Bloober Team's remake of James Sunderland's return to town.",
+			"fx": "mist",
+			"accent": "#8b8f8a",
+			"route": {
+				"kind": "steam",
+				"label": "Steam"
+			},
+			"install": {
+				"folders": [],
+				"detect": [],
+				"exe": "",
+				"process": [],
+				"steam_appid": "2124490",
+				"steam_dir": "SILENT HILL 2"
+			},
+			"saves": [
+				"{localappdata}/SilentHill2/Saved/SaveGames"
+			],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill 2 (2024)",
+				"steam_appid": "2124490",
+				"local": [],
+				"shm": "sh2_remake"
+			},
+			"achievements": [
+				"steam"
+			],
+			"ost_match": "^silent hill 2 (2024|remake)\\b",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "sh-f",
+			"title": "Silent Hill f",
+			"year": 2025,
+			"order": 100,
+			"platforms": [
+				"PlayStation 5",
+				"Xbox Series X|S",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "Steam",
+			"blurb": "1960s rural Japan. Hinako's town is swallowed by fog and red spider lilies.",
+			"fx": "petals",
+			"accent": "#b1263a",
+			"route": {
+				"kind": "steam",
+				"label": "Steam"
+			},
+			"install": {
+				"folders": [],
+				"detect": [],
+				"exe": "",
+				"process": [],
+				"steam_appid": "2947440",
+				"steam_dir": "SILENT HILL f"
+			},
+			"saves": [],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill f",
+				"steam_appid": "2947440",
+				"local": [],
+				"shm": "shf"
+			},
+			"achievements": [
+				"steam"
+			],
+			"ost_match": "^silent hill f\\b",
+			"composer": "Akira Yamaoka"
+		},
+		{
+			"id": "townfall",
+			"title": "Silent Hill: Townfall",
+			"year": 2026,
+			"order": 110,
+			"platforms": [
+				"PlayStation 5",
+				"PC"
+			],
+			"platform": "PC",
+			"tag": "Steam",
+			"blurb": "A new story, set in a small Scottish town.",
+			"fx": "mist",
+			"accent": "#6b8a8a",
+			"route": {
+				"kind": "steam",
+				"label": "Steam"
+			},
+			"install": {
+				"folders": [],
+				"detect": [],
+				"exe": "",
+				"process": [],
+				"steam_appid": "1636440",
+				"steam_dir": "Townfall"
+			},
+			"saves": [],
+			"mods": true,
+			"art": {
+				"search": "Silent Hill: Townfall",
+				"local": [],
+				"shm": "sh_townfall"
+			},
+			"achievements": [
+				"steam"
+			],
+			"ost_match": "townfall",
+			"composer": "Pilotpriest"
+		}
+	]
+}

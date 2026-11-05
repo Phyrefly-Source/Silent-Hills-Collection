@@ -1,0 +1,669 @@
+{
+	"id": 1336,
+	"title": "Silent Hill 4: The Room",
+	"console_id": 21,
+	"console": "PlayStation 2",
+	"achievements": [
+		{
+			"id": 260076,
+			"title": "Down on Lynch St. Line",
+			"description": "Complete the first visit to the Subway World [Normal or Higher]",
+			"points": 5,
+			"badge": "287991",
+			"memaddr": "",
+			"type": "",
+			"order": 1
+		},
+		{
+			"id": 260077,
+			"title": "Welcome to Almost Silent Hill",
+			"description": "Complete the first visit to the Forest World [Normal or Higher]",
+			"points": 5,
+			"badge": "287992",
+			"memaddr": "",
+			"type": "",
+			"order": 2
+		},
+		{
+			"id": 260078,
+			"title": "Kindergarten Drop",
+			"description": "Complete the first visit to the Water Prison [Normal or Higher]",
+			"points": 5,
+			"badge": "287993",
+			"memaddr": "",
+			"type": "",
+			"order": 3
+		},
+		{
+			"id": 260079,
+			"title": "The Crime That Shocked Ashfield",
+			"description": "Complete the first visit to the Building World [Normal or Higher]",
+			"points": 5,
+			"badge": "287994",
+			"memaddr": "",
+			"type": "",
+			"order": 4
+		},
+		{
+			"id": 260080,
+			"title": "Nice Job Looking Out",
+			"description": "Complete the first visit to the Apartment World [Normal or Higher]",
+			"points": 5,
+			"badge": "287995",
+			"memaddr": "",
+			"type": "",
+			"order": 5
+		},
+		{
+			"id": 260081,
+			"title": "What It's Like Living in Limbo",
+			"description": "Complete the visit to the Hospital World [Normal or Higher]",
+			"points": 5,
+			"badge": "287996",
+			"memaddr": "",
+			"type": "",
+			"order": 6
+		},
+		{
+			"id": 260082,
+			"title": "Down on King St. Line",
+			"description": "Complete the second visit to the Subway World [Normal or Higher]",
+			"points": 10,
+			"badge": "287997",
+			"memaddr": "",
+			"type": "",
+			"order": 7
+		},
+		{
+			"id": 260083,
+			"title": "Well Wishes",
+			"description": "Complete the second visit to the Forest World [Normal or Higher]",
+			"points": 10,
+			"badge": "287998",
+			"memaddr": "",
+			"type": "",
+			"order": 8
+		},
+		{
+			"id": 260084,
+			"title": "The Fat Pig",
+			"description": "Complete the second visit to the Water Prison [Normal or Higher]",
+			"points": 10,
+			"badge": "287999",
+			"memaddr": "",
+			"type": "",
+			"order": 9
+		},
+		{
+			"id": 260085,
+			"title": "Tick Tock",
+			"description": "Complete the second visit to the Building World [Normal or Higher]",
+			"points": 10,
+			"badge": "288000",
+			"memaddr": "",
+			"type": "",
+			"order": 10
+		},
+		{
+			"id": 260086,
+			"title": "Please, Wake Up Soon",
+			"description": "Complete the second visit to the Apartment World [Normal or Higher]",
+			"points": 10,
+			"badge": "288001",
+			"memaddr": "",
+			"type": "",
+			"order": 11
+		},
+		{
+			"id": 260087,
+			"title": "Throatful of Splinters",
+			"description": "Defeat the final boss [Normal or Higher]",
+			"points": 25,
+			"badge": "288002",
+			"memaddr": "",
+			"type": "",
+			"order": 12
+		},
+		{
+			"id": 260088,
+			"title": "A Sleeping Explorer, Their Wandering Mind",
+			"description": "Complete the first visit to the Subway World [Hard]",
+			"points": 5,
+			"badge": "288003",
+			"memaddr": "",
+			"type": "",
+			"order": 13
+		},
+		{
+			"id": 260089,
+			"title": "A Mind Like a Cemetery",
+			"description": "Complete the first visit to the Forest World [Hard]",
+			"points": 10,
+			"badge": "288004",
+			"memaddr": "",
+			"type": "",
+			"order": 14
+		},
+		{
+			"id": 260090,
+			"title": "What's That? Timmy Fell Down the Well?",
+			"description": "Complete the first visit to the Water Prison [Hard]",
+			"points": 10,
+			"badge": "288005",
+			"memaddr": "",
+			"type": "",
+			"order": 15
+		},
+		{
+			"id": 260091,
+			"title": "Ashfield 187",
+			"description": "Complete the first visit to the Building World [Hard]",
+			"points": 10,
+			"badge": "288006",
+			"memaddr": "",
+			"type": "",
+			"order": 16
+		},
+		{
+			"id": 260092,
+			"title": "Hallways of Always",
+			"description": "Complete the first visit to the Apartment World [Hard]",
+			"points": 10,
+			"badge": "288007",
+			"memaddr": "",
+			"type": "",
+			"order": 17
+		},
+		{
+			"id": 260093,
+			"title": "World of Wounds",
+			"description": "Complete the visit to the Hospital World [Hard]",
+			"points": 10,
+			"badge": "288008",
+			"memaddr": "",
+			"type": "",
+			"order": 18
+		},
+		{
+			"id": 260094,
+			"title": "The Void Rumbles in Like an Underground Train",
+			"description": "Complete the second visit to the Subway World [Hard]",
+			"points": 10,
+			"badge": "288009",
+			"memaddr": "",
+			"type": "",
+			"order": 19
+		},
+		{
+			"id": 260095,
+			"title": "Decent of the Holy Mother",
+			"description": "Complete the second visit to the Forest World [Hard]",
+			"points": 10,
+			"badge": "288010",
+			"memaddr": "",
+			"type": "",
+			"order": 20
+		},
+		{
+			"id": 260096,
+			"title": "Everything Has to Fall Apart",
+			"description": "Complete the second visit to the Water Prison [Hard]",
+			"points": 10,
+			"badge": "288011",
+			"memaddr": "",
+			"type": "",
+			"order": 21
+		},
+		{
+			"id": 260097,
+			"title": "Reminisces",
+			"description": "Complete the second visit to the Building World [Hard]",
+			"points": 10,
+			"badge": "288012",
+			"memaddr": "",
+			"type": "",
+			"order": 22
+		},
+		{
+			"id": 260098,
+			"title": "Forever Come Closer",
+			"description": "Complete the second visit to the Apartment World [Hard]",
+			"points": 25,
+			"badge": "288013",
+			"memaddr": "",
+			"type": "",
+			"order": 23
+		},
+		{
+			"id": 260099,
+			"title": "Night Slits Her Veins and the Darkness Drains",
+			"description": "Defeat the final boss [Hard]",
+			"points": 25,
+			"badge": "288014",
+			"memaddr": "",
+			"type": "",
+			"order": 24
+		},
+		{
+			"id": 260100,
+			"title": "Like a Flower in the Basement",
+			"description": "Obtain the \"Escape\" ending on any difficulty",
+			"points": 25,
+			"badge": "288015",
+			"memaddr": "",
+			"type": "",
+			"order": 25
+		},
+		{
+			"id": 260101,
+			"title": "Here's a Lullaby to Close Your Eyes",
+			"description": "Obtain the \"Mother\" ending on any difficulty",
+			"points": 10,
+			"badge": "288016",
+			"memaddr": "",
+			"type": "",
+			"order": 26
+		},
+		{
+			"id": 260102,
+			"title": "I Don't Feel Enough for You to Cry",
+			"description": "Obtain the Bad+ ending (spoiler dodging) on any difficulty",
+			"points": 10,
+			"badge": "288017",
+			"memaddr": "",
+			"type": "",
+			"order": 27
+		},
+		{
+			"id": 260103,
+			"title": "It Was Always You That I Despised",
+			"description": "Obtain the \"21 Sacraments\" ending on any difficulty",
+			"points": 10,
+			"badge": "288018",
+			"memaddr": "",
+			"type": "",
+			"order": 28
+		},
+		{
+			"id": 260104,
+			"title": "I Run, I Fall",
+			"description": "Complete the game in under two hours [Normal or Higher]",
+			"points": 25,
+			"badge": "288019",
+			"memaddr": "",
+			"type": "",
+			"order": 29
+		},
+		{
+			"id": 260105,
+			"title": "A Restless Day",
+			"description": "Complete the game without saving or using continues [Normal or Higher]",
+			"points": 25,
+			"badge": "288020",
+			"memaddr": "",
+			"type": "",
+			"order": 30
+		},
+		{
+			"id": 260640,
+			"title": "Ashfield's Finest",
+			"description": "Obtain the 10-Star rating",
+			"points": 50,
+			"badge": "288597",
+			"memaddr": "",
+			"type": "",
+			"order": 31
+		},
+		{
+			"id": 260641,
+			"title": "The Hero of Ashfield",
+			"description": "Obtain the 10-Star rank in One-Weapon Mode",
+			"points": 50,
+			"badge": "288598",
+			"memaddr": "",
+			"type": "",
+			"order": 32
+		},
+		{
+			"id": 260106,
+			"title": "Hunter Through My Back Door",
+			"description": "Kill at least 40 enemies",
+			"points": 5,
+			"badge": "288021",
+			"memaddr": "",
+			"type": "",
+			"order": 33
+		},
+		{
+			"id": 260107,
+			"title": "Die Nameless on My Floor",
+			"description": "Kill at least 80 enemies",
+			"points": 5,
+			"badge": "288022",
+			"memaddr": "",
+			"type": "",
+			"order": 34
+		},
+		{
+			"id": 260108,
+			"title": "Deterioration Entropy",
+			"description": "Kill at least 120 enemies",
+			"points": 10,
+			"badge": "288023",
+			"memaddr": "",
+			"type": "",
+			"order": 35
+		},
+		{
+			"id": 260109,
+			"title": "Receiver of Smart",
+			"description": "Collect 13 memos",
+			"points": 5,
+			"badge": "288024",
+			"memaddr": "",
+			"type": "",
+			"order": 36
+		},
+		{
+			"id": 260110,
+			"title": "Receiver of Knowledge",
+			"description": "Collect 26 memos",
+			"points": 5,
+			"badge": "288025",
+			"memaddr": "",
+			"type": "",
+			"order": 37
+		},
+		{
+			"id": 260111,
+			"title": "Receiver of Wisdom",
+			"description": "Collect all 52 memos",
+			"points": 10,
+			"badge": "288026",
+			"memaddr": "",
+			"type": "",
+			"order": 38
+		},
+		{
+			"id": 260454,
+			"title": "A Stunning Discovery",
+			"description": "Obtain the Stun Gun in the Water Prison",
+			"points": 5,
+			"badge": "288343",
+			"memaddr": "",
+			"type": "",
+			"order": 39
+		},
+		{
+			"id": 260458,
+			"title": "Remember, It's Just a Doll",
+			"description": "Robbie the Rabbit is telling you that it's your fault or that you're next",
+			"points": 3,
+			"badge": "288444",
+			"memaddr": "",
+			"type": "",
+			"order": 40
+		},
+		{
+			"id": 260459,
+			"title": "Electric Blue for Me",
+			"description": "Attempt to tase the giant head",
+			"points": 3,
+			"badge": "288445",
+			"memaddr": "",
+			"type": "",
+			"order": 41
+		},
+		{
+			"id": 260460,
+			"title": "Receiver of Drama",
+			"description": "Learn all you can about Mike, Rachel, and her stalker. Also, hang up that damn phone.",
+			"points": 5,
+			"badge": "288594",
+			"memaddr": "",
+			"type": "",
+			"order": 42
+		},
+		{
+			"id": 260540,
+			"title": "A Special Favor",
+			"description": "Pin Cynthia's ghost down in the screen she first appears in",
+			"points": 10,
+			"badge": "288454",
+			"memaddr": "",
+			"type": "",
+			"order": 43
+		},
+		{
+			"id": 260541,
+			"title": "S-s-s-sorry",
+			"description": "Pin Jasper's ghost down in the screen he first appears in",
+			"points": 10,
+			"badge": "288455",
+			"memaddr": "",
+			"type": "",
+			"order": 44
+		},
+		{
+			"id": 260543,
+			"title": "Taming Andrew",
+			"description": "Pin Andrew's ghost down in the screen he first appears in",
+			"points": 10,
+			"badge": "288457",
+			"memaddr": "",
+			"type": "",
+			"order": 45
+		},
+		{
+			"id": 260542,
+			"title": "Stick the Dick",
+			"description": "Pin Richard's ghost down in the screen he first appears in",
+			"points": 10,
+			"badge": "288456",
+			"memaddr": "",
+			"type": "",
+			"order": 46
+		},
+		{
+			"id": 260455,
+			"title": "A Vacation from Your Problems",
+			"description": "Obtain all twelve golf clubs in the game",
+			"points": 5,
+			"badge": "288344",
+			"memaddr": "",
+			"type": "",
+			"order": 47
+		},
+		{
+			"id": 260469,
+			"title": "Peeping Tom",
+			"description": "In one session, witness at least 30 unique scenes or activities through either the door or wall peepholes [No Continues]",
+			"points": 10,
+			"badge": "288446",
+			"memaddr": "",
+			"type": "",
+			"order": 48
+		},
+		{
+			"id": 260112,
+			"title": "Stop the Racket",
+			"description": "Free your apartment of rattling windows",
+			"points": 5,
+			"badge": "288027",
+			"memaddr": "",
+			"type": "",
+			"order": 49
+		},
+		{
+			"id": 260113,
+			"title": "Crackin' Up",
+			"description": "Free your apartment of cracked walls",
+			"points": 5,
+			"badge": "288028",
+			"memaddr": "",
+			"type": "",
+			"order": 50
+		},
+		{
+			"id": 260114,
+			"title": "Walter Halter",
+			"description": "Free your apartment of spooky mama's boy portraits",
+			"points": 5,
+			"badge": "288029",
+			"memaddr": "",
+			"type": "",
+			"order": 51
+		},
+		{
+			"id": 260115,
+			"title": "Burst Boils",
+			"description": "Free your apartment of bloody cushions",
+			"points": 5,
+			"badge": "288030",
+			"memaddr": "",
+			"type": "",
+			"order": 52
+		},
+		{
+			"id": 260116,
+			"title": "No, Hank You",
+			"description": "Free your apartment of yourself",
+			"points": 5,
+			"badge": "288031",
+			"memaddr": "",
+			"type": "",
+			"order": 53
+		},
+		{
+			"id": 260117,
+			"title": "The First Victim",
+			"description": "Free your apartment of people trying to break in",
+			"points": 5,
+			"badge": "288032",
+			"memaddr": "",
+			"type": "",
+			"order": 54
+		},
+		{
+			"id": 260118,
+			"title": "What Am I Wearing?",
+			"description": "Free your apartment of spooky prank callers",
+			"points": 5,
+			"badge": "288033",
+			"memaddr": "",
+			"type": "",
+			"order": 55
+		},
+		{
+			"id": 260119,
+			"title": "Don't Talk to Strangers",
+			"description": "Free your apartment of spooky wall dolls",
+			"points": 5,
+			"badge": "288034",
+			"memaddr": "",
+			"type": "",
+			"order": 56
+		},
+		{
+			"id": 260120,
+			"title": "Tele's Revenge",
+			"description": "Free your apartment of bad reception",
+			"points": 5,
+			"badge": "288035",
+			"memaddr": "",
+			"type": "",
+			"order": 57
+		},
+		{
+			"id": 260121,
+			"title": "Could Have Just Shut It",
+			"description": "Free your apartment of spooky shadow children",
+			"points": 5,
+			"badge": "288036",
+			"memaddr": "",
+			"type": "",
+			"order": 58
+		},
+		{
+			"id": 260122,
+			"title": "Where's the Foot?!",
+			"description": "Free your apartment of unreliable footwear",
+			"points": 5,
+			"badge": "288037",
+			"memaddr": "",
+			"type": "",
+			"order": 59
+		},
+		{
+			"id": 260123,
+			"title": "Time for Eviction",
+			"description": "Free your apartment of broken clocks",
+			"points": 5,
+			"badge": "288038",
+			"memaddr": "",
+			"type": "",
+			"order": 60
+		},
+		{
+			"id": 260124,
+			"title": "Will Curiosity Kill You, Too?",
+			"description": "Free your apartment of meowing meat",
+			"points": 5,
+			"badge": "288039",
+			"memaddr": "",
+			"type": "",
+			"order": 61
+		},
+		{
+			"id": 260125,
+			"title": "A Sinking Feeling",
+			"description": "Free your apartment of plumbing issues",
+			"points": 5,
+			"badge": "288040",
+			"memaddr": "",
+			"type": "",
+			"order": 62
+		},
+		{
+			"id": 260470,
+			"title": "Friendly Henry",
+			"description": "Have at least five hauntings active in your apartment at one time",
+			"points": 5,
+			"badge": "288595",
+			"memaddr": "",
+			"type": "",
+			"order": 63
+		},
+		{
+			"id": 260457,
+			"title": "Who Will Survive and What Will Be Left of Them?",
+			"description": "A Brand-new Fear: Channel James Sunderland with the chainsaw equipped",
+			"points": 5,
+			"badge": "288346",
+			"memaddr": "",
+			"type": "",
+			"order": 64
+		},
+		{
+			"id": 260453,
+			"title": "Spray and Slay",
+			"description": "A Brand-new Fear: Obtain the Submachine Gun",
+			"points": 10,
+			"badge": "288443",
+			"memaddr": "",
+			"type": "",
+			"order": 65
+		},
+		{
+			"id": 260639,
+			"title": "Howdy, Neighbor!",
+			"description": "A Brand-new Fear: Wake Eileen in the Hospital World with the nurse outfit unlocked and active",
+			"points": 10,
+			"badge": "288596",
+			"memaddr": "",
+			"type": "",
+			"order": 66
+		}
+	],
+	"source": "RetroAchievements set 1336 (retroachievements.org/game/1336)"
+}

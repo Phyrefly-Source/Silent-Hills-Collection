@@ -1,0 +1,99 @@
+# Builds the Silent Hills launcher for every flavor and publishes a GitHub
+# release on this repo whenever a version tag (v2.5.0) is pushed.
+# No secrets needed: the built-in GITHUB_TOKEN creates the release.
+
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: "4.7-stable"        # must match the editor the project was saved with
+  APP_NAME: "Silent Hills"
+
+jobs:
+  export:
+    name: Export (Godot headless)
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.ver.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version from project.godot
+        id: ver
+        run: |
+          v=$(python3 packaging/package.py --print-version)
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          if [[ "${GITHUB_REF_TYPE}" == "tag" && "${GITHUB_REF_NAME}" != "v$v" ]]; then
+            echo "::error::Tag ${GITHUB_REF_NAME} does not match project.godot version $v"; exit 1
+          fi
+
+      - name: Install Godot + export templates
+        run: |
+          set -e
+          base="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}"
+          curl -sSL -o godot.zip "${base}/Godot_v${GODOT_VERSION}_linux.x86_64.zip"
+          curl -sSL -o templates.tpz "${base}/Godot_v${GODOT_VERSION}_export_templates.tpz"
+          unzip -q godot.zip && mv Godot_v${GODOT_VERSION}_linux.x86_64 godot && chmod +x godot
+          tdir="$HOME/.local/share/godot/export_templates/${GODOT_VERSION/-/.}"
+          mkdir -p "$tdir" && unzip -q templates.tpz -d tpl && mv tpl/templates/* "$tdir/"
+
+      - name: Export Windows and Linux
+        run: |
+          set -e
+          mkdir -p build/windows build/linux
+          ./godot --headless --path launcher --import || true
+          ./godot --headless --path launcher --export-release "Windows" "$PWD/build/windows/${APP_NAME}.exe"
+          ./godot --headless --path launcher --export-release "Linux"   "$PWD/build/linux/silent-hills.x86_64"
+
+      - name: Package portable zip and AppImage
+        run: |
+          sudo apt-get install -y -qq libfuse2 >/dev/null
+          python3 packaging/package.py portable appimage
+
+      - uses: actions/upload-artifact@v4
+        with: { name: windows-export, path: build/windows/ }
+      - uses: actions/upload-artifact@v4
+        with: { name: packaged-linux, path: out/ }
+
+  installer:
+    name: Windows installer (Inno Setup)
+    needs: export
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: windows-export, path: build/windows }
+      - name: Build installer
+        shell: pwsh
+        run: python packaging/package.py installer
+      - uses: actions/upload-artifact@v4
+        with: { name: packaged-windows, path: out/ }
+
+  publish:
+    name: Publish release
+    needs: [export, installer]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: packaged-linux, path: out }
+      - uses: actions/download-artifact@v4
+        with: { name: packaged-windows, path: out }
+      - name: Checksums
+        run: cd out && sha256sum * > SHA256SUMS.txt && cat SHA256SUMS.txt
+      - name: Release notes
+        run: python3 packaging/package.py --notes "${{ needs.export.outputs.version }}" > notes.md
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ needs.export.outputs.version }}
+          name: Silent Hills ${{ needs.export.outputs.version }}
+          body_path: notes.md
+          files: out/*

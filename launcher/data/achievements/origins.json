@@ -1,0 +1,869 @@
+{
+ "game": "origins",
+ "platform": "PSP",
+ "source": "PlayStation Portable set by the RetroAchievements community",
+ "credit": "RetroAchievements",
+ "link": "https://retroachievements.org/game/3927",
+ "notes": "This game never had an official achievement list, so the launcher uses the PlayStation Portable set made by the RetroAchievements community. Native builds unlock them by the set's own rules; Enhanced patches report them through the launcher's bridge; anything else can be marked by hand.",
+ "achievements": [
+  {
+   "id": "ra-306764",
+   "name": "Let Me Burn",
+   "description": "Rescue Alessa from fire in less than 80 seconds.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339481.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339481_lock.png",
+   "rarity": 46.65,
+   "unlock": {
+    "type": "ra",
+    "id": 306764
+   }
+  },
+  {
+   "id": "ra-306765",
+   "name": "The Girl From the Fire...",
+   "description": "Enter in the Otherworld for the first time.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339482.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339482_lock.png",
+   "rarity": 74.76,
+   "unlock": {
+    "type": "ra",
+    "id": 306765
+   }
+  },
+  {
+   "id": "ra-306766",
+   "name": "The Beauties",
+   "description": "Open the Medical Icebox in Alchemilla Hospital.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339483.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339483_lock.png",
+   "rarity": 58.79,
+   "unlock": {
+    "type": "ra",
+    "id": 306766
+   }
+  },
+  {
+   "id": "ra-306767",
+   "name": "Open Your Eyes",
+   "description": "Solve the plastic anatomy doll puzzle.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339484.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339484_lock.png",
+   "rarity": 55.91,
+   "unlock": {
+    "type": "ra",
+    "id": 306767
+   }
+  },
+  {
+   "id": "ra-306768",
+   "name": "Straight-Jacket",
+   "description": "Kill the first Straight-Jacket without taking damage and without equipping an unlockable weapon in Alchemilla Hospital.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339485.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339485_lock.png",
+   "rarity": 34.5,
+   "unlock": {
+    "type": "ra",
+    "id": 306768
+   }
+  },
+  {
+   "id": "ra-306769",
+   "name": "Flauros I",
+   "description": "Take the Future Piece in Alchemilla Hospital.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339486.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339486_lock.png",
+   "rarity": 53.99,
+   "unlock": {
+    "type": "ra",
+    "id": 306769
+   }
+  },
+  {
+   "id": "ra-306770",
+   "name": "What the Hell Is That!?",
+   "description": "Find a mysterious enemy.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339487.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339487_lock.png",
+   "rarity": 51.76,
+   "unlock": {
+    "type": "ra",
+    "id": 306770
+   }
+  },
+  {
+   "id": "ra-306771",
+   "name": "Target Pistol",
+   "description": "Take the Target Pistol.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339488.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339488_lock.png",
+   "rarity": 49.52,
+   "unlock": {
+    "type": "ra",
+    "id": 306771
+   }
+  },
+  {
+   "id": "ra-306772",
+   "name": "Dahlia Gillespie",
+   "description": "Do not trust her, Travis. She does not know what she is doing...",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339489.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339489_lock.png",
+   "rarity": 50.48,
+   "unlock": {
+    "type": "ra",
+    "id": 306772
+   }
+  },
+  {
+   "id": "ra-306773",
+   "name": "Out of use",
+   "description": "Solve the Iron Lung Puzzle in Cedar Groove Sanitarium.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339490.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339490_lock.png",
+   "rarity": 47.28,
+   "unlock": {
+    "type": "ra",
+    "id": 306773
+   }
+  },
+  {
+   "id": "ra-306774",
+   "name": "Interview Archives Key",
+   "description": "Take the Interview Archives key.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339491.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339491_lock.png",
+   "rarity": 41.53,
+   "unlock": {
+    "type": "ra",
+    "id": 306774
+   }
+  },
+  {
+   "id": "ra-306776",
+   "name": "Shotgun",
+   "description": "Take the Shotgun in Cedar Groove Sanitarium.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339493.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339493_lock.png",
+   "rarity": 42.49,
+   "unlock": {
+    "type": "ra",
+    "id": 306776
+   }
+  },
+  {
+   "id": "ra-306775",
+   "name": "Medications",
+   "description": "Solve the five miniature dolls puzzle in Cedar Groove Sanitarium.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339492.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339492_lock.png",
+   "rarity": 41.21,
+   "unlock": {
+    "type": "ra",
+    "id": 306775
+   }
+  },
+  {
+   "id": "ra-306777",
+   "name": "Momma",
+   "description": "Kill Momma without taking damage and without equipping an unlockable weapon in Cedar Grove Sanitarium.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339494.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339494_lock.png",
+   "rarity": 37.38,
+   "unlock": {
+    "type": "ra",
+    "id": 306777
+   }
+  },
+  {
+   "id": "ra-306778",
+   "name": "Flauros II",
+   "description": "Take the Past Piece in Sanitarium.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339495.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339495_lock.png",
+   "rarity": 41.53,
+   "unlock": {
+    "type": "ra",
+    "id": 306778
+   }
+  },
+  {
+   "id": "ra-306779",
+   "name": "Lisa Garland",
+   "description": "Let's get the hell out of this crazy town... We could be so good together...",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339496.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339496_lock.png",
+   "rarity": 40.58,
+   "unlock": {
+    "type": "ra",
+    "id": 306779
+   }
+  },
+  {
+   "id": "ra-306780",
+   "name": "Service Pistol",
+   "description": "Take the Service Pistol.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339497.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339497_lock.png",
+   "rarity": 39.3,
+   "unlock": {
+    "type": "ra",
+    "id": 306780
+   }
+  },
+  {
+   "id": "ra-306786",
+   "name": "Hunting Rifle",
+   "description": "Take the Hunting Rifle.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339503.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339503_lock.png",
+   "rarity": 38.02,
+   "unlock": {
+    "type": "ra",
+    "id": 306786
+   }
+  },
+  {
+   "id": "ra-306781",
+   "name": "Sun Totem",
+   "description": "Unlock the door with two square holes without accessing the Balcony Corridor in Artaud Theater. (Starting on the first Ariel)",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339498.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339498_lock.png",
+   "rarity": 26.84,
+   "unlock": {
+    "type": "ra",
+    "id": 306781
+   }
+  },
+  {
+   "id": "ra-306783",
+   "name": "Theatre of Cruelty",
+   "description": "Solve the theater spotlight puzzle.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339500.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339500_lock.png",
+   "rarity": 39.62,
+   "unlock": {
+    "type": "ra",
+    "id": 306783
+   }
+  },
+  {
+   "id": "ra-306784",
+   "name": "Caliban",
+   "description": "Kill Caliban without taking damage and without equipping an unlockable weapon in Artaud Theater.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339501.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339501_lock.png",
+   "rarity": 35.14,
+   "unlock": {
+    "type": "ra",
+    "id": 306784
+   }
+  },
+  {
+   "id": "ra-306785",
+   "name": "Flauros III",
+   "description": "Take the Falsehood Piece in Artaud Theatre.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339502.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339502_lock.png",
+   "rarity": 38.02,
+   "unlock": {
+    "type": "ra",
+    "id": 306785
+   }
+  },
+  {
+   "id": "ra-306787",
+   "name": "Assault Rifle",
+   "description": "Take the Assault Rifle.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339504.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339504_lock.png",
+   "rarity": 39.3,
+   "unlock": {
+    "type": "ra",
+    "id": 306787
+   }
+  },
+  {
+   "id": "ra-306788",
+   "name": "Redeemer",
+   "description": "Take the Redeemer.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339505.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339505_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306788
+   }
+  },
+  {
+   "id": "ra-306789",
+   "name": "A Stalker!?",
+   "description": "Look through a specific peephole in Riverside Motel.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339506.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339506_lock.png",
+   "rarity": 30.35,
+   "unlock": {
+    "type": "ra",
+    "id": 306789
+   }
+  },
+  {
+   "id": "ra-306790",
+   "name": "Dr. Michael Kaufmann",
+   "description": "You have a habit of popping up where you're not wanted, Mr. Grady. Isn't it time you left town?",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339507.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339507_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306790
+   }
+  },
+  {
+   "id": "ra-306791",
+   "name": "The Laundry",
+   "description": "Solve the Washing Machine Puzzle in Riverside Motel.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339508.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339508_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306791
+   }
+  },
+  {
+   "id": "ra-306803",
+   "name": "The Butcher",
+   "description": "Kill the Butcher without taking damage and without equipping an unlockable weapon in Riverside Motel.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339520.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339520_lock.png",
+   "rarity": 36.1,
+   "unlock": {
+    "type": "ra",
+    "id": 306803
+   }
+  },
+  {
+   "id": "ra-306792",
+   "name": "Richard and Helen",
+   "description": "Take the Wedding Ring.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339509.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339509_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306792
+   }
+  },
+  {
+   "id": "ra-306793",
+   "name": "Room 500",
+   "description": "Solve the Rotary Calendar Puzzle and unlock the key.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339510.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339510_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306793
+   }
+  },
+  {
+   "id": "ra-306794",
+   "name": "Sad Daddy",
+   "description": "Kill Sad Daddy without taking damage and without equipping an unlockable weapon in Riverside Motel.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339511.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339511_lock.png",
+   "rarity": 27.16,
+   "unlock": {
+    "type": "ra",
+    "id": 306794
+   }
+  },
+  {
+   "id": "ra-306795",
+   "name": "Flauros IV",
+   "description": "Take the Truth Piece in Riverside Motel.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339512.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339512_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306795
+   }
+  },
+  {
+   "id": "ra-306796",
+   "name": "Flauros V",
+   "description": "Take the Present Piece in Alchemilla Hospital and solve the puzzle.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339513.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339513_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306796
+   }
+  },
+  {
+   "id": "ra-306797",
+   "name": "Alessa Gillespie",
+   "description": "What have you done? You broke the spell! Now she is free.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339514.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339514_lock.png",
+   "rarity": 38.34,
+   "unlock": {
+    "type": "ra",
+    "id": 306797
+   }
+  },
+  {
+   "id": "ra-306798",
+   "name": "Alessa's Dream",
+   "description": "Kill Alessa's Dream without taking damage and without equipping an unlockable weapon in Otherworld.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339515.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339515_lock.png",
+   "rarity": 23.32,
+   "unlock": {
+    "type": "ra",
+    "id": 306798
+   }
+  },
+  {
+   "id": "ra-306799",
+   "name": "We'll call her Cheryl",
+   "description": "Get the Good Ending.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339516.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339516_lock.png",
+   "rarity": 37.7,
+   "unlock": {
+    "type": "ra",
+    "id": 306799
+   }
+  },
+  {
+   "id": "ra-306800",
+   "name": "Serial Killer",
+   "description": "Get the Bad Ending.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339517.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339517_lock.png",
+   "rarity": 19.81,
+   "unlock": {
+    "type": "ra",
+    "id": 306800
+   }
+  },
+  {
+   "id": "ra-306801",
+   "name": "The Crescent Moon",
+   "description": "Take the Room 502 key.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339518.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339518_lock.png",
+   "rarity": 23.32,
+   "unlock": {
+    "type": "ra",
+    "id": 306801
+   }
+  },
+  {
+   "id": "ra-306802",
+   "name": "Ruff Ruff",
+   "description": "Get the UFO Ending.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339519.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339519_lock.png",
+   "rarity": 21.09,
+   "unlock": {
+    "type": "ra",
+    "id": 306802
+   }
+  },
+  {
+   "id": "ra-306804",
+   "name": "Nurse",
+   "description": "Kill 25 enemies. (No NG+)",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339521.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339521_lock.png",
+   "rarity": 43.77,
+   "unlock": {
+    "type": "ra",
+    "id": 306804
+   }
+  },
+  {
+   "id": "ra-306805",
+   "name": "Carrion",
+   "description": "Kill 50 enemies. (No NG+)",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339522.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339522_lock.png",
+   "rarity": 35.78,
+   "unlock": {
+    "type": "ra",
+    "id": 306805
+   }
+  },
+  {
+   "id": "ra-306806",
+   "name": "Remnant",
+   "description": "Kill 100 enemies. (No NG+)",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339523.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339523_lock.png",
+   "rarity": 28.43,
+   "unlock": {
+    "type": "ra",
+    "id": 306806
+   }
+  },
+  {
+   "id": "ra-306807",
+   "name": "Ariel",
+   "description": "Kill 175 enemies. (No NG+)",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339524.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339524_lock.png",
+   "rarity": 21.73,
+   "unlock": {
+    "type": "ra",
+    "id": 306807
+   }
+  },
+  {
+   "id": "ra-306808",
+   "name": "Twoback",
+   "description": "Kill 250 enemies. (No NG+)",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339525.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339525_lock.png",
+   "rarity": 18.85,
+   "unlock": {
+    "type": "ra",
+    "id": 306808
+   }
+  },
+  {
+   "id": "ra-306809",
+   "name": "Health Drink",
+   "description": "Take 50 items.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339526.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339526_lock.png",
+   "rarity": 49.84,
+   "unlock": {
+    "type": "ra",
+    "id": 306809
+   }
+  },
+  {
+   "id": "ra-306810",
+   "name": "Energy Drink",
+   "description": "Take 100 items.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339527.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339527_lock.png",
+   "rarity": 41.53,
+   "unlock": {
+    "type": "ra",
+    "id": 306810
+   }
+  },
+  {
+   "id": "ra-306811",
+   "name": "First Aid Kit",
+   "description": "Take 175 items.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339528.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339528_lock.png",
+   "rarity": 39.94,
+   "unlock": {
+    "type": "ra",
+    "id": 306811
+   }
+  },
+  {
+   "id": "ra-306812",
+   "name": "Ampoule",
+   "description": "Take 300 items.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339529.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339529_lock.png",
+   "rarity": 32.27,
+   "unlock": {
+    "type": "ra",
+    "id": 306812
+   }
+  },
+  {
+   "id": "ra-306813",
+   "name": "Parking Ticket",
+   "description": "Take 10 notes.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339530.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339530_lock.png",
+   "rarity": 46.33,
+   "unlock": {
+    "type": "ra",
+    "id": 306813
+   }
+  },
+  {
+   "id": "ra-306814",
+   "name": "Child's Drawing",
+   "description": "Take 25 notes.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339531.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339531_lock.png",
+   "rarity": 39.3,
+   "unlock": {
+    "type": "ra",
+    "id": 306814
+   }
+  },
+  {
+   "id": "ra-306815",
+   "name": "Yellowed Page",
+   "description": "Take all 50 notes.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339532.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339532_lock.png",
+   "rarity": 18.85,
+   "unlock": {
+    "type": "ra",
+    "id": 306815
+   }
+  },
+  {
+   "id": "ra-306973",
+   "name": "The Lonely Moon",
+   "description": "Kill 25 enemies using the Moon Gauntlets without returning to the main menu.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339696.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339696_lock.png",
+   "rarity": 21.73,
+   "unlock": {
+    "type": "ra",
+    "id": 306973
+   }
+  },
+  {
+   "id": "ra-306974",
+   "name": "911 Emergency",
+   "description": "Kill 25 enemies using the Fire Axe without returning to the main menu.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339697.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339697_lock.png",
+   "rarity": 20.45,
+   "unlock": {
+    "type": "ra",
+    "id": 306974
+   }
+  },
+  {
+   "id": "ra-306975",
+   "name": "Killing Spree",
+   "description": "Kill 25 enemies using the Great Cleaver without returning to the main menu.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339698.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339698_lock.png",
+   "rarity": 19.49,
+   "unlock": {
+    "type": "ra",
+    "id": 306975
+   }
+  },
+  {
+   "id": "ra-306782",
+   "name": "Alien Technology",
+   "description": "Kill 50 enemies using the Tesla Rifle without returning to the main menu.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/345357.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/345357_lock.png",
+   "rarity": 20.13,
+   "unlock": {
+    "type": "ra",
+    "id": 306782
+   }
+  },
+  {
+   "id": "ra-306816",
+   "name": "Codebreaker",
+   "description": "Do the Konami code anytime during a subsequent playthrough.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339533.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339533_lock.png",
+   "rarity": 22.04,
+   "unlock": {
+    "type": "ra",
+    "id": 306816
+   }
+  },
+  {
+   "id": "ra-306817",
+   "name": "Stalker",
+   "description": "Finish the game using the flashlight for less than 3 hours.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339534.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339534_lock.png",
+   "rarity": 35.46,
+   "unlock": {
+    "type": "ra",
+    "id": 306817
+   }
+  },
+  {
+   "id": "ra-306818",
+   "name": "Fireman",
+   "description": "Finish the game rescuing Alessa from fire in less than 80 seconds.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339535.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339535_lock.png",
+   "rarity": 26.2,
+   "unlock": {
+    "type": "ra",
+    "id": 306818
+   }
+  },
+  {
+   "id": "ra-306819",
+   "name": "Explorer",
+   "description": "Finish the game travelling a distance greater than 22.5 km.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339536.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339536_lock.png",
+   "rarity": 33.23,
+   "unlock": {
+    "type": "ra",
+    "id": 306819
+   }
+  },
+  {
+   "id": "ra-306820",
+   "name": "Collector",
+   "description": "Finish the game collecting more than 300 items.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339537.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339537_lock.png",
+   "rarity": 31.95,
+   "unlock": {
+    "type": "ra",
+    "id": 306820
+   }
+  },
+  {
+   "id": "ra-306825",
+   "name": "Cartographer",
+   "description": "Finish the game looking at the map less than 25 times.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339542.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339542_lock.png",
+   "rarity": 20.13,
+   "unlock": {
+    "type": "ra",
+    "id": 306825
+   }
+  },
+  {
+   "id": "ra-306822",
+   "name": "Sharpshooter",
+   "description": "Finish the game killing at least 75% of enemies with firearms.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339539.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339539_lock.png",
+   "rarity": 20.13,
+   "unlock": {
+    "type": "ra",
+    "id": 306822
+   }
+  },
+  {
+   "id": "ra-306823",
+   "name": "Weaponsmith",
+   "description": "Finish the game killing at least 75% of enemies with melee weapons.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339540.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339540_lock.png",
+   "rarity": 20.45,
+   "unlock": {
+    "type": "ra",
+    "id": 306823
+   }
+  },
+  {
+   "id": "ra-306824",
+   "name": "Brawler",
+   "description": "Finish the game killing at least 75% of enemies with fists.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339541.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339541_lock.png",
+   "rarity": 23.32,
+   "unlock": {
+    "type": "ra",
+    "id": 306824
+   }
+  },
+  {
+   "id": "ra-306821",
+   "name": "Sprinter",
+   "description": "Finish the game in less than 2 hours.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339538.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339538_lock.png",
+   "rarity": 20.77,
+   "unlock": {
+    "type": "ra",
+    "id": 306821
+   }
+  },
+  {
+   "id": "ra-306826",
+   "name": "Daredevil",
+   "description": "Finish the game without saving.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/339543.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/339543_lock.png",
+   "rarity": 19.81,
+   "unlock": {
+    "type": "ra",
+    "id": 306826
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

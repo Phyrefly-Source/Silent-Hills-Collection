@@ -1,0 +1,5 @@
+#!/bin/sh
+# AppImage entry point. $APPIMAGE (set by the runtime) is what the updater replaces.
+HERE="$(dirname "$(readlink -f "$0")")"
+cd "$HERE/usr/bin"
+exec "$HERE/usr/bin/silent-hills.x86_64" "$@"

@@ -1,0 +1,317 @@
+{
+ "game": "sh3",
+ "platform": "PlayStation 3",
+ "source": "Silent Hill HD Collection (PlayStation 3) trophies",
+ "credit": "Exophase",
+ "link": "https://www.exophase.com/game/silent-hill-3-hd/trophies/",
+ "notes": "The game's official PlayStation 3 trophies. Rebuilds and Enhanced patches report them through the launcher's bridge as they're hooked; until then you can mark them by hand.",
+ "achievements": [
+  {
+   "id": "i-guess-its-time-to-roll-the-credits",
+   "name": "I Guess it's Time to Roll the Credits",
+   "description": "Unlock all Trophies in SH3.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35j6gb.png",
+   "rarity": 49.03,
+   "grade": "platinum",
+   "unlock": {
+    "type": "all"
+   }
+  },
+  {
+   "id": "im-normal-i-promise",
+   "name": "I'm Normal I Promise",
+   "description": "Unlock the \"Normal\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/77g533.png",
+   "rarity": 79.97,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "im-normal-i-promise",
+    "count": 1
+   }
+  },
+  {
+   "id": "it-was-all-in-your-head",
+   "name": "It Was All in Your Head",
+   "description": "Unlock the \"Possessed\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/556gj0.png",
+   "rarity": 50.7,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "it-was-all-in-your-head",
+    "count": 1
+   }
+  },
+  {
+   "id": "coolest-dad-ever",
+   "name": "Coolest. Dad. Ever.",
+   "description": "Unlock the \"UFO\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/00bj47.png",
+   "rarity": 49.8,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "coolest-dad-ever",
+    "count": 1
+   }
+  },
+  {
+   "id": "adrenaline-junkie",
+   "name": "Adrenaline Junkie",
+   "description": "Complete SH3 in 3 hours or less.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8je0dj.png",
+   "rarity": 55.0,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "adrenaline-junkie",
+    "count": 1
+   }
+  },
+  {
+   "id": "wall-basher",
+   "name": "Wall Basher",
+   "description": "Acquire the Silencer.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/ee6g03.png",
+   "rarity": 70.5,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "wall-basher",
+    "count": 1
+   }
+  },
+  {
+   "id": "theres-a-new-sheriff-in-town",
+   "name": "There's a New Sheriff in Town",
+   "description": "Acquire the Beam Saber.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/404b71.png",
+   "rarity": 62.51,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "theres-a-new-sheriff-in-town",
+    "count": 1
+   }
+  },
+  {
+   "id": "flame-on",
+   "name": "Flame On",
+   "description": "Acquire the Flamethrower.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6db343.png",
+   "rarity": 58.57,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "flame-on",
+    "count": 1
+   }
+  },
+  {
+   "id": "what-the-hill-just-happened",
+   "name": "What the Hill Just Happened?",
+   "description": "Acquire the Gold and Silver pipes.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b8e4d3.png",
+   "rarity": 56.46,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "what-the-hill-just-happened",
+    "count": 1
+   }
+  },
+  {
+   "id": "makes-my-head-hurt",
+   "name": "Makes My Head Hurt",
+   "description": "Complete SH3 with 2 saves or less.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjg5bg.png",
+   "rarity": 51.88,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "makes-my-head-hurt",
+    "count": 1
+   }
+  },
+  {
+   "id": "if-looks-could-kill",
+   "name": "If Looks Could Kill",
+   "description": "Unlock the Heather Beam.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg4b7d.png",
+   "rarity": 50.51,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "if-looks-could-kill",
+    "count": 1
+   }
+  },
+  {
+   "id": "wheres-luna",
+   "name": "Where's Luna?",
+   "description": "Equip the \"Princess Heart\" costume.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j04e7j.png",
+   "rarity": 65.04,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "wheres-luna",
+    "count": 1
+   }
+  },
+  {
+   "id": "heathers-got-a-gun",
+   "name": "Heather's Got a Gun",
+   "description": "Acquire the Unlimited Submachine Gun.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/13gjb8.png",
+   "rarity": 62.37,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "heathers-got-a-gun",
+    "count": 1
+   }
+  },
+  {
+   "id": "pest-control",
+   "name": "Pest Control",
+   "description": "Defeat Split Worm in under 2 minutes.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35j61b.png",
+   "rarity": 97.87,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "pest-control",
+    "count": 1
+   }
+  },
+  {
+   "id": "eye-for-an-eye",
+   "name": "Eye For an Eye",
+   "description": "Defeat Missionary in under 2 minutes.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/77g5b3.png",
+   "rarity": 78.68,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "eye-for-an-eye",
+    "count": 1
+   }
+  },
+  {
+   "id": "a-time-to-kill",
+   "name": "A Time to Kill",
+   "description": "Defeat Leonard in under 3 minutes.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/556g00.png",
+   "rarity": 80.11,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "a-time-to-kill",
+    "count": 1
+   }
+  },
+  {
+   "id": "lost-memory",
+   "name": "Lost Memory",
+   "description": "Defeat Memory of Alessa in under 3 minutes.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/00b177.png",
+   "rarity": 68.86,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "lost-memory",
+    "count": 1
+   }
+  },
+  {
+   "id": "blasphemy",
+   "name": "Blasphemy",
+   "description": "Defeat God in under 8 minutes.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8je41j.png",
+   "rarity": 79.41,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "blasphemy",
+    "count": 1
+   }
+  },
+  {
+   "id": "this-isnt-an-fps",
+   "name": "This Isn't an FPS!",
+   "description": "Defeat at least 75 enemies by shooting in SH3.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/ee68d3.png",
+   "rarity": 56.68,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "this-isnt-an-fps",
+    "count": 1
+   }
+  },
+  {
+   "id": "they-look-like-monsters-to-you",
+   "name": "They Look like Monsters to You?",
+   "description": "Defeat at least 75 enemies by fighting in SH3.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/404651.png",
+   "rarity": 58.09,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "they-look-like-monsters-to-you",
+    "count": 1
+   }
+  },
+  {
+   "id": "hoarder",
+   "name": "Hoarder",
+   "description": "Pick up at least 100 items in SH3.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6dbg03.png",
+   "rarity": 87.97,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "hoarder",
+    "count": 1
+   }
+  },
+  {
+   "id": "ninja",
+   "name": "Ninja",
+   "description": "Receive less than 500 points of damage in one game, in SH3.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b8e373.png",
+   "rarity": 53.51,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "ninja",
+    "count": 1
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

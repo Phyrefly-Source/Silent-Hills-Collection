@@ -1,0 +1,503 @@
+{
+ "game": "downpour",
+ "platform": "Xbox 360",
+ "source": "Xbox 360 achievements",
+ "credit": "Exophase",
+ "link": "https://www.exophase.com/game/silent-hill-downpour-xbox-360/achievements/",
+ "notes": "The game's official Xbox 360 achievements, which the PC versions never had. The PC game reports them through the launcher's bridge; until then you can mark them by hand.",
+ "achievements": [
+  {
+   "id": "now-you-re-cooking",
+   "name": "Now You're Cooking…",
+   "description": "Survived the Diner Otherworld.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/617436.png",
+   "rarity": 99.91,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000001"
+   }
+  },
+  {
+   "id": "out-of-the-frying-pan",
+   "name": "Out of the Frying Pan",
+   "description": "Rode the Sky Tram to Devil's Pit.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/4de7bj.png",
+   "rarity": 87.2,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000002"
+   }
+  },
+  {
+   "id": "going-off-the-rails",
+   "name": "Going off the Rails",
+   "description": "Escaped from Devil's Pit.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/e530g6.png",
+   "rarity": 71.67,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000003"
+   }
+  },
+  {
+   "id": "found-a-friend",
+   "name": "Found a Friend!",
+   "description": "Met DJ Ricks in the Radio Station.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/167bj5.png",
+   "rarity": 54.59,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000004"
+   }
+  },
+  {
+   "id": "whatever-doesn-t-kill-you",
+   "name": "Whatever Doesn't Kill You…",
+   "description": "Escaped the Radio Station Otherworld.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/jg6757.png",
+   "rarity": 53.66,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000005"
+   }
+  },
+  {
+   "id": "ashes-ashes",
+   "name": "Ashes, Ashes",
+   "description": "Collected 3 pages of the rhyme book.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/875d64.png",
+   "rarity": 48.88,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000006"
+   }
+  },
+  {
+   "id": "broken-cycle",
+   "name": "Broken Cycle",
+   "description": "Defeated The Bogeyman.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/5j7033.png",
+   "rarity": 48.01,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000007"
+   }
+  },
+  {
+   "id": "no-turning-back",
+   "name": "No Turning Back",
+   "description": "Reached Overlook Penitentiary.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/3g7105.png",
+   "rarity": 45.84,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000008"
+   }
+  },
+  {
+   "id": "ending-a",
+   "name": "Ending A",
+   "description": "Achieved \"Forgiveness\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/b1gd4j.png",
+   "rarity": 18.96,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000009"
+   }
+  },
+  {
+   "id": "ending-c",
+   "name": "Ending C",
+   "description": "Achieved \"Full Circle\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/g41b5d.png",
+   "rarity": 17.49,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000000A"
+   }
+  },
+  {
+   "id": "ending-b",
+   "name": "Ending B",
+   "description": "Achieved \"Truth & Justice\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/de070e.png",
+   "rarity": 30.54,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000000B"
+   }
+  },
+  {
+   "id": "ending-d",
+   "name": "Ending D",
+   "description": "Achieved \"Execution\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/g41b1d.png",
+   "rarity": 25.99,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000000C"
+   }
+  },
+  {
+   "id": "ending-e",
+   "name": "Ending E",
+   "description": "Achieved \"Surprise!\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/de07be.png",
+   "rarity": 12.28,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000000D"
+   }
+  },
+  {
+   "id": "capital-punishment",
+   "name": "Capital Punishment",
+   "description": "Completed the game on the hard game difficulty setting, any ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/jg67e7.png",
+   "rarity": 15.16,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000000E"
+   }
+  },
+  {
+   "id": "good-behavior",
+   "name": "Good Behavior",
+   "description": "Completed the game on any difficulty without killing any monsters.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/167b15.png",
+   "rarity": 12.26,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000000F"
+   }
+  },
+  {
+   "id": "silent-hill-tour-guide",
+   "name": "Silent Hill Tour Guide",
+   "description": "Completed all side quests.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/3g7145.png",
+   "rarity": 17.39,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000010"
+   }
+  },
+  {
+   "id": "useless-trinkets",
+   "name": "Useless Trinkets",
+   "description": "Completed the \"Digging up the Past\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/730bd0.png",
+   "rarity": 12.87,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000011"
+   }
+  },
+  {
+   "id": "birdman",
+   "name": "Birdman",
+   "description": "Completed the \"Bird Cage\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/4de71j.png",
+   "rarity": 26.6,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000012"
+   }
+  },
+  {
+   "id": "calling-all-cars",
+   "name": "Calling All Cars",
+   "description": "Completed the \"All Points Bulletin\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/5j70g3.png",
+   "rarity": 47.71,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000013"
+   }
+  },
+  {
+   "id": "neighborhood-watch",
+   "name": "Neighborhood Watch",
+   "description": "Completed the \"Stolen Goods\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/5j70b3.png",
+   "rarity": 43.55,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000014"
+   }
+  },
+  {
+   "id": "art-appreciation",
+   "name": "Art Appreciation",
+   "description": "Completed \"The Art Collector\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/0e341j.png",
+   "rarity": 22.19,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000015"
+   }
+  },
+  {
+   "id": "silent-alarm",
+   "name": "Silent Alarm",
+   "description": "Completed \"The Bank\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/3g7165.png",
+   "rarity": 31.8,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000016"
+   }
+  },
+  {
+   "id": "will-work-for-food",
+   "name": "Will Work For Food",
+   "description": "Completed the \"Homeless\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/875d44.png",
+   "rarity": 22.28,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000017"
+   }
+  },
+  {
+   "id": "cutting-room-floor",
+   "name": "Cutting Room Floor",
+   "description": "Completed the \"Cinéma Vérité\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/e53086.png",
+   "rarity": 31.62,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000018"
+   }
+  },
+  {
+   "id": "turn-back-time",
+   "name": "Turn Back Time",
+   "description": "Completed \"The Gramophone\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/de071e.png",
+   "rarity": 32.59,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000019"
+   }
+  },
+  {
+   "id": "what-s-your-sign",
+   "name": "What's Your Sign?",
+   "description": "Completed the \"Shadow Play\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/730b40.png",
+   "rarity": 19.89,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000001A"
+   }
+  },
+  {
+   "id": "telltale-heart",
+   "name": "Telltale Heart",
+   "description": "Completed the \"Dead Man's Hand\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/b1gd6j.png",
+   "rarity": 31.54,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000001B"
+   }
+  },
+  {
+   "id": "dust-to-dust",
+   "name": "Dust to Dust",
+   "description": "Completed the \"Ashes to Ashes\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/g41b3d.png",
+   "rarity": 30.45,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000001C"
+   }
+  },
+  {
+   "id": "long-walk-short-pier",
+   "name": "Long Walk, Short Pier",
+   "description": "Completed the \"Ribbons\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/4de76j.png",
+   "rarity": 22.96,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000001D"
+   }
+  },
+  {
+   "id": "spot-the-difference",
+   "name": "Spot the Difference",
+   "description": "Completed the \"Mirror, Mirror\" side quest.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/617456.png",
+   "rarity": 33.76,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000001E"
+   }
+  },
+  {
+   "id": "silence-is-golden",
+   "name": "Silence is Golden",
+   "description": "Killed or incapacitated 10 Screamers.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/875d04.png",
+   "rarity": 69.37,
+   "unlock": {
+    "type": "rexglue",
+    "id": "0000001F"
+   }
+  },
+  {
+   "id": "shadow-boxer",
+   "name": "Shadow Boxer",
+   "description": "Killed or incapacitated 10 Dolls.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/e53016.png",
+   "rarity": 46.51,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000020"
+   }
+  },
+  {
+   "id": "pinata-party",
+   "name": "Piñata Party",
+   "description": "Killed or incapacitated 10 Weeping Bats.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/0e34dj.png",
+   "rarity": 19.45,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000021"
+   }
+  },
+  {
+   "id": "lockdown",
+   "name": "Lockdown",
+   "description": "Killed or incapacitated 10 Prisoner Minions.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/730b50.png",
+   "rarity": 50.05,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000022"
+   }
+  },
+  {
+   "id": "the-bigger-they-are",
+   "name": "The Bigger They Are…",
+   "description": "Killed or incapacitated 10 Prisoner Juggernauts.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/jg6767.png",
+   "rarity": 35.0,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000023"
+   }
+  },
+  {
+   "id": "fight-or-flight",
+   "name": "Fight or Flight?",
+   "description": "Escaped from 20 monsters.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/0e34jj.png",
+   "rarity": 62.79,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000024"
+   }
+  },
+  {
+   "id": "silent-hill-historic-society",
+   "name": "Silent Hill Historic Society",
+   "description": "Completed Murphy's Journal with all Mysteries.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/6174g6.png",
+   "rarity": 12.58,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000025"
+   }
+  },
+  {
+   "id": "stay-of-execution",
+   "name": "Stay of Execution",
+   "description": "Incapacitated 20 monsters without killing them.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/b1gd3j.png",
+   "rarity": 26.25,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000026"
+   }
+  },
+  {
+   "id": "gun-control",
+   "name": "Gun Control",
+   "description": "Killed 25 monsters with the Pistol or Shotgun.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/g41b7d.png",
+   "rarity": 19.25,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000027"
+   }
+  },
+  {
+   "id": "hypochondriac",
+   "name": "Hypochondriac",
+   "description": "Used 20 First Aid Kits.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/167b05.png",
+   "rarity": 48.59,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000028"
+   }
+  },
+  {
+   "id": "puzzle-master",
+   "name": "Puzzle Master",
+   "description": "Completed the game on the hard puzzle difficulty setting, any ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/de078e.png",
+   "rarity": 18.11,
+   "unlock": {
+    "type": "rexglue",
+    "id": "00000029"
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

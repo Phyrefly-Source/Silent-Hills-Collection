@@ -1,0 +1,376 @@
+{
+ "game": "homecoming",
+ "process": "shh_sgm.exe",
+ "source": "Xbox 360 (32 achievements, 1000G)",
+ "notes": "The Xbox 360 version's achievements, which the PS3 and PC versions never had. The PC game reports them through the launcher's bridge once Homecoming Enhanced hooks the matching moments (each entry's event name, or an unlock by its id); until then you can mark them by hand.",
+ "achievements": [
+  {
+   "id": "lock-n-load",
+   "name": "Lock 'n' Load",
+   "description": "Found Rifle",
+   "points": 25,
+   "trigger": {
+    "type": "event",
+    "name": "lock-n-load",
+    "count": 1
+   }
+  },
+  {
+   "id": "sightseeing",
+   "name": "Sightseeing",
+   "description": "Found 1 Photo",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "sightseeing",
+    "count": 1
+   }
+  },
+  {
+   "id": "josh-s-gallery",
+   "name": "Josh's Gallery",
+   "description": "Found ALL Photos",
+   "points": 50,
+   "trigger": {
+    "type": "event",
+    "name": "josh-s-gallery",
+    "count": 1
+   }
+  },
+  {
+   "id": "alchemilla-s-finest",
+   "name": "Alchemilla's Finest",
+   "description": "Defeated 1 Nurse",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "alchemilla-s-finest",
+    "count": 1
+   }
+  },
+  {
+   "id": "eddie-s-legacy",
+   "name": "Eddie's Legacy",
+   "description": "Defeated 1 Feral",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "eddie-s-legacy",
+    "count": 1
+   }
+  },
+  {
+   "id": "lurk-no-more",
+   "name": "Lurk No More",
+   "description": "Defeated 1 Lurker",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "lurk-no-more",
+    "count": 1
+   }
+  },
+  {
+   "id": "to-the-point",
+   "name": "To The Point",
+   "description": "Defeated 1 Needler",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "to-the-point",
+    "count": 1
+   }
+  },
+  {
+   "id": "split-personality",
+   "name": "Split Personality",
+   "description": "Defeated 1 Schism",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "split-personality",
+    "count": 1
+   }
+  },
+  {
+   "id": "shades-of-james",
+   "name": "Shades of James",
+   "description": "Defeated 1 Siam",
+   "points": 20,
+   "trigger": {
+    "type": "event",
+    "name": "shades-of-james",
+    "count": 1
+   }
+  },
+  {
+   "id": "clear-the-air",
+   "name": "Clear the Air",
+   "description": "Defeated 1 Smog",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "clear-the-air",
+    "count": 1
+   }
+  },
+  {
+   "id": "creeper-reaper",
+   "name": "Creeper Reaper",
+   "description": "Defeated 1 Swarm",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "creeper-reaper",
+    "count": 1
+   }
+  },
+  {
+   "id": "out-of-order",
+   "name": "Out of Order",
+   "description": "Defeated 1 Order member",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "out-of-order",
+    "count": 1
+   }
+  },
+  {
+   "id": "kaufmann-s-handiwork",
+   "name": "Kaufmann's Handiwork",
+   "description": "Found 1 Serum",
+   "points": 10,
+   "trigger": {
+    "type": "event",
+    "name": "kaufmann-s-handiwork",
+    "count": 1
+   }
+  },
+  {
+   "id": "health-junkie",
+   "name": "Health Junkie",
+   "description": "Found all Serums",
+   "points": 50,
+   "trigger": {
+    "type": "event",
+    "name": "health-junkie",
+    "count": 1
+   }
+  },
+  {
+   "id": "the-old-gods-haven-t-left-this-place",
+   "name": "The Old Gods... .. Haven't Left This Place",
+   "description": "Complete game on HARD difficulty.",
+   "points": 100,
+   "trigger": {
+    "type": "event",
+    "name": "the-old-gods-haven-t-left-this-place",
+    "count": 1
+   }
+  },
+  {
+   "id": "nursery-rhymes",
+   "name": "Nursery Rhymes",
+   "description": "Found all the Children's Drawings",
+   "points": 50,
+   "trigger": {
+    "type": "event",
+    "name": "nursery-rhymes",
+    "count": 1
+   }
+  },
+  {
+   "id": "six-feet-under",
+   "name": "Six Feet Under",
+   "description": "Defeated Sepulcher",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "six-feet-under",
+    "count": 1
+   }
+  },
+  {
+   "id": "blood-donor",
+   "name": "Blood Donor",
+   "description": "Defeated Scarlet",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "blood-donor",
+    "count": 1
+   }
+  },
+  {
+   "id": "catch-your-breath",
+   "name": "Catch Your Breath",
+   "description": "Defeated Asphyxia",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "catch-your-breath",
+    "count": 1
+   }
+  },
+  {
+   "id": "head-above-water",
+   "name": "Head Above Water",
+   "description": "Defeated Amnion",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "head-above-water",
+    "count": 1
+   }
+  },
+  {
+   "id": "rising-tension",
+   "name": "Rising Tension",
+   "description": "Found Circular Saw",
+   "points": 25,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "rising-tension",
+    "count": 1
+   }
+  },
+  {
+   "id": "science-fiction",
+   "name": "Science Fiction",
+   "description": "Found Laser Pistol",
+   "points": 25,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "science-fiction",
+    "count": 1
+   }
+  },
+  {
+   "id": "smile",
+   "name": "Smile",
+   "description": "Achieved Ending 1",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "smile",
+    "count": 1
+   }
+  },
+  {
+   "id": "in-water",
+   "name": "In Water",
+   "description": "Achieved Ending 2",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "in-water",
+    "count": 1
+   }
+  },
+  {
+   "id": "judgement",
+   "name": "Judgement",
+   "description": "Achieved Ending 3",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "judgement",
+    "count": 1
+   }
+  },
+  {
+   "id": "intensive-care",
+   "name": "Intensive Care",
+   "description": "Achieved Ending 4",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "intensive-care",
+    "count": 1
+   }
+  },
+  {
+   "id": "no-dogs-allowed",
+   "name": "No Dogs Allowed",
+   "description": "Achieved Ending 5",
+   "points": 50,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "no-dogs-allowed",
+    "count": 1
+   }
+  },
+  {
+   "id": "mercy",
+   "name": "Mercy",
+   "description": "Alex ended his mother's suffering",
+   "points": 20,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "mercy",
+    "count": 1
+   }
+  },
+  {
+   "id": "compassion",
+   "name": "Compassion",
+   "description": "Alex could not end his mother's suffering",
+   "points": 20,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "compassion",
+    "count": 1
+   }
+  },
+  {
+   "id": "forgiveness",
+   "name": "Forgiveness",
+   "description": "Alex Forgives his father",
+   "points": 20,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "forgiveness",
+    "count": 1
+   }
+  },
+  {
+   "id": "angela-s-choice",
+   "name": "Angela's Choice",
+   "description": "Alex does not forgive his father",
+   "points": 20,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "angela-s-choice",
+    "count": 1
+   }
+  },
+  {
+   "id": "now-about-those-drinks",
+   "name": "Now About Those Drinks",
+   "description": "Saved Wheeler",
+   "points": 25,
+   "hidden": true,
+   "trigger": {
+    "type": "event",
+    "name": "now-about-those-drinks",
+    "count": 1
+   }
+  }
+ ]
+}

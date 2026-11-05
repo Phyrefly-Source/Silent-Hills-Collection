@@ -1,0 +1,877 @@
+{
+ "game": "book-of-memories",
+ "platform": "PlayStation Vita",
+ "source": "PlayStation Vita trophies",
+ "credit": "Exophase",
+ "link": "https://www.exophase.com/game/silent-hill-book-of-memories-ps-vita/trophies/",
+ "notes": "The game's official PlayStation Vita trophies. Rebuilds and Enhanced patches report them through the launcher's bridge as they're hooked; until then you can mark them by hand.",
+ "achievements": [
+  {
+   "id": "hyperthymesiac",
+   "name": "Hyperthymesiac",
+   "description": "Earn every trophy in the game",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjd844.png",
+   "rarity": 9.09,
+   "grade": "platinum",
+   "unlock": {
+    "type": "all"
+   }
+  },
+  {
+   "id": "creator",
+   "name": "Creator",
+   "description": "Create a character",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg6de7.png",
+   "rarity": 100.0,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "creator",
+    "count": 1
+   }
+  },
+  {
+   "id": "consumer",
+   "name": "Consumer",
+   "description": "Make a purchase in Howard's shop",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j0387b.png",
+   "rarity": 74.53,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "consumer",
+    "count": 1
+   }
+  },
+  {
+   "id": "light-napper",
+   "name": "Light Napper",
+   "description": "Complete Zone 1",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/134eb3.png",
+   "rarity": 79.83,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "light-napper",
+    "count": 1
+   }
+  },
+  {
+   "id": "deep-sleeper",
+   "name": "Deep Sleeper",
+   "description": "Reach Zone 50",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35bd17.png",
+   "rarity": 10.75,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "deep-sleeper",
+    "count": 1
+   }
+  },
+  {
+   "id": "comatose",
+   "name": "Comatose",
+   "description": "Reach Zone 100",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/7716b4.png",
+   "rarity": 9.82,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "comatose",
+    "count": 1
+   }
+  },
+  {
+   "id": "novice",
+   "name": "Novice",
+   "description": "Level up to LVL 2",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/55d10g.png",
+   "rarity": 85.66,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "novice",
+    "count": 1
+   }
+  },
+  {
+   "id": "apprentice",
+   "name": "Apprentice",
+   "description": "Level up to LVL 25",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/005641.png",
+   "rarity": 11.85,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "apprentice",
+    "count": 1
+   }
+  },
+  {
+   "id": "master",
+   "name": "Master",
+   "description": "Level up to LVL 50",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8j3bde.png",
+   "rarity": 9.76,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "master",
+    "count": 1
+   }
+  },
+  {
+   "id": "choice-meat",
+   "name": "Choice Meat",
+   "description": "Defeat 25 Butchers with the Great Cleaver",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/eebj0j.png",
+   "rarity": 10.88,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "choice-meat",
+    "count": 1
+   }
+  },
+  {
+   "id": "disorderly-conduct",
+   "name": "Disorderly Conduct",
+   "description": "Defeat 25 Nurses with the Steel Pipe",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/40gj73.png",
+   "rarity": 37.12,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "disorderly-conduct",
+    "count": 1
+   }
+  },
+  {
+   "id": "hammer-time",
+   "name": "Hammer Time",
+   "description": "Defeat 25 Bogeymen with the Bogeyman's Hammer",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6dje48.png",
+   "rarity": 10.49,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "hammer-time",
+    "count": 1
+   }
+  },
+  {
+   "id": "pyramid-scheme",
+   "name": "Pyramid Scheme",
+   "description": "Defeat 25 Pyramid Heads with the Great Knife",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b85bd5.png",
+   "rarity": 10.93,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "pyramid-scheme",
+    "count": 1
+   }
+  },
+  {
+   "id": "light-heal-me",
+   "name": "Light Heal Me",
+   "description": "Use Heal Me Karma Ability to restore 25% or more health",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjd8b4.png",
+   "rarity": 25.41,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "light-heal-me",
+    "count": 1
+   }
+  },
+  {
+   "id": "light-heal-you",
+   "name": "Light Heal You",
+   "description": "Use Heal You Karma Ability to restore 50% or more health to a friend (multiplayer)",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg6d77.png",
+   "rarity": 13.63,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "light-heal-you",
+    "count": 1
+   }
+  },
+  {
+   "id": "light-heal-us",
+   "name": "Light Heal Us",
+   "description": "Use Heal Us Karma Ability to restore 50% or more health each to 3 players (multiplayer)",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j03jbb.png",
+   "rarity": 13.31,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "light-heal-us",
+    "count": 1
+   }
+  },
+  {
+   "id": "blood-barrage",
+   "name": "Blood Barrage",
+   "description": "Use Blood Barrage Karma Ability to kill 5 or more enemies",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/134d53.png",
+   "rarity": 14.7,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "blood-barrage",
+    "count": 1
+   }
+  },
+  {
+   "id": "blood-beam",
+   "name": "Blood Beam",
+   "description": "Use Blood Beam Karma Ability on 5 or more enemies at once",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35be37.png",
+   "rarity": 11.41,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "blood-beam",
+    "count": 1
+   }
+  },
+  {
+   "id": "blood-burn",
+   "name": "Blood Burn",
+   "description": "Use Blood Burn Karma Ability to damage 4 different enemy types at once",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/771ej4.png",
+   "rarity": 11.43,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "blood-burn",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-breaker",
+   "name": "Power Breaker",
+   "description": "Use Weapon Breaker Power Move with a weapon that's about to shatter",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/55d4eg.png",
+   "rarity": 15.18,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-breaker",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-charger",
+   "name": "Power Charger",
+   "description": "Use Charge Tackle Power Move to knock one enemy into another",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/005g71.png",
+   "rarity": 16.75,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-charger",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-flasher",
+   "name": "Power Flasher",
+   "description": "Use Flash Burst Power Move to kill 5 or more stunned enemies in a row",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8j3g1e.png",
+   "rarity": 13.42,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-flasher",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-inverter",
+   "name": "Power Inverter",
+   "description": "Use Karma Flip Power Move to flip 8 or more enemies at once",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/eeb4dj.png",
+   "rarity": 12.75,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-inverter",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-repeller",
+   "name": "Power Repeller",
+   "description": "Use Push Force Power Move to knock 8 or more enemies back at once",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/40g353.png",
+   "rarity": 10.91,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-repeller",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-savior",
+   "name": "Power Savior",
+   "description": "Use Health Siphon Power Move to bring a dying friend back to life (multiplayer)",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6dj608.png",
+   "rarity": 14.14,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-savior",
+    "count": 1
+   }
+  },
+  {
+   "id": "power-switcher",
+   "name": "Power Switcher",
+   "description": "Use 360 Attack Power Move to strike 4 or more enemies at once",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b85075.png",
+   "rarity": 21.87,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "power-switcher",
+    "count": 1
+   }
+  },
+  {
+   "id": "beast-master",
+   "name": "Beast Master",
+   "description": "Defeat any Guardian without taking damage",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjde04.png",
+   "rarity": 17.69,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "beast-master",
+    "count": 1
+   }
+  },
+  {
+   "id": "beat-maniac",
+   "name": "Beat Maniac",
+   "description": "Earn a 30 or greater timed hit combo",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg65j7.png",
+   "rarity": 10.18,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "beat-maniac",
+    "count": 1
+   }
+  },
+  {
+   "id": "blacksmith",
+   "name": "Blacksmith",
+   "description": "Level up 10 different weapons",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j03j0b.png",
+   "rarity": 11.12,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "blacksmith",
+    "count": 1
+   }
+  },
+  {
+   "id": "bleeder",
+   "name": "Bleeder",
+   "description": "Lose more than 400% health in one Zone without dying",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/134d33.png",
+   "rarity": 33.06,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "bleeder",
+    "count": 1
+   }
+  },
+  {
+   "id": "bouncer",
+   "name": "Bouncer",
+   "description": "Complete a Zone using only your fists (no weapons)",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35be57.png",
+   "rarity": 21.37,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "bouncer",
+    "count": 1
+   }
+  },
+  {
+   "id": "brainiac",
+   "name": "Brainiac",
+   "description": "Complete any 5 puzzles without using the hint lever",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/771e74.png",
+   "rarity": 31.61,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "brainiac",
+    "count": 1
+   }
+  },
+  {
+   "id": "executioner",
+   "name": "Executioner",
+   "description": "Perform a timed execution on 10 enemies in one Zone",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/40g30b.png",
+   "rarity": 11.36,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "executioner",
+    "count": 1
+   }
+  },
+  {
+   "id": "klutz",
+   "name": "Klutz",
+   "description": "Trigger every kind of trap in the game",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6dj6dg.png",
+   "rarity": 26.19,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "klutz",
+    "count": 1
+   }
+  },
+  {
+   "id": "medic",
+   "name": "Medic",
+   "description": "Drop a health pack after a friend requests one (multiplayer)",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b8508e.png",
+   "rarity": 15.88,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "medic",
+    "count": 1
+   }
+  },
+  {
+   "id": "moneybags",
+   "name": "Moneybags",
+   "description": "Spend over 250,000 MR in Howard's shop",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjdej8.png",
+   "rarity": 11.94,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "moneybags",
+    "count": 1
+   }
+  },
+  {
+   "id": "ninja",
+   "name": "Ninja",
+   "description": "Complete a Zone without turning on your flashlight",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg65g5.png",
+   "rarity": 45.01,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "ninja",
+    "count": 1
+   }
+  },
+  {
+   "id": "sugar-high",
+   "name": "Sugar High",
+   "description": "Complete a Zone without stopping for more than 30 seconds total",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j03j0d.png",
+   "rarity": 17.34,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "sugar-high",
+    "count": 1
+   }
+  },
+  {
+   "id": "tommfoolery",
+   "name": "Tommfoolery",
+   "description": "Perform every in-game VO clip for one character",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/134d34.png",
+   "rarity": 15.4,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "tommfoolery",
+    "count": 1
+   }
+  },
+  {
+   "id": "wingman",
+   "name": "Wingman",
+   "description": "Defeat any Guardian with all four players still alive (multiplayer)",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35be5g.png",
+   "rarity": 14.23,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "wingman",
+    "count": 1
+   }
+  },
+  {
+   "id": "saint",
+   "name": "Saint",
+   "description": "Achieve the LIGHT ending in every Forsaken Room",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/771e7b.png",
+   "rarity": 10.33,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "saint",
+    "count": 1
+   }
+  },
+  {
+   "id": "sinner",
+   "name": "Sinner",
+   "description": "Achieve the BLOOD ending in every Forsaken Room",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/55d47e.png",
+   "rarity": 10.04,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "sinner",
+    "count": 1
+   }
+  },
+  {
+   "id": "agnostic",
+   "name": "Agnostic",
+   "description": "Achieve the NEUTRAL ending in every Forsaken Room",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/005g30.png",
+   "rarity": 10.31,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "agnostic",
+    "count": 1
+   }
+  },
+  {
+   "id": "fireman",
+   "name": "Fireman",
+   "description": "Defeat the Fire Guardian",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8j3g55.png",
+   "rarity": 55.9,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "fireman",
+    "count": 1
+   }
+  },
+  {
+   "id": "lumberjack",
+   "name": "Lumberjack",
+   "description": "Defeat the Wood Guardian",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/eeb431.png",
+   "rarity": 37.41,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "lumberjack",
+    "count": 1
+   }
+  },
+  {
+   "id": "sandman",
+   "name": "Sandman",
+   "description": "Defeat the Light Guardian",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/40g3eb.png",
+   "rarity": 27.98,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "sandman",
+    "count": 1
+   }
+  },
+  {
+   "id": "plumber",
+   "name": "Plumber",
+   "description": "Defeat the Water Guardian",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6dj67g.png",
+   "rarity": 22.65,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "plumber",
+    "count": 1
+   }
+  },
+  {
+   "id": "miner",
+   "name": "Miner",
+   "description": "Defeat the Earth Guardian",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b850ge.png",
+   "rarity": 18.8,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "miner",
+    "count": 1
+   }
+  },
+  {
+   "id": "phlebotomist",
+   "name": "Phlebotomist",
+   "description": "Defeat the Blood Guardian",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjde18.png",
+   "rarity": 17.05,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "phlebotomist",
+    "count": 1
+   }
+  },
+  {
+   "id": "author",
+   "name": "Author",
+   "description": "Defeat the Steel Guardian and complete the game",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg6505.png",
+   "rarity": 16.16,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "author",
+    "count": 1
+   }
+  },
+  {
+   "id": "emissary",
+   "name": "Emissary",
+   "description": "Complete Valtiel's missions in Zones 1 through 21",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j03j6d.png",
+   "rarity": 13.06,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "emissary",
+    "count": 1
+   }
+  },
+  {
+   "id": "storyteller",
+   "name": "Storyteller",
+   "description": "Achieve all 6 of the game's endings",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/134d74.png",
+   "rarity": 10.05,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "storyteller",
+    "count": 1
+   }
+  },
+  {
+   "id": "architect",
+   "name": "Architect",
+   "description": "Complete your Rooms Checklist 100%",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35be7g.png",
+   "rarity": 13.1,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "architect",
+    "count": 1
+   }
+  },
+  {
+   "id": "antiquarian",
+   "name": "Antiquarian",
+   "description": "Complete your Artifacts Checklist 100%",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/771e0b.png",
+   "rarity": 10.0,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "antiquarian",
+    "count": 1
+   }
+  },
+  {
+   "id": "arms-dealer",
+   "name": "Arms Dealer",
+   "description": "Complete your Weapons Checklist 100%",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/55d43e.png",
+   "rarity": 11.53,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "arms-dealer",
+    "count": 1
+   }
+  },
+  {
+   "id": "couch-potato",
+   "name": "Couch Potato",
+   "description": "Complete your Broadcasts Checklist 100%",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/005gd0.png",
+   "rarity": 10.01,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "couch-potato",
+    "count": 1
+   }
+  },
+  {
+   "id": "librarian",
+   "name": "Librarian",
+   "description": "Complete your Notes Checklist 100%",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8j3g65.png",
+   "rarity": 11.35,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "librarian",
+    "count": 1
+   }
+  },
+  {
+   "id": "veterinarian",
+   "name": "Veterinarian",
+   "description": "Complete your Bestiary Checklist 100%",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/eeb411.png",
+   "rarity": 10.7,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "veterinarian",
+    "count": 1
+   }
+  },
+  {
+   "id": "optimist",
+   "name": "Optimist",
+   "description": "Turn all 40 Change Notes to Light at the same time",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/030j63.png",
+   "rarity": 7.36,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "optimist",
+    "count": 1
+   }
+  },
+  {
+   "id": "pessimist",
+   "name": "Pessimist",
+   "description": "Turn all 40 Change Notes to Blood at the same time",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/85j0b6.png",
+   "rarity": 7.44,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "pessimist",
+    "count": 1
+   }
+  },
+  {
+   "id": "deity",
+   "name": "Deity",
+   "description": "Level up to LVL 70",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/575g15.png",
+   "rarity": 7.02,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "deity",
+    "count": 1
+   }
+  },
+  {
+   "id": "annotator",
+   "name": "Annotator",
+   "description": "Complete the DLC (red) portions of all checklists",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/e3egjg.png",
+   "rarity": 7.69,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "annotator",
+    "count": 1
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

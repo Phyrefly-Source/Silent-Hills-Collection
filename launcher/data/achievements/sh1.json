@@ -1,0 +1,869 @@
+{
+ "game": "sh1",
+ "platform": "PlayStation",
+ "source": "PlayStation set by the RetroAchievements community",
+ "credit": "RetroAchievements",
+ "link": "https://retroachievements.org/game/11252",
+ "notes": "This game never had an official achievement list, so the launcher uses the PlayStation set made by the RetroAchievements community. Native builds unlock them by the set's own rules; Enhanced patches report them through the launcher's bridge; anything else can be marked by hand.",
+ "achievements": [
+  {
+   "id": "ra-86483",
+   "name": "What a Nightmare...",
+   "description": "Complete the introduction chapter and meet Cybil. Also, now is a good time to tell you that all normal progression is blocked in Next Fear.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701315.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701315_lock.png",
+   "rarity": 71.77,
+   "unlock": {
+    "type": "ra",
+    "id": 86483
+   }
+  },
+  {
+   "id": "ra-84002",
+   "name": "Keys for Eclipse",
+   "description": "Use the Lion, Woodman, and Scarecrow keys",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701316.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701316_lock.png",
+   "rarity": 51.12,
+   "unlock": {
+    "type": "ra",
+    "id": 84002
+   }
+  },
+  {
+   "id": "ra-84005",
+   "name": "Old Man's Hand",
+   "description": "Solve the puzzle in order to obtain the gold medallion",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701317.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701317_lock.png",
+   "rarity": 45.82,
+   "unlock": {
+    "type": "ra",
+    "id": 84005
+   }
+  },
+  {
+   "id": "ra-84007",
+   "name": "Broken Notes",
+   "description": "Solve the piano puzzle in order to obtain the silver medallion",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701318.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701318_lock.png",
+   "rarity": 44.48,
+   "unlock": {
+    "type": "ra",
+    "id": 84007
+   }
+  },
+  {
+   "id": "ra-84008",
+   "name": "Who's Afraid of a Reptile?",
+   "description": "Defeat Splithead on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701319.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701319_lock.png",
+   "rarity": 40.08,
+   "unlock": {
+    "type": "ra",
+    "id": 84008
+   }
+  },
+  {
+   "id": "ra-85474",
+   "name": "Harry in Wonderland",
+   "description": "Solve the colored plates puzzle in the alternate hospital",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701320.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701320_lock.png",
+   "rarity": 37.47,
+   "unlock": {
+    "type": "ra",
+    "id": 85474
+   }
+  },
+  {
+   "id": "ra-85476",
+   "name": "Loneliness",
+   "description": "Met Lisa Garland for the first time...",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701321.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701321_lock.png",
+   "rarity": 37.32,
+   "unlock": {
+    "type": "ra",
+    "id": 85476
+   }
+  },
+  {
+   "id": "ra-86028",
+   "name": "Sand Castles",
+   "description": "Defeat Twinfeeler on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701322.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701322_lock.png",
+   "rarity": 36.47,
+   "unlock": {
+    "type": "ra",
+    "id": 86028
+   }
+  },
+  {
+   "id": "ra-86080",
+   "name": "I'll Kill You",
+   "description": "Defeat Floatstinger on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701323.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701323_lock.png",
+   "rarity": 36.2,
+   "unlock": {
+    "type": "ra",
+    "id": 86080
+   }
+  },
+  {
+   "id": "ra-86340",
+   "name": "Eww Eww Eww",
+   "description": "Make it the hell out of the sewers",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701324.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701324_lock.png",
+   "rarity": 36.02,
+   "unlock": {
+    "type": "ra",
+    "id": 86340
+   }
+  },
+  {
+   "id": "ra-86506",
+   "name": "Paging Dr. Kaufmann",
+   "description": "Save Kaufmann at Annie's Bar",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701325.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701325_lock.png",
+   "rarity": 30.5,
+   "unlock": {
+    "type": "ra",
+    "id": 86506
+   }
+  },
+  {
+   "id": "ra-86341",
+   "name": "Our Little Secret",
+   "description": "Discover the glass vial hidden somewhere totally discreet",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701326.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701326_lock.png",
+   "rarity": 27.48,
+   "unlock": {
+    "type": "ra",
+    "id": 86341
+   }
+  },
+  {
+   "id": "ra-86342",
+   "name": "Pour Some Sugar On Me, Baby",
+   "description": "Save Cybil in the amusement park",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701327.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701327_lock.png",
+   "rarity": 25.32,
+   "unlock": {
+    "type": "ra",
+    "id": 86342
+   }
+  },
+  {
+   "id": "ra-86343",
+   "name": "Merry-Go-Down",
+   "description": "Do NOT save Cybil at the amusement park",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701328.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701328_lock.png",
+   "rarity": 24.5,
+   "unlock": {
+    "type": "ra",
+    "id": 86343
+   }
+  },
+  {
+   "id": "ra-86344",
+   "name": "Grim Reaper's List",
+   "description": "Solve the door riddle of Nowhere",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701329.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701329_lock.png",
+   "rarity": 34.64,
+   "unlock": {
+    "type": "ra",
+    "id": 86344
+   }
+  },
+  {
+   "id": "ra-86345",
+   "name": "The Stone of Time",
+   "description": "Solve the riddle to obtain the Stone of Time",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701330.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701330_lock.png",
+   "rarity": 34.79,
+   "unlock": {
+    "type": "ra",
+    "id": 86345
+   }
+  },
+  {
+   "id": "ra-83576",
+   "name": "Wounds That Won't Heal",
+   "description": "Read Lisa Garland's Diary",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701331.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701331_lock.png",
+   "rarity": 31.06,
+   "unlock": {
+    "type": "ra",
+    "id": 83576
+   }
+  },
+  {
+   "id": "ra-86347",
+   "name": "Illuminating the Darkness",
+   "description": "Unlock both doors on the third floor of Nowhere",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701332.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701332_lock.png",
+   "rarity": 34.56,
+   "unlock": {
+    "type": "ra",
+    "id": 86347
+   }
+  },
+  {
+   "id": "ra-86517",
+   "name": "What Is Keeping That Child Alive?",
+   "description": "Watch the VHS tape in its entirety",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701333.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701333_lock.png",
+   "rarity": 31.88,
+   "unlock": {
+    "type": "ra",
+    "id": 86517
+   }
+  },
+  {
+   "id": "ra-86348",
+   "name": "What's Going On with That Refrigerator?",
+   "description": "Obtain the Dagger of Melchior without using the Ring of Contract and leave the kitchen",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701334.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701334_lock.png",
+   "rarity": 26.36,
+   "unlock": {
+    "type": "ra",
+    "id": 86348
+   }
+  },
+  {
+   "id": "ra-86428",
+   "name": "My Heaven",
+   "description": "Defeat Incubus on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701335.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701335_lock.png",
+   "rarity": 26.85,
+   "unlock": {
+    "type": "ra",
+    "id": 86428
+   }
+  },
+  {
+   "id": "ra-86518",
+   "name": "Awakening",
+   "description": "Defeat Incubator on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701336.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701336_lock.png",
+   "rarity": 20.99,
+   "unlock": {
+    "type": "ra",
+    "id": 86518
+   }
+  },
+  {
+   "id": "ra-86503",
+   "name": "The Archer and the Beast",
+   "description": "Defeat Splithead on Hard",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701337.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701337_lock.png",
+   "rarity": 15.73,
+   "unlock": {
+    "type": "ra",
+    "id": 86503
+   }
+  },
+  {
+   "id": "ra-86504",
+   "name": "The Pit of Calamity",
+   "description": "Defeat Twinfeeler on hard",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701338.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701338_lock.png",
+   "rarity": 14.69,
+   "unlock": {
+    "type": "ra",
+    "id": 86504
+   }
+  },
+  {
+   "id": "ra-86505",
+   "name": "Erratic",
+   "description": "Defeat Floatstinger on hard",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701339.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701339_lock.png",
+   "rarity": 14.73,
+   "unlock": {
+    "type": "ra",
+    "id": 86505
+   }
+  },
+  {
+   "id": "ra-86513",
+   "name": "Sifod",
+   "description": "Defeat Incubus on hard",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701340.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701340_lock.png",
+   "rarity": 11.93,
+   "unlock": {
+    "type": "ra",
+    "id": 86513
+   }
+  },
+  {
+   "id": "ra-86519",
+   "name": "Thank You...",
+   "description": "Defeat Incubator on hard",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701341.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701341_lock.png",
+   "rarity": 10.74,
+   "unlock": {
+    "type": "ra",
+    "id": 86519
+   }
+  },
+  {
+   "id": "ra-86023",
+   "name": "Target Practice",
+   "description": "So what if you hold your guns like a goon. You killed 20 enemies with them.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701342.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701342_lock.png",
+   "rarity": 39.0,
+   "unlock": {
+    "type": "ra",
+    "id": 86023
+   }
+  },
+  {
+   "id": "ra-86022",
+   "name": "Triggered",
+   "description": "I don't know who keeps leaving ammo around, but 50 enemies are no longer a threat thanks to them.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701343.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701343_lock.png",
+   "rarity": 27.93,
+   "unlock": {
+    "type": "ra",
+    "id": 86022
+   }
+  },
+  {
+   "id": "ra-86024",
+   "name": "Gun Control: Alessa's New Nightmare",
+   "description": "You'd think after 90 kills with firearms, she'd do something about it.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701344.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701344_lock.png",
+   "rarity": 17.93,
+   "unlock": {
+    "type": "ra",
+    "id": 86024
+   }
+  },
+  {
+   "id": "ra-86025",
+   "name": "Knife to Meet You",
+   "description": "Kill 20 enemies with melee weapons",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701345.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701345_lock.png",
+   "rarity": 43.36,
+   "unlock": {
+    "type": "ra",
+    "id": 86025
+   }
+  },
+  {
+   "id": "ra-86026",
+   "name": "Fa-fa-fa-fa, Fa-fa-fa-fa-fa, Fa, Better",
+   "description": "Kill 50 enemies with melee weapons",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701346.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701346_lock.png",
+   "rarity": 35.5,
+   "unlock": {
+    "type": "ra",
+    "id": 86026
+   }
+  },
+  {
+   "id": "ra-86027",
+   "name": "Hammerin' Harry",
+   "description": "Kill 90 enemies with melee weapons",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701347.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701347_lock.png",
+   "rarity": 27.48,
+   "unlock": {
+    "type": "ra",
+    "id": 86027
+   }
+  },
+  {
+   "id": "ra-86346",
+   "name": "Doomsday Prepper",
+   "description": "Pick up at least 140 items throughout the game",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701348.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701348_lock.png",
+   "rarity": 34.6,
+   "unlock": {
+    "type": "ra",
+    "id": 86346
+   }
+  },
+  {
+   "id": "ra-86349",
+   "name": "Drillin' Like a Villain",
+   "description": "30 enemies have experienced lethal penetration at the hands of Harry's Rock Drill... in one session, of course",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701349.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701349_lock.png",
+   "rarity": 10.4,
+   "unlock": {
+    "type": "ra",
+    "id": 86349
+   }
+  },
+  {
+   "id": "ra-84003",
+   "name": "Harry the Weeb",
+   "description": "Prove to your friends that all that anime paid off and kill 30 enemies in one session with the katana",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701350.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701350_lock.png",
+   "rarity": 10.07,
+   "unlock": {
+    "type": "ra",
+    "id": 84003
+   }
+  },
+  {
+   "id": "ra-84004",
+   "name": "Silent Hill Chainsaw Massacre",
+   "description": "Kill 30 enemies in one session with the chainsaw to gain street cred with the greats",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701380.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701380_lock.png",
+   "rarity": 10.63,
+   "unlock": {
+    "type": "ra",
+    "id": 84004
+   }
+  },
+  {
+   "id": "ra-86520",
+   "name": "A Gift from Outer Space",
+   "description": "No one will believe the abduction. Make the best of it and kill 30 enemies in one session with the hyper blaster.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701381.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701381_lock.png",
+   "rarity": 9.55,
+   "unlock": {
+    "type": "ra",
+    "id": 86520
+   }
+  },
+  {
+   "id": "ra-86507",
+   "name": "Like the Back of My Hand I",
+   "description": "Make it through the School and Alternate School without having picked up the map.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701352.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701352_lock.png",
+   "rarity": 15.44,
+   "unlock": {
+    "type": "ra",
+    "id": 86507
+   }
+  },
+  {
+   "id": "ra-86508",
+   "name": "Like the Back of My Hand II",
+   "description": "Approach Floatstinger without having picked up either hospital map",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701353.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701353_lock.png",
+   "rarity": 14.13,
+   "unlock": {
+    "type": "ra",
+    "id": 86508
+   }
+  },
+  {
+   "id": "ra-86509",
+   "name": "Like the Back of My Hand III",
+   "description": "Make it through the first sewer trip without picking up the map",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701354.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701354_lock.png",
+   "rarity": 16.55,
+   "unlock": {
+    "type": "ra",
+    "id": 86509
+   }
+  },
+  {
+   "id": "ra-86510",
+   "name": "Like the Back of My Hand IV",
+   "description": "Make it from the first to second sewer trips without getting the resort map.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701355.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701355_lock.png",
+   "rarity": 16.89,
+   "unlock": {
+    "type": "ra",
+    "id": 86510
+   }
+  },
+  {
+   "id": "ra-86516",
+   "name": "Like the Back of My Hand V",
+   "description": "Get through the second trip through the sewers without picking up the map",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701356.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701356_lock.png",
+   "rarity": 17.64,
+   "unlock": {
+    "type": "ra",
+    "id": 86516
+   }
+  },
+  {
+   "id": "ra-86663",
+   "name": "Scary Harry I",
+   "description": "Alt. School - Flashlight and Radio OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701357.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701357_lock.png",
+   "rarity": 13.76,
+   "unlock": {
+    "type": "ra",
+    "id": 86663
+   }
+  },
+  {
+   "id": "ra-86664",
+   "name": "Scary Harry II",
+   "description": "Alt. Hospital - Flashlight and Radio OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701358.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701358_lock.png",
+   "rarity": 13.57,
+   "unlock": {
+    "type": "ra",
+    "id": 86664
+   }
+  },
+  {
+   "id": "ra-86665",
+   "name": "Scary Harry III",
+   "description": "Sewers I - Flashlight OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701359.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701359_lock.png",
+   "rarity": 12.6,
+   "unlock": {
+    "type": "ra",
+    "id": 86665
+   }
+  },
+  {
+   "id": "ra-86666",
+   "name": "Scary Harry IV",
+   "description": "Alt. Resort - Flashlight and Radio OFF - Kill 10 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701360.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701360_lock.png",
+   "rarity": 10.4,
+   "unlock": {
+    "type": "ra",
+    "id": 86666
+   }
+  },
+  {
+   "id": "ra-86667",
+   "name": "Scary Harry V",
+   "description": "Sewers II - Flashlight OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701361.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701361_lock.png",
+   "rarity": 11.93,
+   "unlock": {
+    "type": "ra",
+    "id": 86667
+   }
+  },
+  {
+   "id": "ra-86668",
+   "name": "Scary Harry VI",
+   "description": "Nowhere - Flashlight and Radio OFF - Kill 10 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701362.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701362_lock.png",
+   "rarity": 11.26,
+   "unlock": {
+    "type": "ra",
+    "id": 86668
+   }
+  },
+  {
+   "id": "ra-86422",
+   "name": "Harry the Swift",
+   "description": "GAME CLEAR - Clear the game and get any non-UFO ending in under 1hr 30mins",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701363.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701363_lock.png",
+   "rarity": 8.65,
+   "unlock": {
+    "type": "ra",
+    "id": 86422
+   }
+  },
+  {
+   "id": "ra-86423",
+   "name": "Daring Harry",
+   "description": "GAME CLEAR - Finish the game saving no more than 2 times",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701364.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701364_lock.png",
+   "rarity": 9.81,
+   "unlock": {
+    "type": "ra",
+    "id": 86423
+   }
+  },
+  {
+   "id": "ra-86424",
+   "name": "Harry the Okay",
+   "description": "GAME CLEAR - Achieve a rank of at least 3 stars",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701365.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701365_lock.png",
+   "rarity": 33.52,
+   "unlock": {
+    "type": "ra",
+    "id": 86424
+   }
+  },
+  {
+   "id": "ra-86425",
+   "name": "Harry the Good",
+   "description": "GAME CLEAR - Achieve a rank of at least 5 stars",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701366.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701366_lock.png",
+   "rarity": 22.3,
+   "unlock": {
+    "type": "ra",
+    "id": 86425
+   }
+  },
+  {
+   "id": "ra-86426",
+   "name": "Harry the Great",
+   "description": "GAME CLEAR - Achieve a rank of at least 8 stars",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701367.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701367_lock.png",
+   "rarity": 7.27,
+   "unlock": {
+    "type": "ra",
+    "id": 86426
+   }
+  },
+  {
+   "id": "ra-86427",
+   "name": "Harry the Best",
+   "description": "GAME CLEAR - Achieve a 10-Star Rank",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701368.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701368_lock.png",
+   "rarity": 6.67,
+   "unlock": {
+    "type": "ra",
+    "id": 86427
+   }
+  },
+  {
+   "id": "ra-86662",
+   "name": "That Light...",
+   "description": "Discover the Channeling Stone",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701369.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701369_lock.png",
+   "rarity": 14.09,
+   "unlock": {
+    "type": "ra",
+    "id": 86662
+   }
+  },
+  {
+   "id": "ra-86502",
+   "name": "UFO Sighting I",
+   "description": "Witness the first UFO sighting",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701370.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701370_lock.png",
+   "rarity": 11.97,
+   "unlock": {
+    "type": "ra",
+    "id": 86502
+   }
+  },
+  {
+   "id": "ra-86511",
+   "name": "UFO Sighting II",
+   "description": "Witness the second UFO sighting",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701371.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701371_lock.png",
+   "rarity": 11.48,
+   "unlock": {
+    "type": "ra",
+    "id": 86511
+   }
+  },
+  {
+   "id": "ra-86512",
+   "name": "UFO Sighting III",
+   "description": "Witness the third UFO sighting",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701372.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701372_lock.png",
+   "rarity": 11.33,
+   "unlock": {
+    "type": "ra",
+    "id": 86512
+   }
+  },
+  {
+   "id": "ra-86514",
+   "name": "UFO Sighting IV",
+   "description": "Witness the fourth UFO sighting",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701373.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701373_lock.png",
+   "rarity": 11.45,
+   "unlock": {
+    "type": "ra",
+    "id": 86514
+   }
+  },
+  {
+   "id": "ra-86515",
+   "name": "UFO Sighting V",
+   "description": "Witness the fifth UFO sighting",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701374.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701374_lock.png",
+   "rarity": 11.48,
+   "unlock": {
+    "type": "ra",
+    "id": 86515
+   }
+  },
+  {
+   "id": "ra-86429",
+   "name": "Tears of...",
+   "description": "GAME CLEAR - Obtain the GOOD+ ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701375.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701375_lock.png",
+   "rarity": 22.18,
+   "unlock": {
+    "type": "ra",
+    "id": 86429
+   }
+  },
+  {
+   "id": "ra-86430",
+   "name": "Killing Time",
+   "description": "GAME CLEAR - Obtain the GOOD ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701376.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701376_lock.png",
+   "rarity": 14.09,
+   "unlock": {
+    "type": "ra",
+    "id": 86430
+   }
+  },
+  {
+   "id": "ra-86431",
+   "name": "She",
+   "description": "GAME CLEAR - Obtain the BAD+ ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701377.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701377_lock.png",
+   "rarity": 12.45,
+   "unlock": {
+    "type": "ra",
+    "id": 86431
+   }
+  },
+  {
+   "id": "ra-86432",
+   "name": "Esperandote",
+   "description": "GAME CLEAR - Obtain the BAD ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701378.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701378_lock.png",
+   "rarity": 17.56,
+   "unlock": {
+    "type": "ra",
+    "id": 86432
+   }
+  },
+  {
+   "id": "ra-86433",
+   "name": "Ayyy",
+   "description": "GAME CLEAR - Obtain the UFO ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/701379.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/701379_lock.png",
+   "rarity": 11.41,
+   "unlock": {
+    "type": "ra",
+    "id": 86433
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

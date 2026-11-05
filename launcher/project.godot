@@ -1,0 +1,59 @@
+; Silent Hills launcher (Godot rebuild)
+config_version=5
+
+[application]
+
+config/name="Silent Hills"
+config/description="A launcher for the Silent Hill series."
+config/version="2.5.0"
+run/main_scene="res://ui/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.png"
+config/windows_native_icon="res://icon.ico"
+boot_splash/bg_color=Color(0.027, 0.027, 0.031, 1)
+boot_splash/show_image=false
+config/use_custom_user_dir=true
+config/custom_user_dir_name="SilentHills"
+
+[autoload]
+
+App="*res://core/app.gd"
+Net="*res://core/net.gd"
+Jukebox="*res://core/music/jukebox.gd"
+Sfx="*res://core/sfx.gd"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/size/min_width=1100
+window/size/min_height=680
+window/subwindows/embed_subwindows=true
+window/vsync/vsync_mode=1
+window/handheld/orientation=1
+
+[gui]
+
+common/snap_controls_to_pixels=true
+common/show_focus_state_on_pointer_event=0
+timers/tooltip_delay_sec=0.4
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+textures/canvas_textures/default_texture_filter=1
+environment/defaults/default_clear_color=Color(0.027, 0.027, 0.031, 1)
+2d/snap/snap_2d_transforms_to_pixel=false
+
+[debug]
+
+gdscript/warnings/inference_on_variant=1
+gdscript/warnings/unused_variable=0
+gdscript/warnings/unused_parameter=0
+gdscript/warnings/shadowed_variable=0
+gdscript/warnings/shadowed_variable_base_class=0
+gdscript/warnings/integer_division=0
+gdscript/warnings/narrowing_conversion=0
+gdscript/warnings/return_value_discarded=0

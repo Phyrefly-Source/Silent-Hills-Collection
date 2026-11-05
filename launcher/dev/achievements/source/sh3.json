@@ -1,0 +1,94 @@
+{
+  "game": "sh3",
+  "term": "achievements",
+  "process": "sh3.exe",
+  "source": "The 17 achievements from the Silent Hill 3 PC Fix",
+  "notes": "SH3 Enhanced, which replaced the PC Fix here, will report these through the achievement bridge once its achievement support is in. Until then, give an entry a memory trigger with the value scanner, or unlock it by hand. Blank descriptions weren't published by the PC Fix.",
+  "achievements": [
+    {
+      "id": "adventure-starts",
+      "name": "Adventure Starts!",
+      "description": "Start a new game."
+    },
+    {
+      "id": "let-s-go-home",
+      "name": "Let's go home!",
+      "description": ""
+    },
+    {
+      "id": "home-sweet-home",
+      "name": "Home Sweet Home",
+      "description": ""
+    },
+    {
+      "id": "welcome-to-silent-hill",
+      "name": "Welcome to Silent Hill!",
+      "description": ""
+    },
+    {
+      "id": "finished-borley-haunted-mansion",
+      "name": "Finished Borley Haunted Mansion!",
+      "description": "Make it through the Borley Haunted Mansion."
+    },
+    {
+      "id": "evil-self-defeated",
+      "name": "Evil Self Defeated!",
+      "description": ""
+    },
+    {
+      "id": "evil-self-defeated-fast",
+      "name": "Evil Self Defeated, Fast!",
+      "description": ""
+    },
+    {
+      "id": "puzzle-solver",
+      "name": "Puzzle Solver",
+      "description": ""
+    },
+    {
+      "id": "fast-puzzle-solver",
+      "name": "Fast Puzzle Solver!",
+      "description": ""
+    },
+    {
+      "id": "the-end",
+      "name": "The End!",
+      "description": "Finish the game."
+    },
+    {
+      "id": "the-end-in-one-sitting",
+      "name": "The End, in one sitting!",
+      "description": "Finish the game in one sitting."
+    },
+    {
+      "id": "defeated-leonard",
+      "name": "Defeated Leonard!",
+      "description": "Defeat Leonard."
+    },
+    {
+      "id": "eye-for-an-eye",
+      "name": "Eye for an Eye",
+      "description": ""
+    },
+    {
+      "id": "defeated-the-split-worm",
+      "name": "Defeated the Split Worm!",
+      "description": "Defeat the Split Worm."
+    },
+    {
+      "id": "heather-the-chemist",
+      "name": "Heather the chemist",
+      "description": ""
+    },
+    {
+      "id": "tu-fui-ego-eris",
+      "name": "Tu fui, ego eris",
+      "description": ""
+    },
+    {
+      "id": "they-looked-like-monsters-to-you",
+      "name": "They looked like monsters to you?",
+      "description": ""
+    }
+  ]
+}

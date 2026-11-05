@@ -1,0 +1,50 @@
+{
+ "version": 1,
+ "films": [
+  {
+   "id": "film-silent-hill",
+   "title": "Silent Hill",
+   "year": 2006,
+   "director": "Christophe Gans",
+   "blurb": "Searching for her missing daughter, Rose Da Silva drives into the fog-bound town of Silent Hill.",
+   "match": "^silent hill( 2006)?$",
+   "ost_match": "^silent hill (motion picture|movie|film|2006)\\b",
+   "art": {
+    "shm": "shm"
+   },
+   "accent": "#8a7a5a",
+   "fx": "ash",
+   "composer": "Jeff Danna, Akira Yamaoka"
+  },
+  {
+   "id": "film-revelation",
+   "title": "Silent Hill: Revelation",
+   "year": 2012,
+   "director": "Michael J. Bassett",
+   "blurb": "On the eve of her eighteenth birthday, Heather Mason is drawn into the Otherworld to find her missing father.",
+   "match": "revelation",
+   "ost_match": "revelation",
+   "art": {
+    "shm": "shm2"
+   },
+   "accent": "#8a2a1e",
+   "fx": "ash",
+   "composer": "Jeff Danna, Akira Yamaoka"
+  },
+  {
+   "id": "film-return",
+   "title": "Return to Silent Hill",
+   "year": 2026,
+   "director": "Christophe Gans",
+   "blurb": "A letter from the woman he loved draws James Sunderland back to a town consumed by darkness.",
+   "match": "return to silent hill",
+   "ost_match": "return to silent hill",
+   "art": {
+    "shm": "return_to_sh"
+   },
+   "accent": "#5a6a70",
+   "fx": "mist",
+   "composer": "Akira Yamaoka"
+  }
+ ]
+}

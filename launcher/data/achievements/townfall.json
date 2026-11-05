@@ -1,0 +1,444 @@
+{
+ "game": "townfall",
+ "platform": "Steam",
+ "source": "Steam achievements",
+ "credit": "Steam",
+ "link": "https://steamcommunity.com/stats/1636440/achievements",
+ "steam_appid": "1636440",
+ "notes": "Which ones you've unlocked comes from Steam's records on this PC.",
+ "achievements": [
+  {
+   "id": "welcome-to-st-amelia",
+   "name": "Welcome To St. Amelia",
+   "description": "Escape the Otherworld and return to the town square.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/ee4e3b4b.png",
+   "rarity": 99.8,
+   "unlock": {
+    "type": "steam",
+    "name": "Welcome To St. Amelia"
+   }
+  },
+  {
+   "id": "resignation",
+   "name": "Resignation",
+   "description": "At the Shorefront Family Clinic, show Zoe you understand.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/4030eg3d.png",
+   "rarity": 82.75,
+   "unlock": {
+    "type": "steam",
+    "name": "Resignation"
+   }
+  },
+  {
+   "id": "a-long-night-ahead",
+   "name": "A Long Night Ahead",
+   "description": "Report to Dr. Glenn at the Medical Centre.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/6d6d7j64.png",
+   "rarity": 77.22,
+   "unlock": {
+    "type": "steam",
+    "name": "A Long Night Ahead"
+   }
+  },
+  {
+   "id": "the-patient",
+   "name": "The Patient",
+   "description": "Tend to the Patient.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/b808g5j7.png",
+   "rarity": 67.5,
+   "unlock": {
+    "type": "steam",
+    "name": "The Patient"
+   }
+  },
+  {
+   "id": "many-into-one",
+   "name": "Many Into One",
+   "description": "Accept the transfusion in the Alternate Medical Centre.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/gjej1d6j.png",
+   "rarity": 62.3,
+   "unlock": {
+    "type": "steam",
+    "name": "Many Into One"
+   }
+  },
+  {
+   "id": "key-to-the-castle",
+   "name": "Key To The Castle",
+   "description": "Unlock the path to CEG Tower.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/dg5g0630.png",
+   "rarity": 57.24,
+   "unlock": {
+    "type": "steam",
+    "name": "Key To The Castle"
+   }
+  },
+  {
+   "id": "find-yourself",
+   "name": "Find Yourself",
+   "description": "Make it back to the office on the 10th Floor.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/j0j063d5.png",
+   "rarity": 54.35,
+   "unlock": {
+    "type": "steam",
+    "name": "Find Yourself"
+   }
+  },
+  {
+   "id": "cant-change-things",
+   "name": "Can't Change Things",
+   "description": "Exhaust the options in the Alternate Facility.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/13d3748j.png",
+   "rarity": 52.25,
+   "unlock": {
+    "type": "steam",
+    "name": "Can't Change Things"
+   }
+  },
+  {
+   "id": "eraser",
+   "name": "Eraser",
+   "description": "Defeat The Weight.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/35e57b84.png",
+   "rarity": 52.25,
+   "unlock": {
+    "type": "steam",
+    "name": "Eraser"
+   }
+  },
+  {
+   "id": "reliving-a-nightmare",
+   "name": "Reliving A Nightmare",
+   "description": "Complete New Game Plus (any difficulty).",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/77e7018g.png",
+   "rarity": 10.16,
+   "unlock": {
+    "type": "steam",
+    "name": "Reliving A Nightmare"
+   }
+  },
+  {
+   "id": "for-st-amelia",
+   "name": "For St. Amelia",
+   "description": "Reach the \"Justice\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/55457d81.png",
+   "rarity": 10.56,
+   "unlock": {
+    "type": "steam",
+    "name": "For St. Amelia"
+   }
+  },
+  {
+   "id": "here-to-stay",
+   "name": "Here To Stay",
+   "description": "Reach the \"Forever\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/00g0358g.png",
+   "rarity": 8.79,
+   "unlock": {
+    "type": "steam",
+    "name": "Here To Stay"
+   }
+  },
+  {
+   "id": "just-making-things-worse",
+   "name": "Just Making Things Worse",
+   "description": "Reach the \"Abandoned\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/8jgj5388.png",
+   "rarity": 48.62,
+   "unlock": {
+    "type": "steam",
+    "name": "Just Making Things Worse"
+   }
+  },
+  {
+   "id": "lets-talk-this-out",
+   "name": "Let's Talk This Out",
+   "description": "Reached the \"Dog\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/ee4e3b7b.png",
+   "rarity": 8.06,
+   "unlock": {
+    "type": "steam",
+    "name": "Let's Talk This Out"
+   }
+  },
+  {
+   "id": "sci-fi-lent-hill",
+   "name": "Sci-fi-lent Hill",
+   "description": "Reached the \"Sci-fi\" ending.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/4030eg8d.png",
+   "rarity": 8.23,
+   "unlock": {
+    "type": "steam",
+    "name": "Sci-fi-lent Hill"
+   }
+  },
+  {
+   "id": "fleeting-visit",
+   "name": "Fleeting Visit",
+   "description": "Finish the game in under 4 hours.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/6d6d7j84.png",
+   "rarity": 8.23,
+   "unlock": {
+    "type": "steam",
+    "name": "Fleeting Visit"
+   }
+  },
+  {
+   "id": "cold-calling",
+   "name": "Cold Calling",
+   "description": "Call all the phone numbers found in St. Amelia.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/b808g557.png",
+   "rarity": 7.49,
+   "unlock": {
+    "type": "steam",
+    "name": "Cold Calling"
+   }
+  },
+  {
+   "id": "observation",
+   "name": "Observation",
+   "description": "Collect 50% of all documents.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/gjej1ddj.png",
+   "rarity": 60.71,
+   "unlock": {
+    "type": "steam",
+    "name": "Observation"
+   }
+  },
+  {
+   "id": "thorough-inspection",
+   "name": "Thorough Inspection",
+   "description": "Collect all of the documents.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/dg5g0660.png",
+   "rarity": 8.66,
+   "unlock": {
+    "type": "steam",
+    "name": "Thorough Inspection"
+   }
+  },
+  {
+   "id": "blur-your-eyes",
+   "name": "Blur Your Eyes",
+   "description": "Collect all of the strange postcards",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/j0j06335.png",
+   "rarity": 10.12,
+   "unlock": {
+    "type": "steam",
+    "name": "Blur Your Eyes"
+   }
+  },
+  {
+   "id": "sweeping-signals",
+   "name": "Sweeping Signals",
+   "description": "Tune into all signals on the CRTV.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/13d3744j.png",
+   "rarity": 21.18,
+   "unlock": {
+    "type": "steam",
+    "name": "Sweeping Signals"
+   }
+  },
+  {
+   "id": "future-hardware",
+   "name": "Future Hardware",
+   "description": "Obtain the Pistol-3000.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/35e57bb4.png",
+   "rarity": 7.99,
+   "unlock": {
+    "type": "steam",
+    "name": "Future Hardware"
+   }
+  },
+  {
+   "id": "heres-simon",
+   "name": "Here's Simon!",
+   "description": "Obtain the Axe.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/77e7011g.png",
+   "rarity": 15.75,
+   "unlock": {
+    "type": "steam",
+    "name": "Here's Simon!"
+   }
+  },
+  {
+   "id": "from-scratch",
+   "name": "From Scratch",
+   "description": "Create 20 new items by combining others.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/55457dd1.png",
+   "rarity": 57.34,
+   "unlock": {
+    "type": "steam",
+    "name": "From Scratch"
+   }
+  },
+  {
+   "id": "creative-process",
+   "name": "Creative Process",
+   "description": "Kill at least one enemy with Plank, Pipe, Pistol, Shotgun, Flare Gun, Bottle and Brick in a single playthrough.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/00g0355g.png",
+   "rarity": 24.44,
+   "unlock": {
+    "type": "steam",
+    "name": "Creative Process"
+   }
+  },
+  {
+   "id": "long-range-masonry",
+   "name": "Long-Range Masonry",
+   "description": "Hit any enemy in the head with a brick from over 15 meters away.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/8jgj5338.png",
+   "rarity": 9.62,
+   "unlock": {
+    "type": "steam",
+    "name": "Long-Range Masonry"
+   }
+  },
+  {
+   "id": "pinpoint-inaccuracy",
+   "name": "Pinpoint Inaccuracy",
+   "description": "Land a head shot on any enemy with the Flare Gun from over 10 meters away",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/ee4e3bbb.png",
+   "rarity": 15.08,
+   "unlock": {
+    "type": "steam",
+    "name": "Pinpoint Inaccuracy"
+   }
+  },
+  {
+   "id": "missing-the-point-entirely",
+   "name": "Missing The Point Entirely",
+   "description": "Silence 30 Widows.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/4030eggd.png",
+   "rarity": 29.5,
+   "unlock": {
+    "type": "steam",
+    "name": "Missing The Point Entirely"
+   }
+  },
+  {
+   "id": "pull",
+   "name": "Pull!",
+   "description": "Throw a bottle into the air, and shoot it with the pistol.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/6d6d7jj4.png",
+   "rarity": 10.59,
+   "unlock": {
+    "type": "steam",
+    "name": "Pull!"
+   }
+  },
+  {
+   "id": "isolating-experience",
+   "name": "Isolating Experience",
+   "description": "Wait in a hiding spot for 60 seconds.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/b808g517.png",
+   "rarity": 57.71,
+   "unlock": {
+    "type": "steam",
+    "name": "Isolating Experience"
+   }
+  },
+  {
+   "id": "static-distractions",
+   "name": "Static Distractions",
+   "description": "Distract 10 Enemies with a radio in the world.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/gjej1d4j.png",
+   "rarity": 25.87,
+   "unlock": {
+    "type": "steam",
+    "name": "Static Distractions"
+   }
+  },
+  {
+   "id": "lured-off-track",
+   "name": "Lured Off Track",
+   "description": "Distract 20 Enemies with a bottle.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/dg5g06e0.png",
+   "rarity": 33.17,
+   "unlock": {
+    "type": "steam",
+    "name": "Lured Off Track"
+   }
+  },
+  {
+   "id": "alarmingly-effective",
+   "name": "Alarmingly Effective",
+   "description": "Successfully distract an enemy by setting off a car alarm.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/j0j063g5.png",
+   "rarity": 36.43,
+   "unlock": {
+    "type": "steam",
+    "name": "Alarmingly Effective"
+   }
+  },
+  {
+   "id": "reject-the-help",
+   "name": "Reject The Help",
+   "description": "After meeting Richard, do not use a phone to save the game.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/13d3746j.png",
+   "rarity": 8.03,
+   "unlock": {
+    "type": "steam",
+    "name": "Reject The Help"
+   }
+  },
+  {
+   "id": "resourceful",
+   "name": "Resourceful",
+   "description": "Unlock all resource containers.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/steam/awards/l/35e57bg4.png",
+   "rarity": 10.02,
+   "unlock": {
+    "type": "steam",
+    "name": "Resourceful"
+   }
+  },
+  {
+   "id": "save-it-for-the-patients",
+   "name": "Save It For The Patients",
+   "description": "During the missions \"Rounds\" and \"The Patient\", don't use any healing items.",
+   "hidden": true,
+   "icon": "https://m.exophase.com/steam/awards/l/77e7013g.png",
+   "rarity": 16.62,
+   "unlock": {
+    "type": "steam",
+    "name": "Save It For The Patients"
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

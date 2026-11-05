@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Silent Hills
+Comment=Launcher for the Silent Hill collection
+Exec=silent-hills.x86_64
+Icon=silent-hills
+Categories=Game;
+Terminal=false

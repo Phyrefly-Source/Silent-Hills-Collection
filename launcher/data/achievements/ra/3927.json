@@ -1,0 +1,669 @@
+{
+	"id": 3927,
+	"title": "Silent Hill: Origins",
+	"console_id": 41,
+	"console": "PlayStation Portable",
+	"achievements": [
+		{
+			"id": 306764,
+			"title": "Let Me Burn",
+			"description": "Rescue Alessa from fire in less than 80 seconds.",
+			"points": 5,
+			"badge": "339481",
+			"memaddr": "",
+			"type": "",
+			"order": 0
+		},
+		{
+			"id": 306765,
+			"title": "The Girl From the Fire...",
+			"description": "Enter in the Otherworld for the first time.",
+			"points": 3,
+			"badge": "339482",
+			"memaddr": "",
+			"type": "",
+			"order": 1
+		},
+		{
+			"id": 306766,
+			"title": "The Beauties",
+			"description": "Open the Medical Icebox in Alchemilla Hospital.",
+			"points": 5,
+			"badge": "339483",
+			"memaddr": "",
+			"type": "",
+			"order": 2
+		},
+		{
+			"id": 306767,
+			"title": "Open Your Eyes",
+			"description": "Solve the plastic anatomy doll puzzle.",
+			"points": 5,
+			"badge": "339484",
+			"memaddr": "",
+			"type": "",
+			"order": 3
+		},
+		{
+			"id": 306768,
+			"title": "Straight-Jacket",
+			"description": "Kill the first Straight-Jacket without taking damage and without equipping an unlockable weapon in Alchemilla Hospital.",
+			"points": 5,
+			"badge": "339485",
+			"memaddr": "",
+			"type": "",
+			"order": 4
+		},
+		{
+			"id": 306769,
+			"title": "Flauros I",
+			"description": "Take the Future Piece in Alchemilla Hospital.",
+			"points": 10,
+			"badge": "339486",
+			"memaddr": "",
+			"type": "",
+			"order": 5
+		},
+		{
+			"id": 306770,
+			"title": "What the Hell Is That!?",
+			"description": "Find a mysterious enemy.",
+			"points": 5,
+			"badge": "339487",
+			"memaddr": "",
+			"type": "",
+			"order": 6
+		},
+		{
+			"id": 306771,
+			"title": "Target Pistol",
+			"description": "Take the Target Pistol.",
+			"points": 5,
+			"badge": "339488",
+			"memaddr": "",
+			"type": "",
+			"order": 7
+		},
+		{
+			"id": 306772,
+			"title": "Dahlia Gillespie",
+			"description": "Do not trust her, Travis. She does not know what she is doing...",
+			"points": 5,
+			"badge": "339489",
+			"memaddr": "",
+			"type": "",
+			"order": 8
+		},
+		{
+			"id": 306773,
+			"title": "Out of use",
+			"description": "Solve the Iron Lung Puzzle in Cedar Groove Sanitarium.",
+			"points": 5,
+			"badge": "339490",
+			"memaddr": "",
+			"type": "",
+			"order": 9
+		},
+		{
+			"id": 306774,
+			"title": "Interview Archives Key",
+			"description": "Take the Interview Archives key.",
+			"points": 5,
+			"badge": "339491",
+			"memaddr": "",
+			"type": "",
+			"order": 10
+		},
+		{
+			"id": 306776,
+			"title": "Shotgun",
+			"description": "Take the Shotgun in Cedar Groove Sanitarium.",
+			"points": 5,
+			"badge": "339493",
+			"memaddr": "",
+			"type": "",
+			"order": 11
+		},
+		{
+			"id": 306775,
+			"title": "Medications",
+			"description": "Solve the five miniature dolls puzzle in Cedar Groove Sanitarium.",
+			"points": 5,
+			"badge": "339492",
+			"memaddr": "",
+			"type": "",
+			"order": 12
+		},
+		{
+			"id": 306777,
+			"title": "Momma",
+			"description": "Kill Momma without taking damage and without equipping an unlockable weapon in Cedar Grove Sanitarium.",
+			"points": 10,
+			"badge": "339494",
+			"memaddr": "",
+			"type": "",
+			"order": 13
+		},
+		{
+			"id": 306778,
+			"title": "Flauros II",
+			"description": "Take the Past Piece in Sanitarium.",
+			"points": 10,
+			"badge": "339495",
+			"memaddr": "",
+			"type": "",
+			"order": 14
+		},
+		{
+			"id": 306779,
+			"title": "Lisa Garland",
+			"description": "Let's get the hell out of this crazy town... We could be so good together...",
+			"points": 5,
+			"badge": "339496",
+			"memaddr": "",
+			"type": "",
+			"order": 15
+		},
+		{
+			"id": 306780,
+			"title": "Service Pistol",
+			"description": "Take the Service Pistol.",
+			"points": 5,
+			"badge": "339497",
+			"memaddr": "",
+			"type": "",
+			"order": 16
+		},
+		{
+			"id": 306786,
+			"title": "Hunting Rifle",
+			"description": "Take the Hunting Rifle.",
+			"points": 5,
+			"badge": "339503",
+			"memaddr": "",
+			"type": "",
+			"order": 17
+		},
+		{
+			"id": 306781,
+			"title": "Sun Totem",
+			"description": "Unlock the door with two square holes without accessing the Balcony Corridor in Artaud Theater. (Starting on the first Ariel)",
+			"points": 5,
+			"badge": "339498",
+			"memaddr": "",
+			"type": "",
+			"order": 18
+		},
+		{
+			"id": 306783,
+			"title": "Theatre of Cruelty",
+			"description": "Solve the theater spotlight puzzle.",
+			"points": 5,
+			"badge": "339500",
+			"memaddr": "",
+			"type": "",
+			"order": 19
+		},
+		{
+			"id": 306784,
+			"title": "Caliban",
+			"description": "Kill Caliban without taking damage and without equipping an unlockable weapon in Artaud Theater.",
+			"points": 10,
+			"badge": "339501",
+			"memaddr": "",
+			"type": "",
+			"order": 20
+		},
+		{
+			"id": 306785,
+			"title": "Flauros III",
+			"description": "Take the Falsehood Piece in Artaud Theatre.",
+			"points": 10,
+			"badge": "339502",
+			"memaddr": "",
+			"type": "",
+			"order": 21
+		},
+		{
+			"id": 306787,
+			"title": "Assault Rifle",
+			"description": "Take the Assault Rifle.",
+			"points": 5,
+			"badge": "339504",
+			"memaddr": "",
+			"type": "",
+			"order": 22
+		},
+		{
+			"id": 306788,
+			"title": "Redeemer",
+			"description": "Take the Redeemer.",
+			"points": 5,
+			"badge": "339505",
+			"memaddr": "",
+			"type": "",
+			"order": 23
+		},
+		{
+			"id": 306789,
+			"title": "A Stalker!?",
+			"description": "Look through a specific peephole in Riverside Motel.",
+			"points": 5,
+			"badge": "339506",
+			"memaddr": "",
+			"type": "",
+			"order": 24
+		},
+		{
+			"id": 306790,
+			"title": "Dr. Michael Kaufmann",
+			"description": "You have a habit of popping up where you're not wanted, Mr. Grady. Isn't it time you left town?",
+			"points": 5,
+			"badge": "339507",
+			"memaddr": "",
+			"type": "",
+			"order": 25
+		},
+		{
+			"id": 306791,
+			"title": "The Laundry",
+			"description": "Solve the Washing Machine Puzzle in Riverside Motel.",
+			"points": 5,
+			"badge": "339508",
+			"memaddr": "",
+			"type": "",
+			"order": 26
+		},
+		{
+			"id": 306803,
+			"title": "The Butcher",
+			"description": "Kill the Butcher without taking damage and without equipping an unlockable weapon in Riverside Motel.",
+			"points": 10,
+			"badge": "339520",
+			"memaddr": "",
+			"type": "",
+			"order": 27
+		},
+		{
+			"id": 306792,
+			"title": "Richard and Helen",
+			"description": "Take the Wedding Ring.",
+			"points": 5,
+			"badge": "339509",
+			"memaddr": "",
+			"type": "",
+			"order": 28
+		},
+		{
+			"id": 306793,
+			"title": "Room 500",
+			"description": "Solve the Rotary Calendar Puzzle and unlock the key.",
+			"points": 5,
+			"badge": "339510",
+			"memaddr": "",
+			"type": "",
+			"order": 29
+		},
+		{
+			"id": 306794,
+			"title": "Sad Daddy",
+			"description": "Kill Sad Daddy without taking damage and without equipping an unlockable weapon in Riverside Motel.",
+			"points": 10,
+			"badge": "339511",
+			"memaddr": "",
+			"type": "",
+			"order": 30
+		},
+		{
+			"id": 306795,
+			"title": "Flauros IV",
+			"description": "Take the Truth Piece in Riverside Motel.",
+			"points": 10,
+			"badge": "339512",
+			"memaddr": "",
+			"type": "",
+			"order": 31
+		},
+		{
+			"id": 306796,
+			"title": "Flauros V",
+			"description": "Take the Present Piece in Alchemilla Hospital and solve the puzzle.",
+			"points": 10,
+			"badge": "339513",
+			"memaddr": "",
+			"type": "",
+			"order": 32
+		},
+		{
+			"id": 306797,
+			"title": "Alessa Gillespie",
+			"description": "What have you done? You broke the spell! Now she is free.",
+			"points": 3,
+			"badge": "339514",
+			"memaddr": "",
+			"type": "",
+			"order": 33
+		},
+		{
+			"id": 306798,
+			"title": "Alessa's Dream",
+			"description": "Kill Alessa's Dream without taking damage and without equipping an unlockable weapon in Otherworld.",
+			"points": 25,
+			"badge": "339515",
+			"memaddr": "",
+			"type": "",
+			"order": 34
+		},
+		{
+			"id": 306799,
+			"title": "We'll call her Cheryl",
+			"description": "Get the Good Ending.",
+			"points": 50,
+			"badge": "339516",
+			"memaddr": "",
+			"type": "",
+			"order": 35
+		},
+		{
+			"id": 306800,
+			"title": "Serial Killer",
+			"description": "Get the Bad Ending.",
+			"points": 25,
+			"badge": "339517",
+			"memaddr": "",
+			"type": "",
+			"order": 36
+		},
+		{
+			"id": 306801,
+			"title": "The Crescent Moon",
+			"description": "Take the Room 502 key.",
+			"points": 5,
+			"badge": "339518",
+			"memaddr": "",
+			"type": "",
+			"order": 37
+		},
+		{
+			"id": 306802,
+			"title": "Ruff Ruff",
+			"description": "Get the UFO Ending.",
+			"points": 25,
+			"badge": "339519",
+			"memaddr": "",
+			"type": "",
+			"order": 38
+		},
+		{
+			"id": 306804,
+			"title": "Nurse",
+			"description": "Kill 25 enemies. (No NG+)",
+			"points": 5,
+			"badge": "339521",
+			"memaddr": "",
+			"type": "",
+			"order": 39
+		},
+		{
+			"id": 306805,
+			"title": "Carrion",
+			"description": "Kill 50 enemies. (No NG+)",
+			"points": 5,
+			"badge": "339522",
+			"memaddr": "",
+			"type": "",
+			"order": 40
+		},
+		{
+			"id": 306806,
+			"title": "Remnant",
+			"description": "Kill 100 enemies. (No NG+)",
+			"points": 10,
+			"badge": "339523",
+			"memaddr": "",
+			"type": "",
+			"order": 41
+		},
+		{
+			"id": 306807,
+			"title": "Ariel",
+			"description": "Kill 175 enemies. (No NG+)",
+			"points": 25,
+			"badge": "339524",
+			"memaddr": "",
+			"type": "",
+			"order": 42
+		},
+		{
+			"id": 306808,
+			"title": "Twoback",
+			"description": "Kill 250 enemies. (No NG+)",
+			"points": 25,
+			"badge": "339525",
+			"memaddr": "",
+			"type": "",
+			"order": 43
+		},
+		{
+			"id": 306809,
+			"title": "Health Drink",
+			"description": "Take 50 items.",
+			"points": 5,
+			"badge": "339526",
+			"memaddr": "",
+			"type": "",
+			"order": 44
+		},
+		{
+			"id": 306810,
+			"title": "Energy Drink",
+			"description": "Take 100 items.",
+			"points": 5,
+			"badge": "339527",
+			"memaddr": "",
+			"type": "",
+			"order": 45
+		},
+		{
+			"id": 306811,
+			"title": "First Aid Kit",
+			"description": "Take 175 items.",
+			"points": 10,
+			"badge": "339528",
+			"memaddr": "",
+			"type": "",
+			"order": 46
+		},
+		{
+			"id": 306812,
+			"title": "Ampoule",
+			"description": "Take 300 items.",
+			"points": 25,
+			"badge": "339529",
+			"memaddr": "",
+			"type": "",
+			"order": 47
+		},
+		{
+			"id": 306813,
+			"title": "Parking Ticket",
+			"description": "Take 10 notes.",
+			"points": 5,
+			"badge": "339530",
+			"memaddr": "",
+			"type": "",
+			"order": 48
+		},
+		{
+			"id": 306814,
+			"title": "Child's Drawing",
+			"description": "Take 25 notes.",
+			"points": 10,
+			"badge": "339531",
+			"memaddr": "",
+			"type": "",
+			"order": 49
+		},
+		{
+			"id": 306815,
+			"title": "Yellowed Page",
+			"description": "Take all 50 notes.",
+			"points": 25,
+			"badge": "339532",
+			"memaddr": "",
+			"type": "",
+			"order": 50
+		},
+		{
+			"id": 306973,
+			"title": "The Lonely Moon",
+			"description": "Kill 25 enemies using the Moon Gauntlets without returning to the main menu.",
+			"points": 5,
+			"badge": "339696",
+			"memaddr": "",
+			"type": "",
+			"order": 51
+		},
+		{
+			"id": 306974,
+			"title": "911 Emergency",
+			"description": "Kill 25 enemies using the Fire Axe without returning to the main menu.",
+			"points": 5,
+			"badge": "339697",
+			"memaddr": "",
+			"type": "",
+			"order": 52
+		},
+		{
+			"id": 306975,
+			"title": "Killing Spree",
+			"description": "Kill 25 enemies using the Great Cleaver without returning to the main menu.",
+			"points": 5,
+			"badge": "339698",
+			"memaddr": "",
+			"type": "",
+			"order": 53
+		},
+		{
+			"id": 306782,
+			"title": "Alien Technology",
+			"description": "Kill 50 enemies using the Tesla Rifle without returning to the main menu.",
+			"points": 5,
+			"badge": "345357",
+			"memaddr": "",
+			"type": "",
+			"order": 54
+		},
+		{
+			"id": 306816,
+			"title": "Codebreaker",
+			"description": "Do the Konami code anytime during a subsequent playthrough.",
+			"points": 5,
+			"badge": "339533",
+			"memaddr": "",
+			"type": "",
+			"order": 55
+		},
+		{
+			"id": 306817,
+			"title": "Stalker",
+			"description": "Finish the game using the flashlight for less than 3 hours.",
+			"points": 10,
+			"badge": "339534",
+			"memaddr": "",
+			"type": "",
+			"order": 56
+		},
+		{
+			"id": 306818,
+			"title": "Fireman",
+			"description": "Finish the game rescuing Alessa from fire in less than 80 seconds.",
+			"points": 10,
+			"badge": "339535",
+			"memaddr": "",
+			"type": "",
+			"order": 57
+		},
+		{
+			"id": 306819,
+			"title": "Explorer",
+			"description": "Finish the game travelling a distance greater than 22.5 km.",
+			"points": 10,
+			"badge": "339536",
+			"memaddr": "",
+			"type": "",
+			"order": 58
+		},
+		{
+			"id": 306820,
+			"title": "Collector",
+			"description": "Finish the game collecting more than 300 items.",
+			"points": 10,
+			"badge": "339537",
+			"memaddr": "",
+			"type": "",
+			"order": 59
+		},
+		{
+			"id": 306825,
+			"title": "Cartographer",
+			"description": "Finish the game looking at the map less than 25 times.",
+			"points": 10,
+			"badge": "339542",
+			"memaddr": "",
+			"type": "",
+			"order": 60
+		},
+		{
+			"id": 306822,
+			"title": "Sharpshooter",
+			"description": "Finish the game killing at least 75% of enemies with firearms.",
+			"points": 10,
+			"badge": "339539",
+			"memaddr": "",
+			"type": "",
+			"order": 61
+		},
+		{
+			"id": 306823,
+			"title": "Weaponsmith",
+			"description": "Finish the game killing at least 75% of enemies with melee weapons.",
+			"points": 10,
+			"badge": "339540",
+			"memaddr": "",
+			"type": "",
+			"order": 62
+		},
+		{
+			"id": 306824,
+			"title": "Brawler",
+			"description": "Finish the game killing at least 75% of enemies with fists.",
+			"points": 25,
+			"badge": "339541",
+			"memaddr": "",
+			"type": "",
+			"order": 63
+		},
+		{
+			"id": 306821,
+			"title": "Sprinter",
+			"description": "Finish the game in less than 2 hours.",
+			"points": 25,
+			"badge": "339538",
+			"memaddr": "",
+			"type": "",
+			"order": 64
+		},
+		{
+			"id": 306826,
+			"title": "Daredevil",
+			"description": "Finish the game without saving.",
+			"points": 25,
+			"badge": "339543",
+			"memaddr": "",
+			"type": "",
+			"order": 65
+		}
+	],
+	"source": "RetroAchievements set 3927 (retroachievements.org/game/3927)"
+}

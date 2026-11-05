@@ -1,0 +1,57 @@
+extends SceneTree
+var fails := 0
+func check(v: bool, label: String) -> void:
+	print(("PASS " if v else "FAIL ") + label)
+	if not v: fails += 1
+func _initialize() -> void: run.call_deferred()
+func run() -> void:
+	await process_frame
+	var app = root.get_node("App")
+	var game: String = app.root_dir.path_join("fixture-game")
+	DirAccess.make_dir_recursive_absolute(game.path_join("Bin"))
+	DirAccess.make_dir_recursive_absolute(game.path_join("Enhanced"))
+	var dll := game.path_join("Bin/dinput8.dll")
+	var f := FileAccess.open(dll, FileAccess.WRITE); f.store_string("fixture DLL"); f.close()
+	var ini := game.path_join("Enhanced/HomecomingEnhanced.ini")
+	f = FileAccess.open(ini, FileAccess.WRITE); f.store_string("; keep\r\n[Camera]\r\nFOV=42\r\n[Enhanced]\r\nLogLevel=2\r\n"); f.close()
+	app.set_state("homecoming", {"path": game})
+	var routes = app.svc("routes")
+	var pkg := {"runtime_toggle": {"dll": "Bin/dinput8.dll", "ini": "Enhanced/HomecomingEnhanced.ini", "sha256": FileAccess.get_sha256(dll)}}
+	DirAccess.make_dir_recursive_absolute(game.path_join("Engine"))
+	f = FileAccess.open(game.path_join("Engine/vars_pc.cfg"), FileAccess.WRITE); f.store_string("fpsLimit=165\r\n"); f.close()
+	f = FileAccess.open(game.path_join("Enhanced/engine-originals.ini"), FileAccess.WRITE); f.store_string("[vars_pc.cfg]\r\nfpsLimit=120\r\n"); f.close()
+	DirAccess.make_dir_recursive_absolute(app.root_dir.path_join("rebuilds/homecoming"))
+	f = FileAccess.open(app.root_dir.path_join("rebuilds/homecoming/manifest.json"), FileAccess.WRITE); f.store_string(JSON.stringify(pkg)); f.close()
+	check(routes._runtime_toggle_available("homecoming", pkg), "recognise supported DLL")
+	check(routes.remove_patch("homecoming") == "", "off write succeeds")
+	check(FileAccess.get_file_as_string(ini).contains("vars_pc.cfg:fpsLimit=165"), "final engine preferences captured before off")
+	check(not routes._patch_installed("homecoming", pkg), "off overrides installed file markers")
+	check(FileAccess.file_exists(dll), "DLL retained in forwarding mode")
+	check(FileAccess.get_file_as_string(ini).contains("FOV=42\r\n"), "camera and CRLF preserved")
+	check(routes.install_patch("homecoming") == "", "on write succeeds")
+	check(routes._patch_installed("homecoming", pkg), "status on again")
+	var logo_dir := game.path_join("Enhanced/ui/art")
+	DirAccess.make_dir_recursive_absolute(logo_dir)
+	var image := Image.create(8, 4, false, Image.FORMAT_RGBA8)
+	image.fill(Color.WHITE)
+	image.save_png(logo_dir.path_join("title_logo.png"))
+	var art = app.svc("art")
+	check(art.enhanced_logo_path("homecoming") != "", "Enhanced logo selected while on")
+	check(routes.remove_patch("homecoming") == "", "disable for logo check")
+	check(art.enhanced_logo_path("homecoming") == "", "original art path restored while off")
+	check(routes.install_patch("homecoming") == "", "re-enable after logo check")
+	var source: String = app.root_dir.path_join("asset-package")
+	DirAccess.make_dir_recursive_absolute(source.path_join("files/Enhanced/ui"))
+	var donor: String = source.path_join("files/Enhanced/ui/test.xml")
+	f = FileAccess.open(donor, FileAccess.WRITE); f.store_string("asset fixture"); f.close()
+	var spec := {"_dir": source, "runtime_assets": {"Enhanced/ui/test.xml": FileAccess.get_sha256(donor)}}
+	check(routes._repair_runtime_assets("homecoming", spec) == "", "missing asset repaired")
+	check(FileAccess.get_file_as_string(game.path_join("Enhanced/ui/test.xml")) == "asset fixture", "repaired bytes match")
+	f = FileAccess.open(game.path_join("Enhanced/ui/test.xml"), FileAccess.WRITE); f.store_string("custom"); f.close()
+	check(routes._repair_runtime_assets("homecoming", spec) == "", "existing custom asset retained")
+	check(FileAccess.get_file_as_string(game.path_join("Enhanced/ui/test.xml")) == "custom", "custom bytes unchanged")
+	pkg.runtime_toggle.sha256 = "wrong"
+	check(not routes._runtime_toggle_available("homecoming", pkg), "older/unknown binary rejected")
+	print("FAILS ", fails)
+	quit(1 if fails else 0)
+

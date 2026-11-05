@@ -1,0 +1,669 @@
+{
+	"id": 1324,
+	"title": "Silent Hill 2",
+	"console_id": 21,
+	"console": "PlayStation 2",
+	"achievements": [
+		{
+			"id": 261109,
+			"title": "It's Not Human...",
+			"description": "On your way to apartments kill 3 Lying Figures without taking damage on action level Easy or higher",
+			"points": 5,
+			"badge": "289289",
+			"memaddr": "",
+			"type": "",
+			"order": 1
+		},
+		{
+			"id": 261111,
+			"title": "A Premonition?",
+			"description": "Make a shocking discovery in Woodside Apartments Room 208",
+			"points": 3,
+			"badge": "289291",
+			"memaddr": "",
+			"type": "",
+			"order": 2
+		},
+		{
+			"id": 261110,
+			"title": "Time On the Run",
+			"description": "Solve Clock puzzle",
+			"points": 4,
+			"badge": "289290",
+			"memaddr": "",
+			"type": "",
+			"order": 3
+		},
+		{
+			"id": 261112,
+			"title": "Something Just Brought You Here, Right?",
+			"description": "Take a glimpse into Eddie's past",
+			"points": 3,
+			"badge": "289292",
+			"memaddr": "",
+			"type": "",
+			"order": 4
+		},
+		{
+			"id": 261113,
+			"title": "Glorified Ammo Case",
+			"description": "Open safe in Blue Creek Apartments",
+			"points": 4,
+			"badge": "289293",
+			"memaddr": "",
+			"type": "",
+			"order": 5
+		},
+		{
+			"id": 261114,
+			"title": "Torn Photo",
+			"description": "Take a glimpse into Angela's past",
+			"points": 3,
+			"badge": "289294",
+			"memaddr": "",
+			"type": "",
+			"order": 6
+		},
+		{
+			"id": 261115,
+			"title": "Secret of the Coins",
+			"description": "Solve Old Coin puzzle",
+			"points": 4,
+			"badge": "289295",
+			"memaddr": "",
+			"type": "",
+			"order": 7
+		},
+		{
+			"id": 261116,
+			"title": "Red Pyramid Thing",
+			"description": "Survive your first violent confrontation with Red Pyramid Thing on action level Easy or higher",
+			"points": 5,
+			"badge": "289296",
+			"memaddr": "",
+			"type": "",
+			"order": 8
+		},
+		{
+			"id": 261117,
+			"title": "Suppressing The Feeling Of Guilt",
+			"description": "Defeat Red Pyramid Thing without taking damage on action level Normal or Hard",
+			"points": 10,
+			"badge": "289297",
+			"memaddr": "",
+			"type": "",
+			"order": 9
+		},
+		{
+			"id": 261118,
+			"title": "Dying Light in Wood Side and Blue Creek",
+			"description": "Complete Wood Side and Blue Creek apartments while enabling the Flashlight no more than 12 seconds (killing a monster resets timer)",
+			"points": 10,
+			"badge": "289298",
+			"memaddr": "",
+			"type": "",
+			"order": 10
+		},
+		{
+			"id": 261119,
+			"title": "Silent Hill Chainsaw Massacre Pt. 2",
+			"description": "Kill 5 enemies with the Chainsaw in close proximity to Maria, then impress her with your battlecry",
+			"points": 10,
+			"badge": "289299",
+			"memaddr": "",
+			"type": "",
+			"order": 11
+		},
+		{
+			"id": 261120,
+			"title": "The Louise Configuration",
+			"description": "Solve \"Louise\" puzzle",
+			"points": 4,
+			"badge": "289300",
+			"memaddr": "",
+			"type": "",
+			"order": 12
+		},
+		{
+			"id": 261121,
+			"title": "Flesh Lips",
+			"description": "Kill all Flesh Lips on action level Easy or higher",
+			"points": 5,
+			"badge": "289301",
+			"memaddr": "",
+			"type": "",
+			"order": 13
+		},
+		{
+			"id": 261122,
+			"title": "Vocal Abuse Denied",
+			"description": "Kill all Flesh Lips without taking damage on action level Normal or Hard",
+			"points": 10,
+			"badge": "289302",
+			"memaddr": "",
+			"type": "",
+			"order": 14
+		},
+		{
+			"id": 261123,
+			"title": "Trick Or Treat",
+			"description": "Open Trick or Treat Box in Otherworld Hospital",
+			"points": 4,
+			"badge": "289303",
+			"memaddr": "",
+			"type": "",
+			"order": 15
+		},
+		{
+			"id": 261124,
+			"title": "You're Supposed To Take Care Of Me!",
+			"description": "In a single session escort Maria from Rosewater Park to Otherworld Hospital Basement Hallway without her being harmed once on action level Normal or Hard",
+			"points": 10,
+			"badge": "289304",
+			"memaddr": "",
+			"type": "",
+			"order": 16
+		},
+		{
+			"id": 261125,
+			"title": "I Couldn't Protect Her Anyway",
+			"description": "In Hospital Basement Hallway reach elevator without Maria being harmed by Red Pyramid Thing or James on action level Normal or Hard",
+			"points": 10,
+			"badge": "289305",
+			"memaddr": "",
+			"type": "",
+			"order": 17
+		},
+		{
+			"id": 261126,
+			"title": "Streets Of Darkness",
+			"description": "Anywhere on Otherworld Streets turn off the Radio or reduce its volume to 0, then go and kill 24 monsters in 12 minutes without taking damage (progress indicator shows elapsed time)",
+			"points": 10,
+			"badge": "289306",
+			"memaddr": "",
+			"type": "",
+			"order": 18
+		},
+		{
+			"id": 261127,
+			"title": "You CAN Kill What You Can't See",
+			"description": "Kill one of the invisible prisoners",
+			"points": 2,
+			"badge": "289307",
+			"memaddr": "",
+			"type": "",
+			"order": 19
+		},
+		{
+			"id": 261128,
+			"title": "Broken Silence",
+			"description": "I knock on the door but there's no answer",
+			"points": 2,
+			"badge": "289308",
+			"memaddr": "",
+			"type": "",
+			"order": 20
+		},
+		{
+			"id": 261129,
+			"title": "All Around Me Are Familiar Faces",
+			"description": "Solve The Box of Faces Puzzle",
+			"points": 4,
+			"badge": "289309",
+			"memaddr": "",
+			"type": "",
+			"order": 21
+		},
+		{
+			"id": 261130,
+			"title": "Strange Death By Skewering",
+			"description": "Unequip your weapon and bait Red Pyramid Thing to execute a Lying Figure on action level Easy or higher",
+			"points": 5,
+			"badge": "504668",
+			"memaddr": "",
+			"type": "",
+			"order": 22
+		},
+		{
+			"id": 261131,
+			"title": "Abstract Daddy",
+			"description": "Kill Abstract Daddy on action level Easy or higher",
+			"points": 5,
+			"badge": "289311",
+			"memaddr": "",
+			"type": "",
+			"order": 23
+		},
+		{
+			"id": 261132,
+			"title": "You Will Not Touch Her Or Me!",
+			"description": "Kill Abstract Daddy without taking damage on action level Normal or Hard",
+			"points": 10,
+			"badge": "289312",
+			"memaddr": "",
+			"type": "",
+			"order": 24
+		},
+		{
+			"id": 261133,
+			"title": "Dead Men, Dead Men",
+			"description": "Solve Free the Innocent Man Puzzle",
+			"points": 4,
+			"badge": "289313",
+			"memaddr": "",
+			"type": "",
+			"order": 25
+		},
+		{
+			"id": 261134,
+			"title": "Exploring The Labyrinth",
+			"description": "Draw a complete map of The Labyrinth",
+			"points": 5,
+			"badge": "289314",
+			"memaddr": "",
+			"type": "",
+			"order": 26
+		},
+		{
+			"id": 261135,
+			"title": "Have You Gone Nuts?",
+			"description": "Kill Eddie on action level Easy or higher",
+			"points": 5,
+			"badge": "289315",
+			"memaddr": "",
+			"type": "",
+			"order": 27
+		},
+		{
+			"id": 261136,
+			"title": "Let's party!",
+			"description": "Kill Eddie while getting hit or shot no more than 5 times on action level Normal or Hard (don't use green Hyper spray)",
+			"points": 10,
+			"badge": "289316",
+			"memaddr": "",
+			"type": "",
+			"order": 28
+		},
+		{
+			"id": 261137,
+			"title": "Skilled Oarsman",
+			"description": "Complete Boat Stage in less than 1:11 while reaching a speed of 3.66 m/s (action level Hard)",
+			"points": 25,
+			"badge": "289317",
+			"memaddr": "",
+			"type": "",
+			"order": 29
+		},
+		{
+			"id": 261138,
+			"title": "Help Me I'm In Hell",
+			"description": "Solve The Locked Briefcase puzzle",
+			"points": 4,
+			"badge": "289318",
+			"memaddr": "",
+			"type": "",
+			"order": 30
+		},
+		{
+			"id": 261139,
+			"title": "Late for the Ball?",
+			"description": "Solve Music Box puzzle",
+			"points": 4,
+			"badge": "289319",
+			"memaddr": "",
+			"type": "",
+			"order": 31
+		},
+		{
+			"id": 261140,
+			"title": "Mary's Going To Die...?",
+			"description": "Listen to the headphone recording in Lake View Hotel",
+			"points": 3,
+			"badge": "289320",
+			"memaddr": "",
+			"type": "",
+			"order": 32
+		},
+		{
+			"id": 261141,
+			"title": "Red Pyramid Thing Duo",
+			"description": "Defeat Red Pyramid Thing Duo on action level Easy or higher",
+			"points": 10,
+			"badge": "289321",
+			"memaddr": "",
+			"type": "",
+			"order": 33
+		},
+		{
+			"id": 261142,
+			"title": "Painless Acknowledgement Of The Truth",
+			"description": "Defeat Red Pyramid Thing Duo without taking damage on action level Normal or Hard",
+			"points": 25,
+			"badge": "289322",
+			"memaddr": "",
+			"type": "",
+			"order": 34
+		},
+		{
+			"id": 261143,
+			"title": "Now I Lay Me Down to Sleep",
+			"description": "Defeat Mary/Maria on action level Easy or higher",
+			"points": 5,
+			"badge": "289323",
+			"memaddr": "",
+			"type": "",
+			"order": 35
+		},
+		{
+			"id": 261144,
+			"title": "See? I'm Real",
+			"description": "Kill Mary/Maria without taking damage from her or moths on action level Normal or Hard (can use green Hyper spray to dispel moths only)",
+			"points": 25,
+			"badge": "289324",
+			"memaddr": "",
+			"type": "",
+			"order": 36
+		},
+		{
+			"id": 261145,
+			"title": "Up Close and Personal",
+			"description": "Obtain Steel pipe",
+			"points": 2,
+			"badge": "289325",
+			"memaddr": "",
+			"type": "",
+			"order": 37
+		},
+		{
+			"id": 261146,
+			"title": "Wedding Present",
+			"description": "Obtain Shotgun",
+			"points": 2,
+			"badge": "289326",
+			"memaddr": "",
+			"type": "",
+			"order": 38
+		},
+		{
+			"id": 261147,
+			"title": "Long Distance Relationship",
+			"description": "Obtain Hunting rifle",
+			"points": 2,
+			"badge": "289327",
+			"memaddr": "",
+			"type": "",
+			"order": 39
+		},
+		{
+			"id": 261148,
+			"title": "Tool of the Trade",
+			"description": "Obtain Great knife",
+			"points": 2,
+			"badge": "289328",
+			"memaddr": "",
+			"type": "",
+			"order": 40
+		},
+		{
+			"id": 261149,
+			"title": "The Sunderland Special",
+			"description": "Obtain Chainsaw",
+			"points": 2,
+			"badge": "289329",
+			"memaddr": "",
+			"type": "",
+			"order": 41
+		},
+		{
+			"id": 261150,
+			"title": "What's a Geneva Convention?",
+			"description": "Obtain Hyper spray",
+			"points": 2,
+			"badge": "289330",
+			"memaddr": "",
+			"type": "",
+			"order": 42
+		},
+		{
+			"id": 261151,
+			"title": "Overdose Delusion",
+			"description": "Achieve \"Leave\" ending",
+			"points": 10,
+			"badge": "289331",
+			"memaddr": "",
+			"type": "",
+			"order": 43
+		},
+		{
+			"id": 261152,
+			"title": "Promise",
+			"description": "Achieve \"Maria\" ending",
+			"points": 10,
+			"badge": "289332",
+			"memaddr": "",
+			"type": "",
+			"order": 44
+		},
+		{
+			"id": 261153,
+			"title": "Angel's Thanatos",
+			"description": "Achieve \"In Water\" ending",
+			"points": 10,
+			"badge": "289333",
+			"memaddr": "",
+			"type": "",
+			"order": 45
+		},
+		{
+			"id": 261154,
+			"title": "The Reverse Will",
+			"description": "Achieve \"Rebirth\" ending",
+			"points": 25,
+			"badge": "289334",
+			"memaddr": "",
+			"type": "",
+			"order": 46
+		},
+		{
+			"id": 261155,
+			"title": "So It Was All Your Work!",
+			"description": "Achieve \"DOG\" ending",
+			"points": 25,
+			"badge": "289335",
+			"memaddr": "",
+			"type": "",
+			"order": 47
+		},
+		{
+			"id": 261156,
+			"title": "Have You Seen A Little Girl Around Here?",
+			"description": "Achieve \"UFO\" ending",
+			"points": 25,
+			"badge": "289336",
+			"memaddr": "",
+			"type": "",
+			"order": 48
+		},
+		{
+			"id": 261157,
+			"title": "For Me, It's Always Like This",
+			"description": "Reach \"Leave\", \"Maria\", \"In Water\" or \"Rebirth\" ending on action level Hard",
+			"points": 25,
+			"badge": "289723",
+			"memaddr": "",
+			"type": "",
+			"order": 49
+		},
+		{
+			"id": 261158,
+			"title": "Riddle Me More",
+			"description": "Complete main scenario on riddle level Hard",
+			"points": 5,
+			"badge": "289724",
+			"memaddr": "",
+			"type": "",
+			"order": 50
+		},
+		{
+			"id": 261159,
+			"title": "The Mind is a Labyrinth",
+			"description": "Complete main scenario on riddle level Extra",
+			"points": 10,
+			"badge": "289725",
+			"memaddr": "",
+			"type": "",
+			"order": 51
+		},
+		{
+			"id": 261160,
+			"title": "The Most Wonderful Horrible Day of My Life",
+			"description": "Achieve a ranking of 8.5 stars or better",
+			"points": 25,
+			"badge": "289337",
+			"memaddr": "",
+			"type": "",
+			"order": 52
+		},
+		{
+			"id": 261161,
+			"title": "Terror in the Depths of the Fog",
+			"description": "Achieve a 10 star ranking (don't have green Hyper spray in inventory)",
+			"points": 50,
+			"badge": "289338",
+			"memaddr": "",
+			"type": "",
+			"order": 53
+		},
+		{
+			"id": 261162,
+			"title": "Pantophobia",
+			"description": "Achieve a ranking of less than two stars",
+			"points": 25,
+			"badge": "289339",
+			"memaddr": "",
+			"type": "",
+			"order": 54
+		},
+		{
+			"id": 261163,
+			"title": "I Like to Remember Things My Way",
+			"description": "Reach final boss without picking up any optional maps",
+			"points": 10,
+			"badge": "289551",
+			"memaddr": "",
+			"type": "",
+			"order": 55
+		},
+		{
+			"id": 261164,
+			"title": "Peace & Serenity",
+			"description": "Reach \"Leave\", \"Maria\", \"In Water\" or \"Rebirth\" ending without a single optional kill with 5 or less saves on action level Normal or Hard",
+			"points": 25,
+			"badge": "289439",
+			"memaddr": "",
+			"type": "",
+			"order": 56
+		},
+		{
+			"id": 261165,
+			"title": "Hoarder",
+			"description": "Find 222 or more items in main scenario",
+			"points": 10,
+			"badge": "289437",
+			"memaddr": "",
+			"type": "",
+			"order": 57
+		},
+		{
+			"id": 261166,
+			"title": "If Anyone Makes Fun of Me... I'll Kill 'Em",
+			"description": "In main scenario defeat 75 monsters by shooting and 75 monsters by fighting",
+			"points": 10,
+			"badge": "289435",
+			"memaddr": "",
+			"type": "",
+			"order": 58
+		},
+		{
+			"id": 261167,
+			"title": "Secrets Built Around Those Secrets",
+			"description": "Find 40 or more memos",
+			"points": 25,
+			"badge": "289340",
+			"memaddr": "",
+			"type": "",
+			"order": 59
+		},
+		{
+			"id": 261168,
+			"title": "Meaningless Tomorrows",
+			"description": "Solve Gravestone Memorial puzzle",
+			"points": 4,
+			"badge": "289341",
+			"memaddr": "",
+			"type": "",
+			"order": 60
+		},
+		{
+			"id": 261169,
+			"title": "Chop, Shoot, Stomp",
+			"description": "As Maria kill all three unique monsters but each in a different way on action level Easy or higher",
+			"points": 3,
+			"badge": "289342",
+			"memaddr": "",
+			"type": "",
+			"order": 61
+		},
+		{
+			"id": 261170,
+			"title": "Bird of Prey",
+			"description": "In sub scenario defeat 16 monsters by shooting and 16 monsters by fighting",
+			"points": 5,
+			"badge": "289436",
+			"memaddr": "",
+			"type": "",
+			"order": 62
+		},
+		{
+			"id": 261171,
+			"title": "Combing the Town",
+			"description": "Find 33 or more items in sub scenario",
+			"points": 5,
+			"badge": "289438",
+			"memaddr": "",
+			"type": "",
+			"order": 63
+		},
+		{
+			"id": 261172,
+			"title": "Love Psalm",
+			"description": "Complete Born From A Wish sub scenario",
+			"points": 10,
+			"badge": "289343",
+			"memaddr": "",
+			"type": "",
+			"order": 64
+		},
+		{
+			"id": 261173,
+			"title": "I'm so Afraid of Pain",
+			"description": "In a single session complete sub scenario in less than 12 minutes and receiving 100 pts damage or less on action level Hard",
+			"points": 25,
+			"badge": "289727",
+			"memaddr": "",
+			"type": "",
+			"order": 65
+		},
+		{
+			"id": 261174,
+			"title": "I'll Never Hurt You Like He Did",
+			"description": "Complete sub scenario without killing anyone and saving no more than 1 time on action level Normal or Hard",
+			"points": 10,
+			"badge": "289440",
+			"memaddr": "",
+			"type": "",
+			"order": 66
+		}
+	],
+	"source": "RetroAchievements set 1324 (retroachievements.org/game/1324)"
+}

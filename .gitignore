@@ -1,0 +1,7 @@
+build/
+out/
+stage/
+__pycache__/
+launcher/.godot/
+launcher/keystore/
+dist/**/ffmpeg*

@@ -1,0 +1,869 @@
+{
+ "game": "sh4",
+ "platform": "PlayStation 2",
+ "source": "PlayStation 2 set by the RetroAchievements community",
+ "credit": "RetroAchievements",
+ "link": "https://retroachievements.org/game/1336",
+ "notes": "This game never had an official achievement list, so the launcher uses the PlayStation 2 set made by the RetroAchievements community. Native builds unlock them by the set's own rules; Enhanced patches report them through the launcher's bridge; anything else can be marked by hand.",
+ "achievements": [
+  {
+   "id": "ra-260076",
+   "name": "Down on Lynch St. Line",
+   "description": "Complete the first visit to the Subway World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287991.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287991_lock.png",
+   "rarity": 67.3,
+   "unlock": {
+    "type": "ra",
+    "id": 260076
+   }
+  },
+  {
+   "id": "ra-260077",
+   "name": "Welcome to Almost Silent Hill",
+   "description": "Complete the first visit to the Forest World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287992.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287992_lock.png",
+   "rarity": 59.05,
+   "unlock": {
+    "type": "ra",
+    "id": 260077
+   }
+  },
+  {
+   "id": "ra-260078",
+   "name": "Kindergarten Drop",
+   "description": "Complete the first visit to the Water Prison [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287993.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287993_lock.png",
+   "rarity": 53.33,
+   "unlock": {
+    "type": "ra",
+    "id": 260078
+   }
+  },
+  {
+   "id": "ra-260079",
+   "name": "The Crime That Shocked Ashfield",
+   "description": "Complete the first visit to the Building World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287994.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287994_lock.png",
+   "rarity": 51.11,
+   "unlock": {
+    "type": "ra",
+    "id": 260079
+   }
+  },
+  {
+   "id": "ra-260080",
+   "name": "Nice Job Looking Out",
+   "description": "Complete the first visit to the Apartment World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287995.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287995_lock.png",
+   "rarity": 48.57,
+   "unlock": {
+    "type": "ra",
+    "id": 260080
+   }
+  },
+  {
+   "id": "ra-260081",
+   "name": "What It's Like Living in Limbo",
+   "description": "Complete the visit to the Hospital World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287996.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287996_lock.png",
+   "rarity": 47.94,
+   "unlock": {
+    "type": "ra",
+    "id": 260081
+   }
+  },
+  {
+   "id": "ra-260082",
+   "name": "Down on King St. Line",
+   "description": "Complete the second visit to the Subway World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287997.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287997_lock.png",
+   "rarity": 45.08,
+   "unlock": {
+    "type": "ra",
+    "id": 260082
+   }
+  },
+  {
+   "id": "ra-260083",
+   "name": "Well Wishes",
+   "description": "Complete the second visit to the Forest World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287998.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287998_lock.png",
+   "rarity": 42.86,
+   "unlock": {
+    "type": "ra",
+    "id": 260083
+   }
+  },
+  {
+   "id": "ra-260084",
+   "name": "The Fat Pig",
+   "description": "Complete the second visit to the Water Prison [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/287999.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/287999_lock.png",
+   "rarity": 40.95,
+   "unlock": {
+    "type": "ra",
+    "id": 260084
+   }
+  },
+  {
+   "id": "ra-260085",
+   "name": "Tick Tock",
+   "description": "Complete the second visit to the Building World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288000.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288000_lock.png",
+   "rarity": 40.0,
+   "unlock": {
+    "type": "ra",
+    "id": 260085
+   }
+  },
+  {
+   "id": "ra-260086",
+   "name": "Please, Wake Up Soon",
+   "description": "Complete the second visit to the Apartment World [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288001.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288001_lock.png",
+   "rarity": 39.68,
+   "unlock": {
+    "type": "ra",
+    "id": 260086
+   }
+  },
+  {
+   "id": "ra-260087",
+   "name": "Throatful of Splinters",
+   "description": "Defeat the final boss [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288002.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288002_lock.png",
+   "rarity": 39.37,
+   "unlock": {
+    "type": "ra",
+    "id": 260087
+   }
+  },
+  {
+   "id": "ra-260088",
+   "name": "A Sleeping Explorer, Their Wandering Mind",
+   "description": "Complete the first visit to the Subway World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288003.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288003_lock.png",
+   "rarity": 25.4,
+   "unlock": {
+    "type": "ra",
+    "id": 260088
+   }
+  },
+  {
+   "id": "ra-260089",
+   "name": "A Mind Like a Cemetery",
+   "description": "Complete the first visit to the Forest World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288004.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288004_lock.png",
+   "rarity": 23.49,
+   "unlock": {
+    "type": "ra",
+    "id": 260089
+   }
+  },
+  {
+   "id": "ra-260090",
+   "name": "What's That? Timmy Fell Down the Well?",
+   "description": "Complete the first visit to the Water Prison [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288005.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288005_lock.png",
+   "rarity": 22.22,
+   "unlock": {
+    "type": "ra",
+    "id": 260090
+   }
+  },
+  {
+   "id": "ra-260091",
+   "name": "Ashfield 187",
+   "description": "Complete the first visit to the Building World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288006.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288006_lock.png",
+   "rarity": 21.27,
+   "unlock": {
+    "type": "ra",
+    "id": 260091
+   }
+  },
+  {
+   "id": "ra-260092",
+   "name": "Hallways of Always",
+   "description": "Complete the first visit to the Apartment World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288007.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288007_lock.png",
+   "rarity": 20.32,
+   "unlock": {
+    "type": "ra",
+    "id": 260092
+   }
+  },
+  {
+   "id": "ra-260093",
+   "name": "World of Wounds",
+   "description": "Complete the visit to the Hospital World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288008.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288008_lock.png",
+   "rarity": 19.37,
+   "unlock": {
+    "type": "ra",
+    "id": 260093
+   }
+  },
+  {
+   "id": "ra-260094",
+   "name": "The Void Rumbles in Like an Underground Train",
+   "description": "Complete the second visit to the Subway World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288009.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288009_lock.png",
+   "rarity": 18.73,
+   "unlock": {
+    "type": "ra",
+    "id": 260094
+   }
+  },
+  {
+   "id": "ra-260095",
+   "name": "Decent of the Holy Mother",
+   "description": "Complete the second visit to the Forest World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288010.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288010_lock.png",
+   "rarity": 18.41,
+   "unlock": {
+    "type": "ra",
+    "id": 260095
+   }
+  },
+  {
+   "id": "ra-260096",
+   "name": "Everything Has to Fall Apart",
+   "description": "Complete the second visit to the Water Prison [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288011.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288011_lock.png",
+   "rarity": 18.1,
+   "unlock": {
+    "type": "ra",
+    "id": 260096
+   }
+  },
+  {
+   "id": "ra-260097",
+   "name": "Reminisces",
+   "description": "Complete the second visit to the Building World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288012.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288012_lock.png",
+   "rarity": 17.46,
+   "unlock": {
+    "type": "ra",
+    "id": 260097
+   }
+  },
+  {
+   "id": "ra-260098",
+   "name": "Forever Come Closer",
+   "description": "Complete the second visit to the Apartment World [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288013.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288013_lock.png",
+   "rarity": 17.46,
+   "unlock": {
+    "type": "ra",
+    "id": 260098
+   }
+  },
+  {
+   "id": "ra-260099",
+   "name": "Night Slits Her Veins and the Darkness Drains",
+   "description": "Defeat the final boss [Hard]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288014.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288014_lock.png",
+   "rarity": 17.14,
+   "unlock": {
+    "type": "ra",
+    "id": 260099
+   }
+  },
+  {
+   "id": "ra-260100",
+   "name": "Like a Flower in the Basement",
+   "description": "Obtain the \"Escape\" ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288015.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288015_lock.png",
+   "rarity": 26.67,
+   "unlock": {
+    "type": "ra",
+    "id": 260100
+   }
+  },
+  {
+   "id": "ra-260101",
+   "name": "Here's a Lullaby to Close Your Eyes",
+   "description": "Obtain the \"Mother\" ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288016.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288016_lock.png",
+   "rarity": 20.32,
+   "unlock": {
+    "type": "ra",
+    "id": 260101
+   }
+  },
+  {
+   "id": "ra-260102",
+   "name": "I Don't Feel Enough for You to Cry",
+   "description": "Obtain the Bad+ ending (spoiler dodging) on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288017.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288017_lock.png",
+   "rarity": 20.0,
+   "unlock": {
+    "type": "ra",
+    "id": 260102
+   }
+  },
+  {
+   "id": "ra-260103",
+   "name": "It Was Always You That I Despised",
+   "description": "Obtain the \"21 Sacraments\" ending on any difficulty",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288018.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288018_lock.png",
+   "rarity": 23.81,
+   "unlock": {
+    "type": "ra",
+    "id": 260103
+   }
+  },
+  {
+   "id": "ra-260104",
+   "name": "I Run, I Fall",
+   "description": "Complete the game in under two hours [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288019.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288019_lock.png",
+   "rarity": 12.06,
+   "unlock": {
+    "type": "ra",
+    "id": 260104
+   }
+  },
+  {
+   "id": "ra-260105",
+   "name": "A Restless Day",
+   "description": "Complete the game without saving or using continues [Normal or Higher]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288020.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288020_lock.png",
+   "rarity": 11.75,
+   "unlock": {
+    "type": "ra",
+    "id": 260105
+   }
+  },
+  {
+   "id": "ra-260640",
+   "name": "Ashfield's Finest",
+   "description": "Obtain the 10-Star rating",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288597.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288597_lock.png",
+   "rarity": 11.75,
+   "unlock": {
+    "type": "ra",
+    "id": 260640
+   }
+  },
+  {
+   "id": "ra-260641",
+   "name": "The Hero of Ashfield",
+   "description": "Obtain the 10-Star rank in One-Weapon Mode",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288598.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288598_lock.png",
+   "rarity": 11.43,
+   "unlock": {
+    "type": "ra",
+    "id": 260641
+   }
+  },
+  {
+   "id": "ra-260106",
+   "name": "Hunter Through My Back Door",
+   "description": "Kill at least 40 enemies",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288021.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288021_lock.png",
+   "rarity": 57.78,
+   "unlock": {
+    "type": "ra",
+    "id": 260106
+   }
+  },
+  {
+   "id": "ra-260107",
+   "name": "Die Nameless on My Floor",
+   "description": "Kill at least 80 enemies",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288022.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288022_lock.png",
+   "rarity": 55.56,
+   "unlock": {
+    "type": "ra",
+    "id": 260107
+   }
+  },
+  {
+   "id": "ra-260108",
+   "name": "Deterioration Entropy",
+   "description": "Kill at least 120 enemies",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288023.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288023_lock.png",
+   "rarity": 53.65,
+   "unlock": {
+    "type": "ra",
+    "id": 260108
+   }
+  },
+  {
+   "id": "ra-260109",
+   "name": "Receiver of Smart",
+   "description": "Collect 13 memos",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288024.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288024_lock.png",
+   "rarity": 55.24,
+   "unlock": {
+    "type": "ra",
+    "id": 260109
+   }
+  },
+  {
+   "id": "ra-260110",
+   "name": "Receiver of Knowledge",
+   "description": "Collect 26 memos",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288025.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288025_lock.png",
+   "rarity": 50.79,
+   "unlock": {
+    "type": "ra",
+    "id": 260110
+   }
+  },
+  {
+   "id": "ra-260111",
+   "name": "Receiver of Wisdom",
+   "description": "Collect all 52 memos",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288026.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288026_lock.png",
+   "rarity": 21.27,
+   "unlock": {
+    "type": "ra",
+    "id": 260111
+   }
+  },
+  {
+   "id": "ra-260454",
+   "name": "A Stunning Discovery",
+   "description": "Obtain the Stun Gun in the Water Prison",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288343.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288343_lock.png",
+   "rarity": 32.06,
+   "unlock": {
+    "type": "ra",
+    "id": 260454
+   }
+  },
+  {
+   "id": "ra-260458",
+   "name": "Remember, It's Just a Doll",
+   "description": "Robbie the Rabbit is telling you that it's your fault or that you're next",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288444.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288444_lock.png",
+   "rarity": 50.79,
+   "unlock": {
+    "type": "ra",
+    "id": 260458
+   }
+  },
+  {
+   "id": "ra-260459",
+   "name": "Electric Blue for Me",
+   "description": "Attempt to tase the giant head",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288445.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288445_lock.png",
+   "rarity": 19.68,
+   "unlock": {
+    "type": "ra",
+    "id": 260459
+   }
+  },
+  {
+   "id": "ra-260460",
+   "name": "Receiver of Drama",
+   "description": "Learn all you can about Mike, Rachel, and her stalker. Also, hang up that damn phone.",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288594.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288594_lock.png",
+   "rarity": 43.81,
+   "unlock": {
+    "type": "ra",
+    "id": 260460
+   }
+  },
+  {
+   "id": "ra-260540",
+   "name": "A Special Favor",
+   "description": "Pin Cynthia's ghost down in the screen she first appears in",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288454.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288454_lock.png",
+   "rarity": 33.65,
+   "unlock": {
+    "type": "ra",
+    "id": 260540
+   }
+  },
+  {
+   "id": "ra-260541",
+   "name": "S-s-s-sorry",
+   "description": "Pin Jasper's ghost down in the screen he first appears in",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288455.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288455_lock.png",
+   "rarity": 28.25,
+   "unlock": {
+    "type": "ra",
+    "id": 260541
+   }
+  },
+  {
+   "id": "ra-260543",
+   "name": "Taming Andrew",
+   "description": "Pin Andrew's ghost down in the screen he first appears in",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288457.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288457_lock.png",
+   "rarity": 40.32,
+   "unlock": {
+    "type": "ra",
+    "id": 260543
+   }
+  },
+  {
+   "id": "ra-260542",
+   "name": "Stick the Dick",
+   "description": "Pin Richard's ghost down in the screen he first appears in",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288456.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288456_lock.png",
+   "rarity": 31.11,
+   "unlock": {
+    "type": "ra",
+    "id": 260542
+   }
+  },
+  {
+   "id": "ra-260455",
+   "name": "A Vacation from Your Problems",
+   "description": "Obtain all twelve golf clubs in the game",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288344.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288344_lock.png",
+   "rarity": 20.95,
+   "unlock": {
+    "type": "ra",
+    "id": 260455
+   }
+  },
+  {
+   "id": "ra-260469",
+   "name": "Peeping Tom",
+   "description": "In one session, witness at least 30 unique scenes or activities through either the door or wall peepholes [No Continues]",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288446.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288446_lock.png",
+   "rarity": 13.65,
+   "unlock": {
+    "type": "ra",
+    "id": 260469
+   }
+  },
+  {
+   "id": "ra-260112",
+   "name": "Stop the Racket",
+   "description": "Free your apartment of rattling windows",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288027.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288027_lock.png",
+   "rarity": 43.81,
+   "unlock": {
+    "type": "ra",
+    "id": 260112
+   }
+  },
+  {
+   "id": "ra-260113",
+   "name": "Crackin' Up",
+   "description": "Free your apartment of cracked walls",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288028.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288028_lock.png",
+   "rarity": 38.41,
+   "unlock": {
+    "type": "ra",
+    "id": 260113
+   }
+  },
+  {
+   "id": "ra-260114",
+   "name": "Walter Halter",
+   "description": "Free your apartment of spooky mama's boy portraits",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288029.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288029_lock.png",
+   "rarity": 16.51,
+   "unlock": {
+    "type": "ra",
+    "id": 260114
+   }
+  },
+  {
+   "id": "ra-260115",
+   "name": "Burst Boils",
+   "description": "Free your apartment of bloody cushions",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288030.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288030_lock.png",
+   "rarity": 33.33,
+   "unlock": {
+    "type": "ra",
+    "id": 260115
+   }
+  },
+  {
+   "id": "ra-260116",
+   "name": "No, Hank You",
+   "description": "Free your apartment of yourself",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288031.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288031_lock.png",
+   "rarity": 32.06,
+   "unlock": {
+    "type": "ra",
+    "id": 260116
+   }
+  },
+  {
+   "id": "ra-260117",
+   "name": "The First Victim",
+   "description": "Free your apartment of people trying to break in",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288032.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288032_lock.png",
+   "rarity": 33.97,
+   "unlock": {
+    "type": "ra",
+    "id": 260117
+   }
+  },
+  {
+   "id": "ra-260118",
+   "name": "What Am I Wearing?",
+   "description": "Free your apartment of spooky prank callers",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288033.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288033_lock.png",
+   "rarity": 20.95,
+   "unlock": {
+    "type": "ra",
+    "id": 260118
+   }
+  },
+  {
+   "id": "ra-260119",
+   "name": "Don't Talk to Strangers",
+   "description": "Free your apartment of spooky wall dolls",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288034.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288034_lock.png",
+   "rarity": 32.38,
+   "unlock": {
+    "type": "ra",
+    "id": 260119
+   }
+  },
+  {
+   "id": "ra-260120",
+   "name": "Tele's Revenge",
+   "description": "Free your apartment of bad reception",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288035.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288035_lock.png",
+   "rarity": 41.27,
+   "unlock": {
+    "type": "ra",
+    "id": 260120
+   }
+  },
+  {
+   "id": "ra-260121",
+   "name": "Could Have Just Shut It",
+   "description": "Free your apartment of spooky shadow children",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288036.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288036_lock.png",
+   "rarity": 42.54,
+   "unlock": {
+    "type": "ra",
+    "id": 260121
+   }
+  },
+  {
+   "id": "ra-260122",
+   "name": "Where's the Foot?!",
+   "description": "Free your apartment of unreliable footwear",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288037.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288037_lock.png",
+   "rarity": 41.9,
+   "unlock": {
+    "type": "ra",
+    "id": 260122
+   }
+  },
+  {
+   "id": "ra-260123",
+   "name": "Time for Eviction",
+   "description": "Free your apartment of broken clocks",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288038.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288038_lock.png",
+   "rarity": 43.49,
+   "unlock": {
+    "type": "ra",
+    "id": 260123
+   }
+  },
+  {
+   "id": "ra-260124",
+   "name": "Will Curiosity Kill You, Too?",
+   "description": "Free your apartment of meowing meat",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288039.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288039_lock.png",
+   "rarity": 35.87,
+   "unlock": {
+    "type": "ra",
+    "id": 260124
+   }
+  },
+  {
+   "id": "ra-260125",
+   "name": "A Sinking Feeling",
+   "description": "Free your apartment of plumbing issues",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288040.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288040_lock.png",
+   "rarity": 35.87,
+   "unlock": {
+    "type": "ra",
+    "id": 260125
+   }
+  },
+  {
+   "id": "ra-260470",
+   "name": "Friendly Henry",
+   "description": "Have at least five hauntings active in your apartment at one time",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288595.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288595_lock.png",
+   "rarity": 26.67,
+   "unlock": {
+    "type": "ra",
+    "id": 260470
+   }
+  },
+  {
+   "id": "ra-260457",
+   "name": "Who Will Survive and What Will Be Left of Them?",
+   "description": "A Brand-new Fear: Channel James Sunderland with the chainsaw equipped",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288346.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288346_lock.png",
+   "rarity": 14.29,
+   "unlock": {
+    "type": "ra",
+    "id": 260457
+   }
+  },
+  {
+   "id": "ra-260453",
+   "name": "Spray and Slay",
+   "description": "A Brand-new Fear: Obtain the Submachine Gun",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288443.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288443_lock.png",
+   "rarity": 11.75,
+   "unlock": {
+    "type": "ra",
+    "id": 260453
+   }
+  },
+  {
+   "id": "ra-260639",
+   "name": "Howdy, Neighbor!",
+   "description": "A Brand-new Fear: Wake Eileen in the Hospital World with the nurse outfit unlocked and active",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/288596.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/288596_lock.png",
+   "rarity": 12.06,
+   "unlock": {
+    "type": "ra",
+    "id": 260639
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

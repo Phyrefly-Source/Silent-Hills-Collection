@@ -1,0 +1,578 @@
+# Official achievement/trophy lists with icons and global unlock rates, read from
+# exophase.com (2026-10-29). Full sections: name, description, icon file, rarity %,
+# hidden (1/0), trophy grade. "@" sections: name, rarity % only (lists the launcher
+# already has). Icons: https://m.exophase.com/<platform>/awards/l/<file>
+## sh2 psn https://www.exophase.com/game/silent-hill-2-hd/trophies/
+She Would Be Proud	Unlock all Trophies in SH2.	13g06j.png	23.66	0	platinum
+Free to Go	Unlock the "Leave" ending.	35j0g4.png	72.56	0	bronze
+Second Best	Unlock the "Maria" ending.	77g43g.png	37.22	0	bronze
+Goodbye	Unlock the "In Water" ending.	4041dj.png	49.21	0	bronze
+Say Your Prayers	Unlock the "Rebirth" ending.	6db516.png	39.04	0	silver
+It All Makes Sense Now	Unlock the "Dog" ending.	b8e61j.png	32.13	0	silver
+Never to be Heard from Again	Unlock the "UFO" ending.	gjg34d.png	34.36	0	silver
+Warp Speed	Complete SH2 in 3 hours or less.	dg41ee.png	37.61	0	gold
+Overkill	Acquire the Chainsaw.	j045g7.png	56.58	0	silver
+Who Needs a Gun?	Acquire the Green Hyper Spray.	13g0b5.png	23.96	0	gold
+Playing on the Edge	Complete SH2 with 2 saves or less.	35j015.png	36.68	0	gold
+Keep Your Distance	Defeat at least 75 enemies by shooting in SH2.	77g4b0.png	39.01	0	silver
+Melee Master	Defeat at least 75 enemies by fighting in SH2.	556303.png	66.15	0	silver
+Keen Eye	Find at least 150 items + extra items in SH2.	00bd4j.png	89.74	0	silver
+Don't Keep Her Waiting	Complete Boat Stage in less than 1 min 20 seconds.	8je6d4.png	50.43	0	silver
+Hard to Hit	Receive less than 500 points of damage in one game, in SH2.	ee6106.png	49.5	0	silver
+Childhood Trauma	Defeat Abstract Daddy.	40417j.png	89.61	0	bronze
+I Don't Need You Anymore	Defeat Pyramid Head.	6db546.png	87.03	0	bronze
+Where's that Letter!?	Defeat Flesh Lips.	b8e6dj.png	98.88	0	bronze
+Say Goodbye	Defeat Mary.	gjg3bd.png	86.87	0	silver
+Restless Dreams	Unlock the "Born from a Wish" ending.	dg417e.png	60.95	0	silver
+I.Q. Test	Complete SH2 on Extra Riddle difficulty.	j04577.png	29.95	0	gold
+Fountain of Youth	Acquire the White Chrism.	13gj55.png	46.93	0	bronze
+Not So Lost Memories	Acquire the book of Lost Memories.	35j635.png	43.33	0	bronze
+Unholy Grail	Acquire the Obsidian Goblet.	77g5j0.png	42.89	0	silver
+Light Reading	Acquire the book of Crimson Ceremony.	556ge3.png	39.94	0	bronze
+Man's Best Friend	Acquire the Dog Key.	00bj7j.png	34.17	0	gold
+We're Not Alone	Acquire the Blue Gem.	8je014.png	45.59	0	bronze
+## sh3 psn https://www.exophase.com/game/silent-hill-3-hd/trophies/
+I Guess it's Time to Roll the Credits	Unlock all Trophies in SH3.	35j6gb.png	49.03	0	platinum
+I'm Normal I Promise	Unlock the "Normal" ending.	77g533.png	79.97	0	bronze
+It Was All in Your Head	Unlock the "Possessed" ending.	556gj0.png	50.7	0	silver
+Coolest. Dad. Ever.	Unlock the "UFO" ending.	00bj47.png	49.8	0	gold
+Adrenaline Junkie	Complete SH3 in 3 hours or less.	8je0dj.png	55	0	gold
+Wall Basher	Acquire the Silencer.	ee6g03.png	70.5	0	bronze
+There's a New Sheriff in Town	Acquire the Beam Saber.	404b71.png	62.51	0	silver
+Flame On	Acquire the Flamethrower.	6db343.png	58.57	0	silver
+What the Hill Just Happened?	Acquire the Gold and Silver pipes.	b8e4d3.png	56.46	0	silver
+Makes My Head Hurt	Complete SH3 with 2 saves or less.	gjg5bg.png	51.88	0	gold
+If Looks Could Kill	Unlock the Heather Beam.	dg4b7d.png	50.51	0	gold
+Where's Luna?	Equip the "Princess Heart" costume.	j04e7j.png	65.04	0	gold
+Heather's Got a Gun	Acquire the Unlimited Submachine Gun.	13gjb8.png	62.37	0	gold
+Pest Control	Defeat Split Worm in under 2 minutes.	35j61b.png	97.87	0	silver
+Eye For an Eye	Defeat Missionary in under 2 minutes.	77g5b3.png	78.68	0	silver
+A Time to Kill	Defeat Leonard in under 3 minutes.	556g00.png	80.11	0	silver
+Lost Memory	Defeat Memory of Alessa in under 3 minutes.	00b177.png	68.86	0	silver
+Blasphemy	Defeat God in under 8 minutes.	8je41j.png	79.41	0	silver
+This Isn't an FPS!	Defeat at least 75 enemies by shooting in SH3.	ee68d3.png	56.68	0	silver
+They Look like Monsters to You?	Defeat at least 75 enemies by fighting in SH3.	404651.png	58.09	0	silver
+Hoarder	Pick up at least 100 items in SH3.	6dbg03.png	87.97	0	silver
+Ninja	Receive less than 500 points of damage in one game, in SH3.	b8e373.png	53.51	0	silver
+## homecoming xbox https://www.exophase.com/game/silent-hill-homecoming-xbox-360/achievements/
+Angela's Choice	Alex does not forgive his father	180d73.png	32.48	1
+Forgiveness	Alex forgives his father	4g8ee6.png	38.6	1
+Compassion	Alex could not end his mother's suffering	6j877b.png	34.99	1
+Mercy	Alex ended his mother's suffering	b5jggb.png	34.72	1
+Lock 'n' Load	Found Rifle	380e77.png	28.53	0
+Science Fiction	Found Laser Pistol	gd611e.png	23.03	1
+Rising Tension	Found Circular Saw	d63003.png	26.94	1
+Sightseeing	Found 1 Photo	784e04.png	90.55	0
+Josh's Gallery	Found ALL Photos	58347g.png	20.75	0
+Alchemilla's Finest	Defeated 1 Nurse	jd5j6b.png	99.94	0
+Eddie's Legacy	Defeated 1 Feral	08dg31.png	81.03	0
+Lurk No More	Defeated 1 Lurker	886g5e.png	85.63	0
+To The Point	Defeated 1 Needler	e7143j.png	69.45	0
+Split Personality	Defeated 1 Schism	4813e3.png	58.72	0
+Shades of James	Defeated 1 Siam	685678.png	56.18	0
+Clear the Air	Defeated 1 Smog	bj60g5.png	73.38	0
+Creeper Reaper	Defeated 1 Swarm	d315g7.png	96.11	0
+Head Above Water	Defeated Amnion	j3d663.png	41.28	1
+Out of Order	Defeated 1 Order member	g63e14.png	43.62	0
+Catch Your Breath	Defeated Asphyxia	148776.png	42.19	1
+Blood Donor	Defeated Scarlet	3b8771.png	47.6	1
+Six Feet Under	Defeated Sepulcher	71804j.png	59.62	1
+Kaufmann's Handiwork	Found 1 Serum	d31507.png	68.69	0
+Health Junkie	Found all Serums	jd5j5b.png	23.39	0
+In Water	Achieved Ending 2	5d8735.png	22.58	1
+Smile!	Achieved Ending 1	0583d3.png	29.29	1
+Intensive Care	Achieved Ending 4	838566.png	25.6	1
+Judgement	Achieved Ending 3	eb731g.png	21.85	1
+No Dogs Allowed	Achieved Ending 5	4g8e16.png	25.79	1
+The Old Gods...	.. Haven't Left This Place. Complete game on HARD difficulty.	180d03.png	20.83	0
+Now about those drinks	Saved Wheeler	6j875b.png	40.7	1
+Nursery Rhymes	Found all the Children's Drawings	380e07.png	19.51	0
+## downpour xbox https://www.exophase.com/game/silent-hill-downpour-xbox-360/achievements/
+Now You're Cooking…	Survived the Diner Otherworld.	617436.png	99.91	1
+Out of the Frying Pan	Rode the Sky Tram to Devil's Pit.	4de7bj.png	87.2	1
+Going off the Rails	Escaped from Devil's Pit.	e530g6.png	71.67	1
+Found a Friend!	Met DJ Ricks in the Radio Station.	167bj5.png	54.59	1
+Whatever Doesn't Kill You…	Escaped the Radio Station Otherworld.	jg6757.png	53.66	1
+Ashes, Ashes	Collected 3 pages of the rhyme book.	875d64.png	48.88	1
+Broken Cycle	Defeated The Bogeyman.	5j7033.png	48.01	1
+No Turning Back	Reached Overlook Penitentiary.	3g7105.png	45.84	1
+Ending A	Achieved "Forgiveness" ending.	b1gd4j.png	18.96	1
+Ending C	Achieved "Full Circle" ending.	g41b5d.png	17.49	1
+Ending B	Achieved "Truth & Justice" ending.	de070e.png	30.54	1
+Ending D	Achieved "Execution" ending.	g41b1d.png	25.99	1
+Ending E	Achieved "Surprise!" ending.	de07be.png	12.28	1
+Capital Punishment	Completed the game on the hard game difficulty setting, any ending.	jg67e7.png	15.16	0
+Good Behavior	Completed the game on any difficulty without killing any monsters.	167b15.png	12.26	0
+Silent Hill Tour Guide	Completed all side quests.	3g7145.png	17.39	0
+Useless Trinkets	Completed the "Digging up the Past" side quest.	730bd0.png	12.87	0
+Birdman	Completed the "Bird Cage" side quest.	4de71j.png	26.6	0
+Calling All Cars	Completed the "All Points Bulletin" side quest.	5j70g3.png	47.71	0
+Neighborhood Watch	Completed the "Stolen Goods" side quest.	5j70b3.png	43.55	0
+Art Appreciation	Completed "The Art Collector" side quest.	0e341j.png	22.19	0
+Silent Alarm	Completed "The Bank" side quest.	3g7165.png	31.8	0
+Will Work For Food	Completed the "Homeless" side quest.	875d44.png	22.28	0
+Cutting Room Floor	Completed the "Cinéma Vérité" side quest.	e53086.png	31.62	0
+Turn Back Time	Completed "The Gramophone" side quest.	de071e.png	32.59	0
+What's Your Sign?	Completed the "Shadow Play" side quest.	730b40.png	19.89	0
+Telltale Heart	Completed the "Dead Man's Hand" side quest.	b1gd6j.png	31.54	0
+Dust to Dust	Completed the "Ashes to Ashes" side quest.	g41b3d.png	30.45	0
+Long Walk, Short Pier	Completed the "Ribbons" side quest.	4de76j.png	22.96	0
+Spot the Difference	Completed the "Mirror, Mirror" side quest.	617456.png	33.76	0
+Silence is Golden	Killed or incapacitated 10 Screamers.	875d04.png	69.37	0
+Shadow Boxer	Killed or incapacitated 10 Dolls.	e53016.png	46.51	0
+Piñata Party	Killed or incapacitated 10 Weeping Bats.	0e34dj.png	19.45	0
+Lockdown	Killed or incapacitated 10 Prisoner Minions.	730b50.png	50.05	0
+The Bigger They Are…	Killed or incapacitated 10 Prisoner Juggernauts.	jg6767.png	35	0
+Fight or Flight?	Escaped from 20 monsters.	0e34jj.png	62.79	0
+Silent Hill Historic Society	Completed Murphy's Journal with all Mysteries.	6174g6.png	12.58	0
+Stay of Execution	Incapacitated 20 monsters without killing them.	b1gd3j.png	26.25	0
+Gun Control	Killed 25 monsters with the Pistol or Shotgun.	g41b7d.png	19.25	0
+Hypochondriac	Used 20 First Aid Kits.	167b05.png	48.59	0
+Puzzle Master	Completed the game on the hard puzzle difficulty setting, any ending.	de078e.png	18.11	0
+## book-of-memories psn https://www.exophase.com/game/silent-hill-book-of-memories-ps-vita/trophies/
+Hyperthymesiac	Earn every trophy in the game	gjd844.png	9.09	0	platinum
+Creator	Create a character	dg6de7.png	100	0	bronze
+Consumer	Make a purchase in Howard's shop	j0387b.png	74.53	0	bronze
+Light Napper	Complete Zone 1	134eb3.png	79.83	0	bronze
+Deep Sleeper	Reach Zone 50	35bd17.png	10.75	0	bronze
+Comatose	Reach Zone 100	7716b4.png	9.82	0	bronze
+Novice	Level up to LVL 2	55d10g.png	85.66	0	bronze
+Apprentice	Level up to LVL 25	005641.png	11.85	0	bronze
+Master	Level up to LVL 50	8j3bde.png	9.76	0	bronze
+Choice Meat	Defeat 25 Butchers with the Great Cleaver	eebj0j.png	10.88	0	bronze
+Disorderly Conduct	Defeat 25 Nurses with the Steel Pipe	40gj73.png	37.12	0	bronze
+Hammer Time	Defeat 25 Bogeymen with the Bogeyman's Hammer	6dje48.png	10.49	0	bronze
+Pyramid Scheme	Defeat 25 Pyramid Heads with the Great Knife	b85bd5.png	10.93	0	bronze
+Light Heal Me	Use Heal Me Karma Ability to restore 25% or more health	gjd8b4.png	25.41	0	bronze
+Light Heal You	Use Heal You Karma Ability to restore 50% or more health to a friend (multiplayer)	dg6d77.png	13.63	0	bronze
+Light Heal Us	Use Heal Us Karma Ability to restore 50% or more health each to 3 players (multiplayer)	j03jbb.png	13.31	0	bronze
+Blood Barrage	Use Blood Barrage Karma Ability to kill 5 or more enemies	134d53.png	14.7	0	bronze
+Blood Beam	Use Blood Beam Karma Ability on 5 or more enemies at once	35be37.png	11.41	0	bronze
+Blood Burn	Use Blood Burn Karma Ability to damage 4 different enemy types at once	771ej4.png	11.43	0	bronze
+Power Breaker	Use Weapon Breaker Power Move with a weapon that's about to shatter	55d4eg.png	15.18	0	bronze
+Power Charger	Use Charge Tackle Power Move to knock one enemy into another	005g71.png	16.75	0	bronze
+Power Flasher	Use Flash Burst Power Move to kill 5 or more stunned enemies in a row	8j3g1e.png	13.42	0	bronze
+Power Inverter	Use Karma Flip Power Move to flip 8 or more enemies at once	eeb4dj.png	12.75	0	bronze
+Power Repeller	Use Push Force Power Move to knock 8 or more enemies back at once	40g353.png	10.91	0	bronze
+Power Savior	Use Health Siphon Power Move to bring a dying friend back to life (multiplayer)	6dj608.png	14.14	0	bronze
+Power Switcher	Use 360 Attack Power Move to strike 4 or more enemies at once	b85075.png	21.87	0	bronze
+Beast Master	Defeat any Guardian without taking damage	gjde04.png	17.69	0	bronze
+Beat Maniac	Earn a 30 or greater timed hit combo	dg65j7.png	10.18	0	bronze
+Blacksmith	Level up 10 different weapons	j03j0b.png	11.12	0	bronze
+Bleeder	Lose more than 400% health in one Zone without dying	134d33.png	33.06	0	bronze
+Bouncer	Complete a Zone using only your fists (no weapons)	35be57.png	21.37	0	bronze
+Brainiac	Complete any 5 puzzles without using the hint lever	771e74.png	31.61	0	bronze
+Executioner	Perform a timed execution on 10 enemies in one Zone	40g30b.png	11.36	0	bronze
+Klutz	Trigger every kind of trap in the game	6dj6dg.png	26.19	0	bronze
+Medic	Drop a health pack after a friend requests one (multiplayer)	b8508e.png	15.88	0	bronze
+Moneybags	Spend over 250,000 MR in Howard's shop	gjdej8.png	11.94	0	bronze
+Ninja	Complete a Zone without turning on your flashlight	dg65g5.png	45.01	0	bronze
+Sugar High	Complete a Zone without stopping for more than 30 seconds total	j03j0d.png	17.34	0	bronze
+Tommfoolery	Perform every in-game VO clip for one character	134d34.png	15.4	0	bronze
+Wingman	Defeat any Guardian with all four players still alive (multiplayer)	35be5g.png	14.23	0	bronze
+Saint	Achieve the LIGHT ending in every Forsaken Room	771e7b.png	10.33	0	bronze
+Sinner	Achieve the BLOOD ending in every Forsaken Room	55d47e.png	10.04	0	bronze
+Agnostic	Achieve the NEUTRAL ending in every Forsaken Room	005g30.png	10.31	0	bronze
+Fireman	Defeat the Fire Guardian	8j3g55.png	55.9	0	bronze
+Lumberjack	Defeat the Wood Guardian	eeb431.png	37.41	0	bronze
+Sandman	Defeat the Light Guardian	40g3eb.png	27.98	0	bronze
+Plumber	Defeat the Water Guardian	6dj67g.png	22.65	0	bronze
+Miner	Defeat the Earth Guardian	b850ge.png	18.8	0	bronze
+Phlebotomist	Defeat the Blood Guardian	gjde18.png	17.05	0	bronze
+Author	Defeat the Steel Guardian and complete the game	dg6505.png	16.16	0	gold
+Emissary	Complete Valtiel's missions in Zones 1 through 21	j03j6d.png	13.06	0	silver
+Storyteller	Achieve all 6 of the game's endings	134d74.png	10.05	0	silver
+Architect	Complete your Rooms Checklist 100%	35be7g.png	13.1	0	silver
+Antiquarian	Complete your Artifacts Checklist 100%	771e0b.png	10	0	silver
+Arms Dealer	Complete your Weapons Checklist 100%	55d43e.png	11.53	0	silver
+Couch Potato	Complete your Broadcasts Checklist 100%	005gd0.png	10.01	0	silver
+Librarian	Complete your Notes Checklist 100%	8j3g65.png	11.35	0	silver
+Veterinarian	Complete your Bestiary Checklist 100%	eeb411.png	10.7	0	silver
+Optimist	Turn all 40 Change Notes to Light at the same time	030j63.png	7.36	0	silver
+Pessimist	Turn all 40 Change Notes to Blood at the same time	85j0b6.png	7.44	0	silver
+Deity	Level up to LVL 70	575g15.png	7.02	0	silver
+Annotator	Complete the DLC (red) portions of all checklists	e3egjg.png	7.69	0	silver
+## townfall steam https://www.exophase.com/game/silent-hill-townfall-steam/achievements/
+Welcome To St. Amelia	Escape the Otherworld and return to the town square.	ee4e3b4b.png	99.8	1
+Resignation	At the Shorefront Family Clinic, show Zoe you understand.	4030eg3d.png	82.75	1
+A Long Night Ahead	Report to Dr. Glenn at the Medical Centre.	6d6d7j64.png	77.22	1
+The Patient	Tend to the Patient.	b808g5j7.png	67.5	1
+Many Into One	Accept the transfusion in the Alternate Medical Centre.	gjej1d6j.png	62.3	1
+Key To The Castle	Unlock the path to CEG Tower.	dg5g0630.png	57.24	1
+Find Yourself	Make it back to the office on the 10th Floor.	j0j063d5.png	54.35	1
+Can't Change Things	Exhaust the options in the Alternate Facility.	13d3748j.png	52.25	1
+Eraser	Defeat The Weight.	35e57b84.png	52.25	1
+Reliving A Nightmare	Complete New Game Plus (any difficulty).	77e7018g.png	10.16	0
+For St. Amelia	Reach the "Justice" ending.	55457d81.png	10.56	1
+Here To Stay	Reach the "Forever" ending.	00g0358g.png	8.79	1
+Just Making Things Worse	Reach the "Abandoned" ending.	8jgj5388.png	48.62	1
+Let's Talk This Out	Reached the "Dog" ending.	ee4e3b7b.png	8.06	1
+Sci-fi-lent Hill	Reached the "Sci-fi" ending.	4030eg8d.png	8.23	1
+Fleeting Visit	Finish the game in under 4 hours.	6d6d7j84.png	8.23	0
+Cold Calling	Call all the phone numbers found in St. Amelia.	b808g557.png	7.49	0
+Observation	Collect 50% of all documents.	gjej1ddj.png	60.71	0
+Thorough Inspection	Collect all of the documents.	dg5g0660.png	8.66	0
+Blur Your Eyes	Collect all of the strange postcards	j0j06335.png	10.12	1
+Sweeping Signals	Tune into all signals on the CRTV.	13d3744j.png	21.18	0
+Future Hardware	Obtain the Pistol-3000.	35e57bb4.png	7.99	1
+Here's Simon!	Obtain the Axe.	77e7011g.png	15.75	1
+From Scratch	Create 20 new items by combining others.	55457dd1.png	57.34	0
+Creative Process	Kill at least one enemy with Plank, Pipe, Pistol, Shotgun, Flare Gun, Bottle and Brick in a single playthrough.	00g0355g.png	24.44	1
+Long-Range Masonry	Hit any enemy in the head with a brick from over 15 meters away.	8jgj5338.png	9.62	1
+Pinpoint Inaccuracy	Land a head shot on any enemy with the Flare Gun from over 10 meters away	ee4e3bbb.png	15.08	1
+Missing The Point Entirely	Silence 30 Widows.	4030eggd.png	29.5	1
+Pull!	Throw a bottle into the air, and shoot it with the pistol.	6d6d7jj4.png	10.59	1
+Isolating Experience	Wait in a hiding spot for 60 seconds.	b808g517.png	57.71	1
+Static Distractions	Distract 10 Enemies with a radio in the world.	gjej1d4j.png	25.87	1
+Lured Off Track	Distract 20 Enemies with a bottle.	dg5g06e0.png	33.17	1
+Alarmingly Effective	Successfully distract an enemy by setting off a car alarm.	j0j063g5.png	36.43	1
+Reject The Help	After meeting Richard, do not use a phone to save the game.	13d3746j.png	8.03	1
+Resourceful	Unlock all resource containers.	35e57bg4.png	10.02	0
+Save It For The Patients	During the missions "Rounds" and "The Patient", don't use any healing items.	77e7013g.png	16.62	1
+@ sh1
+Wounds That Won't Heal	31.06
+Keys for Eclipse	51.12
+Harry the Weeb	10.07
+Silent Hill Chainsaw Massacre	10.63
+Old Man's Hand	45.82
+Broken Notes	44.48
+Who's Afraid of a Reptile?	40.08
+Harry in Wonderland	37.47
+Loneliness	37.32
+Triggered	27.93
+Target Practice	39
+Gun Control: Alessa's New Nightmare	17.93
+Knife to Meet You	43.36
+Fa-fa-fa-fa, Fa-fa-fa-fa-fa, Fa, Better	35.5
+Hammerin' Harry	27.48
+Sand Castles	36.47
+I'll Kill You	36.2
+Eww Eww Eww	36.02
+Our Little Secret	27.48
+Pour Some Sugar On Me, Baby	25.32
+Merry-Go-Down	24.5
+Grim Reaper's List	34.64
+The Stone of Time	34.79
+Doomsday Prepper	34.6
+Illuminating the Darkness	34.56
+What's Going On with That Refrigerator?	26.36
+Drillin' Like a Villain	10.4
+Harry the Swift	8.65
+Daring Harry	9.81
+Harry the Okay	33.52
+Harry the Good	22.3
+Harry the Great	7.27
+Harry the Best	6.67
+My Heaven	26.85
+Tears of...	22.18
+Killing Time	14.09
+She	12.45
+Esperandote	17.56
+Ayyy	11.41
+What a Nightmare...	71.77
+UFO Sighting I	11.97
+The Archer and the Beast	15.73
+The Pit of Calamity	14.69
+Erratic	14.73
+Paging Dr. Kaufmann	30.5
+Like the Back of My Hand I	15.44
+Like the Back of My Hand II	14.13
+Like the Back of My Hand III	16.55
+Like the Back of My Hand IV	16.89
+UFO Sighting II	11.48
+UFO Sighting III	11.33
+Sifod	11.93
+UFO Sighting IV	11.45
+UFO Sighting V	11.48
+Like the Back of My Hand V	17.64
+What Is Keeping That Child Alive?	31.88
+Awakening	20.99
+Thank You...	10.74
+A Gift from Outer Space	9.55
+That Light...	14.09
+Scary Harry I	13.76
+Scary Harry II	13.57
+Scary Harry III	12.6
+Scary Harry IV	10.4
+Scary Harry V	11.93
+Scary Harry VI	11.26
+@ sh4
+Down on Lynch St. Line	67.3
+Welcome to Almost Silent Hill	59.05
+Kindergarten Drop	53.33
+The Crime That Shocked Ashfield	51.11
+Nice Job Looking Out	48.57
+What It's Like Living in Limbo	47.94
+Down on King St. Line	45.08
+Well Wishes	42.86
+The Fat Pig	40.95
+Tick Tock	40
+Please, Wake Up Soon	39.68
+Throatful of Splinters	39.37
+A Sleeping Explorer, Their Wandering Mind	25.4
+A Mind Like a Cemetery	23.49
+What's That? Timmy Fell Down the Well?	22.22
+Ashfield 187	21.27
+Hallways of Always	20.32
+World of Wounds	19.37
+The Void Rumbles in Like an Underground Train	18.73
+Decent of the Holy Mother	18.41
+Everything Has to Fall Apart	18.1
+Reminisces	17.46
+Forever Come Closer	17.46
+Night Slits Her Veins and the Darkness Drains	17.14
+Like a Flower in the Basement	26.67
+Here's a Lullaby to Close Your Eyes	20.32
+I Don't Feel Enough for You to Cry	20
+It Was Always You That I Despised	23.81
+I Run, I Fall	12.06
+A Restless Day	11.75
+Hunter Through My Back Door	57.78
+Die Nameless on My Floor	55.56
+Deterioration Entropy	53.65
+Receiver of Smart	55.24
+Receiver of Knowledge	50.79
+Receiver of Wisdom	21.27
+Stop the Racket	43.81
+Crackin' Up	38.41
+Walter Halter	16.51
+Burst Boils	33.33
+No, Hank You	32.06
+The First Victim	33.97
+What Am I Wearing?	20.95
+Don't Talk to Strangers	32.38
+Tele's Revenge	41.27
+Could Have Just Shut It	42.54
+Where's the Foot?!	41.9
+Time for Eviction	43.49
+Will Curiosity Kill You, Too?	35.87
+A Sinking Feeling	35.87
+Spray and Slay	11.75
+A Stunning Discovery	32.06
+A Vacation from Your Problems	20.95
+Who Will Survive and What Will Be Left of Them?	14.29
+Remember, It's Just a Doll	50.79
+Electric Blue for Me	19.68
+Receiver of Drama	43.81
+Peeping Tom	13.65
+Friendly Henry	26.67
+A Special Favor	33.65
+S-s-s-sorry	28.25
+Stick the Dick	31.11
+Taming Andrew	40.32
+Howdy, Neighbor!	12.06
+Ashfield's Finest	11.75
+The Hero of Ashfield	11.43
+@ origins https://www.exophase.com/game/silent-hill-origins-silent-hill-zero-retro/achievements/ (PSP set 3927)
+Let Me Burn	46.65
+The Girl From the Fire...	74.76
+The Beauties	58.79
+Open Your Eyes	55.91
+Straight-Jacket	34.50
+Flauros I	53.99
+What the Hell Is That!?	51.76
+Target Pistol	49.52
+Dahlia Gillespie	50.48
+Out of use	47.28
+Interview Archives Key	41.53
+Medications	41.21
+Shotgun	42.49
+Momma	37.38
+Flauros II	41.53
+Lisa Garland	40.58
+Service Pistol	39.30
+Sun Totem	26.84
+Alien Technology	20.13
+Theatre of Cruelty	39.62
+Caliban	35.14
+Flauros III	38.02
+Hunting Rifle	38.02
+Assault Rifle	39.30
+Redeemer	38.34
+A Stalker!?	30.35
+Dr. Michael Kaufmann	38.34
+The Laundry	38.34
+Richard and Helen	38.34
+Room 500	38.34
+Sad Daddy	27.16
+Flauros IV	38.34
+Flauros V	38.34
+Alessa Gillespie	38.34
+Alessa's Dream	23.32
+We'll call her Cheryl	37.70
+Serial Killer	19.81
+The Crescent Moon	23.32
+Ruff Ruff	21.09
+The Butcher	36.10
+Nurse	43.77
+Carrion	35.78
+Remnant	28.43
+Ariel	21.73
+Twoback	18.85
+Health Drink	49.84
+Energy Drink	41.53
+First Aid Kit	39.94
+Ampoule	32.27
+Parking Ticket	46.33
+Child's Drawing	39.30
+Yellowed Page	18.85
+Codebreaker	22.04
+Stalker	35.46
+Fireman	26.20
+Explorer	33.23
+Collector	31.95
+Sprinter	20.77
+Sharpshooter	20.13
+Weaponsmith	20.45
+Brawler	23.32
+Cartographer	20.13
+Daredevil	19.81
+The Lonely Moon	21.73
+911 Emergency	20.45
+Killing Spree	19.49
+@ shattered-memories
+Psalm 104.2	60.78
+Hemingway	55.83
+Psychological Breakdown	62.9
+Frosty Marble	50.88
+All Stories End in Death	53
+Safety Flashlight	52.3
+Camping Party	31.45
+Family Vacation	53
+Xerces Blue	51.24
+Amber Prison	47
+Doll	50.18
+Saint Christopher	49.82
+Ice Gem	46.64
+Eternal Love	47.7
+High School Drama	29.33
+Bridge Keeper	45.23
+Music Box	40.99
+Chew Toy	40.28
+Favorite Colors	44.17
+Film Reel	39.93
+Dino Plush	38.52
+The Toy Zone	40.99
+A Series of Unfortunate Events	24.38
+Death and Rebirth	41.7
+Stairway to Hell	43.46
+Everything One Invents Is True	35.69
+Sweetie	41.34
+Memories to Keep Forever	39.93
+Lighthouse Souvenir	42.76
+Lovers Ring	33.22
+Myths & Legends	39.93
+True Happiness	42.05
+Day Trippers	34.98
+Never Forget	41.7
+Never Get Between Dad and His Beer	21.2
+Dwindling Old Flame	31.1
+New Favorite Women	21.55
+It's Always Aliens	20.14
+Harry the Loser	26.5
+Ursa Minor	36.4
+Shadow Puppets	34.98
+World's Greatest Game Company	39.22
+Press 'X' to Cheryl	72.44
+The "I Don't Know What Time It Is" Challenge	34.98
+@ sh2-remake
+No Turning Back Now	46.54
+Enjoy Your Stay	98.91
+Nice and Cozy	86.1
+Let's NOT Party!	19.79
+Otherworldly	74.97
+Passed	70.54
+Uncanny	69.93
+All Seems in Order	23.68
+Leftovers	38.33
+Admitted	68.17
+Nightmare Fuel	63.9
+Alone Again	61.65
+Into the Abyss	59.79
+Unforgivable	56.68
+Inner Sanctum	55.27
+A Human Being	54.87
+Scourge of Toluca Lake	17.89
+Glimmer of Hope	54.79
+Truly Special	53.43
+It's Bread	42.86
+Obsolete	53.24
+That Part of Me	53.29
+Lumberjack	25.47
+Merciless	35.42
+No Big Deal	53.62
+Blunt Force Trauma	69.49
+You Never Know...	84.01
+Shattered	71.5
+Making Peace	34.91
+Vicious Circle	16.54
+Only Way Out	28.18
+Defy Even Death	10.85
+The Goodest Boi	11.37
+Tinfoil Hat	10.58
+I Saw That Town	13.34
+Radio Silence	12.9
+James of All Trades	53.03
+Pieces Unarranged	10.88
+Faster Than Fog	13.67
+Archivist	10.79
+As Close as You Like	12.36
+Party Like It's 2001	9.67
+Echoes	10.82
+@ sh-f
+Surrounded by Fog	98.03
+The Fox's Guidance	90.04
+Scarecrows' Whispers	80.39
+Cleansed	74.9
+On the Way to School...	71.29
+Shell of the Past	68.39
+The Farewell Party	64.37
+A Dangerous Path	62.71
+Plucked Wings	61
+Parting on Good Terms	58.39
+Solar & Lunar Eclipse	57.01
+The Path of Self-Preservation	56.76
+The Path of Exultation	56.51
+Coming Home to Roost	56.28
+Fox's Wedding	18.33
+The Fox Wets Its Tail	18.24
+Ebisugaoka in Silence	15.06
+The Great Space Invasion!	16.5
+Thankful to Be Here	54.92
+Grateful for a Worthy Foe	27.89
+Clear Skies	13.33
+Intellectual Pursuits	22.42
+Wise Researcher	44.1
+Puzzle Master	21.96
+Like a Fleeing Hare	51.02
+Untouchable	27.19
+Acupuncture Specialist	24.81
+A Federal Offense	43.33
+The Sound of Silence	40.62
+Go Away! You'll Ruin the Shop's Reputation!	22.94
+No One Left Behind	38.67
+Agile Escape	24.41
+Echoes of Jealousy	22.56
+O Divine Tree	58.28
+Just Shut Up for Once, Dad!	29.54
+Sly Like the Fox	19.82
+Where Are You Going?	33.73
+The Bird that Flies Highest	29.43
+Fox Tamer	17.88
+Puppetmaster	12.68
+God Slayer	14.43
+Winners Don't Do Drugs	22.61
+The Malevolent Blade Never Rusts	21.79
+Treasured Belonging	20.59
+Be Free of Your Hatred	19.13
+A Gift I Cannot Accept	15.28
+Close to the Sun	12.27
+Fervent Collector	21
+Omamori Collector	15.88
+Omamori Sage	11.71
+Inari-sama's Secrets	13.41
+The Truth about the Tsuneki Family	18.48
+Fate of the Apostate	16.97
+A Miko Possessed	13.26
+Fires of Jealousy	13.08
+Good Intentions...	13.32

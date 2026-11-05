@@ -1,0 +1,583 @@
+{
+ "game": "shattered-memories",
+ "platform": "PlayStation 2",
+ "source": "PlayStation 2 set by the RetroAchievements community",
+ "credit": "RetroAchievements",
+ "link": "https://retroachievements.org/game/19179",
+ "notes": "This game never had an official achievement list, so the launcher uses the PlayStation 2 set made by the RetroAchievements community. Native builds unlock them by the set's own rules; Enhanced patches report them through the launcher's bridge; anything else can be marked by hand.",
+ "achievements": [
+  {
+   "id": "ra-469411",
+   "name": "Press 'X' to Cheryl",
+   "description": "Call out for Cheryl 30 times during the intro",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532281.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532281_lock.png",
+   "rarity": 72.44,
+   "unlock": {
+    "type": "ra",
+    "id": 469411
+   }
+  },
+  {
+   "id": "ra-469260",
+   "name": "Psalm 104.2",
+   "description": "Obtain \"A Winter Beacon\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532132.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532132_lock.png",
+   "rarity": 60.78,
+   "unlock": {
+    "type": "ra",
+    "id": 469260
+   }
+  },
+  {
+   "id": "ra-469262",
+   "name": "Psychological Breakdown",
+   "description": "Survive your first encounter with the Raw Shocks",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532134.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532134_lock.png",
+   "rarity": 62.9,
+   "unlock": {
+    "type": "ra",
+    "id": 469262
+   }
+  },
+  {
+   "id": "ra-469261",
+   "name": "Hemingway",
+   "description": "Obtain \"A Hidden Fire\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532133.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532133_lock.png",
+   "rarity": 55.83,
+   "unlock": {
+    "type": "ra",
+    "id": 469261
+   }
+  },
+  {
+   "id": "ra-469263",
+   "name": "Frosty Marble",
+   "description": "Obtain \"Frozen Waters\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532135.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532135_lock.png",
+   "rarity": 50.88,
+   "unlock": {
+    "type": "ra",
+    "id": 469263
+   }
+  },
+  {
+   "id": "ra-469264",
+   "name": "All Stories End in Death",
+   "description": "Obtain \"A Moveable Feast\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532136.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532136_lock.png",
+   "rarity": 53.0,
+   "unlock": {
+    "type": "ra",
+    "id": 469264
+   }
+  },
+  {
+   "id": "ra-469265",
+   "name": "Safety Flashlight",
+   "description": "Obtain \"A Broken Ward\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532137.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532137_lock.png",
+   "rarity": 52.3,
+   "unlock": {
+    "type": "ra",
+    "id": 469265
+   }
+  },
+  {
+   "id": "ra-469266",
+   "name": "Camping Party",
+   "description": "Receive all non-exclusive Echo Messages found in the Shopping Center and the Woods",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532138.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532138_lock.png",
+   "rarity": 31.45,
+   "unlock": {
+    "type": "ra",
+    "id": 469266
+   }
+  },
+  {
+   "id": "ra-469267",
+   "name": "Family Vacation",
+   "description": "Solve the \"Toy Piano\" puzzle",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532139.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532139_lock.png",
+   "rarity": 53.0,
+   "unlock": {
+    "type": "ra",
+    "id": 469267
+   }
+  },
+  {
+   "id": "ra-469268",
+   "name": "Xerces Blue",
+   "description": "Obtain \"Pinned Beauty\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532140.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532140_lock.png",
+   "rarity": 51.24,
+   "unlock": {
+    "type": "ra",
+    "id": 469268
+   }
+  },
+  {
+   "id": "ra-469269",
+   "name": "Amber Prison",
+   "description": "Obtain \"Suffocated Forever\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532141.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532141_lock.png",
+   "rarity": 47.0,
+   "unlock": {
+    "type": "ra",
+    "id": 469269
+   }
+  },
+  {
+   "id": "ra-469270",
+   "name": "Doll",
+   "description": "Obtain \"My Plastic, Perfect Girl\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532142.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532142_lock.png",
+   "rarity": 50.18,
+   "unlock": {
+    "type": "ra",
+    "id": 469270
+   }
+  },
+  {
+   "id": "ra-469271",
+   "name": "Saint Christopher",
+   "description": "Obtain \"Heavenly Protection\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532143.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532143_lock.png",
+   "rarity": 49.82,
+   "unlock": {
+    "type": "ra",
+    "id": 469271
+   }
+  },
+  {
+   "id": "ra-469272",
+   "name": "Ice Gem",
+   "description": "Obtain \"A Frigid Jewel\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532144.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532144_lock.png",
+   "rarity": 46.64,
+   "unlock": {
+    "type": "ra",
+    "id": 469272
+   }
+  },
+  {
+   "id": "ra-469406",
+   "name": "Shadow Puppets",
+   "description": "Solve the \"Shadow\" puzzle",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532272.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532272_lock.png",
+   "rarity": 34.98,
+   "unlock": {
+    "type": "ra",
+    "id": 469406
+   }
+  },
+  {
+   "id": "ra-469405",
+   "name": "Ursa Minor",
+   "description": "Solve the \"Planetarium\" puzzle",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532271.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532271_lock.png",
+   "rarity": 36.4,
+   "unlock": {
+    "type": "ra",
+    "id": 469405
+   }
+  },
+  {
+   "id": "ra-469273",
+   "name": "Eternal Love",
+   "description": "Obtain \"An Eternal Rose\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532145.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532145_lock.png",
+   "rarity": 47.7,
+   "unlock": {
+    "type": "ra",
+    "id": 469273
+   }
+  },
+  {
+   "id": "ra-469274",
+   "name": "High School Drama",
+   "description": "Receive all non-exclusive Echo Messages found in and around Midwich High",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532146.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532146_lock.png",
+   "rarity": 29.33,
+   "unlock": {
+    "type": "ra",
+    "id": 469274
+   }
+  },
+  {
+   "id": "ra-469275",
+   "name": "Bridge Keeper",
+   "description": "Solve the \"Bridge Control\" puzzle",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532147.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532147_lock.png",
+   "rarity": 45.23,
+   "unlock": {
+    "type": "ra",
+    "id": 469275
+   }
+  },
+  {
+   "id": "ra-469276",
+   "name": "Music Box",
+   "description": "Obtain \"Infinite Jest\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532148.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532148_lock.png",
+   "rarity": 40.99,
+   "unlock": {
+    "type": "ra",
+    "id": 469276
+   }
+  },
+  {
+   "id": "ra-469277",
+   "name": "Chew Toy",
+   "description": "Obtain \"Synthetic Femur\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532149.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532149_lock.png",
+   "rarity": 40.28,
+   "unlock": {
+    "type": "ra",
+    "id": 469277
+   }
+  },
+  {
+   "id": "ra-469278",
+   "name": "Favorite Colors",
+   "description": "Solve the \"Gumball Shakeup\" puzzle",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532150.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532150_lock.png",
+   "rarity": 44.17,
+   "unlock": {
+    "type": "ra",
+    "id": 469278
+   }
+  },
+  {
+   "id": "ra-469279",
+   "name": "Film Reel",
+   "description": "Obtain \"Memories Undeveloped\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532151.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532151_lock.png",
+   "rarity": 39.93,
+   "unlock": {
+    "type": "ra",
+    "id": 469279
+   }
+  },
+  {
+   "id": "ra-469280",
+   "name": "Dino Plush",
+   "description": "Obtain \"My Flying Lizard\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532152.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532152_lock.png",
+   "rarity": 38.52,
+   "unlock": {
+    "type": "ra",
+    "id": 469280
+   }
+  },
+  {
+   "id": "ra-469281",
+   "name": "The Toy Zone",
+   "description": "Obtain \"The Modern Prometheus\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532153.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532153_lock.png",
+   "rarity": 40.99,
+   "unlock": {
+    "type": "ra",
+    "id": 469281
+   }
+  },
+  {
+   "id": "ra-469282",
+   "name": "A Series of Unfortunate Events",
+   "description": "Receive all Echo Messages in Alchemilla Hospital and Toluca Mall",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532154.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532154_lock.png",
+   "rarity": 24.38,
+   "unlock": {
+    "type": "ra",
+    "id": 469282
+   }
+  },
+  {
+   "id": "ra-469283",
+   "name": "Death and Rebirth",
+   "description": "Obtain \"We, Ouroboros\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532155.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532155_lock.png",
+   "rarity": 41.7,
+   "unlock": {
+    "type": "ra",
+    "id": 469283
+   }
+  },
+  {
+   "id": "ra-469284",
+   "name": "Stairway to Hell",
+   "description": "Escape the Frozen Labyrinth",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532156.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532156_lock.png",
+   "rarity": 43.46,
+   "unlock": {
+    "type": "ra",
+    "id": 469284
+   }
+  },
+  {
+   "id": "ra-469285",
+   "name": "Everything One Invents Is True",
+   "description": "Obtain \"Poetry as Precise as Geometry\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532157.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532157_lock.png",
+   "rarity": 35.69,
+   "unlock": {
+    "type": "ra",
+    "id": 469285
+   }
+  },
+  {
+   "id": "ra-469286",
+   "name": "Sweetie",
+   "description": "Obtain \"A Happy Bond\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532158.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532158_lock.png",
+   "rarity": 41.34,
+   "unlock": {
+    "type": "ra",
+    "id": 469286
+   }
+  },
+  {
+   "id": "ra-469287",
+   "name": "Memories to Keep Forever",
+   "description": "Obtain \"Memories Untaken\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532159.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532159_lock.png",
+   "rarity": 39.93,
+   "unlock": {
+    "type": "ra",
+    "id": 469287
+   }
+  },
+  {
+   "id": "ra-469288",
+   "name": "Lighthouse Souvenir",
+   "description": "Obtain \"A Beacon, A Key\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532160.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532160_lock.png",
+   "rarity": 42.76,
+   "unlock": {
+    "type": "ra",
+    "id": 469288
+   }
+  },
+  {
+   "id": "ra-469289",
+   "name": "Lovers Ring",
+   "description": "Obtain \"Your Diamond Heart\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532161.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532161_lock.png",
+   "rarity": 33.22,
+   "unlock": {
+    "type": "ra",
+    "id": 469289
+   }
+  },
+  {
+   "id": "ra-469290",
+   "name": "Myths & Legends",
+   "description": "Obtain \"The Dragon\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532162.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532162_lock.png",
+   "rarity": 39.93,
+   "unlock": {
+    "type": "ra",
+    "id": 469290
+   }
+  },
+  {
+   "id": "ra-469291",
+   "name": "True Happiness",
+   "description": "Obtain \"Eve\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532163.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532163_lock.png",
+   "rarity": 42.05,
+   "unlock": {
+    "type": "ra",
+    "id": 469291
+   }
+  },
+  {
+   "id": "ra-469292",
+   "name": "Day Trippers",
+   "description": "Receive all Echo Messages at and around the Lakeside Amusement Park",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532164.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532164_lock.png",
+   "rarity": 34.98,
+   "unlock": {
+    "type": "ra",
+    "id": 469292
+   }
+  },
+  {
+   "id": "ra-469293",
+   "name": "Never Forget",
+   "description": "Obtain \"Adam\"",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532165.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532165_lock.png",
+   "rarity": 41.7,
+   "unlock": {
+    "type": "ra",
+    "id": 469293
+   }
+  },
+  {
+   "id": "ra-469294",
+   "name": "Never Get Between Dad and His Beer",
+   "description": "Complete the game with the Drunk Dad ending",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532166.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532166_lock.png",
+   "rarity": 21.2,
+   "unlock": {
+    "type": "ra",
+    "id": 469294
+   }
+  },
+  {
+   "id": "ra-469295",
+   "name": "Dwindling Old Flame",
+   "description": "Complete the game with the Love Lost ending",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532167.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532167_lock.png",
+   "rarity": 31.1,
+   "unlock": {
+    "type": "ra",
+    "id": 469295
+   }
+  },
+  {
+   "id": "ra-469296",
+   "name": "New Favorite Women",
+   "description": "Complete the game with the Sleaze and Sirens ending",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532168.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532168_lock.png",
+   "rarity": 21.55,
+   "unlock": {
+    "type": "ra",
+    "id": 469296
+   }
+  },
+  {
+   "id": "ra-469298",
+   "name": "Harry the Loser",
+   "description": "Complete the game with the Wicked and Weak ending",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532170.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532170_lock.png",
+   "rarity": 26.5,
+   "unlock": {
+    "type": "ra",
+    "id": 469298
+   }
+  },
+  {
+   "id": "ra-469297",
+   "name": "It's Always Aliens",
+   "description": "Complete the game with the UFO ending",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532169.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532169_lock.png",
+   "rarity": 20.14,
+   "unlock": {
+    "type": "ra",
+    "id": 469297
+   }
+  },
+  {
+   "id": "ra-470191",
+   "name": "The \"I Don't Know What Time It Is\" Challenge",
+   "description": "Make a phone call attempting to get the current time",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532944.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532944_lock.png",
+   "rarity": 34.98,
+   "unlock": {
+    "type": "ra",
+    "id": 470191
+   }
+  },
+  {
+   "id": "ra-469409",
+   "name": "World's Greatest Game Company",
+   "description": "Make a phone call to Konami Customer Support",
+   "hidden": false,
+   "icon": "https://media.retroachievements.org/Badge/532275.png",
+   "icon_locked": "https://media.retroachievements.org/Badge/532275_lock.png",
+   "rarity": 39.22,
+   "unlock": {
+    "type": "ra",
+    "id": 469409
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

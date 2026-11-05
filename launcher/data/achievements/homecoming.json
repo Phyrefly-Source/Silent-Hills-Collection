@@ -1,0 +1,427 @@
+{
+ "game": "homecoming",
+ "platform": "Xbox 360",
+ "source": "Xbox 360 achievements",
+ "credit": "Exophase",
+ "link": "https://www.exophase.com/game/silent-hill-homecoming-xbox-360/achievements/",
+ "notes": "The game's official Xbox 360 achievements, which the PC versions never had. The PC game reports them through the launcher's bridge; until then you can mark them by hand.",
+ "achievements": [
+  {
+   "id": "angela-s-choice",
+   "name": "Angela's Choice",
+   "description": "Alex does not forgive his father",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/180d73.png",
+   "rarity": 32.48,
+   "unlock": {
+    "type": "event",
+    "name": "angela-s-choice",
+    "count": 1
+   }
+  },
+  {
+   "id": "forgiveness",
+   "name": "Forgiveness",
+   "description": "Alex forgives his father",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/4g8ee6.png",
+   "rarity": 38.6,
+   "unlock": {
+    "type": "event",
+    "name": "forgiveness",
+    "count": 1
+   }
+  },
+  {
+   "id": "compassion",
+   "name": "Compassion",
+   "description": "Alex could not end his mother's suffering",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/6j877b.png",
+   "rarity": 34.99,
+   "unlock": {
+    "type": "event",
+    "name": "compassion",
+    "count": 1
+   }
+  },
+  {
+   "id": "mercy",
+   "name": "Mercy",
+   "description": "Alex ended his mother's suffering",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/b5jggb.png",
+   "rarity": 34.72,
+   "unlock": {
+    "type": "event",
+    "name": "mercy",
+    "count": 1
+   }
+  },
+  {
+   "id": "lock-n-load",
+   "name": "Lock 'n' Load",
+   "description": "Found Rifle",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/380e77.png",
+   "rarity": 28.53,
+   "unlock": {
+    "type": "event",
+    "name": "lock-n-load",
+    "count": 1
+   }
+  },
+  {
+   "id": "science-fiction",
+   "name": "Science Fiction",
+   "description": "Found Laser Pistol",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/gd611e.png",
+   "rarity": 23.03,
+   "unlock": {
+    "type": "event",
+    "name": "science-fiction",
+    "count": 1
+   }
+  },
+  {
+   "id": "rising-tension",
+   "name": "Rising Tension",
+   "description": "Found Circular Saw",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/d63003.png",
+   "rarity": 26.94,
+   "unlock": {
+    "type": "event",
+    "name": "rising-tension",
+    "count": 1
+   }
+  },
+  {
+   "id": "sightseeing",
+   "name": "Sightseeing",
+   "description": "Found 1 Photo",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/784e04.png",
+   "rarity": 90.55,
+   "unlock": {
+    "type": "event",
+    "name": "sightseeing",
+    "count": 1
+   }
+  },
+  {
+   "id": "josh-s-gallery",
+   "name": "Josh's Gallery",
+   "description": "Found ALL Photos",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/58347g.png",
+   "rarity": 20.75,
+   "unlock": {
+    "type": "event",
+    "name": "josh-s-gallery",
+    "count": 1
+   }
+  },
+  {
+   "id": "alchemilla-s-finest",
+   "name": "Alchemilla's Finest",
+   "description": "Defeated 1 Nurse",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/jd5j6b.png",
+   "rarity": 99.94,
+   "unlock": {
+    "type": "event",
+    "name": "alchemilla-s-finest",
+    "count": 1
+   }
+  },
+  {
+   "id": "eddie-s-legacy",
+   "name": "Eddie's Legacy",
+   "description": "Defeated 1 Feral",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/08dg31.png",
+   "rarity": 81.03,
+   "unlock": {
+    "type": "event",
+    "name": "eddie-s-legacy",
+    "count": 1
+   }
+  },
+  {
+   "id": "lurk-no-more",
+   "name": "Lurk No More",
+   "description": "Defeated 1 Lurker",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/886g5e.png",
+   "rarity": 85.63,
+   "unlock": {
+    "type": "event",
+    "name": "lurk-no-more",
+    "count": 1
+   }
+  },
+  {
+   "id": "to-the-point",
+   "name": "To The Point",
+   "description": "Defeated 1 Needler",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/e7143j.png",
+   "rarity": 69.45,
+   "unlock": {
+    "type": "event",
+    "name": "to-the-point",
+    "count": 1
+   }
+  },
+  {
+   "id": "split-personality",
+   "name": "Split Personality",
+   "description": "Defeated 1 Schism",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/4813e3.png",
+   "rarity": 58.72,
+   "unlock": {
+    "type": "event",
+    "name": "split-personality",
+    "count": 1
+   }
+  },
+  {
+   "id": "shades-of-james",
+   "name": "Shades of James",
+   "description": "Defeated 1 Siam",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/685678.png",
+   "rarity": 56.18,
+   "unlock": {
+    "type": "event",
+    "name": "shades-of-james",
+    "count": 1
+   }
+  },
+  {
+   "id": "clear-the-air",
+   "name": "Clear the Air",
+   "description": "Defeated 1 Smog",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/bj60g5.png",
+   "rarity": 73.38,
+   "unlock": {
+    "type": "event",
+    "name": "clear-the-air",
+    "count": 1
+   }
+  },
+  {
+   "id": "creeper-reaper",
+   "name": "Creeper Reaper",
+   "description": "Defeated 1 Swarm",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/d315g7.png",
+   "rarity": 96.11,
+   "unlock": {
+    "type": "event",
+    "name": "creeper-reaper",
+    "count": 1
+   }
+  },
+  {
+   "id": "head-above-water",
+   "name": "Head Above Water",
+   "description": "Defeated Amnion",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/j3d663.png",
+   "rarity": 41.28,
+   "unlock": {
+    "type": "event",
+    "name": "head-above-water",
+    "count": 1
+   }
+  },
+  {
+   "id": "out-of-order",
+   "name": "Out of Order",
+   "description": "Defeated 1 Order member",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/g63e14.png",
+   "rarity": 43.62,
+   "unlock": {
+    "type": "event",
+    "name": "out-of-order",
+    "count": 1
+   }
+  },
+  {
+   "id": "catch-your-breath",
+   "name": "Catch Your Breath",
+   "description": "Defeated Asphyxia",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/148776.png",
+   "rarity": 42.19,
+   "unlock": {
+    "type": "event",
+    "name": "catch-your-breath",
+    "count": 1
+   }
+  },
+  {
+   "id": "blood-donor",
+   "name": "Blood Donor",
+   "description": "Defeated Scarlet",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/3b8771.png",
+   "rarity": 47.6,
+   "unlock": {
+    "type": "event",
+    "name": "blood-donor",
+    "count": 1
+   }
+  },
+  {
+   "id": "six-feet-under",
+   "name": "Six Feet Under",
+   "description": "Defeated Sepulcher",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/71804j.png",
+   "rarity": 59.62,
+   "unlock": {
+    "type": "event",
+    "name": "six-feet-under",
+    "count": 1
+   }
+  },
+  {
+   "id": "kaufmann-s-handiwork",
+   "name": "Kaufmann's Handiwork",
+   "description": "Found 1 Serum",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/d31507.png",
+   "rarity": 68.69,
+   "unlock": {
+    "type": "event",
+    "name": "kaufmann-s-handiwork",
+    "count": 1
+   }
+  },
+  {
+   "id": "health-junkie",
+   "name": "Health Junkie",
+   "description": "Found all Serums",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/jd5j5b.png",
+   "rarity": 23.39,
+   "unlock": {
+    "type": "event",
+    "name": "health-junkie",
+    "count": 1
+   }
+  },
+  {
+   "id": "in-water",
+   "name": "In Water",
+   "description": "Achieved Ending 2",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/5d8735.png",
+   "rarity": 22.58,
+   "unlock": {
+    "type": "event",
+    "name": "in-water",
+    "count": 1
+   }
+  },
+  {
+   "id": "smile",
+   "name": "Smile!",
+   "description": "Achieved Ending 1",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/0583d3.png",
+   "rarity": 29.29,
+   "unlock": {
+    "type": "event",
+    "name": "smile",
+    "count": 1
+   }
+  },
+  {
+   "id": "intensive-care",
+   "name": "Intensive Care",
+   "description": "Achieved Ending 4",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/838566.png",
+   "rarity": 25.6,
+   "unlock": {
+    "type": "event",
+    "name": "intensive-care",
+    "count": 1
+   }
+  },
+  {
+   "id": "judgement",
+   "name": "Judgement",
+   "description": "Achieved Ending 3",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/eb731g.png",
+   "rarity": 21.85,
+   "unlock": {
+    "type": "event",
+    "name": "judgement",
+    "count": 1
+   }
+  },
+  {
+   "id": "no-dogs-allowed",
+   "name": "No Dogs Allowed",
+   "description": "Achieved Ending 5",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/4g8e16.png",
+   "rarity": 25.79,
+   "unlock": {
+    "type": "event",
+    "name": "no-dogs-allowed",
+    "count": 1
+   }
+  },
+  {
+   "id": "the-old-gods-haven-t-left-this-place",
+   "name": "The Old Gods...",
+   "description": ".. Haven't Left This Place. Complete game on HARD difficulty.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/180d03.png",
+   "rarity": 20.83,
+   "unlock": {
+    "type": "event",
+    "name": "the-old-gods-haven-t-left-this-place",
+    "count": 1
+   }
+  },
+  {
+   "id": "now-about-those-drinks",
+   "name": "Now about those drinks",
+   "description": "Saved Wheeler",
+   "hidden": true,
+   "icon": "https://m.exophase.com/xbox/awards/l/6j875b.png",
+   "rarity": 40.7,
+   "unlock": {
+    "type": "event",
+    "name": "now-about-those-drinks",
+    "count": 1
+   }
+  },
+  {
+   "id": "nursery-rhymes",
+   "name": "Nursery Rhymes",
+   "description": "Found all the Children's Drawings",
+   "hidden": false,
+   "icon": "https://m.exophase.com/xbox/awards/l/380e07.png",
+   "rarity": 19.51,
+   "unlock": {
+    "type": "event",
+    "name": "nursery-rhymes",
+    "count": 1
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

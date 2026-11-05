@@ -1,0 +1,401 @@
+{
+ "game": "sh2",
+ "platform": "PlayStation 3",
+ "source": "Silent Hill HD Collection (PlayStation 3) trophies",
+ "credit": "Exophase",
+ "link": "https://www.exophase.com/game/silent-hill-2-hd/trophies/",
+ "notes": "The game's official PlayStation 3 trophies. Rebuilds and Enhanced patches report them through the launcher's bridge as they're hooked; until then you can mark them by hand.",
+ "achievements": [
+  {
+   "id": "she-would-be-proud",
+   "name": "She Would Be Proud",
+   "description": "Unlock all Trophies in SH2.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/13g06j.png",
+   "rarity": 23.66,
+   "grade": "platinum",
+   "unlock": {
+    "type": "all"
+   }
+  },
+  {
+   "id": "free-to-go",
+   "name": "Free to Go",
+   "description": "Unlock the \"Leave\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35j0g4.png",
+   "rarity": 72.56,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "free-to-go",
+    "count": 1
+   }
+  },
+  {
+   "id": "second-best",
+   "name": "Second Best",
+   "description": "Unlock the \"Maria\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/77g43g.png",
+   "rarity": 37.22,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "second-best",
+    "count": 1
+   }
+  },
+  {
+   "id": "goodbye",
+   "name": "Goodbye",
+   "description": "Unlock the \"In Water\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/4041dj.png",
+   "rarity": 49.21,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "goodbye",
+    "count": 1
+   }
+  },
+  {
+   "id": "say-your-prayers",
+   "name": "Say Your Prayers",
+   "description": "Unlock the \"Rebirth\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6db516.png",
+   "rarity": 39.04,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "say-your-prayers",
+    "count": 1
+   }
+  },
+  {
+   "id": "it-all-makes-sense-now",
+   "name": "It All Makes Sense Now",
+   "description": "Unlock the \"Dog\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b8e61j.png",
+   "rarity": 32.13,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "it-all-makes-sense-now",
+    "count": 1
+   }
+  },
+  {
+   "id": "never-to-be-heard-from-again",
+   "name": "Never to be Heard from Again",
+   "description": "Unlock the \"UFO\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjg34d.png",
+   "rarity": 34.36,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "never-to-be-heard-from-again",
+    "count": 1
+   }
+  },
+  {
+   "id": "warp-speed",
+   "name": "Warp Speed",
+   "description": "Complete SH2 in 3 hours or less.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg41ee.png",
+   "rarity": 37.61,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "warp-speed",
+    "count": 1
+   }
+  },
+  {
+   "id": "overkill",
+   "name": "Overkill",
+   "description": "Acquire the Chainsaw.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j045g7.png",
+   "rarity": 56.58,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "overkill",
+    "count": 1
+   }
+  },
+  {
+   "id": "who-needs-a-gun",
+   "name": "Who Needs a Gun?",
+   "description": "Acquire the Green Hyper Spray.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/13g0b5.png",
+   "rarity": 23.96,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "who-needs-a-gun",
+    "count": 1
+   }
+  },
+  {
+   "id": "playing-on-the-edge",
+   "name": "Playing on the Edge",
+   "description": "Complete SH2 with 2 saves or less.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35j015.png",
+   "rarity": 36.68,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "playing-on-the-edge",
+    "count": 1
+   }
+  },
+  {
+   "id": "keep-your-distance",
+   "name": "Keep Your Distance",
+   "description": "Defeat at least 75 enemies by shooting in SH2.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/77g4b0.png",
+   "rarity": 39.01,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "keep-your-distance",
+    "count": 1
+   }
+  },
+  {
+   "id": "melee-master",
+   "name": "Melee Master",
+   "description": "Defeat at least 75 enemies by fighting in SH2.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/556303.png",
+   "rarity": 66.15,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "melee-master",
+    "count": 1
+   }
+  },
+  {
+   "id": "keen-eye",
+   "name": "Keen Eye",
+   "description": "Find at least 150 items + extra items in SH2.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/00bd4j.png",
+   "rarity": 89.74,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "keen-eye",
+    "count": 1
+   }
+  },
+  {
+   "id": "dont-keep-her-waiting",
+   "name": "Don't Keep Her Waiting",
+   "description": "Complete Boat Stage in less than 1 min 20 seconds.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8je6d4.png",
+   "rarity": 50.43,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "dont-keep-her-waiting",
+    "count": 1
+   }
+  },
+  {
+   "id": "hard-to-hit",
+   "name": "Hard to Hit",
+   "description": "Receive less than 500 points of damage in one game, in SH2.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/ee6106.png",
+   "rarity": 49.5,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "hard-to-hit",
+    "count": 1
+   }
+  },
+  {
+   "id": "childhood-trauma",
+   "name": "Childhood Trauma",
+   "description": "Defeat Abstract Daddy.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/40417j.png",
+   "rarity": 89.61,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "childhood-trauma",
+    "count": 1
+   }
+  },
+  {
+   "id": "i-dont-need-you-anymore",
+   "name": "I Don't Need You Anymore",
+   "description": "Defeat Pyramid Head.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/6db546.png",
+   "rarity": 87.03,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "i-dont-need-you-anymore",
+    "count": 1
+   }
+  },
+  {
+   "id": "wheres-that-letter",
+   "name": "Where's that Letter!?",
+   "description": "Defeat Flesh Lips.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/b8e6dj.png",
+   "rarity": 98.88,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "wheres-that-letter",
+    "count": 1
+   }
+  },
+  {
+   "id": "say-goodbye",
+   "name": "Say Goodbye",
+   "description": "Defeat Mary.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/gjg3bd.png",
+   "rarity": 86.87,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "say-goodbye",
+    "count": 1
+   }
+  },
+  {
+   "id": "restless-dreams",
+   "name": "Restless Dreams",
+   "description": "Unlock the \"Born from a Wish\" ending.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/dg417e.png",
+   "rarity": 60.95,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "restless-dreams",
+    "count": 1
+   }
+  },
+  {
+   "id": "i-q-test",
+   "name": "I.Q. Test",
+   "description": "Complete SH2 on Extra Riddle difficulty.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/j04577.png",
+   "rarity": 29.95,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "i-q-test",
+    "count": 1
+   }
+  },
+  {
+   "id": "fountain-of-youth",
+   "name": "Fountain of Youth",
+   "description": "Acquire the White Chrism.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/13gj55.png",
+   "rarity": 46.93,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "fountain-of-youth",
+    "count": 1
+   }
+  },
+  {
+   "id": "not-so-lost-memories",
+   "name": "Not So Lost Memories",
+   "description": "Acquire the book of Lost Memories.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/35j635.png",
+   "rarity": 43.33,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "not-so-lost-memories",
+    "count": 1
+   }
+  },
+  {
+   "id": "unholy-grail",
+   "name": "Unholy Grail",
+   "description": "Acquire the Obsidian Goblet.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/77g5j0.png",
+   "rarity": 42.89,
+   "grade": "silver",
+   "unlock": {
+    "type": "event",
+    "name": "unholy-grail",
+    "count": 1
+   }
+  },
+  {
+   "id": "light-reading",
+   "name": "Light Reading",
+   "description": "Acquire the book of Crimson Ceremony.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/556ge3.png",
+   "rarity": 39.94,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "light-reading",
+    "count": 1
+   }
+  },
+  {
+   "id": "mans-best-friend",
+   "name": "Man's Best Friend",
+   "description": "Acquire the Dog Key.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/00bj7j.png",
+   "rarity": 34.17,
+   "grade": "gold",
+   "unlock": {
+    "type": "event",
+    "name": "mans-best-friend",
+    "count": 1
+   }
+  },
+  {
+   "id": "were-not-alone",
+   "name": "We're Not Alone",
+   "description": "Acquire the Blue Gem.",
+   "hidden": false,
+   "icon": "https://m.exophase.com/psn/awards/l/8je014.png",
+   "rarity": 45.59,
+   "grade": "bronze",
+   "unlock": {
+    "type": "event",
+    "name": "were-not-alone",
+    "count": 1
+   }
+  }
+ ],
+ "rarity_source": "Exophase"
+}

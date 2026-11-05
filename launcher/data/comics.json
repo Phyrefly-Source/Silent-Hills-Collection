@@ -1,0 +1,133 @@
+{
+ "version": 1,
+ "comics": [
+  {
+   "id": "dying-inside",
+   "title": "Dying Inside",
+   "year": 2004,
+   "issues": 5,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "match": [
+    "dying inside"
+   ]
+  },
+  {
+   "id": "among-the-damned",
+   "title": "Among the Damned",
+   "year": 2004,
+   "issues": 1,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "match": [
+    "among the damned"
+   ]
+  },
+  {
+   "id": "paint-it-black",
+   "title": "Paint It Black",
+   "year": 2005,
+   "issues": 1,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "match": [
+    "paint it black"
+   ]
+  },
+  {
+   "id": "the-grinning-man",
+   "title": "The Grinning Man",
+   "year": 2005,
+   "issues": 1,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "match": [
+    "grinning man"
+   ]
+  },
+  {
+   "id": "three-bloody-tales",
+   "title": "Three Bloody Tales",
+   "year": 2005,
+   "issues": 1,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "collection": true,
+   "match": [
+    "three bloody tales"
+   ]
+  },
+  {
+   "id": "dead-alive",
+   "title": "Dead/Alive",
+   "year": 2005,
+   "issues": 5,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "match": [
+    "dead alive",
+    "dead-alive",
+    "dead_alive",
+    "deadalive"
+   ]
+  },
+  {
+   "id": "hunger",
+   "title": "Hunger",
+   "year": 2006,
+   "issues": 1,
+   "publisher": "Konami (UMD)",
+   "writer": "Scott Ciencin",
+   "match": [
+    "hunger"
+   ]
+  },
+  {
+   "id": "sinners-reward",
+   "title": "Sinner's Reward",
+   "year": 2008,
+   "issues": 4,
+   "publisher": "IDW",
+   "writer": "Tom Waltz",
+   "match": [
+    "sinner",
+    "sinners reward"
+   ]
+  },
+  {
+   "id": "omnibus",
+   "title": "Silent Hill Omnibus",
+   "year": 2008,
+   "issues": 1,
+   "publisher": "IDW",
+   "writer": "Scott Ciencin",
+   "collection": true,
+   "match": [
+    "omnibus"
+   ]
+  },
+  {
+   "id": "past-life",
+   "title": "Past Life",
+   "year": 2010,
+   "issues": 4,
+   "publisher": "IDW",
+   "writer": "Tom Waltz",
+   "match": [
+    "past life"
+   ]
+  },
+  {
+   "id": "annes-story",
+   "title": "Downpour: Anne's Story",
+   "year": 2014,
+   "issues": 4,
+   "publisher": "IDW",
+   "writer": "Tom Waltz",
+   "match": [
+    "anne",
+    "annes story"
+   ]
+  }
+ ]
+}

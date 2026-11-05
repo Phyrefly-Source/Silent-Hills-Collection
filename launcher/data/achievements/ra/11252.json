@@ -1,0 +1,669 @@
+{
+	"id": 11252,
+	"title": "Silent Hill",
+	"console_id": 12,
+	"console": "PlayStation",
+	"achievements": [
+		{
+			"id": 86483,
+			"title": "What a Nightmare...",
+			"description": "Complete the introduction chapter and meet Cybil. Also, now is a good time to tell you that all normal progression is blocked in Next Fear.",
+			"points": 3,
+			"badge": "701315",
+			"memaddr": "",
+			"type": "",
+			"order": 1
+		},
+		{
+			"id": 84002,
+			"title": "Keys for Eclipse",
+			"description": "Use the Lion, Woodman, and Scarecrow keys",
+			"points": 5,
+			"badge": "701316",
+			"memaddr": "",
+			"type": "",
+			"order": 2
+		},
+		{
+			"id": 84005,
+			"title": "Old Man's Hand",
+			"description": "Solve the puzzle in order to obtain the gold medallion",
+			"points": 5,
+			"badge": "701317",
+			"memaddr": "",
+			"type": "",
+			"order": 3
+		},
+		{
+			"id": 84007,
+			"title": "Broken Notes",
+			"description": "Solve the piano puzzle in order to obtain the silver medallion",
+			"points": 5,
+			"badge": "701318",
+			"memaddr": "",
+			"type": "",
+			"order": 4
+		},
+		{
+			"id": 84008,
+			"title": "Who's Afraid of a Reptile?",
+			"description": "Defeat Splithead on any difficulty",
+			"points": 10,
+			"badge": "701319",
+			"memaddr": "",
+			"type": "",
+			"order": 5
+		},
+		{
+			"id": 85474,
+			"title": "Harry in Wonderland",
+			"description": "Solve the colored plates puzzle in the alternate hospital",
+			"points": 5,
+			"badge": "701320",
+			"memaddr": "",
+			"type": "",
+			"order": 6
+		},
+		{
+			"id": 85476,
+			"title": "Loneliness",
+			"description": "Met Lisa Garland for the first time...",
+			"points": 5,
+			"badge": "701321",
+			"memaddr": "",
+			"type": "",
+			"order": 7
+		},
+		{
+			"id": 86028,
+			"title": "Sand Castles",
+			"description": "Defeat Twinfeeler on any difficulty",
+			"points": 5,
+			"badge": "701322",
+			"memaddr": "",
+			"type": "",
+			"order": 8
+		},
+		{
+			"id": 86080,
+			"title": "I'll Kill You",
+			"description": "Defeat Floatstinger on any difficulty",
+			"points": 10,
+			"badge": "701323",
+			"memaddr": "",
+			"type": "",
+			"order": 9
+		},
+		{
+			"id": 86340,
+			"title": "Eww Eww Eww",
+			"description": "Make it the hell out of the sewers",
+			"points": 5,
+			"badge": "701324",
+			"memaddr": "",
+			"type": "",
+			"order": 10
+		},
+		{
+			"id": 86506,
+			"title": "Paging Dr. Kaufmann",
+			"description": "Save Kaufmann at Annie's Bar",
+			"points": 10,
+			"badge": "701325",
+			"memaddr": "",
+			"type": "",
+			"order": 11
+		},
+		{
+			"id": 86341,
+			"title": "Our Little Secret",
+			"description": "Discover the glass vial hidden somewhere totally discreet",
+			"points": 5,
+			"badge": "701326",
+			"memaddr": "",
+			"type": "",
+			"order": 12
+		},
+		{
+			"id": 86342,
+			"title": "Pour Some Sugar On Me, Baby",
+			"description": "Save Cybil in the amusement park",
+			"points": 10,
+			"badge": "701327",
+			"memaddr": "",
+			"type": "",
+			"order": 13
+		},
+		{
+			"id": 86343,
+			"title": "Merry-Go-Down",
+			"description": "Do NOT save Cybil at the amusement park",
+			"points": 10,
+			"badge": "701328",
+			"memaddr": "",
+			"type": "",
+			"order": 14
+		},
+		{
+			"id": 86344,
+			"title": "Grim Reaper's List",
+			"description": "Solve the door riddle of Nowhere",
+			"points": 5,
+			"badge": "701329",
+			"memaddr": "",
+			"type": "",
+			"order": 15
+		},
+		{
+			"id": 86345,
+			"title": "The Stone of Time",
+			"description": "Solve the riddle to obtain the Stone of Time",
+			"points": 5,
+			"badge": "701330",
+			"memaddr": "",
+			"type": "",
+			"order": 16
+		},
+		{
+			"id": 83576,
+			"title": "Wounds That Won't Heal",
+			"description": "Read Lisa Garland's Diary",
+			"points": 10,
+			"badge": "701331",
+			"memaddr": "",
+			"type": "",
+			"order": 17
+		},
+		{
+			"id": 86347,
+			"title": "Illuminating the Darkness",
+			"description": "Unlock both doors on the third floor of Nowhere",
+			"points": 5,
+			"badge": "701332",
+			"memaddr": "",
+			"type": "",
+			"order": 18
+		},
+		{
+			"id": 86517,
+			"title": "What Is Keeping That Child Alive?",
+			"description": "Watch the VHS tape in its entirety",
+			"points": 10,
+			"badge": "701333",
+			"memaddr": "",
+			"type": "",
+			"order": 19
+		},
+		{
+			"id": 86348,
+			"title": "What's Going On with That Refrigerator?",
+			"description": "Obtain the Dagger of Melchior without using the Ring of Contract and leave the kitchen",
+			"points": 3,
+			"badge": "701334",
+			"memaddr": "",
+			"type": "",
+			"order": 20
+		},
+		{
+			"id": 86428,
+			"title": "My Heaven",
+			"description": "Defeat Incubus on any difficulty",
+			"points": 10,
+			"badge": "701335",
+			"memaddr": "",
+			"type": "",
+			"order": 21
+		},
+		{
+			"id": 86518,
+			"title": "Awakening",
+			"description": "Defeat Incubator on any difficulty",
+			"points": 10,
+			"badge": "701336",
+			"memaddr": "",
+			"type": "",
+			"order": 22
+		},
+		{
+			"id": 86503,
+			"title": "The Archer and the Beast",
+			"description": "Defeat Splithead on Hard",
+			"points": 10,
+			"badge": "701337",
+			"memaddr": "",
+			"type": "",
+			"order": 23
+		},
+		{
+			"id": 86504,
+			"title": "The Pit of Calamity",
+			"description": "Defeat Twinfeeler on hard",
+			"points": 10,
+			"badge": "701338",
+			"memaddr": "",
+			"type": "",
+			"order": 24
+		},
+		{
+			"id": 86505,
+			"title": "Erratic",
+			"description": "Defeat Floatstinger on hard",
+			"points": 10,
+			"badge": "701339",
+			"memaddr": "",
+			"type": "",
+			"order": 25
+		},
+		{
+			"id": 86513,
+			"title": "Sifod",
+			"description": "Defeat Incubus on hard",
+			"points": 10,
+			"badge": "701340",
+			"memaddr": "",
+			"type": "",
+			"order": 26
+		},
+		{
+			"id": 86519,
+			"title": "Thank You...",
+			"description": "Defeat Incubator on hard",
+			"points": 10,
+			"badge": "701341",
+			"memaddr": "",
+			"type": "",
+			"order": 27
+		},
+		{
+			"id": 86023,
+			"title": "Target Practice",
+			"description": "So what if you hold your guns like a goon. You killed 20 enemies with them.",
+			"points": 5,
+			"badge": "701342",
+			"memaddr": "",
+			"type": "",
+			"order": 28
+		},
+		{
+			"id": 86022,
+			"title": "Triggered",
+			"description": "I don't know who keeps leaving ammo around, but 50 enemies are no longer a threat thanks to them.",
+			"points": 10,
+			"badge": "701343",
+			"memaddr": "",
+			"type": "",
+			"order": 29
+		},
+		{
+			"id": 86024,
+			"title": "Gun Control: Alessa's New Nightmare",
+			"description": "You'd think after 90 kills with firearms, she'd do something about it.",
+			"points": 25,
+			"badge": "701344",
+			"memaddr": "",
+			"type": "",
+			"order": 30
+		},
+		{
+			"id": 86025,
+			"title": "Knife to Meet You",
+			"description": "Kill 20 enemies with melee weapons",
+			"points": 5,
+			"badge": "701345",
+			"memaddr": "",
+			"type": "",
+			"order": 31
+		},
+		{
+			"id": 86026,
+			"title": "Fa-fa-fa-fa, Fa-fa-fa-fa-fa, Fa, Better",
+			"description": "Kill 50 enemies with melee weapons",
+			"points": 10,
+			"badge": "701346",
+			"memaddr": "",
+			"type": "",
+			"order": 32
+		},
+		{
+			"id": 86027,
+			"title": "Hammerin' Harry",
+			"description": "Kill 90 enemies with melee weapons",
+			"points": 25,
+			"badge": "701347",
+			"memaddr": "",
+			"type": "",
+			"order": 33
+		},
+		{
+			"id": 86346,
+			"title": "Doomsday Prepper",
+			"description": "Pick up at least 140 items throughout the game",
+			"points": 10,
+			"badge": "701348",
+			"memaddr": "",
+			"type": "",
+			"order": 34
+		},
+		{
+			"id": 86349,
+			"title": "Drillin' Like a Villain",
+			"description": "30 enemies have experienced lethal penetration at the hands of Harry's Rock Drill... in one session, of course",
+			"points": 10,
+			"badge": "701349",
+			"memaddr": "",
+			"type": "",
+			"order": 35
+		},
+		{
+			"id": 84003,
+			"title": "Harry the Weeb",
+			"description": "Prove to your friends that all that anime paid off and kill 30 enemies in one session with the katana",
+			"points": 10,
+			"badge": "701350",
+			"memaddr": "",
+			"type": "",
+			"order": 36
+		},
+		{
+			"id": 84004,
+			"title": "Silent Hill Chainsaw Massacre",
+			"description": "Kill 30 enemies in one session with the chainsaw to gain street cred with the greats",
+			"points": 10,
+			"badge": "701380",
+			"memaddr": "",
+			"type": "",
+			"order": 37
+		},
+		{
+			"id": 86520,
+			"title": "A Gift from Outer Space",
+			"description": "No one will believe the abduction. Make the best of it and kill 30 enemies in one session with the hyper blaster.",
+			"points": 10,
+			"badge": "701381",
+			"memaddr": "",
+			"type": "",
+			"order": 38
+		},
+		{
+			"id": 86507,
+			"title": "Like the Back of My Hand I",
+			"description": "Make it through the School and Alternate School without having picked up the map.",
+			"points": 10,
+			"badge": "701352",
+			"memaddr": "",
+			"type": "",
+			"order": 39
+		},
+		{
+			"id": 86508,
+			"title": "Like the Back of My Hand II",
+			"description": "Approach Floatstinger without having picked up either hospital map",
+			"points": 10,
+			"badge": "701353",
+			"memaddr": "",
+			"type": "",
+			"order": 40
+		},
+		{
+			"id": 86509,
+			"title": "Like the Back of My Hand III",
+			"description": "Make it through the first sewer trip without picking up the map",
+			"points": 10,
+			"badge": "701354",
+			"memaddr": "",
+			"type": "",
+			"order": 41
+		},
+		{
+			"id": 86510,
+			"title": "Like the Back of My Hand IV",
+			"description": "Make it from the first to second sewer trips without getting the resort map.",
+			"points": 10,
+			"badge": "701355",
+			"memaddr": "",
+			"type": "",
+			"order": 42
+		},
+		{
+			"id": 86516,
+			"title": "Like the Back of My Hand V",
+			"description": "Get through the second trip through the sewers without picking up the map",
+			"points": 5,
+			"badge": "701356",
+			"memaddr": "",
+			"type": "",
+			"order": 43
+		},
+		{
+			"id": 86663,
+			"title": "Scary Harry I",
+			"description": "Alt. School - Flashlight and Radio OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+			"points": 5,
+			"badge": "701357",
+			"memaddr": "",
+			"type": "",
+			"order": 44
+		},
+		{
+			"id": 86664,
+			"title": "Scary Harry II",
+			"description": "Alt. Hospital - Flashlight and Radio OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+			"points": 10,
+			"badge": "701358",
+			"memaddr": "",
+			"type": "",
+			"order": 45
+		},
+		{
+			"id": 86665,
+			"title": "Scary Harry III",
+			"description": "Sewers I - Flashlight OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+			"points": 10,
+			"badge": "701359",
+			"memaddr": "",
+			"type": "",
+			"order": 46
+		},
+		{
+			"id": 86666,
+			"title": "Scary Harry IV",
+			"description": "Alt. Resort - Flashlight and Radio OFF - Kill 10 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+			"points": 10,
+			"badge": "701360",
+			"memaddr": "",
+			"type": "",
+			"order": 47
+		},
+		{
+			"id": 86667,
+			"title": "Scary Harry V",
+			"description": "Sewers II - Flashlight OFF - Kill 5 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+			"points": 10,
+			"badge": "701361",
+			"memaddr": "",
+			"type": "",
+			"order": 48
+		},
+		{
+			"id": 86668,
+			"title": "Scary Harry VI",
+			"description": "Nowhere - Flashlight and Radio OFF - Kill 10 enemies in a row with melee weapons [No Pausing or Inv. Screen]",
+			"points": 10,
+			"badge": "701362",
+			"memaddr": "",
+			"type": "",
+			"order": 49
+		},
+		{
+			"id": 86422,
+			"title": "Harry the Swift",
+			"description": "GAME CLEAR - Clear the game and get any non-UFO ending in under 1hr 30mins",
+			"points": 25,
+			"badge": "701363",
+			"memaddr": "",
+			"type": "",
+			"order": 50
+		},
+		{
+			"id": 86423,
+			"title": "Daring Harry",
+			"description": "GAME CLEAR - Finish the game saving no more than 2 times",
+			"points": 25,
+			"badge": "701364",
+			"memaddr": "",
+			"type": "",
+			"order": 51
+		},
+		{
+			"id": 86424,
+			"title": "Harry the Okay",
+			"description": "GAME CLEAR - Achieve a rank of at least 3 stars",
+			"points": 5,
+			"badge": "701365",
+			"memaddr": "",
+			"type": "",
+			"order": 52
+		},
+		{
+			"id": 86425,
+			"title": "Harry the Good",
+			"description": "GAME CLEAR - Achieve a rank of at least 5 stars",
+			"points": 10,
+			"badge": "701366",
+			"memaddr": "",
+			"type": "",
+			"order": 53
+		},
+		{
+			"id": 86426,
+			"title": "Harry the Great",
+			"description": "GAME CLEAR - Achieve a rank of at least 8 stars",
+			"points": 25,
+			"badge": "701367",
+			"memaddr": "",
+			"type": "",
+			"order": 54
+		},
+		{
+			"id": 86427,
+			"title": "Harry the Best",
+			"description": "GAME CLEAR - Achieve a 10-Star Rank",
+			"points": 50,
+			"badge": "701368",
+			"memaddr": "",
+			"type": "",
+			"order": 55
+		},
+		{
+			"id": 86662,
+			"title": "That Light...",
+			"description": "Discover the Channeling Stone",
+			"points": 5,
+			"badge": "701369",
+			"memaddr": "",
+			"type": "",
+			"order": 56
+		},
+		{
+			"id": 86502,
+			"title": "UFO Sighting I",
+			"description": "Witness the first UFO sighting",
+			"points": 5,
+			"badge": "701370",
+			"memaddr": "",
+			"type": "",
+			"order": 57
+		},
+		{
+			"id": 86511,
+			"title": "UFO Sighting II",
+			"description": "Witness the second UFO sighting",
+			"points": 5,
+			"badge": "701371",
+			"memaddr": "",
+			"type": "",
+			"order": 58
+		},
+		{
+			"id": 86512,
+			"title": "UFO Sighting III",
+			"description": "Witness the third UFO sighting",
+			"points": 5,
+			"badge": "701372",
+			"memaddr": "",
+			"type": "",
+			"order": 59
+		},
+		{
+			"id": 86514,
+			"title": "UFO Sighting IV",
+			"description": "Witness the fourth UFO sighting",
+			"points": 5,
+			"badge": "701373",
+			"memaddr": "",
+			"type": "",
+			"order": 60
+		},
+		{
+			"id": 86515,
+			"title": "UFO Sighting V",
+			"description": "Witness the fifth UFO sighting",
+			"points": 5,
+			"badge": "701374",
+			"memaddr": "",
+			"type": "",
+			"order": 61
+		},
+		{
+			"id": 86429,
+			"title": "Tears of...",
+			"description": "GAME CLEAR - Obtain the GOOD+ ending on any difficulty",
+			"points": 25,
+			"badge": "701375",
+			"memaddr": "",
+			"type": "",
+			"order": 62
+		},
+		{
+			"id": 86430,
+			"title": "Killing Time",
+			"description": "GAME CLEAR - Obtain the GOOD ending on any difficulty",
+			"points": 10,
+			"badge": "701376",
+			"memaddr": "",
+			"type": "",
+			"order": 63
+		},
+		{
+			"id": 86431,
+			"title": "She",
+			"description": "GAME CLEAR - Obtain the BAD+ ending on any difficulty",
+			"points": 10,
+			"badge": "701377",
+			"memaddr": "",
+			"type": "",
+			"order": 64
+		},
+		{
+			"id": 86432,
+			"title": "Esperandote",
+			"description": "GAME CLEAR - Obtain the BAD ending on any difficulty",
+			"points": 10,
+			"badge": "701378",
+			"memaddr": "",
+			"type": "",
+			"order": 65
+		},
+		{
+			"id": 86433,
+			"title": "Ayyy",
+			"description": "GAME CLEAR - Obtain the UFO ending on any difficulty",
+			"points": 10,
+			"badge": "701379",
+			"memaddr": "",
+			"type": "",
+			"order": 66
+		}
+	],
+	"source": "RetroAchievements set 11252 (retroachievements.org/game/11252)"
+}

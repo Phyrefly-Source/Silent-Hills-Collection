@@ -1,0 +1,424 @@
+{
+  "game": "downpour",
+  "term": "achievements",
+  "process": "downpour.exe",
+  "source": "Xbox 360 (41 achievements, 1000G)",
+  "notes": "DownpourRecomp records unlocks itself (ReXGlue runtime). The launcher reads them from the runtime's unlock file and its logs. The runtime IDs here are numbered in list order as a starting guess; when the game reports an ID that isn't matched, it appears under \"Reported by the game\" so you can assign it to the right entry.",
+  "achievements": [
+    {
+      "id": "now-you-re-cooking",
+      "name": "Now You're Cooking…",
+      "description": "Survived the Diner Otherworld.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000001"
+      }
+    },
+    {
+      "id": "out-of-the-frying-pan",
+      "name": "Out of the Frying Pan",
+      "description": "Rode the Sky Tram to Devil's Pit.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000002"
+      }
+    },
+    {
+      "id": "going-off-the-rails",
+      "name": "Going off the Rails",
+      "description": "Escaped from Devil's Pit.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000003"
+      }
+    },
+    {
+      "id": "found-a-friend",
+      "name": "Found a Friend!",
+      "description": "Met DJ Ricks in the Radio Station.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000004"
+      }
+    },
+    {
+      "id": "whatever-doesn-t-kill-you",
+      "name": "Whatever Doesn't Kill You…",
+      "description": "Escaped the Radio Station Otherworld.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000005"
+      }
+    },
+    {
+      "id": "ashes-ashes",
+      "name": "Ashes, Ashes",
+      "description": "Collected 3 pages of the rhyme book.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000006"
+      }
+    },
+    {
+      "id": "broken-cycle",
+      "name": "Broken Cycle",
+      "description": "Defeated The Bogeyman.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000007"
+      }
+    },
+    {
+      "id": "no-turning-back",
+      "name": "No Turning Back",
+      "description": "Reached Overlook Penitentiary.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000008"
+      }
+    },
+    {
+      "id": "ending-a",
+      "name": "Ending A",
+      "description": "Achieved \"Forgiveness\" ending.",
+      "points": 50,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000009"
+      },
+      "hidden": true
+    },
+    {
+      "id": "ending-c",
+      "name": "Ending C",
+      "description": "Achieved \"Full Circle\" ending.",
+      "points": 50,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000000A"
+      },
+      "hidden": true
+    },
+    {
+      "id": "ending-b",
+      "name": "Ending B",
+      "description": "Achieved \"Truth & Justice\" ending.",
+      "points": 50,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000000B"
+      },
+      "hidden": true
+    },
+    {
+      "id": "ending-d",
+      "name": "Ending D",
+      "description": "Achieved \"Execution\" ending.",
+      "points": 50,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000000C"
+      },
+      "hidden": true
+    },
+    {
+      "id": "ending-e",
+      "name": "Ending E",
+      "description": "Achieved \"Surprise!\" ending.",
+      "points": 70,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000000D"
+      },
+      "hidden": true
+    },
+    {
+      "id": "capital-punishment",
+      "name": "Capital Punishment",
+      "description": "Completed the game on the hard game difficulty setting, any ending.",
+      "points": 100,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000000E"
+      }
+    },
+    {
+      "id": "good-behavior",
+      "name": "Good Behavior",
+      "description": "Completed the game on any difficulty without killing any monsters.",
+      "points": 50,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000000F"
+      }
+    },
+    {
+      "id": "silent-hill-tour-guide",
+      "name": "Silent Hill Tour Guide",
+      "description": "Completed all side quests.",
+      "points": 100,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000010"
+      }
+    },
+    {
+      "id": "useless-trinkets",
+      "name": "Useless Trinkets",
+      "description": "Completed the \"Digging up the Past\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000011"
+      }
+    },
+    {
+      "id": "birdman",
+      "name": "Birdman",
+      "description": "Completed the \"Bird Cage\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000012"
+      }
+    },
+    {
+      "id": "calling-all-cars",
+      "name": "Calling All Cars",
+      "description": "Completed the \"All Points Bulletin\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000013"
+      }
+    },
+    {
+      "id": "neighborhood-watch",
+      "name": "Neighborhood Watch",
+      "description": "Completed the \"Stolen Goods\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000014"
+      }
+    },
+    {
+      "id": "art-appreciation",
+      "name": "Art Appreciation",
+      "description": "Completed \"The Art Collector\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000015"
+      }
+    },
+    {
+      "id": "silent-alarm",
+      "name": "Silent Alarm",
+      "description": "Completed \"The Bank\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000016"
+      }
+    },
+    {
+      "id": "will-work-for-food",
+      "name": "Will Work For Food",
+      "description": "Completed the \"Homeless\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000017"
+      }
+    },
+    {
+      "id": "cutting-room-floor",
+      "name": "Cutting Room Floor",
+      "description": "Completed the \"Cinéma Vérité\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000018"
+      }
+    },
+    {
+      "id": "turn-back-time",
+      "name": "Turn Back Time",
+      "description": "Completed \"The Gramophone\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000019"
+      }
+    },
+    {
+      "id": "what-s-your-sign",
+      "name": "What's Your Sign?",
+      "description": "Completed the \"Shadow Play\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000001A"
+      }
+    },
+    {
+      "id": "telltale-heart",
+      "name": "Telltale Heart",
+      "description": "Completed the \"Dead Man's Hand\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000001B"
+      }
+    },
+    {
+      "id": "dust-to-dust",
+      "name": "Dust to Dust",
+      "description": "Completed the \"Ashes to Ashes\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000001C"
+      }
+    },
+    {
+      "id": "long-walk-short-pier",
+      "name": "Long Walk, Short Pier",
+      "description": "Completed the \"Ribbons\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000001D"
+      }
+    },
+    {
+      "id": "spot-the-difference",
+      "name": "Spot the Difference",
+      "description": "Completed the \"Mirror, Mirror\" side quest.",
+      "points": 5,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000001E"
+      }
+    },
+    {
+      "id": "silence-is-golden",
+      "name": "Silence is Golden",
+      "description": "Killed or incapacitated 10 Screamers.",
+      "points": 20,
+      "trigger": {
+        "type": "rexglue",
+        "id": "0000001F"
+      }
+    },
+    {
+      "id": "shadow-boxer",
+      "name": "Shadow Boxer",
+      "description": "Killed or incapacitated 10 Dolls.",
+      "points": 20,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000020"
+      }
+    },
+    {
+      "id": "pinata-party",
+      "name": "Piñata Party",
+      "description": "Killed or incapacitated 10 Weeping Bats.",
+      "points": 20,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000021"
+      }
+    },
+    {
+      "id": "lockdown",
+      "name": "Lockdown",
+      "description": "Killed or incapacitated 10 Prisoner Minions.",
+      "points": 20,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000022"
+      }
+    },
+    {
+      "id": "the-bigger-they-are",
+      "name": "The Bigger They Are…",
+      "description": "Killed or incapacitated 10 Prisoner Juggernauts.",
+      "points": 20,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000023"
+      }
+    },
+    {
+      "id": "fight-or-flight",
+      "name": "Fight or Flight?",
+      "description": "Escaped from 20 monsters.",
+      "points": 20,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000024"
+      }
+    },
+    {
+      "id": "silent-hill-historic-society",
+      "name": "Silent Hill Historic Society",
+      "description": "Completed Murphy's Journal with all Mysteries.",
+      "points": 50,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000025"
+      }
+    },
+    {
+      "id": "stay-of-execution",
+      "name": "Stay of Execution",
+      "description": "Incapacitated 20 monsters without killing them.",
+      "points": 25,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000026"
+      }
+    },
+    {
+      "id": "gun-control",
+      "name": "Gun Control",
+      "description": "Killed 25 monsters with the Pistol or Shotgun.",
+      "points": 25,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000027"
+      }
+    },
+    {
+      "id": "hypochondriac",
+      "name": "Hypochondriac",
+      "description": "Used 20 First Aid Kits.",
+      "points": 10,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000028"
+      }
+    },
+    {
+      "id": "puzzle-master",
+      "name": "Puzzle Master",
+      "description": "Completed the game on the hard puzzle difficulty setting, any ending.",
+      "points": 100,
+      "trigger": {
+        "type": "rexglue",
+        "id": "00000029"
+      }
+    }
+  ]
+}
