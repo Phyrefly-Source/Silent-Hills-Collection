@@ -1,0 +1,339 @@
+{
+  "note": "Edit freely. `entries` are the games in in-world order (the `order` field); `game` links to the catalogue id in games.json. `threads` are people, places, groups and things that run through more than one entry; each `appears` row names the entry and what happens there. Dates Konami never fixed are given as approximate.",
+  "entries": [
+    {
+      "id": "origins", "game": "origins", "title": "Silent Hill: Origins", "order": 10,
+      "when": "1976", "when_note": "Seven years before Silent Hill.",
+      "protagonist": "Travis Grady", "setting": "Silent Hill: Alchemilla Hospital, Cedar Grove Sanitarium, Artaud Theater, Riverside Motel",
+      "summary": "Trucker Travis Grady pulls a burning girl from a house fire on the edge of town and is drawn into Silent Hill. The girl is Alessa Gillespie, burned in a ritual by her mother Dahlia and the Order to incubate their god. Travis gathers the pieces of the Flauros, a device Alessa uses to split her soul in two, confronting his own mother's madness and his father's suicide along the way.",
+      "events": [
+        "Dahlia Gillespie and the Order burn Alessa to force the birth of their god.",
+        "Dr. Michael Kaufmann and nurse Lisa Garland keep the dying Alessa alive at Alchemilla.",
+        "Travis assembles the Flauros; Alessa uses it to split her soul and send half away as a newborn.",
+        "That newborn is found on the roadside: Harry Mason adopts her as Cheryl."
+      ]
+    },
+    {
+      "id": "sh1", "game": "sh1", "title": "Silent Hill", "order": 20,
+      "when": "1983", "when_note": "Harry and Cheryl's trip; the fire was seven years earlier.",
+      "protagonist": "Harry Mason", "setting": "Silent Hill: Old Silent Hill, Central Silent Hill, Alchemilla Hospital, the amusement park, Nowhere",
+      "summary": "Writer Harry Mason crashes on the road into town and wakes to find his adopted daughter Cheryl gone. Snow falls in September, the streets are fogged, and sirens announce the Otherworld. Harry learns the town's cult, the Order, is finishing what it started seven years ago: Cheryl is half of Alessa's soul, and Dahlia needs them rejoined.",
+      "events": [
+        "Harry meets Cybil Bennett, Dahlia Gillespie, Dr. Kaufmann and Lisa Garland.",
+        "Cheryl and Alessa are reunited; the Order's god is born and (in most endings) destroyed.",
+        "Kaufmann uses Aglaophotis to tear the god out of Alessa.",
+        "Good endings: Alessa hands Harry a newborn, the girl who grows up as Heather."
+      ]
+    },
+    {
+      "id": "sh2", "game": "sh2", "title": "Silent Hill 2", "order": 30,
+      "when": "Undated", "when_note": "Konami never dated it. It sits after Silent Hill and before Silent Hill 3; the newspaper about Walter Sullivan places it some years after his 1990s killings.",
+      "protagonist": "James Sunderland", "setting": "Silent Hill: South Vale, Wood Side and Blue Creek apartments, Brookhaven Hospital, Toluca Prison and the Historical Society, Lakeview Hotel",
+      "summary": "James Sunderland receives a letter from his wife Mary, dead three years, asking him to meet her in their 'special place'. In the town he meets Maria, who wears Mary's face, and three others each summoned by their own guilt: Angela, Eddie and the child Laura. The town's monsters are his own making, and Pyramid Head is his executioner. The truth is that Mary died at his hands.",
+      "events": [
+        "James explores South Vale and the lake side of town, never the Order's district.",
+        "A newspaper in the apartments reports Walter Sullivan's murder of two children and his suicide in his cell.",
+        "The Historical Society records Toluca Prison and the town's past as a penal colony and plague site.",
+        "Endings turn on whether James faces what he did to Mary."
+      ]
+    },
+    {
+      "id": "sh2-remake", "game": "sh2-remake", "title": "Silent Hill 2 (2024)", "order": 31,
+      "when": "Undated", "when_note": "The same story retold; it keeps the original's placement.",
+      "protagonist": "James Sunderland", "setting": "Silent Hill: South Vale, with the town rebuilt at a larger scale",
+      "summary": "Bloober Team's remake follows James through the same story with an over-the-shoulder camera, expanded streets and buildings, and reworked puzzles. Its new endings add a few readings of James and Mary, but nothing that moves the timeline.",
+      "events": [
+        "Same cast, same letter, same Lakeview Hotel.",
+        "Adds the Bliss and Stillness endings on top of the original set."
+      ]
+    },
+    {
+      "id": "sh3", "game": "sh3", "title": "Silent Hill 3", "order": 40,
+      "when": "2000", "when_note": "Seventeen years after Silent Hill.",
+      "protagonist": "Heather Mason", "setting": "Portland: Central Square Mall, the subway, the office building. Silent Hill: Brookhaven Hospital, the amusement park, the Church",
+      "summary": "Seventeen-year-old Heather is approached in a mall by detective Douglas Cartland and the Order's Claudia Wolf. Heather is the baby Harry carried out of Silent Hill: Alessa and Cheryl made whole. Claudia means to make her give birth to the god and kills Harry to drive her to it. Heather returns to the town, to the hospital and the church, and ends the Order's plan with the Aglaophotis her father left her.",
+      "events": [
+        "Harry Mason is killed in his apartment.",
+        "Vincent and Claudia's rival factions of the Order fight over Heather.",
+        "Heather revisits Brookhaven Hospital and the Lakeside Amusement Park seen in earlier games.",
+        "Heather kills the god and, in the normal ending, takes the name Cheryl."
+      ]
+    },
+    {
+      "id": "sh4", "game": "sh4", "title": "Silent Hill 4: The Room", "order": 50,
+      "when": "Early 2000s", "when_note": "Contemporary with Silent Hill 3, in Ashfield, a town near Silent Hill.",
+      "protagonist": "Henry Townshend", "setting": "South Ashfield Heights, room 302; the worlds behind the hole: the subway, the forest, the water prison, the apartment building, the hospital",
+      "summary": "Henry Townshend wakes to find his apartment chained shut from the inside. A hole in the bathroom wall leads to worlds built from the memories of Walter Sullivan, the Order orphan who was raised in Wish House outside Silent Hill and believes room 302 is his mother. Walter is completing the 21 Sacraments, a ritual that needs twenty-one victims; Henry is the twenty-first.",
+      "events": [
+        "Walter Sullivan, dead by suicide in prison years earlier, returns to finish his ritual.",
+        "Frank Sunderland, the superintendent, is James Sunderland's father.",
+        "Wish House and the Order's Holy Mother sect are shown directly.",
+        "Henry, with Eileen Galvin, ends the ritual in the room itself."
+      ]
+    },
+    {
+      "id": "homecoming", "game": "homecoming", "title": "Silent Hill: Homecoming", "order": 60,
+      "when": "Late 2000s", "when_note": "Not fixed by the game; roughly contemporary with its 2008 release.",
+      "protagonist": "Alex Shepherd", "setting": "Shepherd's Glen, a town across Toluca Lake founded by families from Silent Hill; then Silent Hill itself",
+      "summary": "Alex Shepherd comes home to Shepherd's Glen to find his brother Joshua missing, his mother catatonic and the town emptying into fog. Shepherd's Glen was founded by four Order families who bought their freedom from Silent Hill with a pact: each generation, each family sacrifices a child. The pact is broken, and Silent Hill has come for them. Alex's memories of being a soldier, and of what happened to Josh, are not what he believes.",
+      "events": [
+        "Travis Grady gives Alex a ride into town in the opening cutscene.",
+        "The four founding families: Shepherd, Holloway, Fitch and Bartlett.",
+        "Pyramid Head, called the Bogeyman here, carries out the sacrifices.",
+        "The Order's Shepherd's Glen chapter, led by Judge Holloway, is confronted in Silent Hill's church."
+      ]
+    },
+    {
+      "id": "downpour", "game": "downpour", "title": "Silent Hill: Downpour", "order": 70,
+      "when": "Around 2012", "when_note": "Not fixed by the game; contemporary with release.",
+      "protagonist": "Murphy Pendleton", "setting": "Silent Hill: the south-east side (Devil's Pit, Hillside, Chastain Heights, Pearl Creek, Port District), Overlook Penitentiary",
+      "summary": "A prison bus carrying Murphy Pendleton crashes on the road into Silent Hill. Murphy is serving time for a crime tied to his son's murderer, and officer Anne Cunningham is on his trail with her own reasons. Rain brings the monsters; the Bogeyman stalks them both. The town is the same one, seen from districts earlier games never visited.",
+      "events": [
+        "Toluca Lake, the Devil's Pit mine and the town's prison history reappear.",
+        "The Order has no active role; the town works on Murphy and Anne's guilt as it did on James.",
+        "Several endings, including one where Murphy becomes the Bogeyman."
+      ]
+    },
+    {
+      "id": "short-message", "game": "short-message", "title": "Silent Hill: The Short Message", "order": 80,
+      "when": "2020s", "when_note": "Set in Germany, in the present day.",
+      "protagonist": "Anita", "setting": "The Villa, an abandoned apartment block in Kettenstadt, Germany",
+      "summary": "Anita follows messages from her friend Maya into the Villa, a block known for its suicides, and loops through its corridors chased by the Cherry Blossom monster. It is Silent Hill's logic (the place reflects the guilt of whoever is in it) transplanted away from the town, with a story about bullying, self-harm and grief told in the first person.",
+      "events": [
+        "The first game to leave Silent Hill and America entirely.",
+        "Sakura the Cherry Blossom monster, designed by Masahiro Ito, who made Pyramid Head.",
+        "Robbie the Rabbit and other series nods appear in the Villa."
+      ]
+    },
+    {
+      "id": "sh-f", "game": "sh-f", "title": "Silent Hill f", "order": 90,
+      "when": "1960s", "when_note": "Shōwa-era Japan; the earliest setting in the series, though outside the town's own story.",
+      "protagonist": "Hinako Shimizu", "setting": "Ebisugaoka, a mountain town in rural Japan",
+      "summary": "Schoolgirl Hinako Shimizu's town is swallowed by fog and red spider lilies and its people turn to flowering, decaying things. A parallel 'Dark Shrine' world, a fox-masked guide and a story about the roles forced on young women in 1960s Japan give the series' fog-and-guilt pattern a new place and a new mythology.",
+      "events": [
+        "No Order, no Toluca Lake: the town is a Japanese counterpart to Silent Hill, not the town itself.",
+        "Written by Ryukishi07; the first game in the series set in Japan."
+      ]
+    },
+    {
+      "id": "townfall", "game": "townfall", "title": "Silent Hill: Townfall", "order": 95,
+      "when": "Unknown", "when_note": "Fill in once the game's own clues settle it.",
+      "protagonist": "", "setting": "",
+      "summary": "No Code's entry. Fill in the summary, setting and any ties here once you've played it; the catalogue's blurb is shown until then.",
+      "events": []
+    },
+    {
+      "id": "shattered-memories", "game": "shattered-memories", "title": "Silent Hill: Shattered Memories", "order": 200, "aside": true,
+      "when": "Outside the timeline", "when_note": "A reimagining of the first game, not a sequel; its events are a patient's memory.",
+      "protagonist": "Harry Mason (as remembered)", "setting": "Silent Hill in snow and ice, framed by sessions with Dr. Kaufmann",
+      "summary": "The first game retold: Harry crashes, Cheryl is missing, the town freezes instead of burning. There is no Order and no god. The whole search is reconstructed in therapy sessions with Dr. K, and the ending reveals whose memory it has been. Familiar names (Cybil, Dahlia, Lisa, Kaufmann) carry different lives.",
+      "events": [
+        "Ice replaces the Otherworld's rust and fire.",
+        "The psych profile changes the town, the people and the ending."
+      ]
+    },
+    {
+      "id": "book-of-memories", "game": "book-of-memories", "title": "Silent Hill: Book of Memories", "order": 210, "aside": true,
+      "when": "Outside the timeline", "when_note": "A spin-off; its 'book' rewrites the player's own past.",
+      "protagonist": "A student (player-made)", "setting": "Dreamed zones built from the series' places",
+      "summary": "A birthday gift from Silent Hill, a book that rewrites your memories, sends a student through dungeon-like zones that borrow the series' monsters and settings. Played top-down and co-op; it adds Howard the mailman and a cast of cameo monsters rather than lore.",
+      "events": [
+        "Pyramid Head, Valtiel, the nurses and other monsters appear as enemies and bosses.",
+        "Howard Blackwood the mailman later appears in Downpour."
+      ]
+    },
+    {
+      "id": "pt", "game": "pt", "title": "P.T.", "order": 220, "aside": true,
+      "when": "Outside the timeline", "when_note": "The playable teaser for the cancelled Silent Hills.",
+      "protagonist": "Unnamed (Norman Reedus in the reveal)", "setting": "A looping suburban hallway",
+      "summary": "One corridor, repeated, with a radio recounting a family murder and the ghost Lisa in pursuit. Released as a puzzle to be solved by the internet, it revealed Silent Hills by Hideo Kojima and Guillermo del Toro, which was cancelled in 2015. Its hallway loop is echoed by The Short Message's Villa.",
+      "events": [
+        "The Silent Hills project was cancelled in 2015 and P.T. delisted.",
+        "Its first-person haunted-loop format shaped The Short Message."
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "alessa", "name": "Alessa, Cheryl and Heather", "kind": "character",
+      "desc": "One soul in three lives. Alessa Gillespie was burned by the Order in 1976, split herself in two, and the halves became Cheryl Mason and, later, Heather.",
+      "appears": [
+        {"entry": "origins", "note": "Burned by Dahlia; uses the Flauros to split her soul. The newborn half is left on the road."},
+        {"entry": "sh1", "note": "Harry's daughter Cheryl is that half. Reunited with Alessa, the god is born; Alessa hands Harry a new baby."},
+        {"entry": "sh3", "note": "That baby is Heather, seventeen, whom Claudia means to make the god's mother again."},
+        {"entry": "shattered-memories", "note": "Cheryl is reimagined as an adult in therapy whose memory the game is."}
+      ]
+    },
+    {
+      "id": "harry", "name": "Harry Mason", "kind": "character",
+      "desc": "The writer who adopted Cheryl and went looking for her.",
+      "appears": [
+        {"entry": "origins", "note": "Never seen, but the baby he will find is sent away at the end."},
+        {"entry": "sh1", "note": "Protagonist."},
+        {"entry": "sh3", "note": "Killed by the Missionary on Claudia's order; his death sends Heather to the town."},
+        {"entry": "shattered-memories", "note": "A remembered Harry, searching an ice-bound town."}
+      ]
+    },
+    {
+      "id": "dahlia", "name": "Dahlia Gillespie", "kind": "character",
+      "desc": "Alessa's mother and the Order's priestess.",
+      "appears": [
+        {"entry": "origins", "note": "Leads the burning of Alessa."},
+        {"entry": "sh1", "note": "Manipulates Harry to reunite Cheryl and Alessa; dies with the god's birth."},
+        {"entry": "shattered-memories", "note": "A very different Dahlia: young, and tied to Harry's own life."}
+      ]
+    },
+    {
+      "id": "kaufmann-lisa", "name": "Dr. Kaufmann and Lisa Garland", "kind": "character",
+      "desc": "Alchemilla Hospital's doctor and nurse, who tended Alessa and sold the Order its drug, White Claudia.",
+      "appears": [
+        {"entry": "origins", "note": "Keep the burned Alessa alive; Kaufmann is already dealing for the Order."},
+        {"entry": "sh1", "note": "Lisa's ghost and Kaufmann's Aglaophotis decide the ending."},
+        {"entry": "shattered-memories", "note": "Dr. K is the therapist framing the whole story; Lisa a nurse Harry meets."}
+      ]
+    },
+    {
+      "id": "travis", "name": "Travis Grady", "kind": "character",
+      "desc": "The trucker who saved Alessa from the fire.",
+      "appears": [
+        {"entry": "origins", "note": "Protagonist."},
+        {"entry": "homecoming", "note": "Drives Alex into Shepherd's Glen in the opening; older, same truck."}
+      ]
+    },
+    {
+      "id": "sunderlands", "name": "James and Frank Sunderland", "kind": "character",
+      "desc": "James came to Silent Hill for Mary; his father Frank runs the apartment block in Ashfield.",
+      "appears": [
+        {"entry": "sh2", "note": "James is the protagonist."},
+        {"entry": "sh2-remake", "note": "The same James."},
+        {"entry": "sh4", "note": "Frank Sunderland, superintendent of South Ashfield Heights, mentions his son."}
+      ]
+    },
+    {
+      "id": "walter", "name": "Walter Sullivan", "kind": "character",
+      "desc": "The Order orphan who killed twenty victims for the 21 Sacraments and came back for the last.",
+      "appears": [
+        {"entry": "sh2", "note": "A newspaper in Blue Creek Apartments reports his murder of the Locane twins and his death in prison."},
+        {"entry": "sh4", "note": "Antagonist; his worlds are the game."}
+      ]
+    },
+    {
+      "id": "order", "name": "The Order", "kind": "organisation",
+      "desc": "Silent Hill's cult, built on the town's older god-worship, split into sects that want the god born on their own terms.",
+      "appears": [
+        {"entry": "origins", "note": "Dahlia's ritual; the Flauros is their relic."},
+        {"entry": "sh1", "note": "Dahlia completes the birth; the Halo of the Sun and the church."},
+        {"entry": "sh3", "note": "Claudia's and Vincent's rival sects; the Church is the final area."},
+        {"entry": "sh4", "note": "Wish House, the orphanage of the Holy Mother sect, raised Walter."},
+        {"entry": "homecoming", "note": "The Shepherd's Glen chapter, whose pact with the town failed."},
+        {"entry": "downpour", "note": "Only traces: the town acts without them."}
+      ]
+    },
+    {
+      "id": "pyramid-head", "name": "Pyramid Head / the Bogeyman", "kind": "character",
+      "desc": "The executioner. Made by James's guilt; later used by the town as a general punisher.",
+      "appears": [
+        {"entry": "sh2", "note": "James's executioner, in the apartments, the hospital and the hotel."},
+        {"entry": "sh2-remake", "note": "Same role, redesigned."},
+        {"entry": "homecoming", "note": "The Bogeyman who carries out the founding families' sacrifices."},
+        {"entry": "book-of-memories", "note": "A boss."},
+        {"entry": "downpour", "note": "Downpour's Bogeyman is a different figure, a hooded man with a hammer, born of Murphy's story."}
+      ]
+    },
+    {
+      "id": "toluca-lake", "name": "Toluca Lake", "kind": "place",
+      "desc": "The lake the town sits on. Boats sink, bodies surface, and the far shore has its own towns.",
+      "appears": [
+        {"entry": "origins", "note": "Seen from the town."},
+        {"entry": "sh1", "note": "The Lakeside Amusement Park and the lake shore."},
+        {"entry": "sh2", "note": "James rows across it to the Lakeview Hotel; the Little Baroness sank here."},
+        {"entry": "sh3", "note": "The amusement park again, in Heather's nightmare and in the flesh."},
+        {"entry": "homecoming", "note": "Shepherd's Glen is across the water; Alex crosses it."},
+        {"entry": "downpour", "note": "Visible from the south-east districts."}
+      ]
+    },
+    {
+      "id": "brookhaven", "name": "Brookhaven Hospital", "kind": "place",
+      "desc": "The town's second hospital, on the Vale side.",
+      "appears": [
+        {"entry": "sh2", "note": "James meets Maria's double here; the Otherworld version holds Pyramid Head."},
+        {"entry": "sh3", "note": "Heather's longest stretch in town; Leonard Wolf is a patient."}
+      ]
+    },
+    {
+      "id": "alchemilla", "name": "Alchemilla Hospital", "kind": "place",
+      "desc": "The old hospital in Old Silent Hill, where Alessa was kept.",
+      "appears": [
+        {"entry": "origins", "note": "Travis's first area; Alessa in the basement."},
+        {"entry": "sh1", "note": "Harry finds Lisa and Kaufmann here; the Otherworld hospital."},
+        {"entry": "shattered-memories", "note": "Reimagined."}
+      ]
+    },
+    {
+      "id": "amusement-park", "name": "Lakeside Amusement Park", "kind": "place",
+      "desc": "The park on the lake; Robbie the Rabbit is its mascot.",
+      "appears": [
+        {"entry": "sh1", "note": "Harry rides the carousel to reach Alessa."},
+        {"entry": "sh3", "note": "Heather's opening nightmare and a real visit; the carousel again."}
+      ]
+    },
+    {
+      "id": "prison", "name": "Toluca Prison and the town's penal past", "kind": "place",
+      "desc": "Silent Hill began as a prison colony; the town keeps punishing.",
+      "appears": [
+        {"entry": "sh2", "note": "The Historical Society and the prison under it, with the executions in the labyrinth."},
+        {"entry": "downpour", "note": "Overlook Penitentiary and Murphy's own sentence; the town as prison, literally."}
+      ]
+    },
+    {
+      "id": "robbie", "name": "Robbie the Rabbit", "kind": "object",
+      "desc": "The amusement park mascot, turning up wherever the series wants a wink.",
+      "appears": [
+        {"entry": "sh3", "note": "Costumes and dolls in the park; the pink doll in Heather's room."},
+        {"entry": "sh4", "note": "A doll in Eileen's apartment."},
+        {"entry": "homecoming", "note": "Cameos around Shepherd's Glen."},
+        {"entry": "shattered-memories", "note": "Cameos."},
+        {"entry": "downpour", "note": "Cameos."},
+        {"entry": "book-of-memories", "note": "Cameos."},
+        {"entry": "short-message", "note": "A Robbie in the Villa."}
+      ]
+    },
+    {
+      "id": "aglaophotis", "name": "Aglaophotis and the Flauros", "kind": "object",
+      "desc": "The two relics that work against the god: a red liquid that expels it, and a pyramid cage that binds.",
+      "appears": [
+        {"entry": "origins", "note": "Travis assembles the Flauros."},
+        {"entry": "sh1", "note": "Kaufmann's Aglaophotis pulls the god from Alessa."},
+        {"entry": "sh3", "note": "Harry's pendant holds Aglaophotis; Heather uses it on herself."}
+      ]
+    },
+    {
+      "id": "howard", "name": "Howard Blackwood", "kind": "character",
+      "desc": "The mailman who delivers from Silent Hill.",
+      "appears": [
+        {"entry": "book-of-memories", "note": "Delivers the Book of Memories."},
+        {"entry": "downpour", "note": "Delivers letters around the south-east districts."}
+      ]
+    },
+    {
+      "id": "loop", "name": "The haunted loop", "kind": "theme",
+      "desc": "One corridor or building that repeats, told in the first person.",
+      "appears": [
+        {"entry": "pt", "note": "The hallway that started it."},
+        {"entry": "short-message", "note": "The Villa's corridors, with the same bones."}
+      ]
+    },
+    {
+      "id": "guilt", "name": "The town answers guilt", "kind": "theme",
+      "desc": "From Silent Hill 2 on, the fog shapes itself to whoever is in it. Later games carry that rule out of town.",
+      "appears": [
+        {"entry": "sh2", "note": "James's monsters, James's executioner."},
+        {"entry": "sh4", "note": "Walter's worlds."},
+        {"entry": "homecoming", "note": "Alex's memory of Josh."},
+        {"entry": "downpour", "note": "Murphy and Anne, each with a Bogeyman."},
+        {"entry": "short-message", "note": "Anita's Villa."},
+        {"entry": "sh-f", "note": "Hinako's Ebisugaoka, with no Silent Hill at all."}
+      ]
+    }
+  ]
+}

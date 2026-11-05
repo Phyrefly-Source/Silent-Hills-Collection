@@ -89,10 +89,11 @@ func _collect() -> void:
 	var m := main
 	_add("News", "Section", func(): m.show_page("news"), "Ctrl 1", "sales deals headlines announcements")
 	_add("Games", "Section", func(): m.show_page("games"), "Ctrl 2")
-	_add("Films", "Section", func(): m.show_page("films"), "Ctrl 3", "movies")
-	_add("Comics", "Section", func(): m.show_page("comics"), "Ctrl 4")
-	_add("Soundtracks", "Section", func(): m.show_page("music"), "Ctrl 5", "music ost albums")
-	_add("Concept Art", "Section", func(): m.show_page("concept"), "Ctrl 6", "artwork pictures gallery")
+	_add("History", "Section", func(): m.show_page("history"), "Ctrl 3", "timeline lore story characters order chronology")
+	_add("Films", "Section", func(): m.show_page("films"), "Ctrl 4", "movies")
+	_add("Comics", "Section", func(): m.show_page("comics"), "Ctrl 5")
+	_add("Soundtracks", "Section", func(): m.show_page("music"), "Ctrl 6", "music ost albums")
+	_add("Concept Art", "Section", func(): m.show_page("concept"), "Ctrl 7", "artwork pictures gallery")
 	_add("Profile", "Profile", func(): m.open_profile(), "", "account user favourites playtime")
 	_add("Check for Silent Hill news and sales", "News", func():
 		m.show_page("news")
